@@ -158,17 +158,32 @@ spanish_wordquiz_app/
 
 ### 6.1 動詞（`verbs.json`）
 
+型の定義は `src/domain/conjugation/types.ts` の `VerbEntry` です。
+
 ```ts
 {
   infinitive: string;          // "tener"
   meaning_ja: string;          // "持つ"
   group: "regular" | "stem" | "irregular";
   stemChange?: "e>ie" | "o>ue" | "e>i" | "u>ue";
-  irregular?: { [tense: string]: (string | null)[] };  // 規則と違う形だけを書く（null は規則どおり）
+  zc?: boolean;                // conocer → conozco（a/o の前で c → zc）
+  preteriteStem?: string;      // 強変化の点過去の語幹（tener → "tuv"）
+  futureStem?: string;         // 不規則な未来・過去未来の語幹（tener → "tendr"）
   pastParticiple?: string;     // 不規則な過去分詞（例："hecho"）
-  gerund?: string;             // 不規則な現在分詞（例："diciendo"）
+  gerund?: string;             // 不規則な現在分詞（例："pudiendo"）
+  irregular?: { [tense]: (string | null)[] };  // 規則と違う形だけを書く（null・省略は自動生成の形）
 }
 ```
+
+**自動で導出される形**（データに書く必要はありません）
+
+- 綴り変化：-car/-gar/-zar（busqué）、-ger/-gir（cojo）、-guir（sigo）、子音 + -cer（venzo）、-uir の y 挿入（construyo）、母音語幹の i → y とアクセント（leyó, leíste, leído）
+- -ir 語幹変化動詞の弱い変化：点過去3人称（durmió）、接続法現在の nosotros/vosotros（pidamos）、現在分詞（sintiendo）
+- 接続法現在：直説法現在の yo を上書きしていて、それが -o で終わる場合は、その形から語幹を作る（tengo → tenga）
+- 接続法過去：点過去の3人称複数から作る（tuvieron → tuviera）
+- 命令法：肯定の tú は直説法現在の3人称単数、vosotros は不定詞の r を d に替えた形、ほかの人称は接続法現在の形
+- 命令法（否定）は "no" を含まない形（hables）を返し、"no" は画面側で表示する
+- 複合時制：haber の活用 + 過去分詞（`compound.ts`）
 
 ### 6.2 語彙（`vocab/*.json`）
 
@@ -239,7 +254,8 @@ spanish_wordquiz_app/
 
 ## 9. 変更履歴
 
-| 日付       | 内容                                                                      |
-| ---------- | ------------------------------------------------------------------------- |
-| 2026-09-26 | 初版。例文穴埋め（自作問題の追加を含む）と総合テストを機能に追加          |
-| 2026-09-26 | フェーズ1完了。技術スタックを React 19・oxlint・Tailwind v4 に更新（D10） |
+| 日付       | 内容                                                                                   |
+| ---------- | -------------------------------------------------------------------------------------- |
+| 2026-09-26 | 初版。例文穴埋め（自作問題の追加を含む）と総合テストを機能に追加                       |
+| 2026-09-26 | フェーズ1完了。技術スタックを React 19・oxlint・Tailwind v4 に更新（D10）              |
+| 2026-09-26 | フェーズ2完了。活用エンジンを実装し、動詞データに zc・preteriteStem・futureStem を追加 |

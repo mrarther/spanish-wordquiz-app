@@ -1,0 +1,113 @@
+[
+  { "infinitive": "hablar", "meaning_ja": "話す", "group": "regular" },
+  { "infinitive": "comer", "meaning_ja": "食べる", "group": "regular" },
+  { "infinitive": "vivir", "meaning_ja": "住む、生きる", "group": "regular" },
+  { "infinitive": "buscar", "meaning_ja": "探す", "group": "regular" },
+  { "infinitive": "llegar", "meaning_ja": "到着する", "group": "regular" },
+  { "infinitive": "coger", "meaning_ja": "つかむ、取る", "group": "regular" },
+  { "infinitive": "pedir", "meaning_ja": "頼む、注文する", "group": "stem", "stemChange": "e>i" },
+  { "infinitive": "empezar", "meaning_ja": "始める", "group": "stem", "stemChange": "e>ie" },
+  {
+    "infinitive": "jugar",
+    "meaning_ja": "遊ぶ、（スポーツを）する",
+    "group": "stem",
+    "stemChange": "u>ue"
+  },
+  { "infinitive": "dormir", "meaning_ja": "眠る", "group": "stem", "stemChange": "o>ue" },
+  { "infinitive": "preferir", "meaning_ja": "より好む", "group": "stem", "stemChange": "e>ie" },
+  { "infinitive": "seguir", "meaning_ja": "続ける、従う", "group": "stem", "stemChange": "e>i" },
+  { "infinitive": "elegir", "meaning_ja": "選ぶ", "group": "stem", "stemChange": "e>i" },
+  {
+    "infinitive": "conocer",
+    "meaning_ja": "知っている（人・場所）",
+    "group": "irregular",
+    "zc": true
+  },
+  { "infinitive": "construir", "meaning_ja": "建てる", "group": "irregular" },
+  { "infinitive": "leer", "meaning_ja": "読む", "group": "irregular" },
+  {
+    "infinitive": "poder",
+    "meaning_ja": "できる",
+    "group": "irregular",
+    "stemChange": "o>ue",
+    "preteriteStem": "pud",
+    "futureStem": "podr",
+    "gerund": "pudiendo"
+  },
+  {
+    "infinitive": "tener",
+    "meaning_ja": "持つ",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "tuv",
+    "futureStem": "tendr",
+    "irregular": { "present": ["tengo"], "imperativeAffirmative": [null, "ten"] }
+  },
+  {
+    "infinitive": "venir",
+    "meaning_ja": "来る",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "vin",
+    "futureStem": "vendr",
+    "irregular": { "present": ["vengo"], "imperativeAffirmative": [null, "ven"] }
+  },
+  {
+    "infinitive": "decir",
+    "meaning_ja": "言う",
+    "group": "irregular",
+    "stemChange": "e>i",
+    "preteriteStem": "dij",
+    "futureStem": "dir",
+    "pastParticiple": "dicho",
+    "irregular": { "present": ["digo"], "imperativeAffirmative": [null, "di"] }
+  },
+  {
+    "infinitive": "hacer",
+    "meaning_ja": "する、作る",
+    "group": "irregular",
+    "preteriteStem": "hic",
+    "futureStem": "har",
+    "pastParticiple": "hecho",
+    "irregular": {
+      "present": ["hago"],
+      "preterite": [null, null, "hizo"],
+      "imperativeAffirmative": [null, "haz"]
+    }
+  },
+  {
+    "infinitive": "estar",
+    "meaning_ja": "（状態・場所が）〜である",
+    "group": "irregular",
+    "preteriteStem": "estuv",
+    "irregular": {
+      "present": ["estoy", "estás", "está", null, null, "están"],
+      "subjunctivePresent": ["esté", "estés", "esté", null, null, "estén"]
+    }
+  },
+  {
+    "infinitive": "ser",
+    "meaning_ja": "〜である",
+    "group": "irregular",
+    "irregular": {
+      "present": ["soy", "eres", "es", "somos", "sois", "son"],
+      "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      "imperfect": ["era", "eras", "era", "éramos", "erais", "eran"],
+      "subjunctivePresent": ["sea", "seas", "sea", "seamos", "seáis", "sean"],
+      "imperativeAffirmative": [null, "sé"]
+    }
+  },
+  {
+    "infinitive": "ir",
+    "meaning_ja": "行く",
+    "group": "irregular",
+    "gerund": "yendo",
+    "irregular": {
+      "present": ["voy", "vas", "va", "vamos", "vais", "van"],
+      "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      "imperfect": ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
+      "subjunctivePresent": ["vaya", "vayas", "vaya", "vayamos", "vayáis", "vayan"],
+      "imperativeAffirmative": [null, "ve", null, "vamos"]
+    }
+  }
+]
