@@ -1,6 +1,6 @@
 import type { ItemType } from '../domain/srs/items'
 import { qualityOf, review } from '../domain/srs/sm2'
-import { db as defaultDb, type AppDB, type ProgressRow } from './db'
+import { db as defaultDb, type AppDB, type AttemptRow, type ProgressRow } from './db'
 
 export type AnswerResult = {
   itemId: string
@@ -54,4 +54,9 @@ export async function getDueItems(
   db: AppDB = defaultDb,
 ): Promise<ProgressRow[]> {
   return db.progress.where('[type+due]').between([type, 0], [type, now], true, true).toArray()
+}
+
+/** 回答履歴をすべて返す（統計画面用） */
+export async function listAttempts(db: AppDB = defaultDb): Promise<AttemptRow[]> {
+  return db.attempts.toArray()
 }

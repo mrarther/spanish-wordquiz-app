@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+/* グラフの色（役割ごとに定義。ダークモードはフェーズ11で追加する） */
+:root {
+  --chart-surface: #ffffff;
+  --chart-series-1: #2a78d6;
+  --chart-grid: #e1e0d9;
+  --chart-axis: #c3c2b7;
+  --chart-text-secondary: #52514e;
+  --chart-text-muted: #898781;
+}

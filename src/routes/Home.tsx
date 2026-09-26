@@ -6,6 +6,7 @@ const menu = [
   { title: '語彙学習', description: '単語カードと4択・スペル入力', to: '/vocab' },
   { title: '例文穴埋め', description: '例文の空欄を埋める（自作問題も可）', to: '/cloze' },
   { title: '総合テスト', description: '全分野を混ぜて実力チェック', to: '/test' },
+  { title: '統計', description: '正答率の推移・苦手な時制と単語・テストのスコア', to: '/stats' },
 ]
 
 export function Home() {
