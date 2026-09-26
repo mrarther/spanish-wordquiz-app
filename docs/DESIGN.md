@@ -28,6 +28,7 @@
 | D10 | Vite 公式テンプレートの標準に合わせ、React 19・**oxlint**・Tailwind v4 を採用する（当初案は React 18・ESLint）                                             | 最新のテンプレートの標準構成をそのまま使うと、設定が少なくて済む。oxlint は高速で、設定ファイルも1つで済む                   |
 | D11 | 穴埋めの空欄は1問につき**ちょうど1つ**                                                                                                                     | 入力欄・4択・正誤判定を1つにでき、画面も判定も単純になる。複数の空欄を練習したい場合は、問題を分けて作る                     |
 | D12 | 総合テストは分野に均等に割り振り、問題は SRS を使わずランダムに選ぶ。回答した問題は SRS に記録する                                                         | テストは今の実力を偏りなく測るためのもの。一方で、テストで間違えた問題は復習で解き直せるようにしたい                         |
+| D13 | **GitHub Pages**（public リポジトリ `mrarther/spanish-wordquiz-app`）に GitHub Actions で公開する。公開パスは `/spanish-wordquiz-app/`                     | 無料で、push するだけで公開できる。テストが通ったときだけ公開するので、壊れた版を出しにくい                                  |
 
 ## 3. 技術スタック
 
@@ -38,7 +39,7 @@
 | 状態管理     | Zustand（設定・セッション）            |
 | 永続化       | Dexie.js（IndexedDB）                  |
 | スタイル     | Tailwind CSS v4（`@tailwindcss/vite`） |
-| PWA          | vite-plugin-pwa                        |
+| PWA          | vite-plugin-pwa（Workbox）             |
 | テスト       | Vitest（ロジック）、Playwright（E2E）  |
 | 品質         | oxlint + Prettier                      |
 
@@ -146,13 +147,24 @@
 - アクセント記号の扱い（厳密／ゆるめ）
 - ñ・á などを入力するための補助ボタン
 
+### 4.8 PWA と公開
+
+- `vite-plugin-pwa` で Service Worker とマニフェストを作り、アプリの全ファイル（JS・CSS・HTML・アイコン）を事前にキャッシュする。一度開けばオフラインでも使える
+- 更新の方式は **prompt**：新しいバージョンを公開すると「新しいバージョンがあります」と表示し、「更新」を押したときだけ読み込み直す（学習の途中で勝手に再読み込みしない）。初回にキャッシュし終えると「オフラインでも使えるようになりました」と表示する（`src/components/UpdatePrompt.tsx`）
+- アイコン：青地に白の「Ñ」。192・512px、マスカブル（端まで塗り、文字を中央 80% に収める）、apple-touch-icon。`npm run icons` で Chrome を使って SVG から PNG を作る
+- 公開パス：本番ビルドとそのプレビューは `/spanish-wordquiz-app/`、開発サーバーは `/`。ルーターの basename は `import.meta.env.BASE_URL` から作る
+- GitHub Pages はサーバー側でルーティングできないため、ビルド時に `index.html` を `404.html` としてもコピーする。`/spanish-wordquiz-app/vocab` のような URL を直接開いても表示される
+- ファイル分割：ライブラリ（vendor）・学習データ（data）・アプリのコード（index）を別ファイルにする。データや画面だけを更新したとき、変わったファイルだけ読み直せる
+
 ## 5. ディレクトリ構成
 
 ```
 spanish_wordquiz_app/
 ├── docs/
 │   └── DESIGN.md           # このドキュメント
-├── public/                 # アイコン、manifest
+├── .github/workflows/deploy.yml  # テスト → GitHub Pages への公開
+├── scripts/generate-icons.mjs    # アイコンを作る（npm run icons）
+├── public/                 # favicon.svg、PWA 用アイコン（manifest は vite.config.ts で生成）
 ├── src/
 │   ├── main.tsx / App.tsx
 │   ├── routes/             # 画面単位
@@ -206,7 +218,7 @@ spanish_wordquiz_app/
 │   ├── store/                  # Zustand：conjugationStore・vocabStore・clozeStore・testStore（設定・出題・回答）、persistence.ts（設定の保存と復元）
 │   └── utils/                  # random.ts（シャッフル、シード付き乱数）、list.ts、time.ts
 ├── tests/e2e/                  # Playwright の E2E テスト（playwright.config.ts、インストール済みの Chrome を使う）
-├── index.html, vite.config.ts（Vitest 設定を含む）, tsconfig.json, .oxlintrc.json, .prettierrc.json
+├── index.html, vite.config.ts（PWA・公開パス・ファイル分割・Vitest の設定）, playwright.config.ts, tsconfig.json, .oxlintrc.json, .prettierrc.json
 └── README.md
 ```
 
@@ -345,7 +357,8 @@ spanish_wordquiz_app/
   - 総合テスト：制限時間が来ると自動で採点する（`page.clock` で時間を進める）
   - 総合テスト（4択）：選んだ答えと選択肢の並びが、前後に移動しても変わらない
   - 統計：学習記録がないときの案内。IndexedDB に書き込んだ回答履歴とテスト結果から、連続学習日数・正答率・苦手な時制と単語・テストの推移が正しく表示される
-- `npm run build && npm run preview`：PWA のインストールとオフライン動作を確認する
+- `npm run test:e2e` の pwa プロジェクト：本番ビルドのプレビューで、マニフェスト・オフライン対応の通知・オフラインでの再読み込みと画面移動・URL の直接指定を確認する
+- GitHub Actions：push のたびに上記の確認をすべて行い、通ったときだけ公開する
 
 ## 9. 変更履歴
 
@@ -362,3 +375,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | フェーズ7完了。例文穴埋め（組み込み212問、入力・4択、絞り込み）、自作問題の管理（追加・編集・削除・エクスポート・インポート）、穴埋めの復習を実装。空欄は1問1つに決定（D11）。IndexedDB を version 2 に |
 | 2026-09-26 | フェーズ8完了。総合テスト（範囲・形式・問題数・制限時間の設定、移動できる解答画面、時間切れの自動採点、分野別の結果、結果の保存）を実装（D12）。IndexedDB を version 3 に                               |
 | 2026-09-26 | フェーズ9完了。統計画面（数値タイル、分野別・時制別の正答率、直近14日の回答数と正答率、苦手な単語、総合テストの推移）を SVG の自作グラフで実装                                                          |
+| 2026-09-27 | フェーズ10完了。PWA 化（オフライン対応、更新の通知、アイコン）、ファイル分割、GitHub Pages への公開（GitHub Actions でテスト後に公開）を実装（D13）                                                     |
