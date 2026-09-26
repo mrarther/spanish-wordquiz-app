@@ -3,8 +3,12 @@ import { useNavigate } from 'react-router'
 import { Chip, Radio, Section } from '../components/FormControls'
 import { VERBS } from '../data/verbs'
 import { TENSES, type Mood, type Tense, type VerbEntry } from '../domain/conjugation/types'
-import { buildConjugationPool, generateConjugationQuiz } from '../domain/quiz/generator'
-import { useConjugationStore, type ConjugationSetup as Setup } from '../store/conjugationStore'
+import { buildConjugationPool } from '../domain/quiz/generator'
+import {
+  startConjugationQuiz,
+  useConjugationStore,
+  type ConjugationSetup as Setup,
+} from '../store/conjugationStore'
 import { toggle } from '../utils/list'
 
 const MOODS: { mood: Mood; label: string }[] = [
@@ -24,13 +28,12 @@ const COUNTS = [10, 20, 30]
 export function ConjugationSetup() {
   const setup = useConjugationStore((s) => s.setup)
   const updateSetup = useConjugationStore((s) => s.updateSetup)
-  const start = useConjugationStore((s) => s.start)
   const navigate = useNavigate()
 
   const poolSize = useMemo(() => buildConjugationPool(VERBS, setup).length, [setup])
 
-  const begin = () => {
-    start(generateConjugationQuiz(VERBS, setup))
+  const begin = async () => {
+    await startConjugationQuiz(setup)
     navigate('/conjugation/quiz')
   }
 
@@ -105,6 +108,14 @@ export function ConjugationSetup() {
           />
         </Section>
       )}
+
+      <Section title="出題の優先">
+        <Chip
+          checked={setup.prioritizeReview}
+          onChange={() => updateSetup({ prioritizeReview: !setup.prioritizeReview })}
+          label="復習時期の問題・未出題の問題を優先する"
+        />
+      </Section>
 
       <Section title="問題数">
         <Radio<number>

@@ -1,7 +1,9 @@
 import { create } from 'zustand'
-import { VOCAB_CATEGORIES } from '../data/vocab'
+import { VOCAB, VOCAB_CATEGORIES } from '../data/vocab'
+import { getProgressMap, saveAnswer } from '../db/progress'
 import type { AccentMode } from '../domain/quiz/answerCheck'
-import type { Direction, VocabQuestion } from '../domain/vocab/quiz'
+import { vocabItemId } from '../domain/srs/items'
+import { generateVocabQuiz, type Direction, type VocabQuestion } from '../domain/vocab/quiz'
 import type { Level } from '../domain/vocab/types'
 
 /** cards：単語カード（自己採点） / choice：4択 / spelling：意味を見てスペイン語を入力 */
@@ -15,6 +17,8 @@ export type VocabSetup = {
   direction: Direction
   count: number
   accentMode: AccentMode
+  /** 復習時期が来た単語・未出題の単語を優先する */
+  prioritizeReview: boolean
 }
 
 export type VocabAnswer = {
@@ -42,13 +46,27 @@ export const useVocabStore = create<State>((set) => ({
     direction: 'es-ja',
     count: 20,
     accentMode: 'lenient',
+    prioritizeReview: true,
   },
   questions: [],
   answers: [],
   updateSetup: (patch) => set((s) => ({ setup: { ...s.setup, ...patch } })),
   start: (questions) => set({ questions, answers: [] }),
-  record: (answer) => set((s) => ({ answers: [...s.answers, answer] })),
+  record: (answer) => {
+    set((s) => ({ answers: [...s.answers, answer] }))
+    const { correct, accentMistake } = answer
+    saveAnswer({ itemId: vocabItemId(answer.question.word), type: 'vocab', correct, accentMistake })
+  },
 }))
+
+/** 設定に従って問題を作り、学習を始める */
+export async function startVocabQuiz(setup: VocabSetup) {
+  const srs = setup.prioritizeReview
+    ? { progress: await getProgressMap('vocab'), now: Date.now() }
+    : undefined
+  const opts = { ...setup, direction: vocabDirection(setup) }
+  useVocabStore.getState().start(generateVocabQuiz(VOCAB, opts, Math.random, srs))
+}
 
 export function vocabDirection(setup: VocabSetup): Direction {
   return setup.mode === 'spelling' ? 'ja-es' : setup.direction

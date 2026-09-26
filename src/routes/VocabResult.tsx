@@ -1,7 +1,6 @@
 import { Link, Navigate, useNavigate } from 'react-router'
-import { VOCAB } from '../data/vocab'
-import { displayEs, generateVocabQuiz } from '../domain/vocab/quiz'
-import { useVocabStore, vocabDirection, vocabQuizPath } from '../store/vocabStore'
+import { displayEs } from '../domain/vocab/quiz'
+import { startVocabQuiz, useVocabStore, vocabQuizPath } from '../store/vocabStore'
 
 export function VocabResult() {
   const questions = useVocabStore((s) => s.questions)
@@ -74,9 +73,10 @@ export function VocabResult() {
         )}
         <button
           type="button"
-          onClick={() =>
-            restart(generateVocabQuiz(VOCAB, { ...setup, direction: vocabDirection(setup) }))
-          }
+          onClick={async () => {
+            await startVocabQuiz(setup)
+            navigate(vocabQuizPath(setup.mode))
+          }}
           className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-blue-700 hover:bg-blue-50"
         >
           同じ設定で新しい単語

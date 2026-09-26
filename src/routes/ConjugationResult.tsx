@@ -1,8 +1,6 @@
 import { Link, Navigate, useNavigate } from 'react-router'
-import { VERBS } from '../data/verbs'
 import { PERSON_LABELS, TENSES } from '../domain/conjugation/types'
-import { generateConjugationQuiz } from '../domain/quiz/generator'
-import { useConjugationStore } from '../store/conjugationStore'
+import { startConjugationQuiz, useConjugationStore } from '../store/conjugationStore'
 
 export function ConjugationResult() {
   const questions = useConjugationStore((s) => s.questions)
@@ -70,7 +68,10 @@ export function ConjugationResult() {
         )}
         <button
           type="button"
-          onClick={() => restart(generateConjugationQuiz(VERBS, setup))}
+          onClick={async () => {
+            await startConjugationQuiz(setup)
+            navigate('/conjugation/quiz')
+          }}
           className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-blue-700 hover:bg-blue-50"
         >
           同じ設定で新しい問題

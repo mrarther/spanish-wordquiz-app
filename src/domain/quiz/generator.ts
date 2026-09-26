@@ -1,6 +1,8 @@
 import { conjugateAll } from '../conjugation/conjugate'
 import { PERSONS, type Person, type Tense, type VerbEntry } from '../conjugation/types'
 import { sample, type Rng } from '../../utils/random'
+import { conjItemId } from '../srs/items'
+import { prioritize, type DueInfo } from '../srs/select'
 
 export type ConjugationQuizOptions = {
   tenses: readonly Tense[]
@@ -50,11 +52,20 @@ export function buildConjugationPool(
   return pool
 }
 
-/** 重複なしで count 問を選ぶ。条件に合う問題が少ない場合は、あるだけ返す */
+/** SRS で優先度を付けるときに渡す、項目 id ごとの復習時期 */
+export type SrsOption = { progress: ReadonlyMap<string, DueInfo>; now: number }
+
+/**
+ * 重複なしで count 問を選ぶ。条件に合う問題が少ない場合は、あるだけ返す。
+ * srs を渡すと、復習時期が来た問題 → 未出題 → それ以外の順に選ぶ
+ */
 export function generateConjugationQuiz(
   verbs: readonly VerbEntry[],
   opts: ConjugationQuizOptions,
   rng: Rng = Math.random,
+  srs?: SrsOption,
 ): ConjugationQuestion[] {
-  return sample(buildConjugationPool(verbs, opts), opts.count, rng)
+  const pool = buildConjugationPool(verbs, opts)
+  if (!srs) return sample(pool, opts.count, rng)
+  return prioritize(pool, conjItemId, srs.progress, opts.count, srs.now, rng)
 }

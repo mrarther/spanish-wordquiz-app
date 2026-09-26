@@ -1,5 +1,8 @@
 import { sample, shuffle, type Rng } from '../../utils/random'
 import { normalize } from '../quiz/answerCheck'
+import type { SrsOption } from '../quiz/generator'
+import { vocabItemId } from '../srs/items'
+import { prioritize } from '../srs/select'
 import type { Level, VocabWord } from './types'
 
 /** es-ja：スペイン語を見て意味を答える / ja-es：意味を見てスペイン語を答える */
@@ -64,14 +67,18 @@ export function makeVocabQuestion(
   return { id, word, direction, prompt: word.ja, answer: displayEs(word), accepted }
 }
 
+/** srs を渡すと、復習時期が来た単語 → 未出題 → それ以外の順に選ぶ */
 export function generateVocabQuiz(
   all: readonly VocabWord[],
   opts: VocabFilter & { direction: Direction; count: number },
   rng: Rng = Math.random,
+  srs?: SrsOption,
 ): VocabQuestion[] {
-  return sample(filterVocab(all, opts), opts.count, rng).map((w) =>
-    makeVocabQuestion(w, opts.direction, all),
-  )
+  const pool = filterVocab(all, opts)
+  const words = srs
+    ? prioritize(pool, vocabItemId, srs.progress, opts.count, srs.now, rng)
+    : sample(pool, opts.count, rng)
+  return words.map((w) => makeVocabQuestion(w, opts.direction, all))
 }
 
 /**

@@ -95,8 +95,15 @@
 
 ### 4.5 復習システム（SRS）
 
-- SM-2 方式で、次に出題する日を項目ごとに管理する
-- 間違えた項目ほど早く、優先して出題する
+- SM-2 方式で、次に出題する時刻を項目ごとに管理する（`src/domain/srs/sm2.ts`）
+  - 項目の単位：活用は（動詞・時制・人称）ごと（`conj:hablar:present:0`）、語彙は出題の向きに関係なく単語ごと（`vocab:food:agua`）
+  - 回答の質：正解 4、アクセントだけ違う正解（ゆるめ判定）3、不正解 1。単語カードは「わかった」4、「まだ」1
+  - 正解が続くと間隔が 1日 → 6日 → 前回の間隔 × ease 日 と伸びる。間違えると連続正解を 0 に戻し、10分後に再び出題対象にする
+- 出題の優先（設定画面の「復習時期の問題・未出題の問題を優先する」、初期値はオン）
+  - 復習時期が来た項目（期限切れの古い順）→ まだ解いたことのない項目 → 復習時期がまだの項目（近い順）の順に選び、出題順はシャッフルする
+- 復習画面（`/review`）：活用・語彙それぞれ、復習時期が来た項目の数を表示し、その項目だけを出題する。1回の問題数と出題形式は各設定画面の設定を使う
+- 回答はすべて IndexedDB に保存する（`attempts` に履歴、`progress` に SRS の状態）。保存に失敗しても学習は続けられるよう、エラーはログに出すだけにする
+- 各クイズの設定も IndexedDB に保存し、次に開いたときに復元する（`src/store/persistence.ts`）。保存時になかった項目は初期値、今はない時制やカテゴリは取り除く
 
 ### 4.6 統計
 
@@ -152,15 +159,19 @@ spanish_wordquiz_app/
 │   │   ├── test/
 │   │   │   ├── compose.ts      # 分野ごとの出題比率に従って総合テストを組み立てる
 │   │   │   └── score.ts        # 採点、分野別集計
-│   │   └── srs/sm2.ts
+│   │   └── srs/
+│   │       ├── sm2.ts          # SM-2 の計算、回答の質
+│   │       ├── select.ts       # SRS の進捗から出題の優先順を決める
+│   │       ├── items.ts        # 進捗を記録する項目 id（conj:… / vocab:…）
+│   │       └── review.ts       # 復習する項目 id から問題を作る
 │   ├── data/
 │   │   ├── verbs.json          # 動詞：不定詞、意味、分類、不規則形の上書き
 │   │   ├── vocab/*.json        # カテゴリ別の単語（vocab.ts で読み込む）
 │   │   └── cloze.json          # 最初から入っている穴埋め問題
-│   ├── db/                     # Dexie スキーマ、リポジトリ
-│   ├── store/                  # Zustand（conjugationStore：クイズの設定・出題・回答）
+│   ├── db/                     # Dexie：db.ts（スキーマ）、progress.ts（回答の記録・SRS）、settings.ts
+│   ├── store/                  # Zustand：conjugationStore・vocabStore（設定・出題・回答）、persistence.ts（設定の保存と復元）
 │   └── utils/                  # random.ts（シャッフル、シード付き乱数）
-├── tests/e2e/
+├── tests/e2e/                  # Playwright の E2E テスト（playwright.config.ts、インストール済みの Chrome を使う）
 ├── index.html, vite.config.ts（Vitest 設定を含む）, tsconfig.json, .oxlintrc.json, .prettierrc.json
 └── README.md
 ```
@@ -245,13 +256,15 @@ spanish_wordquiz_app/
 
 ### 6.4 IndexedDB のテーブル
 
-| テーブル      | 内容                                                                       |
-| ------------- | -------------------------------------------------------------------------- |
-| `progress`    | itemId、type（conj/vocab/cloze）、SM-2 のパラメータ（ease, interval, due） |
-| `attempts`    | 回答履歴。統計に使う                                                       |
-| `customCloze` | ユーザーが追加した穴埋め問題                                               |
-| `testResults` | 総合テストの結果（日時、範囲、分野別スコア、誤答した問題の ID）            |
-| `settings`    | 設定値                                                                     |
+| テーブル      | 内容                                                                                                                             |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `progress`    | itemId、type（conj/vocab/cloze）、SM-2 の状態（ease, interval, reps, lapses, due, lastReviewed）。インデックス：type、[type+due] |
+| `attempts`    | 回答履歴（itemId、type、correct、accentMistake、at）。統計に使う                                                                 |
+| `customCloze` | ユーザーが追加した穴埋め問題（フェーズ7で追加）                                                                                  |
+| `testResults` | 総合テストの結果（日時、範囲、分野別スコア、誤答した問題の ID）（フェーズ8で追加）                                               |
+| `settings`    | 設定値（key：conjugationSetup、vocabSetup）                                                                                      |
+
+- テーブルを追加・変更するときは、`src/db/db.ts` の `version()` を上げる（現在は version 1）
 
 ## 7. 作成手順（フェーズごと）
 
@@ -276,13 +289,16 @@ spanish_wordquiz_app/
 
 - `npm run test`：単体テストを実行する
   - 活用エンジン（不規則動詞を含む正解表と照合）
-  - answerCheck、sm2
+  - answerCheck、sm2、出題の優先順（select）、復習の問題の作成
+  - IndexedDB への記録と読み込み（fake-indexeddb を使う）
   - cloze の parse と validate
   - 総合テストの compose と score
 - `npm run dev`：ブラウザで各クイズを通しでプレイし、リロードしても履歴が残っているか確認する
 - 手動確認（穴埋め）：自作問題を追加 → 出題に出る → 編集・削除 → エクスポートした JSON を別ブラウザでインポートして再現できる
 - 手動確認（総合テスト）：20問／制限時間ありで受ける → 時間切れで自動採点される → 結果が統計画面に反映される
-- `npx playwright test`：E2E で次の3つを確認する
+- `npm run test:e2e`（Playwright）：E2E で次を確認する
+  - 間違えた活用の問題が10分後に復習に出て、正解すると復習から消える（時刻は `page.clock` で進める）
+  - 設定がページの再読み込み後も残る
   - 活用クイズを1セッション完了する
   - 自作の穴埋め問題を追加し、出題されて回答する
   - 総合テストを完了し、結果画面が表示される
@@ -299,3 +315,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | 語幹変化、アクセント移動、zc、-uir/-eer、過去分詞が不規則な動詞、その他の不規則動詞を118語追加（全368語）。stemChange に i>í・u>ú を追加 |
 | 2026-09-26 | フェーズ4完了。活用クイズの画面（設定・出題・結果）、回答判定、出題生成、4択の誤答生成を実装                                             |
 | 2026-09-26 | フェーズ5完了。語彙データ（17カテゴリ・595語）、単語カード、4択、スペル入力、結果画面を実装。語彙データの形式を確定                      |
+| 2026-09-26 | フェーズ6完了。Dexie で回答・SRS の状態・設定を保存、SM-2、出題の優先、復習画面を実装。Playwright の E2E を先行して導入                  |

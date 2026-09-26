@@ -18,6 +18,7 @@ Node.js 24 が必要です（`.nvmrc` があるので、nvm を使っている�
 npm install
 npm run dev        # 開発サーバーを起動
 npm test           # 単体テスト（Vitest）
+npm run test:e2e   # E2E テスト（Playwright。インストール済みの Google Chrome を使う）
 npm run lint       # 静的チェック（oxlint）
 npm run format     # コード整形（Prettier）
 npm run build      # 本番用にビルド

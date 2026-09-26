@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 
 const menu = [
+  { title: '復習', description: '間違えた問題・忘れかけた問題を解き直す', to: '/review' },
   { title: '活用クイズ', description: '時制・人称ごとの動詞活用', to: '/conjugation' },
   { title: '語彙学習', description: '単語カードと4択・スペル入力', to: '/vocab' },
   { title: '例文穴埋め', description: '例文の空欄を埋める（自作問題も可）' },

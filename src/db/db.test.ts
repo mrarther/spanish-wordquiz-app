@@ -1,0 +1,69 @@
+import 'fake-indexeddb/auto'
+import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { DAY, RELEARN_DELAY } from '../domain/srs/sm2'
+import { AppDB } from './db'
+import { getDueItems, getProgressMap, recordAnswer } from './progress'
+import { loadSetting, saveSetting } from './settings'
+
+const NOW = Date.UTC(2026, 8, 26)
+let db: AppDB
+
+beforeEach(() => {
+  db = new AppDB(`test-${Math.random()}`)
+})
+
+afterEach(async () => {
+  await db.delete()
+})
+
+describe('recordAnswer', () => {
+  it('進捗を作成・更新し、回答履歴を追加する', async () => {
+    const answer = { itemId: 'conj:hablar:present:0', type: 'conj' as const, accentMistake: false }
+    await recordAnswer({ ...answer, correct: true }, NOW, db)
+    let row = await db.progress.get(answer.itemId)
+    expect(row).toMatchObject({ type: 'conj', reps: 1, due: NOW + DAY })
+
+    await recordAnswer({ ...answer, correct: false }, NOW + DAY, db)
+    row = await db.progress.get(answer.itemId)
+    expect(row).toMatchObject({ reps: 0, lapses: 1, due: NOW + DAY + RELEARN_DELAY })
+
+    const attempts = await db.attempts.toArray()
+    expect(attempts.map((a) => a.correct)).toEqual([true, false])
+  })
+})
+
+describe('進捗の読み込み', () => {
+  it('種類ごとの進捗と、復習時期が来た項目を取得する', async () => {
+    await recordAnswer(
+      { itemId: 'conj:a', type: 'conj', correct: false, accentMistake: false },
+      NOW,
+      db,
+    )
+    await recordAnswer(
+      { itemId: 'conj:b', type: 'conj', correct: true, accentMistake: false },
+      NOW,
+      db,
+    )
+    await recordAnswer(
+      { itemId: 'vocab:c', type: 'vocab', correct: false, accentMistake: false },
+      NOW,
+      db,
+    )
+
+    const conj = await getProgressMap('conj', db)
+    expect([...conj.keys()].sort()).toEqual(['conj:a', 'conj:b'])
+
+    // 1時間後：間違えた conj:a だけが復習対象（conj:b は翌日）
+    const due = await getDueItems('conj', NOW + 60 * 60 * 1000, db)
+    expect(due.map((r) => r.itemId)).toEqual(['conj:a'])
+    expect(await getDueItems('conj', NOW, db)).toEqual([])
+  })
+})
+
+describe('設定', () => {
+  it('保存した値を読み込める', async () => {
+    expect(await loadSetting('x', db)).toBeUndefined()
+    await saveSetting('x', { count: 20 }, db)
+    expect(await loadSetting('x', db)).toEqual({ count: 20 })
+  })
+})

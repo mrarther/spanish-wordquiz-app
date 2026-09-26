@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router'
 import { Chip, Radio, Section } from '../components/FormControls'
 import { VOCAB, VOCAB_CATEGORIES } from '../data/vocab'
-import { filterVocab, generateVocabQuiz } from '../domain/vocab/quiz'
+import { filterVocab } from '../domain/vocab/quiz'
 import type { Level } from '../domain/vocab/types'
 import {
+  startVocabQuiz,
   useVocabStore,
-  vocabDirection,
   vocabQuizPath,
   type VocabSetup as Setup,
 } from '../store/vocabStore'
@@ -17,14 +17,13 @@ const COUNTS = [10, 20, 30, 50]
 export function VocabSetup() {
   const setup = useVocabStore((s) => s.setup)
   const updateSetup = useVocabStore((s) => s.updateSetup)
-  const start = useVocabStore((s) => s.start)
   const navigate = useNavigate()
 
   const poolSize = filterVocab(VOCAB, setup).length
   const allSelected = setup.categories.length === VOCAB_CATEGORIES.length
 
-  const begin = () => {
-    start(generateVocabQuiz(VOCAB, { ...setup, direction: vocabDirection(setup) }))
+  const begin = async () => {
+    await startVocabQuiz(setup)
     navigate(vocabQuizPath(setup.mode))
   }
 
@@ -105,6 +104,14 @@ export function VocabSetup() {
             />
           ))}
         </div>
+      </Section>
+
+      <Section title="出題の優先">
+        <Chip
+          checked={setup.prioritizeReview}
+          onChange={() => updateSetup({ prioritizeReview: !setup.prioritizeReview })}
+          label="復習時期の単語・未出題の単語を優先する"
+        />
       </Section>
 
       <Section title="問題数">

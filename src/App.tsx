@@ -4,6 +4,7 @@ import { ConjugationResult } from './routes/ConjugationResult'
 import { ConjugationSetup } from './routes/ConjugationSetup'
 import { Flashcards } from './routes/Flashcards'
 import { Home } from './routes/Home'
+import { Review } from './routes/Review'
 import { VocabQuiz } from './routes/VocabQuiz'
 import { VocabResult } from './routes/VocabResult'
 import { VocabSetup } from './routes/VocabSetup'
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       { path: '/vocab/cards', element: <Flashcards /> },
       { path: '/vocab/quiz', element: <VocabQuiz /> },
       { path: '/vocab/result', element: <VocabResult /> },
+      { path: '/review', element: <Review /> },
     ],
   },
 ])
