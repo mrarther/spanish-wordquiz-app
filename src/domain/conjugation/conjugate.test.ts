@@ -109,6 +109,32 @@ describe('綴り変化', () => {
   })
 })
 
+describe('規則動詞（綴り変化・母音語幹を含む）', () => {
+  it.each([
+    ['organizar', 'preterite', 0, 'organicé'],
+    ['organizar', 'subjunctivePresent', 3, 'organicemos'],
+    ['pagar', 'preterite', 0, 'pagué'],
+    ['explicar', 'subjunctivePresent', 5, 'expliquen'],
+    ['crear', 'preterite', 0, 'creé'],
+    ['pasear', 'subjunctivePresent', 3, 'paseemos'],
+    ['estudiar', 'present', 0, 'estudio'],
+    ['proteger', 'present', 0, 'protejo'],
+    ['escoger', 'subjunctivePresent', 2, 'escoja'],
+    ['vencer', 'present', 0, 'venzo'],
+    ['convencer', 'subjunctivePresent', 1, 'convenzas'],
+    ['dirigir', 'present', 0, 'dirijo'],
+    ['exigir', 'subjunctivePresent', 3, 'exijamos'],
+    ['distinguir', 'present', 0, 'distingo'],
+    ['distinguir', 'present', 1, 'distingues'],
+    ['distinguir', 'preterite', 2, 'distinguió'],
+    ['añadir', 'imperfect', 3, 'añadíamos'],
+    ['aprender', 'subjunctiveImperfect', 3, 'aprendiéramos'],
+    ['recibir', 'imperativeAffirmative', 4, 'recibid'],
+  ] as const)('%s %s[%i] = %s', (inf, tense, person, expected) => {
+    expect(conjugate(verb(inf), tense, person)).toBe(expected)
+  })
+})
+
 describe('語幹変化動詞', () => {
   it('pedir（e → i）', () => {
     expectTable('pedir', {

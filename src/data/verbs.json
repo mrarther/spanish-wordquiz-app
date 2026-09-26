@@ -1,30 +1,92 @@
 [
-  { "infinitive": "hablar", "meaning_ja": "話す", "group": "regular" },
-  { "infinitive": "comer", "meaning_ja": "食べる", "group": "regular" },
-  { "infinitive": "vivir", "meaning_ja": "住む、生きる", "group": "regular" },
-  { "infinitive": "buscar", "meaning_ja": "探す", "group": "regular" },
-  { "infinitive": "llegar", "meaning_ja": "到着する", "group": "regular" },
-  { "infinitive": "coger", "meaning_ja": "つかむ、取る", "group": "regular" },
-  { "infinitive": "pedir", "meaning_ja": "頼む、注文する", "group": "stem", "stemChange": "e>i" },
-  { "infinitive": "empezar", "meaning_ja": "始める", "group": "stem", "stemChange": "e>ie" },
+  {
+    "infinitive": "hablar",
+    "meaning_ja": "話す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "comer",
+    "meaning_ja": "食べる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "vivir",
+    "meaning_ja": "住む、生きる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "buscar",
+    "meaning_ja": "探す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "llegar",
+    "meaning_ja": "到着する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "coger",
+    "meaning_ja": "つかむ、取る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pedir",
+    "meaning_ja": "頼む、注文する",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "empezar",
+    "meaning_ja": "始める",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
   {
     "infinitive": "jugar",
     "meaning_ja": "遊ぶ、（スポーツを）する",
     "group": "stem",
     "stemChange": "u>ue"
   },
-  { "infinitive": "dormir", "meaning_ja": "眠る", "group": "stem", "stemChange": "o>ue" },
-  { "infinitive": "preferir", "meaning_ja": "より好む", "group": "stem", "stemChange": "e>ie" },
-  { "infinitive": "seguir", "meaning_ja": "続ける、従う", "group": "stem", "stemChange": "e>i" },
-  { "infinitive": "elegir", "meaning_ja": "選ぶ", "group": "stem", "stemChange": "e>i" },
+  {
+    "infinitive": "dormir",
+    "meaning_ja": "眠る",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "preferir",
+    "meaning_ja": "より好む",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "seguir",
+    "meaning_ja": "続ける、従う",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "elegir",
+    "meaning_ja": "選ぶ",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
   {
     "infinitive": "conocer",
     "meaning_ja": "知っている（人・場所）",
     "group": "irregular",
     "zc": true
   },
-  { "infinitive": "construir", "meaning_ja": "建てる", "group": "irregular" },
-  { "infinitive": "leer", "meaning_ja": "読む", "group": "irregular" },
+  {
+    "infinitive": "construir",
+    "meaning_ja": "建てる",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "leer",
+    "meaning_ja": "読む",
+    "group": "irregular"
+  },
   {
     "infinitive": "poder",
     "meaning_ja": "できる",
@@ -41,7 +103,10 @@
     "stemChange": "e>ie",
     "preteriteStem": "tuv",
     "futureStem": "tendr",
-    "irregular": { "present": ["tengo"], "imperativeAffirmative": [null, "ten"] }
+    "irregular": {
+      "present": ["tengo"],
+      "imperativeAffirmative": [null, "ten"]
+    }
   },
   {
     "infinitive": "venir",
@@ -50,7 +115,10 @@
     "stemChange": "e>ie",
     "preteriteStem": "vin",
     "futureStem": "vendr",
-    "irregular": { "present": ["vengo"], "imperativeAffirmative": [null, "ven"] }
+    "irregular": {
+      "present": ["vengo"],
+      "imperativeAffirmative": [null, "ven"]
+    }
   },
   {
     "infinitive": "decir",
@@ -60,7 +128,10 @@
     "preteriteStem": "dij",
     "futureStem": "dir",
     "pastParticiple": "dicho",
-    "irregular": { "present": ["digo"], "imperativeAffirmative": [null, "di"] }
+    "irregular": {
+      "present": ["digo"],
+      "imperativeAffirmative": [null, "di"]
+    }
   },
   {
     "infinitive": "hacer",
@@ -109,5 +180,1135 @@
       "subjunctivePresent": ["vaya", "vayas", "vaya", "vayamos", "vayáis", "vayan"],
       "imperativeAffirmative": [null, "ve", null, "vamos"]
     }
+  },
+  {
+    "infinitive": "aceptar",
+    "meaning_ja": "受け入れる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "acompañar",
+    "meaning_ja": "同行する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aconsejar",
+    "meaning_ja": "助言する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "adivinar",
+    "meaning_ja": "言い当てる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "admirar",
+    "meaning_ja": "称賛する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "afeitar",
+    "meaning_ja": "ひげを剃る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "alquilar",
+    "meaning_ja": "賃借りする、賃貸しする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "amar",
+    "meaning_ja": "愛する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "anunciar",
+    "meaning_ja": "知らせる、発表する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "apagar",
+    "meaning_ja": "消す（火・電気を）",
+    "group": "regular"
+  },
+  {
+    "infinitive": "apoyar",
+    "meaning_ja": "支える、支持する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aprovechar",
+    "meaning_ja": "活用する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "arreglar",
+    "meaning_ja": "修理する、整える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "asustar",
+    "meaning_ja": "怖がらせる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aumentar",
+    "meaning_ja": "増やす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "avisar",
+    "meaning_ja": "知らせる、警告する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ayudar",
+    "meaning_ja": "手伝う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "bailar",
+    "meaning_ja": "踊る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "bajar",
+    "meaning_ja": "下りる、下げる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "bañar",
+    "meaning_ja": "入浴させる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "besar",
+    "meaning_ja": "キスする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "borrar",
+    "meaning_ja": "消す（消去する）",
+    "group": "regular"
+  },
+  {
+    "infinitive": "brillar",
+    "meaning_ja": "輝く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "calcular",
+    "meaning_ja": "計算する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "callar",
+    "meaning_ja": "黙る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cambiar",
+    "meaning_ja": "変える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "caminar",
+    "meaning_ja": "歩く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cansar",
+    "meaning_ja": "疲れさせる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cantar",
+    "meaning_ja": "歌う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "casar",
+    "meaning_ja": "結婚させる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "celebrar",
+    "meaning_ja": "祝う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cenar",
+    "meaning_ja": "夕食をとる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "charlar",
+    "meaning_ja": "おしゃべりする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cocinar",
+    "meaning_ja": "料理する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "comparar",
+    "meaning_ja": "比較する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "completar",
+    "meaning_ja": "完成させる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "comprar",
+    "meaning_ja": "買う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "comunicar",
+    "meaning_ja": "伝える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "conectar",
+    "meaning_ja": "つなぐ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "conservar",
+    "meaning_ja": "保存する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "considerar",
+    "meaning_ja": "考慮する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "contestar",
+    "meaning_ja": "答える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "controlar",
+    "meaning_ja": "管理する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "conversar",
+    "meaning_ja": "会話する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "copiar",
+    "meaning_ja": "写す、コピーする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cortar",
+    "meaning_ja": "切る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "crear",
+    "meaning_ja": "創造する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cruzar",
+    "meaning_ja": "横切る、渡る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cuidar",
+    "meaning_ja": "世話をする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "curar",
+    "meaning_ja": "治す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "decorar",
+    "meaning_ja": "飾る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "dejar",
+    "meaning_ja": "置いておく、やめる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "desayunar",
+    "meaning_ja": "朝食をとる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "descansar",
+    "meaning_ja": "休む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "desear",
+    "meaning_ja": "望む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "dibujar",
+    "meaning_ja": "描く（線で）",
+    "group": "regular"
+  },
+  {
+    "infinitive": "disfrutar",
+    "meaning_ja": "楽しむ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "diseñar",
+    "meaning_ja": "デザインする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "durar",
+    "meaning_ja": "続く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "echar",
+    "meaning_ja": "投げる、入れる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "educar",
+    "meaning_ja": "教育する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "eliminar",
+    "meaning_ja": "取り除く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "empujar",
+    "meaning_ja": "押す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "enseñar",
+    "meaning_ja": "教える、見せる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "entrar",
+    "meaning_ja": "入る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "entregar",
+    "meaning_ja": "手渡す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "escuchar",
+    "meaning_ja": "聞く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "esperar",
+    "meaning_ja": "待つ、期待する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "estudiar",
+    "meaning_ja": "勉強する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "evitar",
+    "meaning_ja": "避ける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "explicar",
+    "meaning_ja": "説明する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "expresar",
+    "meaning_ja": "表現する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "faltar",
+    "meaning_ja": "足りない",
+    "group": "regular"
+  },
+  {
+    "infinitive": "felicitar",
+    "meaning_ja": "祝福する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "firmar",
+    "meaning_ja": "署名する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "fumar",
+    "meaning_ja": "タバコを吸う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "funcionar",
+    "meaning_ja": "機能する、動く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ganar",
+    "meaning_ja": "稼ぐ、勝つ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "gastar",
+    "meaning_ja": "使う（お金を）",
+    "group": "regular"
+  },
+  {
+    "infinitive": "gritar",
+    "meaning_ja": "叫ぶ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "guardar",
+    "meaning_ja": "保管する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "gustar",
+    "meaning_ja": "気に入る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "imaginar",
+    "meaning_ja": "想像する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "importar",
+    "meaning_ja": "重要である、輸入する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "indicar",
+    "meaning_ja": "示す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "informar",
+    "meaning_ja": "知らせる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "intentar",
+    "meaning_ja": "試みる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "invitar",
+    "meaning_ja": "招待する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "lavar",
+    "meaning_ja": "洗う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "levantar",
+    "meaning_ja": "持ち上げる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "limpiar",
+    "meaning_ja": "掃除する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "llamar",
+    "meaning_ja": "呼ぶ、電話する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "llenar",
+    "meaning_ja": "満たす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "llevar",
+    "meaning_ja": "持っていく、身につける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "llorar",
+    "meaning_ja": "泣く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "luchar",
+    "meaning_ja": "戦う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "mandar",
+    "meaning_ja": "送る、命じる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "manejar",
+    "meaning_ja": "運転する、扱う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "marcar",
+    "meaning_ja": "印をつける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "mejorar",
+    "meaning_ja": "改善する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "mirar",
+    "meaning_ja": "見る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "montar",
+    "meaning_ja": "乗る、組み立てる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "nadar",
+    "meaning_ja": "泳ぐ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "necesitar",
+    "meaning_ja": "必要とする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "notar",
+    "meaning_ja": "気づく",
+    "group": "regular"
+  },
+  {
+    "infinitive": "observar",
+    "meaning_ja": "観察する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ocupar",
+    "meaning_ja": "占める",
+    "group": "regular"
+  },
+  {
+    "infinitive": "odiar",
+    "meaning_ja": "憎む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "olvidar",
+    "meaning_ja": "忘れる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "organizar",
+    "meaning_ja": "組織する、準備する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pagar",
+    "meaning_ja": "払う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "parar",
+    "meaning_ja": "止める、止まる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "participar",
+    "meaning_ja": "参加する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pasar",
+    "meaning_ja": "通る、過ごす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pasear",
+    "meaning_ja": "散歩する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pegar",
+    "meaning_ja": "貼る、たたく",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pelear",
+    "meaning_ja": "けんかする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "perdonar",
+    "meaning_ja": "許す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pintar",
+    "meaning_ja": "塗る、描く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "practicar",
+    "meaning_ja": "練習する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "preguntar",
+    "meaning_ja": "質問する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "preparar",
+    "meaning_ja": "準備する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "presentar",
+    "meaning_ja": "紹介する、提出する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "prestar",
+    "meaning_ja": "貸す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "pronunciar",
+    "meaning_ja": "発音する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "quedar",
+    "meaning_ja": "残る、会う約束をする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "quemar",
+    "meaning_ja": "燃やす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "quitar",
+    "meaning_ja": "取り除く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "regalar",
+    "meaning_ja": "贈る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "regresar",
+    "meaning_ja": "戻る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "reparar",
+    "meaning_ja": "修理する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "respetar",
+    "meaning_ja": "尊重する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "respirar",
+    "meaning_ja": "呼吸する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "robar",
+    "meaning_ja": "盗む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "sacar",
+    "meaning_ja": "取り出す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "saltar",
+    "meaning_ja": "跳ぶ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "saludar",
+    "meaning_ja": "あいさつする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "secar",
+    "meaning_ja": "乾かす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "separar",
+    "meaning_ja": "分ける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "tardar",
+    "meaning_ja": "時間がかかる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "terminar",
+    "meaning_ja": "終える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "tirar",
+    "meaning_ja": "投げる、捨てる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "tocar",
+    "meaning_ja": "触る、演奏する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "tomar",
+    "meaning_ja": "取る、飲む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "trabajar",
+    "meaning_ja": "働く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "tratar",
+    "meaning_ja": "扱う、試みる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "usar",
+    "meaning_ja": "使う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "utilizar",
+    "meaning_ja": "利用する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "viajar",
+    "meaning_ja": "旅行する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "visitar",
+    "meaning_ja": "訪問する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "alcanzar",
+    "meaning_ja": "届く、達する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "avanzar",
+    "meaning_ja": "進む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "lanzar",
+    "meaning_ja": "投げる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "abrazar",
+    "meaning_ja": "抱きしめる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "realizar",
+    "meaning_ja": "実現する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "investigar",
+    "meaning_ja": "調査する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "dedicar",
+    "meaning_ja": "捧げる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "publicar",
+    "meaning_ja": "出版する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aplicar",
+    "meaning_ja": "適用する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "colocar",
+    "meaning_ja": "置く、配置する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "madrugar",
+    "meaning_ja": "早起きする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "planear",
+    "meaning_ja": "計画する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "emplear",
+    "meaning_ja": "雇う、用いる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "iniciar",
+    "meaning_ja": "始める",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aprender",
+    "meaning_ja": "学ぶ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "beber",
+    "meaning_ja": "飲む",
+    "group": "regular"
+  },
+  {
+    "infinitive": "comprender",
+    "meaning_ja": "理解する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "correr",
+    "meaning_ja": "走る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "deber",
+    "meaning_ja": "〜すべきである、借りがある",
+    "group": "regular"
+  },
+  {
+    "infinitive": "depender",
+    "meaning_ja": "依存する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "esconder",
+    "meaning_ja": "隠す",
+    "group": "regular"
+  },
+  {
+    "infinitive": "meter",
+    "meaning_ja": "入れる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "prometer",
+    "meaning_ja": "約束する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "responder",
+    "meaning_ja": "答える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "temer",
+    "meaning_ja": "恐れる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "vender",
+    "meaning_ja": "売る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "barrer",
+    "meaning_ja": "掃く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ceder",
+    "meaning_ja": "譲る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "coser",
+    "meaning_ja": "縫う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "sorprender",
+    "meaning_ja": "驚かせる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "suspender",
+    "meaning_ja": "中止する、落第させる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "emprender",
+    "meaning_ja": "着手する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ofender",
+    "meaning_ja": "侮辱する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "recorrer",
+    "meaning_ja": "巡る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cometer",
+    "meaning_ja": "犯す（罪・誤りを）",
+    "group": "regular"
+  },
+  {
+    "infinitive": "proteger",
+    "meaning_ja": "守る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "recoger",
+    "meaning_ja": "拾う、迎えに行く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "escoger",
+    "meaning_ja": "選ぶ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "vencer",
+    "meaning_ja": "打ち負かす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "convencer",
+    "meaning_ja": "説得する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "suceder",
+    "meaning_ja": "起こる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "toser",
+    "meaning_ja": "咳をする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "decidir",
+    "meaning_ja": "決める",
+    "group": "regular"
+  },
+  {
+    "infinitive": "discutir",
+    "meaning_ja": "議論する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "dividir",
+    "meaning_ja": "分ける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "existir",
+    "meaning_ja": "存在する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "insistir",
+    "meaning_ja": "主張する、固執する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "permitir",
+    "meaning_ja": "許可する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "recibir",
+    "meaning_ja": "受け取る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "subir",
+    "meaning_ja": "上がる、上げる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "sufrir",
+    "meaning_ja": "苦しむ",
+    "group": "regular"
+  },
+  {
+    "infinitive": "unir",
+    "meaning_ja": "結ぶ、結合する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "asistir",
+    "meaning_ja": "出席する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "compartir",
+    "meaning_ja": "分け合う",
+    "group": "regular"
+  },
+  {
+    "infinitive": "cumplir",
+    "meaning_ja": "果たす",
+    "group": "regular"
+  },
+  {
+    "infinitive": "ocurrir",
+    "meaning_ja": "起こる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "partir",
+    "meaning_ja": "出発する、割る",
+    "group": "regular"
+  },
+  {
+    "infinitive": "resistir",
+    "meaning_ja": "抵抗する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "admitir",
+    "meaning_ja": "認める",
+    "group": "regular"
+  },
+  {
+    "infinitive": "añadir",
+    "meaning_ja": "加える",
+    "group": "regular"
+  },
+  {
+    "infinitive": "aplaudir",
+    "meaning_ja": "拍手する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "confundir",
+    "meaning_ja": "混同する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "omitir",
+    "meaning_ja": "省く",
+    "group": "regular"
+  },
+  {
+    "infinitive": "transmitir",
+    "meaning_ja": "伝える、放送する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "acudir",
+    "meaning_ja": "駆けつける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "coincidir",
+    "meaning_ja": "一致する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "definir",
+    "meaning_ja": "定義する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "interrumpir",
+    "meaning_ja": "中断する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "asumir",
+    "meaning_ja": "引き受ける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "consumir",
+    "meaning_ja": "消費する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "resumir",
+    "meaning_ja": "要約する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "dirigir",
+    "meaning_ja": "指揮する、向ける",
+    "group": "regular"
+  },
+  {
+    "infinitive": "exigir",
+    "meaning_ja": "要求する",
+    "group": "regular"
+  },
+  {
+    "infinitive": "fingir",
+    "meaning_ja": "ふりをする",
+    "group": "regular"
+  },
+  {
+    "infinitive": "surgir",
+    "meaning_ja": "生じる",
+    "group": "regular"
+  },
+  {
+    "infinitive": "distinguir",
+    "meaning_ja": "区別する",
+    "group": "regular"
   }
 ]

@@ -31,6 +31,19 @@ describe('verbs.json', () => {
     }
   })
 
+  const regulars = VERBS.filter((v) => v.group === 'regular')
+
+  it.each(regulars.map((v) => [v.infinitive, v] as const))(
+    '%s（regular）は不規則の指定を持たない',
+    (_, v) => {
+      const { infinitive, meaning_ja, group, ...rest } = v
+      expect(rest).toEqual({})
+      // エンジンが自動で扱えない型の動詞は regular にしない
+      expect(infinitive).not.toMatch(/[^gq]uir$|eer$|[aeiou]c[ei]r$|uar$/)
+      expect(meaning_ja && group).toBeTruthy()
+    },
+  )
+
   it.each(VERBS.map((v) => [v.infinitive, v] as const))('%s は全時制を活用できる', (_, v) => {
     for (const tense of Object.keys(TENSES) as Tense[]) {
       const forms = conjugateAll(v, tense)

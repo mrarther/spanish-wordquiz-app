@@ -185,6 +185,15 @@ spanish_wordquiz_app/
 - 命令法（否定）は "no" を含まない形（hables）を返し、"no" は画面側で表示する
 - 複合時制：haber の活用 + 過去分詞（`compound.ts`）
 
+**動詞を追加するときのルール**
+
+- `group: "regular"` の動詞には、不規則用の項目（`stemChange` や `irregular` など）を書かない。綴り変化（-car/-gar/-zar、-ger/-gir、-guir、子音 + -cer/-cir）だけの動詞は regular として扱う
+- 次の動詞はエンジンが自動では正しく扱えないので、regular にせず、必要な形を `irregular` などで指定する（`verbs.test.ts` でチェックしている）
+  - アクセントが移動する -iar/-uar 動詞（enviar → envío、continuar → continúo）。cambiar・estudiar のような通常の -iar 動詞は regular でよい
+  - 母音 + -cer/-cir（conocer は `zc: true`）、-uir（construir）、-eer（leer）
+  - 過去分詞が不規則な動詞（abrir → abierto、escribir → escrito、romper → roto）→ `pastParticiple` を指定する
+  - 語幹変化動詞（pensar、contar など）→ `group: "stem"` と `stemChange` を指定する
+
 ### 6.2 語彙（`vocab/*.json`）
 
 ```ts
@@ -259,3 +268,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | 初版。例文穴埋め（自作問題の追加を含む）と総合テストを機能に追加                       |
 | 2026-09-26 | フェーズ1完了。技術スタックを React 19・oxlint・Tailwind v4 に更新（D10）              |
 | 2026-09-26 | フェーズ2完了。活用エンジンを実装し、動詞データに zc・preteriteStem・futureStem を追加 |
+| 2026-09-26 | フェーズ3：規則動詞を226語追加し、全250語に。動詞を追加するときのルールを追記          |
