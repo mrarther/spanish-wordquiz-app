@@ -5,6 +5,7 @@ import { deleteCustomCloze, listCustomCloze, putCustomCloze } from './cloze'
 import { AppDB } from './db'
 import { getDueItems, getProgressMap, recordAnswer } from './progress'
 import { loadSetting, saveSetting } from './settings'
+import { addTestResult, listTestResults } from './testResults'
 
 const NOW = Date.UTC(2026, 8, 26)
 let db: AppDB
@@ -94,5 +95,35 @@ describe('自作の穴埋め問題', () => {
     await deleteCustomCloze('a', db)
     list = await listCustomCloze(db)
     expect(list.map((i) => i.id)).toEqual(['b'])
+  })
+})
+
+describe('総合テストの結果', () => {
+  it('保存した結果を新しい順に読み込む', async () => {
+    const row = {
+      durationMs: 1000,
+      timeLimitMin: null,
+      timedOut: false,
+      format: 'input' as const,
+      range: {
+        sections: ['conj' as const],
+        tenses: ['present' as const],
+        levels: ['A1' as const],
+        categories: [],
+        includeVosotros: true,
+        includeCustom: false,
+      },
+      total: 10,
+      bySection: {
+        conj: { total: 10, correct: 5 },
+        vocab: { total: 0, correct: 0 },
+        cloze: { total: 0, correct: 0 },
+      },
+      wrongItemIds: [],
+    }
+    await addTestResult({ ...row, at: 1, correct: 5 }, db)
+    await addTestResult({ ...row, at: 2, correct: 8 }, db)
+    expect((await listTestResults(undefined, db)).map((r) => r.correct)).toEqual([8, 5])
+    expect(await listTestResults(1, db)).toHaveLength(1)
   })
 })

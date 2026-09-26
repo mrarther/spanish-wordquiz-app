@@ -7,9 +7,18 @@ type Props = {
   onSubmit: () => void
   disabled?: boolean
   prefix?: string
+  /** 送信ボタンの文言（初期値：答える） */
+  submitLabel?: string
 }
 
-export function AnswerInput({ value, onChange, onSubmit, disabled, prefix }: Props) {
+export function AnswerInput({
+  value,
+  onChange,
+  onSubmit,
+  disabled,
+  prefix,
+  submitLabel = '答える',
+}: Props) {
   const ref = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -57,7 +66,7 @@ export function AnswerInput({ value, onChange, onSubmit, disabled, prefix }: Pro
           type="submit"
           className="rounded-md bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700"
         >
-          答える
+          {submitLabel}
         </button>
       )}
     </form>

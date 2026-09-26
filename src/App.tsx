@@ -9,6 +9,9 @@ import { ConjugationSetup } from './routes/ConjugationSetup'
 import { Flashcards } from './routes/Flashcards'
 import { Home } from './routes/Home'
 import { Review } from './routes/Review'
+import { TestResult } from './routes/TestResult'
+import { TestRun } from './routes/TestRun'
+import { TestSetup } from './routes/TestSetup'
 import { VocabQuiz } from './routes/VocabQuiz'
 import { VocabResult } from './routes/VocabResult'
 import { VocabSetup } from './routes/VocabSetup'
@@ -41,6 +44,9 @@ const router = createBrowserRouter([
       { path: '/cloze/result', element: <ClozeResult /> },
       { path: '/cloze/manage', element: <ClozeManager /> },
       { path: '/review', element: <Review /> },
+      { path: '/test', element: <TestSetup /> },
+      { path: '/test/run', element: <TestRun /> },
+      { path: '/test/result', element: <TestResult /> },
     ],
   },
 ])
