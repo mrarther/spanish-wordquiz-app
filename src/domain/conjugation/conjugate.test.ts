@@ -300,6 +300,190 @@ describe('不規則動詞', () => {
   })
 })
 
+describe('追加した不規則動詞', () => {
+  it('querer', () =>
+    expectTable('querer', {
+      present: f('quiero quieres quiere queremos queréis quieren'),
+      preterite: f('quise quisiste quiso quisimos quisisteis quisieron'),
+      future: f('querré querrás querrá querremos querréis querrán'),
+      subjunctivePresent: f('quiera quieras quiera queramos queráis quieran'),
+    }))
+
+  it('poner', () => {
+    expectTable('poner', {
+      present: f('pongo pones pone ponemos ponéis ponen'),
+      preterite: f('puse pusiste puso pusimos pusisteis pusieron'),
+      future: f('pondré pondrás pondrá pondremos pondréis pondrán'),
+      subjunctivePresent: f('ponga pongas ponga pongamos pongáis pongan'),
+      imperativeAffirmative: imp('pon ponga pongamos poned pongan'),
+    })
+    expect(pastParticiple(verb('poner'))).toBe('puesto')
+  })
+
+  it('ver', () => {
+    expectTable('ver', {
+      present: f('veo ves ve vemos veis ven'),
+      preterite: f('vi viste vio vimos visteis vieron'),
+      imperfect: f('veía veías veía veíamos veíais veían'),
+      subjunctivePresent: f('vea veas vea veamos veáis vean'),
+      subjunctiveImperfect: f('viera vieras viera viéramos vierais vieran'),
+      imperativeAffirmative: imp('ve vea veamos ved vean'),
+    })
+    expect(pastParticiple(verb('ver'))).toBe('visto')
+  })
+
+  it('dar', () =>
+    expectTable('dar', {
+      present: f('doy das da damos dais dan'),
+      preterite: f('di diste dio dimos disteis dieron'),
+      subjunctivePresent: f('dé des dé demos deis den'),
+      subjunctiveImperfect: f('diera dieras diera diéramos dierais dieran'),
+      imperativeAffirmative: imp('da dé demos dad den'),
+    }))
+
+  it('saber・caber', () => {
+    expectTable('saber', {
+      present: f('sé sabes sabe sabemos sabéis saben'),
+      preterite: f('supe supiste supo supimos supisteis supieron'),
+      future: f('sabré sabrás sabrá sabremos sabréis sabrán'),
+      subjunctivePresent: f('sepa sepas sepa sepamos sepáis sepan'),
+    })
+    expectTable('caber', {
+      present: f('quepo cabes cabe cabemos cabéis caben'),
+      preterite: f('cupe cupiste cupo cupimos cupisteis cupieron'),
+      subjunctivePresent: f('quepa quepas quepa quepamos quepáis quepan'),
+    })
+  })
+
+  it('oír', () => {
+    expectTable('oír', {
+      present: f('oigo oyes oye oímos oís oyen'),
+      preterite: f('oí oíste oyó oímos oísteis oyeron'),
+      future: f('oiré oirás oirá oiremos oiréis oirán'),
+      subjunctivePresent: f('oiga oigas oiga oigamos oigáis oigan'),
+      imperativeAffirmative: imp('oye oiga oigamos oíd oigan'),
+    })
+    expect(pastParticiple(verb('oír'))).toBe('oído')
+    expect(gerund(verb('oír'))).toBe('oyendo')
+  })
+
+  it('caer・traer', () => {
+    expectTable('caer', {
+      present: f('caigo caes cae caemos caéis caen'),
+      preterite: f('caí caíste cayó caímos caísteis cayeron'),
+      subjunctivePresent: f('caiga caigas caiga caigamos caigáis caigan'),
+    })
+    expect(gerund(verb('caer'))).toBe('cayendo')
+    expectTable('traer', {
+      present: f('traigo traes trae traemos traéis traen'),
+      preterite: f('traje trajiste trajo trajimos trajisteis trajeron'),
+      subjunctiveImperfect: f('trajera trajeras trajera trajéramos trajerais trajeran'),
+    })
+    expect(gerund(verb('traer'))).toBe('trayendo')
+    expect(pastParticiple(verb('traer'))).toBe('traído')
+  })
+
+  it('reír・sonreír', () => {
+    expectTable('reír', {
+      present: f('río ríes ríe reímos reís ríen'),
+      preterite: f('reí reíste rio reímos reísteis rieron'),
+      subjunctivePresent: f('ría rías ría riamos riais rían'),
+      subjunctiveImperfect: f('riera rieras riera riéramos rierais rieran'),
+      imperativeAffirmative: imp('ríe ría riamos reíd rían'),
+      future: f('reiré reirás reirá reiremos reiréis reirán'),
+    })
+    expect(gerund(verb('reír'))).toBe('riendo')
+    expect(pastParticiple(verb('reír'))).toBe('reído')
+    expect(conjugate(verb('sonreír'), 'preterite', 2)).toBe('sonrió')
+  })
+
+  it('salir・valer・andar・mantener・obtener・suponer', () => {
+    expect(conjugate(verb('salir'), 'present', 0)).toBe('salgo')
+    expect(conjugate(verb('salir'), 'future', 0)).toBe('saldré')
+    expect(conjugate(verb('salir'), 'imperativeAffirmative', 1)).toBe('sal')
+    expect(conjugate(verb('valer'), 'conditional', 2)).toBe('valdría')
+    expect(conjugate(verb('andar'), 'preterite', 5)).toBe('anduvieron')
+    expect(conjugate(verb('andar'), 'subjunctiveImperfect', 3)).toBe('anduviéramos')
+    expectTable('mantener', {
+      present: f('mantengo mantienes mantiene mantenemos mantenéis mantienen'),
+      preterite: f('mantuve mantuviste mantuvo mantuvimos mantuvisteis mantuvieron'),
+      imperativeAffirmative: imp('mantén mantenga mantengamos mantened mantengan'),
+    })
+    expect(conjugate(verb('obtener'), 'future', 3)).toBe('obtendremos')
+    expect(conjugate(verb('suponer'), 'preterite', 0)).toBe('supuse')
+    expect(pastParticiple(verb('suponer'))).toBe('supuesto')
+  })
+
+  it('oler（h の付加）', () =>
+    expectTable('oler', {
+      present: f('huelo hueles huele olemos oléis huelen'),
+      subjunctivePresent: f('huela huelas huela olamos oláis huelan'),
+      imperativeAffirmative: imp('huele huela olamos oled huelan'),
+    }))
+})
+
+describe('追加した語幹変化・その他の動詞', () => {
+  it.each([
+    ['pensar', 'present', 0, 'pienso'],
+    ['cerrar', 'subjunctivePresent', 5, 'cierren'],
+    ['comenzar', 'preterite', 0, 'comencé'],
+    ['negar', 'subjunctivePresent', 0, 'niegue'],
+    ['contar', 'present', 3, 'contamos'],
+    ['encontrar', 'present', 5, 'encuentran'],
+    ['almorzar', 'subjunctivePresent', 0, 'almuerce'],
+    ['colgar', 'subjunctivePresent', 1, 'cuelgues'],
+    ['entender', 'present', 1, 'entiendes'],
+    ['mover', 'subjunctivePresent', 3, 'movamos'],
+    ['volver', 'presentPerfect', 0, 'he vuelto'],
+    ['resolver', 'pluperfect', 2, 'había resuelto'],
+    ['sentir', 'preterite', 2, 'sintió'],
+    ['sentir', 'subjunctivePresent', 3, 'sintamos'],
+    ['divertir', 'subjunctiveImperfect', 0, 'divirtiera'],
+    ['morir', 'preterite', 5, 'murieron'],
+    ['morir', 'presentPerfect', 5, 'han muerto'],
+    ['servir', 'present', 0, 'sirvo'],
+    ['repetir', 'preterite', 2, 'repitió'],
+    ['corregir', 'present', 0, 'corrijo'],
+    ['conseguir', 'present', 0, 'consigo'],
+    ['conseguir', 'subjunctivePresent', 3, 'consigamos'],
+    ['enviar', 'present', 0, 'envío'],
+    ['enviar', 'present', 3, 'enviamos'],
+    ['enviar', 'subjunctivePresent', 4, 'enviéis'],
+    ['enviar', 'imperativeAffirmative', 1, 'envía'],
+    ['esquiar', 'present', 2, 'esquía'],
+    ['continuar', 'present', 0, 'continúo'],
+    ['continuar', 'present', 4, 'continuáis'],
+    ['actuar', 'subjunctivePresent', 5, 'actúen'],
+    ['reunir', 'present', 0, 'reúno'],
+    ['reunir', 'present', 3, 'reunimos'],
+    ['prohibir', 'present', 2, 'prohíbe'],
+    ['abrir', 'presentPerfect', 0, 'he abierto'],
+    ['escribir', 'pluperfect', 3, 'habíamos escrito'],
+    ['describir', 'presentPerfect', 2, 'ha descrito'],
+    ['romper', 'presentPerfect', 1, 'has roto'],
+    ['parecer', 'present', 0, 'parezco'],
+    ['ofrecer', 'subjunctivePresent', 3, 'ofrezcamos'],
+    ['conducir', 'present', 0, 'conduzco'],
+    ['conducir', 'preterite', 0, 'conduje'],
+    ['conducir', 'preterite', 5, 'condujeron'],
+    ['traducir', 'subjunctiveImperfect', 0, 'tradujera'],
+    ['destruir', 'present', 0, 'destruyo'],
+    ['incluir', 'preterite', 2, 'incluyó'],
+    ['creer', 'preterite', 2, 'creyó'],
+    ['creer', 'preterite', 1, 'creíste'],
+  ] as const)('%s %s[%i] = %s', (inf, tense, person, expected) => {
+    expect(conjugate(verb(inf), tense, person)).toBe(expected)
+  })
+
+  it('現在分詞', () => {
+    expect(gerund(verb('sentir'))).toBe('sintiendo')
+    expect(gerund(verb('morir'))).toBe('muriendo')
+    expect(gerund(verb('creer'))).toBe('creyendo')
+    expect(gerund(verb('destruir'))).toBe('destruyendo')
+    expect(pastParticiple(verb('creer'))).toBe('creído')
+  })
+})
+
 describe('複合時制', () => {
   it('haber + 過去分詞', () => {
     expect(conjugateAll(verb('hablar'), 'presentPerfect')).toEqual([

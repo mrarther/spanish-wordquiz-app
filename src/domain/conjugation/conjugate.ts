@@ -90,9 +90,10 @@ function computeSimple(verb: VerbEntry, tense: SimpleTense): Forms {
     }
 
     case 'subjunctivePresent': {
-      // 直説法現在の yo が不規則（tengo, hago）なら、その形から語幹を作る
+      // 直説法現在の yo が不規則（tengo, hago）なら、その形から語幹を作る。
+      // 接続法現在を irregular で指定している動詞（oler など）は、残りの人称を通常の規則で作る
       const yo = verb.irregular?.present?.[0]
-      if (yo?.endsWith('o')) {
+      if (yo?.endsWith('o') && !verb.irregular?.subjunctivePresent) {
         const stem = yo.slice(0, -1)
         return SUBJUNCTIVE_PRESENT[cls].map((e) => stem + e)
       }

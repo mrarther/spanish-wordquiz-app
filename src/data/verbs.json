@@ -1310,5 +1310,785 @@
     "infinitive": "distinguir",
     "meaning_ja": "区別する",
     "group": "regular"
+  },
+  {
+    "infinitive": "pensar",
+    "meaning_ja": "考える",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "cerrar",
+    "meaning_ja": "閉める",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "despertar",
+    "meaning_ja": "起こす、目覚めさせる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "sentar",
+    "meaning_ja": "座らせる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "recomendar",
+    "meaning_ja": "勧める",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "comenzar",
+    "meaning_ja": "始める",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "calentar",
+    "meaning_ja": "温める",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "negar",
+    "meaning_ja": "否定する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "atravesar",
+    "meaning_ja": "横断する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "merendar",
+    "meaning_ja": "おやつを食べる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "contar",
+    "meaning_ja": "数える、語る",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "costar",
+    "meaning_ja": "（費用が）かかる",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "encontrar",
+    "meaning_ja": "見つける",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "mostrar",
+    "meaning_ja": "見せる",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "probar",
+    "meaning_ja": "試す",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "recordar",
+    "meaning_ja": "覚えている、思い出す",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "volar",
+    "meaning_ja": "飛ぶ",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "soñar",
+    "meaning_ja": "夢を見る",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "acostar",
+    "meaning_ja": "寝かせる",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "almorzar",
+    "meaning_ja": "昼食をとる",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "aprobar",
+    "meaning_ja": "承認する、合格する",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "demostrar",
+    "meaning_ja": "証明する",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "colgar",
+    "meaning_ja": "掛ける、（電話を）切る",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "rogar",
+    "meaning_ja": "懇願する",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "sonar",
+    "meaning_ja": "鳴る",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "soltar",
+    "meaning_ja": "放す",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "entender",
+    "meaning_ja": "理解する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "perder",
+    "meaning_ja": "失う、負ける",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "defender",
+    "meaning_ja": "守る、弁護する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "encender",
+    "meaning_ja": "点ける",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "atender",
+    "meaning_ja": "応対する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "extender",
+    "meaning_ja": "広げる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "mover",
+    "meaning_ja": "動かす",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "morder",
+    "meaning_ja": "かむ",
+    "group": "stem",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "volver",
+    "meaning_ja": "戻る",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "pastParticiple": "vuelto"
+  },
+  {
+    "infinitive": "devolver",
+    "meaning_ja": "返す",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "pastParticiple": "devuelto"
+  },
+  {
+    "infinitive": "resolver",
+    "meaning_ja": "解決する",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "pastParticiple": "resuelto"
+  },
+  {
+    "infinitive": "sentir",
+    "meaning_ja": "感じる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "mentir",
+    "meaning_ja": "うそをつく",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "divertir",
+    "meaning_ja": "楽しませる",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "convertir",
+    "meaning_ja": "変える",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "sugerir",
+    "meaning_ja": "提案する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "advertir",
+    "meaning_ja": "警告する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "hervir",
+    "meaning_ja": "沸騰する",
+    "group": "stem",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "morir",
+    "meaning_ja": "死ぬ",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "pastParticiple": "muerto"
+  },
+  {
+    "infinitive": "servir",
+    "meaning_ja": "役に立つ、給仕する",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "repetir",
+    "meaning_ja": "繰り返す",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "vestir",
+    "meaning_ja": "服を着せる",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "medir",
+    "meaning_ja": "測る",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "despedir",
+    "meaning_ja": "見送る、解雇する",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "impedir",
+    "meaning_ja": "妨げる",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "corregir",
+    "meaning_ja": "訂正する",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "conseguir",
+    "meaning_ja": "手に入れる",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "perseguir",
+    "meaning_ja": "追いかける",
+    "group": "stem",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "enviar",
+    "meaning_ja": "送る",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "confiar",
+    "meaning_ja": "信頼する",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "variar",
+    "meaning_ja": "変化する",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "esquiar",
+    "meaning_ja": "スキーをする",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "vaciar",
+    "meaning_ja": "空にする",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "ampliar",
+    "meaning_ja": "拡大する",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "desviar",
+    "meaning_ja": "そらす",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "fotografiar",
+    "meaning_ja": "写真を撮る",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "prohibir",
+    "meaning_ja": "禁止する",
+    "group": "stem",
+    "stemChange": "i>í"
+  },
+  {
+    "infinitive": "continuar",
+    "meaning_ja": "続ける",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "actuar",
+    "meaning_ja": "行動する、演じる",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "graduar",
+    "meaning_ja": "調整する、卒業させる",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "evaluar",
+    "meaning_ja": "評価する",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "situar",
+    "meaning_ja": "配置する",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "reunir",
+    "meaning_ja": "集める",
+    "group": "stem",
+    "stemChange": "u>ú"
+  },
+  {
+    "infinitive": "abrir",
+    "meaning_ja": "開ける",
+    "group": "irregular",
+    "pastParticiple": "abierto"
+  },
+  {
+    "infinitive": "cubrir",
+    "meaning_ja": "覆う",
+    "group": "irregular",
+    "pastParticiple": "cubierto"
+  },
+  {
+    "infinitive": "descubrir",
+    "meaning_ja": "発見する",
+    "group": "irregular",
+    "pastParticiple": "descubierto"
+  },
+  {
+    "infinitive": "escribir",
+    "meaning_ja": "書く",
+    "group": "irregular",
+    "pastParticiple": "escrito"
+  },
+  {
+    "infinitive": "describir",
+    "meaning_ja": "描写する",
+    "group": "irregular",
+    "pastParticiple": "descrito"
+  },
+  {
+    "infinitive": "romper",
+    "meaning_ja": "壊す",
+    "group": "irregular",
+    "pastParticiple": "roto"
+  },
+  {
+    "infinitive": "parecer",
+    "meaning_ja": "〜のように見える",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "ofrecer",
+    "meaning_ja": "提供する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "agradecer",
+    "meaning_ja": "感謝する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "crecer",
+    "meaning_ja": "成長する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "nacer",
+    "meaning_ja": "生まれる",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "obedecer",
+    "meaning_ja": "従う",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "desaparecer",
+    "meaning_ja": "消える",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "merecer",
+    "meaning_ja": "値する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "pertenecer",
+    "meaning_ja": "属する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "establecer",
+    "meaning_ja": "設立する",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "reconocer",
+    "meaning_ja": "認める、見分ける",
+    "group": "irregular",
+    "zc": true
+  },
+  {
+    "infinitive": "conducir",
+    "meaning_ja": "運転する",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "conduj"
+  },
+  {
+    "infinitive": "traducir",
+    "meaning_ja": "翻訳する",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "traduj"
+  },
+  {
+    "infinitive": "producir",
+    "meaning_ja": "生産する",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "produj"
+  },
+  {
+    "infinitive": "reducir",
+    "meaning_ja": "減らす",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "reduj"
+  },
+  {
+    "infinitive": "introducir",
+    "meaning_ja": "導入する",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "introduj"
+  },
+  {
+    "infinitive": "destruir",
+    "meaning_ja": "破壊する",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "incluir",
+    "meaning_ja": "含む",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "concluir",
+    "meaning_ja": "結論づける",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "contribuir",
+    "meaning_ja": "貢献する",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "distribuir",
+    "meaning_ja": "配る",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "sustituir",
+    "meaning_ja": "取り替える",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "influir",
+    "meaning_ja": "影響する",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "creer",
+    "meaning_ja": "信じる、思う",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "poseer",
+    "meaning_ja": "所有する",
+    "group": "irregular"
+  },
+  {
+    "infinitive": "querer",
+    "meaning_ja": "欲しい、愛する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "preteriteStem": "quis",
+    "futureStem": "querr"
+  },
+  {
+    "infinitive": "oler",
+    "meaning_ja": "におう",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "irregular": {
+      "present": ["huelo", "hueles", "huele", null, null, "huelen"],
+      "subjunctivePresent": ["huela", "huelas", "huela", null, null, "huelan"]
+    }
+  },
+  {
+    "infinitive": "poner",
+    "meaning_ja": "置く",
+    "group": "irregular",
+    "preteriteStem": "pus",
+    "futureStem": "pondr",
+    "pastParticiple": "puesto",
+    "irregular": {
+      "present": ["pongo"],
+      "imperativeAffirmative": [null, "pon"]
+    }
+  },
+  {
+    "infinitive": "suponer",
+    "meaning_ja": "推測する",
+    "group": "irregular",
+    "preteriteStem": "supus",
+    "futureStem": "supondr",
+    "pastParticiple": "supuesto",
+    "irregular": {
+      "present": ["supongo"],
+      "imperativeAffirmative": [null, "supón"]
+    }
+  },
+  {
+    "infinitive": "mantener",
+    "meaning_ja": "維持する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "mantuv",
+    "futureStem": "mantendr",
+    "irregular": {
+      "present": ["mantengo"],
+      "imperativeAffirmative": [null, "mantén"]
+    }
+  },
+  {
+    "infinitive": "obtener",
+    "meaning_ja": "得る",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "obtuv",
+    "futureStem": "obtendr",
+    "irregular": {
+      "present": ["obtengo"],
+      "imperativeAffirmative": [null, "obtén"]
+    }
+  },
+  {
+    "infinitive": "salir",
+    "meaning_ja": "出る",
+    "group": "irregular",
+    "futureStem": "saldr",
+    "irregular": {
+      "present": ["salgo"],
+      "imperativeAffirmative": [null, "sal"]
+    }
+  },
+  {
+    "infinitive": "valer",
+    "meaning_ja": "価値がある",
+    "group": "irregular",
+    "futureStem": "valdr",
+    "irregular": {
+      "present": ["valgo"]
+    }
+  },
+  {
+    "infinitive": "traer",
+    "meaning_ja": "持ってくる",
+    "group": "irregular",
+    "preteriteStem": "traj",
+    "irregular": {
+      "present": ["traigo"]
+    }
+  },
+  {
+    "infinitive": "caer",
+    "meaning_ja": "落ちる",
+    "group": "irregular",
+    "irregular": {
+      "present": ["caigo"]
+    }
+  },
+  {
+    "infinitive": "oír",
+    "meaning_ja": "聞こえる",
+    "group": "irregular",
+    "irregular": {
+      "present": ["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
+    }
+  },
+  {
+    "infinitive": "andar",
+    "meaning_ja": "歩く",
+    "group": "irregular",
+    "preteriteStem": "anduv"
+  },
+  {
+    "infinitive": "saber",
+    "meaning_ja": "知っている",
+    "group": "irregular",
+    "preteriteStem": "sup",
+    "futureStem": "sabr",
+    "irregular": {
+      "present": ["sé"],
+      "subjunctivePresent": ["sepa", "sepas", "sepa", "sepamos", "sepáis", "sepan"]
+    }
+  },
+  {
+    "infinitive": "caber",
+    "meaning_ja": "入る（収まる）",
+    "group": "irregular",
+    "preteriteStem": "cup",
+    "futureStem": "cabr",
+    "irregular": {
+      "present": ["quepo"]
+    }
+  },
+  {
+    "infinitive": "ver",
+    "meaning_ja": "見る",
+    "group": "irregular",
+    "pastParticiple": "visto",
+    "irregular": {
+      "present": ["veo", "ves", "ve", "vemos", "veis", "ven"],
+      "preterite": ["vi", null, "vio"],
+      "imperfect": ["veía", "veías", "veía", "veíamos", "veíais", "veían"]
+    }
+  },
+  {
+    "infinitive": "dar",
+    "meaning_ja": "与える",
+    "group": "irregular",
+    "irregular": {
+      "present": ["doy", "das", "da", "damos", "dais", "dan"],
+      "preterite": ["di", "diste", "dio", "dimos", "disteis", "dieron"],
+      "subjunctivePresent": ["dé", "des", "dé", "demos", "deis", "den"]
+    }
+  },
+  {
+    "infinitive": "reír",
+    "meaning_ja": "笑う",
+    "group": "irregular",
+    "gerund": "riendo",
+    "irregular": {
+      "present": ["río", "ríes", "ríe", "reímos", "reís", "ríen"],
+      "preterite": ["reí", "reíste", "rio", "reímos", "reísteis", "rieron"],
+      "subjunctivePresent": ["ría", "rías", "ría", "riamos", "riais", "rían"]
+    }
+  },
+  {
+    "infinitive": "sonreír",
+    "meaning_ja": "ほほえむ",
+    "group": "irregular",
+    "gerund": "sonriendo",
+    "irregular": {
+      "present": ["sonrío", "sonríes", "sonríe", "sonreímos", "sonreís", "sonríen"],
+      "preterite": ["sonreí", "sonreíste", "sonrió", "sonreímos", "sonreísteis", "sonrieron"],
+      "subjunctivePresent": ["sonría", "sonrías", "sonría", "sonriamos", "sonriáis", "sonrían"]
+    }
   }
 ]

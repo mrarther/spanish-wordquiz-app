@@ -6,6 +6,8 @@ const LONG: Record<StemChange, [string, string]> = {
   'o>ue': ['o', 'ue'],
   'e>i': ['e', 'i'],
   'u>ue': ['u', 'ue'],
+  'i>í': ['i', 'í'],
+  'u>ú': ['u', 'ú'],
 }
 
 /** -ir 動詞だけに起こる弱い変化（durmió, pidiendo, sintamos） */

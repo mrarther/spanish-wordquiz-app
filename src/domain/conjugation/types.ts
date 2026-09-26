@@ -53,7 +53,8 @@ export const TENSES: Record<Tense, { mood: Mood; label_ja: string }> = {
   imperativeNegative: { mood: 'imperative', label_ja: '命令法（否定）' },
 }
 
-export type StemChange = 'e>ie' | 'o>ue' | 'e>i' | 'u>ue'
+/** i>í・u>ú はアクセントの移動（enviar → envío, continuar → continúo） */
+export type StemChange = 'e>ie' | 'o>ue' | 'e>i' | 'u>ue' | 'i>í' | 'u>ú'
 
 /** 6人称分の活用形。命令法の yo のように存在しない形は null */
 export type Forms = (string | null)[]

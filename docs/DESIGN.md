@@ -165,7 +165,7 @@ spanish_wordquiz_app/
   infinitive: string;          // "tener"
   meaning_ja: string;          // "持つ"
   group: "regular" | "stem" | "irregular";
-  stemChange?: "e>ie" | "o>ue" | "e>i" | "u>ue";
+  stemChange?: "e>ie" | "o>ue" | "e>i" | "u>ue" | "i>í" | "u>ú";  // i>í・u>ú はアクセントの移動
   zc?: boolean;                // conocer → conozco（a/o の前で c → zc）
   preteriteStem?: string;      // 強変化の点過去の語幹（tener → "tuv"）
   futureStem?: string;         // 不規則な未来・過去未来の語幹（tener → "tendr"）
@@ -179,7 +179,7 @@ spanish_wordquiz_app/
 
 - 綴り変化：-car/-gar/-zar（busqué）、-ger/-gir（cojo）、-guir（sigo）、子音 + -cer（venzo）、-uir の y 挿入（construyo）、母音語幹の i → y とアクセント（leyó, leíste, leído）
 - -ir 語幹変化動詞の弱い変化：点過去3人称（durmió）、接続法現在の nosotros/vosotros（pidamos）、現在分詞（sintiendo）
-- 接続法現在：直説法現在の yo を上書きしていて、それが -o で終わる場合は、その形から語幹を作る（tengo → tenga）
+- 接続法現在：直説法現在の yo を上書きしていて、それが -o で終わる場合は、その形から語幹を作る（tengo → tenga）。ただし接続法現在を `irregular` で指定している動詞（oler など）は、指定していない人称を通常の規則で作る
 - 接続法過去：点過去の3人称複数から作る（tuvieron → tuviera）
 - 命令法：肯定の tú は直説法現在の3人称単数、vosotros は不定詞の r を d に替えた形、ほかの人称は接続法現在の形
 - 命令法（否定）は "no" を含まない形（hables）を返し、"no" は画面側で表示する
@@ -189,7 +189,7 @@ spanish_wordquiz_app/
 
 - `group: "regular"` の動詞には、不規則用の項目（`stemChange` や `irregular` など）を書かない。綴り変化（-car/-gar/-zar、-ger/-gir、-guir、子音 + -cer/-cir）だけの動詞は regular として扱う
 - 次の動詞はエンジンが自動では正しく扱えないので、regular にせず、必要な形を `irregular` などで指定する（`verbs.test.ts` でチェックしている）
-  - アクセントが移動する -iar/-uar 動詞（enviar → envío、continuar → continúo）。cambiar・estudiar のような通常の -iar 動詞は regular でよい
+  - アクセントが移動する動詞（enviar → envío、continuar → continúo、reunir → reúno）→ `stemChange: "i>í"` または `"u>ú"` を指定する。cambiar・estudiar のような通常の -iar 動詞は regular でよい
   - 母音 + -cer/-cir（conocer は `zc: true`）、-uir（construir）、-eer（leer）
   - 過去分詞が不規則な動詞（abrir → abierto、escribir → escrito、romper → roto）→ `pastParticiple` を指定する
   - 語幹変化動詞（pensar、contar など）→ `group: "stem"` と `stemChange` を指定する
@@ -263,9 +263,10 @@ spanish_wordquiz_app/
 
 ## 9. 変更履歴
 
-| 日付       | 内容                                                                                   |
-| ---------- | -------------------------------------------------------------------------------------- |
-| 2026-09-26 | 初版。例文穴埋め（自作問題の追加を含む）と総合テストを機能に追加                       |
-| 2026-09-26 | フェーズ1完了。技術スタックを React 19・oxlint・Tailwind v4 に更新（D10）              |
-| 2026-09-26 | フェーズ2完了。活用エンジンを実装し、動詞データに zc・preteriteStem・futureStem を追加 |
-| 2026-09-26 | フェーズ3：規則動詞を226語追加し、全250語に。動詞を追加するときのルールを追記          |
+| 日付       | 内容                                                                                                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-26 | 初版。例文穴埋め（自作問題の追加を含む）と総合テストを機能に追加                                                                         |
+| 2026-09-26 | フェーズ1完了。技術スタックを React 19・oxlint・Tailwind v4 に更新（D10）                                                                |
+| 2026-09-26 | フェーズ2完了。活用エンジンを実装し、動詞データに zc・preteriteStem・futureStem を追加                                                   |
+| 2026-09-26 | フェーズ3：規則動詞を226語追加し、全250語に。動詞を追加するときのルールを追記                                                            |
+| 2026-09-26 | 語幹変化、アクセント移動、zc、-uir/-eer、過去分詞が不規則な動詞、その他の不規則動詞を118語追加（全368語）。stemChange に i>í・u>ú を追加 |
