@@ -1,0 +1,1910 @@
+[
+  {
+    "id": "b001",
+    "sentence": "Yo [[hablo]] español todos los días.",
+    "translation_ja": "私は毎日スペイン語を話す。",
+    "hint": "hablar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b002",
+    "sentence": "¿Dónde [[vives]]?",
+    "translation_ja": "君はどこに住んでいるの？",
+    "hint": "vivir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b003",
+    "sentence": "Mi hermana [[come]] mucha fruta.",
+    "translation_ja": "姉（妹）は果物をたくさん食べる。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b004",
+    "sentence": "Nosotros [[estudiamos]] en la biblioteca.",
+    "translation_ja": "私たちは図書館で勉強する。",
+    "hint": "estudiar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b005",
+    "sentence": "¿[[Tienes]] hermanos?",
+    "translation_ja": "君には兄弟がいるの？",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b006",
+    "sentence": "Yo no [[sé]] la respuesta.",
+    "translation_ja": "私は答えがわからない。",
+    "hint": "saber",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b007",
+    "sentence": "¿A qué hora [[sales]] de casa?",
+    "translation_ja": "君は何時に家を出るの？",
+    "hint": "salir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b008",
+    "sentence": "Yo [[hago]] los deberes por la tarde.",
+    "translation_ja": "私は午後に宿題をする。",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b009",
+    "sentence": "Ellos [[quieren]] viajar a México.",
+    "translation_ja": "彼らはメキシコへ旅行したい。",
+    "hint": "querer",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b010",
+    "sentence": "¿[[Puedes]] ayudarme?",
+    "translation_ja": "手伝ってくれる？",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b011",
+    "sentence": "Yo [[pongo]] la mesa antes de cenar.",
+    "translation_ja": "私は夕食の前に食卓の準備をする。",
+    "hint": "poner",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A2"
+  },
+  {
+    "id": "b012",
+    "sentence": "Mi padre [[duerme]] ocho horas.",
+    "translation_ja": "父は8時間眠る。",
+    "hint": "dormir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b013",
+    "sentence": "¿Qué [[piensas]] de esta película?",
+    "translation_ja": "この映画をどう思う？",
+    "hint": "pensar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b014",
+    "sentence": "El concierto [[empieza]] a las nueve.",
+    "translation_ja": "コンサートは9時に始まる。",
+    "hint": "empezar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b015",
+    "sentence": "Yo [[conozco]] a tu hermano.",
+    "translation_ja": "私は君のお兄さん（弟）を知っている。",
+    "hint": "conocer",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b016",
+    "sentence": "¿Cuánto [[cuesta]] este libro?",
+    "translation_ja": "この本はいくらですか？",
+    "hint": "costar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b017",
+    "sentence": "Nosotros [[vamos]] al cine los sábados.",
+    "translation_ja": "私たちは土曜日に映画に行く。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b018",
+    "sentence": "Yo [[soy]] estudiante de medicina.",
+    "translation_ja": "私は医学生です。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b019",
+    "sentence": "¿Cómo [[estás]]?",
+    "translation_ja": "元気？",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b020",
+    "sentence": "Los niños [[juegan]] en el parque.",
+    "translation_ja": "子どもたちは公園で遊ぶ。",
+    "hint": "jugar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b021",
+    "sentence": "Yo siempre [[pido]] café con leche.",
+    "translation_ja": "私はいつもカフェオレを頼む。",
+    "hint": "pedir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b022",
+    "sentence": "Yo [[vengo]] a clase en autobús.",
+    "translation_ja": "私はバスで授業に来る。",
+    "hint": "venir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b023",
+    "sentence": "¿Me [[dices]] tu nombre?",
+    "translation_ja": "名前を教えてくれる？",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b024",
+    "sentence": "Vosotros [[bebéis]] demasiado café.",
+    "translation_ja": "君たちはコーヒーを飲みすぎだ。",
+    "hint": "beber",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b025",
+    "sentence": "Yo no [[encuentro]] mis llaves.",
+    "translation_ja": "鍵が見つからない。",
+    "hint": "encontrar",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b026",
+    "sentence": "Yo [[veo]] la televisión por la noche.",
+    "translation_ja": "私は夜テレビを見る。",
+    "hint": "ver",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b027",
+    "sentence": "¿[[Entiendes]] la pregunta?",
+    "translation_ja": "質問がわかる？",
+    "hint": "entender",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b028",
+    "sentence": "Mi abuela [[vuelve]] a casa a las seis.",
+    "translation_ja": "祖母は6時に家に帰る。",
+    "hint": "volver",
+    "kind": "conjugation",
+    "tags": ["present"],
+    "level": "A1"
+  },
+  {
+    "id": "b029",
+    "sentence": "Ayer yo [[comí]] paella.",
+    "translation_ja": "昨日私はパエリアを食べた。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A1"
+  },
+  {
+    "id": "b030",
+    "sentence": "El año pasado [[viajamos]] a Perú.",
+    "translation_ja": "去年私たちはペルーへ旅行した。",
+    "hint": "viajar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b031",
+    "sentence": "Anoche ellos [[llegaron]] muy tarde.",
+    "translation_ja": "昨夜彼らはとても遅く着いた。",
+    "hint": "llegar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b032",
+    "sentence": "Yo [[llegué]] a las ocho.",
+    "translation_ja": "私は8時に着いた。",
+    "hint": "llegar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b033",
+    "sentence": "¿Qué [[hiciste]] el fin de semana?",
+    "translation_ja": "週末は何をしたの？",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b034",
+    "sentence": "Ayer [[fui]] al médico.",
+    "translation_ja": "昨日医者に行った。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b035",
+    "sentence": "Mi madre [[compró]] un vestido nuevo.",
+    "translation_ja": "母は新しいワンピースを買った。",
+    "hint": "comprar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b036",
+    "sentence": "Nosotros [[tuvimos]] un examen difícil.",
+    "translation_ja": "私たちは難しい試験を受けた。",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b037",
+    "sentence": "¿Dónde [[estuviste]] ayer?",
+    "translation_ja": "昨日どこにいたの？",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b038",
+    "sentence": "Ella me [[dijo]] la verdad.",
+    "translation_ja": "彼女は私に本当のことを言った。",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b039",
+    "sentence": "Yo [[busqué]] el libro por todas partes.",
+    "translation_ja": "私はその本をあちこち探した。",
+    "hint": "buscar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b040",
+    "sentence": "Mis amigos [[vinieron]] a mi fiesta.",
+    "translation_ja": "友だちが私のパーティーに来た。",
+    "hint": "venir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b041",
+    "sentence": "El niño [[durmió]] toda la tarde.",
+    "translation_ja": "その子は午後ずっと眠った。",
+    "hint": "dormir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b042",
+    "sentence": "Ella [[pidió]] una ensalada.",
+    "translation_ja": "彼女はサラダを注文した。",
+    "hint": "pedir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b043",
+    "sentence": "Yo no [[pude]] dormir anoche.",
+    "translation_ja": "昨夜は眠れなかった。",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b044",
+    "sentence": "¿[[Leíste]] el periódico hoy?",
+    "translation_ja": "今日新聞を読んだ？",
+    "hint": "leer",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b045",
+    "sentence": "Ayer [[empecé]] un curso nuevo.",
+    "translation_ja": "昨日新しい講座を始めた。",
+    "hint": "empezar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b046",
+    "sentence": "Colón [[llegó]] a América en 1492.",
+    "translation_ja": "コロンブスは1492年にアメリカに着いた。",
+    "hint": "llegar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b047",
+    "sentence": "Ellos no [[quisieron]] venir.",
+    "translation_ja": "彼らは来ようとしなかった。",
+    "hint": "querer",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "B1"
+  },
+  {
+    "id": "b048",
+    "sentence": "¿Quién [[puso]] las llaves aquí?",
+    "translation_ja": "誰がここに鍵を置いたの？",
+    "hint": "poner",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b049",
+    "sentence": "Mis padres se [[conocieron]] en Madrid.",
+    "translation_ja": "両親はマドリードで知り合った。",
+    "hint": "conocer",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b050",
+    "sentence": "Yo [[vi]] esa película el lunes.",
+    "translation_ja": "私は月曜日にその映画を見た。",
+    "hint": "ver",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b051",
+    "sentence": "Ayer [[trabajé]] diez horas.",
+    "translation_ja": "昨日は10時間働いた。",
+    "hint": "trabajar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b052",
+    "sentence": "Nosotros [[fuimos]] a la playa en agosto.",
+    "translation_ja": "私たちは8月に海へ行った。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b053",
+    "sentence": "El partido [[terminó]] a las diez.",
+    "translation_ja": "試合は10時に終わった。",
+    "hint": "terminar",
+    "kind": "conjugation",
+    "tags": ["preterite"],
+    "level": "A2"
+  },
+  {
+    "id": "b054",
+    "sentence": "Cuando era niño, [[jugaba]] al fútbol.",
+    "translation_ja": "子どものころ、サッカーをしていた。",
+    "hint": "jugar",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b055",
+    "sentence": "Antes [[vivíamos]] en un pueblo pequeño.",
+    "translation_ja": "以前私たちは小さな村に住んでいた。",
+    "hint": "vivir",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b056",
+    "sentence": "Mi abuelo [[era]] muy alto.",
+    "translation_ja": "祖父はとても背が高かった。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b057",
+    "sentence": "Todos los veranos [[íbamos]] a la playa.",
+    "translation_ja": "毎年夏には海へ行っていた。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b058",
+    "sentence": "Cuando llegué, ella [[estaba]] en la cocina.",
+    "translation_ja": "私が着いたとき、彼女は台所にいた。",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b059",
+    "sentence": "De niña, yo [[tenía]] un perro.",
+    "translation_ja": "子どものころ私は犬を飼っていた。",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b060",
+    "sentence": "Mientras yo [[leía]], mi hermano cocinaba.",
+    "translation_ja": "私が読書している間、兄は料理していた。",
+    "hint": "leer",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b061",
+    "sentence": "[[Hacía]] mucho frío esa noche.",
+    "translation_ja": "その夜はとても寒かった。",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b062",
+    "sentence": "Los niños [[veían]] dibujos animados.",
+    "translation_ja": "子どもたちはアニメを見ていた。",
+    "hint": "ver",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b063",
+    "sentence": "Antes yo [[trabajaba]] en un banco.",
+    "translation_ja": "以前私は銀行で働いていた。",
+    "hint": "trabajar",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b064",
+    "sentence": "¿Qué [[querías]] ser de pequeño?",
+    "translation_ja": "小さいころ何になりたかったの？",
+    "hint": "querer",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b065",
+    "sentence": "Mi madre siempre [[cantaba]] en la cocina.",
+    "translation_ja": "母はいつも台所で歌っていた。",
+    "hint": "cantar",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b066",
+    "sentence": "[[Eran]] las diez de la noche.",
+    "translation_ja": "夜の10時だった。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b067",
+    "sentence": "Nosotros [[comíamos]] juntos los domingos.",
+    "translation_ja": "私たちは日曜日に一緒に食事をしていた。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["imperfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b068",
+    "sentence": "Mañana [[iré]] al supermercado.",
+    "translation_ja": "明日スーパーに行くつもりだ。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b069",
+    "sentence": "El próximo año [[viviremos]] en Barcelona.",
+    "translation_ja": "来年私たちはバルセロナに住むだろう。",
+    "hint": "vivir",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b070",
+    "sentence": "¿Qué [[harás]] este verano?",
+    "translation_ja": "今年の夏は何をするの？",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b071",
+    "sentence": "Te [[llamaré]] esta noche.",
+    "translation_ja": "今夜電話するね。",
+    "hint": "llamar",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b072",
+    "sentence": "Ellos [[tendrán]] tiempo el lunes.",
+    "translation_ja": "彼らは月曜日に時間があるだろう。",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b073",
+    "sentence": "Yo te lo [[diré]] mañana.",
+    "translation_ja": "明日それを君に言うよ。",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b074",
+    "sentence": "¿[[Podrás]] venir a la fiesta?",
+    "translation_ja": "パーティーに来られる？",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b075",
+    "sentence": "Mañana [[saldremos]] temprano.",
+    "translation_ja": "明日は早く出発する。",
+    "hint": "salir",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b076",
+    "sentence": "Algún día [[sabré]] hablar bien español.",
+    "translation_ja": "いつかスペイン語を上手に話せるようになるだろう。",
+    "hint": "saber",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "B1"
+  },
+  {
+    "id": "b077",
+    "sentence": "La tienda [[estará]] cerrada el domingo.",
+    "translation_ja": "店は日曜日には閉まっているだろう。",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["future"],
+    "level": "A2"
+  },
+  {
+    "id": "b078",
+    "sentence": "Me [[gustaría]] un café, por favor.",
+    "translation_ja": "コーヒーをいただきたいのですが。",
+    "hint": "gustar",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "A2"
+  },
+  {
+    "id": "b079",
+    "sentence": "¿[[Podrías]] cerrar la ventana?",
+    "translation_ja": "窓を閉めてもらえますか？",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "A2"
+  },
+  {
+    "id": "b080",
+    "sentence": "Yo en tu lugar no lo [[haría]].",
+    "translation_ja": "私が君の立場ならそうしないだろう。",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "B1"
+  },
+  {
+    "id": "b081",
+    "sentence": "[[Sería]] mejor salir temprano.",
+    "translation_ja": "早く出たほうがいいだろう。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "B1"
+  },
+  {
+    "id": "b082",
+    "sentence": "Con más dinero, [[viajaríamos]] más.",
+    "translation_ja": "もっとお金があれば、私たちはもっと旅行するだろう。",
+    "hint": "viajar",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "B1"
+  },
+  {
+    "id": "b083",
+    "sentence": "¿Qué [[dirías]] tú?",
+    "translation_ja": "君なら何と言う？",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "B1"
+  },
+  {
+    "id": "b084",
+    "sentence": "Dijo que [[vendría]] a las ocho.",
+    "translation_ja": "彼は8時に来ると言った。",
+    "hint": "venir",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "B1"
+  },
+  {
+    "id": "b085",
+    "sentence": "[[Deberías]] descansar más.",
+    "translation_ja": "もっと休むべきだよ。",
+    "hint": "deber",
+    "kind": "conjugation",
+    "tags": ["conditional"],
+    "level": "A2"
+  },
+  {
+    "id": "b086",
+    "sentence": "Hoy [[he comido]] demasiado.",
+    "translation_ja": "今日は食べすぎた。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b087",
+    "sentence": "¿[[Has estado]] en España?",
+    "translation_ja": "スペインに行ったことある？",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b088",
+    "sentence": "Todavía no [[hemos terminado]].",
+    "translation_ja": "私たちはまだ終わっていない。",
+    "hint": "terminar",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b089",
+    "sentence": "Ella [[ha escrito]] una novela.",
+    "translation_ja": "彼女は小説を書いた。",
+    "hint": "escribir",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b090",
+    "sentence": "¿Qué [[has hecho]] hoy?",
+    "translation_ja": "今日は何をした？",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b091",
+    "sentence": "Nunca [[he visto]] la nieve.",
+    "translation_ja": "私は雪を見たことがない。",
+    "hint": "ver",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b092",
+    "sentence": "Mis padres [[han vuelto]] de Italia.",
+    "translation_ja": "両親がイタリアから帰ってきた。",
+    "hint": "volver",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b093",
+    "sentence": "¿Quién [[ha abierto]] la ventana?",
+    "translation_ja": "誰が窓を開けたの？",
+    "hint": "abrir",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b094",
+    "sentence": "Esta semana [[he trabajado]] mucho.",
+    "translation_ja": "今週はたくさん働いた。",
+    "hint": "trabajar",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b095",
+    "sentence": "Ya te [[hemos dicho]] que no.",
+    "translation_ja": "もうだめだと君に言ったよ。",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["presentPerfect"],
+    "level": "A2"
+  },
+  {
+    "id": "b096",
+    "sentence": "Cuando llegué, el tren ya [[había salido]].",
+    "translation_ja": "私が着いたとき、電車はもう出ていた。",
+    "hint": "salir",
+    "kind": "conjugation",
+    "tags": ["pluperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b097",
+    "sentence": "Nunca [[había comido]] algo tan rico.",
+    "translation_ja": "こんなにおいしい物は食べたことがなかった。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["pluperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b098",
+    "sentence": "Cuando llamé, ellos ya [[habían cenado]].",
+    "translation_ja": "私が電話したとき、彼らはもう夕食を済ませていた。",
+    "hint": "cenar",
+    "kind": "conjugation",
+    "tags": ["pluperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b099",
+    "sentence": "Ella me dijo que [[había perdido]] las llaves.",
+    "translation_ja": "彼女は鍵をなくしたと私に言った。",
+    "hint": "perder",
+    "kind": "conjugation",
+    "tags": ["pluperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b100",
+    "sentence": "Espero que [[tengas]] un buen viaje.",
+    "translation_ja": "良い旅になりますように。",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b101",
+    "sentence": "Quiero que [[vengas]] conmigo.",
+    "translation_ja": "君に一緒に来てほしい。",
+    "hint": "venir",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b102",
+    "sentence": "Es importante que [[estudiéis]] cada día.",
+    "translation_ja": "君たちが毎日勉強することが大切だ。",
+    "hint": "estudiar",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b103",
+    "sentence": "Ojalá [[haga]] buen tiempo mañana.",
+    "translation_ja": "明日いい天気になりますように。",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b104",
+    "sentence": "No creo que él [[sea]] el culpable.",
+    "translation_ja": "彼が犯人だとは思わない。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b105",
+    "sentence": "Te llamo cuando [[llegue]] a casa.",
+    "translation_ja": "家に着いたら電話するね。",
+    "hint": "llegar",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b106",
+    "sentence": "Mis padres quieren que yo [[vuelva]] temprano.",
+    "translation_ja": "両親は私に早く帰ってきてほしいと思っている。",
+    "hint": "volver",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b107",
+    "sentence": "Es necesario que [[hables]] con el profesor.",
+    "translation_ja": "君は先生と話す必要がある。",
+    "hint": "hablar",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b108",
+    "sentence": "Dudo que [[puedan]] terminar hoy.",
+    "translation_ja": "彼らが今日終えられるとは思えない。",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b109",
+    "sentence": "Me alegro de que [[estés]] bien.",
+    "translation_ja": "君が元気でうれしい。",
+    "hint": "estar",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b110",
+    "sentence": "Busco a alguien que [[sepa]] cocinar.",
+    "translation_ja": "料理ができる人を探している。",
+    "hint": "saber",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b111",
+    "sentence": "Cuando [[seas]] mayor, lo entenderás.",
+    "translation_ja": "大人になったらわかるよ。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["subjunctivePresent"],
+    "level": "B1"
+  },
+  {
+    "id": "b112",
+    "sentence": "Si [[tuviera]] dinero, compraría una casa.",
+    "translation_ja": "お金があれば家を買うのに。",
+    "hint": "tener",
+    "kind": "conjugation",
+    "tags": ["subjunctiveImperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b113",
+    "sentence": "Si yo [[fuera]] tú, estudiaría más.",
+    "translation_ja": "私が君ならもっと勉強するのに。",
+    "hint": "ser",
+    "kind": "conjugation",
+    "tags": ["subjunctiveImperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b114",
+    "sentence": "Me pidió que [[cerrara]] la puerta.",
+    "translation_ja": "彼は私にドアを閉めるよう頼んだ。",
+    "hint": "cerrar",
+    "kind": "conjugation",
+    "tags": ["subjunctiveImperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b115",
+    "sentence": "Si [[pudiéramos]], viajaríamos más.",
+    "translation_ja": "できるなら、私たちはもっと旅行するのに。",
+    "hint": "poder",
+    "kind": "conjugation",
+    "tags": ["subjunctiveImperfect"],
+    "level": "B1"
+  },
+  {
+    "id": "b116",
+    "sentence": "[[Abre]] la ventana, por favor.",
+    "translation_ja": "窓を開けて。",
+    "hint": "abrir",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b117",
+    "sentence": "[[Ven]] aquí.",
+    "translation_ja": "こっちに来て。",
+    "hint": "venir",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b118",
+    "sentence": "[[Haz]] los deberes ahora.",
+    "translation_ja": "今すぐ宿題をしなさい。",
+    "hint": "hacer",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b119",
+    "sentence": "[[Escuchad]] con atención.",
+    "translation_ja": "君たち、よく聞いて。",
+    "hint": "escuchar",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b120",
+    "sentence": "[[Pon]] la leche en la nevera.",
+    "translation_ja": "牛乳を冷蔵庫に入れて。",
+    "hint": "poner",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b121",
+    "sentence": "Por favor, [[hable]] más despacio.",
+    "translation_ja": "もっとゆっくり話してください。",
+    "hint": "hablar",
+    "kind": "conjugation",
+    "tags": ["imperativeAffirmative"],
+    "level": "A2"
+  },
+  {
+    "id": "b122",
+    "sentence": "No [[toques]] eso.",
+    "translation_ja": "それに触らないで。",
+    "hint": "tocar",
+    "kind": "conjugation",
+    "tags": ["imperativeNegative"],
+    "level": "A2"
+  },
+  {
+    "id": "b123",
+    "sentence": "No [[digas]] nada.",
+    "translation_ja": "何も言わないで。",
+    "hint": "decir",
+    "kind": "conjugation",
+    "tags": ["imperativeNegative"],
+    "level": "A2"
+  },
+  {
+    "id": "b124",
+    "sentence": "No [[vayas]] solo.",
+    "translation_ja": "一人で行かないで。",
+    "hint": "ir",
+    "kind": "conjugation",
+    "tags": ["imperativeNegative"],
+    "level": "A2"
+  },
+  {
+    "id": "b125",
+    "sentence": "No [[comáis]] tan rápido.",
+    "translation_ja": "君たち、そんなに急いで食べないで。",
+    "hint": "comer",
+    "kind": "conjugation",
+    "tags": ["imperativeNegative"],
+    "level": "A2"
+  },
+  {
+    "id": "b126",
+    "sentence": "Me gusta mucho el [[chocolate]].",
+    "translation_ja": "チョコレートが大好きだ。",
+    "hint": "チョコレート",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b127",
+    "sentence": "Bebo un vaso de [[agua]] cada mañana.",
+    "translation_ja": "毎朝コップ1杯の水を飲む。",
+    "hint": "水",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b128",
+    "sentence": "Para desayunar como [[pan]] con tomate.",
+    "translation_ja": "朝食にトマトを塗ったパンを食べる。",
+    "hint": "パン",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b129",
+    "sentence": "¿Me trae la [[cuenta]], por favor?",
+    "translation_ja": "お会計をお願いします。",
+    "hint": "勘定",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b130",
+    "sentence": "La [[manzana]] es roja.",
+    "translation_ja": "そのりんごは赤い。",
+    "hint": "りんご",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b131",
+    "sentence": "No como [[carne]]; soy vegetariano.",
+    "translation_ja": "肉は食べません。菜食主義者です。",
+    "hint": "肉",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A2"
+  },
+  {
+    "id": "b132",
+    "sentence": "Pon [[sal]] en la sopa.",
+    "translation_ja": "スープに塩を入れて。",
+    "hint": "塩",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b133",
+    "sentence": "El [[desayuno]] es a las ocho.",
+    "translation_ja": "朝食は8時だ。",
+    "hint": "朝食",
+    "kind": "vocab",
+    "tags": ["food"],
+    "level": "A1"
+  },
+  {
+    "id": "b134",
+    "sentence": "Mi [[madre]] se llama Ana.",
+    "translation_ja": "母の名前はアナです。",
+    "hint": "母",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b135",
+    "sentence": "Mi [[hermano]] tiene diez años.",
+    "translation_ja": "弟は10歳だ。",
+    "hint": "兄、弟",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b136",
+    "sentence": "Mi [[abuela]] vive en el campo.",
+    "translation_ja": "祖母は田舎に住んでいる。",
+    "hint": "祖母",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b137",
+    "sentence": "El [[bebé]] está durmiendo.",
+    "translation_ja": "赤ちゃんは眠っている。",
+    "hint": "赤ちゃん",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b138",
+    "sentence": "Mi [[amigo]] Pedro es de Chile.",
+    "translation_ja": "友だちのペドロはチリ出身だ。",
+    "hint": "友だち（男）",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b139",
+    "sentence": "¿Cuál es tu [[nombre]]?",
+    "translation_ja": "君の名前は？",
+    "hint": "名前",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b140",
+    "sentence": "Mañana es mi [[cumpleaños]].",
+    "translation_ja": "明日は私の誕生日だ。",
+    "hint": "誕生日",
+    "kind": "vocab",
+    "tags": ["family"],
+    "level": "A1"
+  },
+  {
+    "id": "b141",
+    "sentence": "Me duele la [[cabeza]].",
+    "translation_ja": "頭が痛い。",
+    "hint": "頭",
+    "kind": "vocab",
+    "tags": ["body"],
+    "level": "A1"
+  },
+  {
+    "id": "b142",
+    "sentence": "Me duele el [[estómago]].",
+    "translation_ja": "おなかが痛い。",
+    "hint": "胃、おなか",
+    "kind": "vocab",
+    "tags": ["body"],
+    "level": "A2"
+  },
+  {
+    "id": "b143",
+    "sentence": "Tengo [[fiebre]] y me duele la garganta.",
+    "translation_ja": "熱があって喉が痛い。",
+    "hint": "熱（体温）",
+    "kind": "vocab",
+    "tags": ["body"],
+    "level": "A2"
+  },
+  {
+    "id": "b144",
+    "sentence": "Necesito ir al [[médico]].",
+    "translation_ja": "医者に行かなければならない。",
+    "hint": "医者",
+    "kind": "vocab",
+    "tags": ["body"],
+    "level": "A1"
+  },
+  {
+    "id": "b145",
+    "sentence": "Me corté el [[dedo]] con un cuchillo.",
+    "translation_ja": "ナイフで指を切った。",
+    "hint": "指",
+    "kind": "vocab",
+    "tags": ["body"],
+    "level": "A2"
+  },
+  {
+    "id": "b146",
+    "sentence": "Vivo en un [[piso]] pequeño.",
+    "translation_ja": "私は小さなマンションに住んでいる。",
+    "hint": "マンション",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b147",
+    "sentence": "Cierra la [[puerta]], por favor.",
+    "translation_ja": "ドアを閉めて。",
+    "hint": "ドア",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b148",
+    "sentence": "Las llaves están en la [[mesa]].",
+    "translation_ja": "鍵はテーブルの上にある。",
+    "hint": "テーブル",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b149",
+    "sentence": "Mi [[habitación]] tiene una ventana grande.",
+    "translation_ja": "私の部屋には大きな窓がある。",
+    "hint": "部屋",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b150",
+    "sentence": "Estoy en la [[cocina]] preparando la cena.",
+    "translation_ja": "台所で夕食を作っている。",
+    "hint": "台所",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b151",
+    "sentence": "El [[baño]] está al final del pasillo.",
+    "translation_ja": "トイレは廊下の突き当たりにある。",
+    "hint": "浴室、トイレ",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b152",
+    "sentence": "No tengo [[dinero]] para el taxi.",
+    "translation_ja": "タクシー代がない。",
+    "hint": "お金",
+    "kind": "vocab",
+    "tags": ["house"],
+    "level": "A1"
+  },
+  {
+    "id": "b153",
+    "sentence": "Hay una [[farmacia]] en la esquina.",
+    "translation_ja": "角に薬局がある。",
+    "hint": "薬局",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b154",
+    "sentence": "Vamos al [[cine]] esta noche.",
+    "translation_ja": "今夜映画館に行こう。",
+    "hint": "映画館",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b155",
+    "sentence": "El [[museo]] abre a las diez.",
+    "translation_ja": "美術館は10時に開く。",
+    "hint": "美術館",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b156",
+    "sentence": "Mi casa está en esta [[calle]].",
+    "translation_ja": "私の家はこの通りにある。",
+    "hint": "通り",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b157",
+    "sentence": "Compro fruta en el [[mercado]].",
+    "translation_ja": "市場で果物を買う。",
+    "hint": "市場",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b158",
+    "sentence": "Saco dinero del [[banco]].",
+    "translation_ja": "銀行でお金を下ろす。",
+    "hint": "銀行",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b159",
+    "sentence": "Los niños juegan en el [[parque]].",
+    "translation_ja": "子どもたちは公園で遊ぶ。",
+    "hint": "公園",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A1"
+  },
+  {
+    "id": "b160",
+    "sentence": "Espera, el [[semáforo]] está en rojo.",
+    "translation_ja": "待って、信号が赤だ。",
+    "hint": "信号",
+    "kind": "vocab",
+    "tags": ["city"],
+    "level": "A2"
+  },
+  {
+    "id": "b161",
+    "sentence": "El [[tren]] sale a las siete.",
+    "translation_ja": "電車は7時に出る。",
+    "hint": "電車",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b162",
+    "sentence": "¿Dónde está la [[estación]]?",
+    "translation_ja": "駅はどこですか？",
+    "hint": "駅",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b163",
+    "sentence": "Voy al trabajo en [[bicicleta]].",
+    "translation_ja": "自転車で通勤している。",
+    "hint": "自転車",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b164",
+    "sentence": "No olvides el [[pasaporte]].",
+    "translation_ja": "パスポートを忘れないで。",
+    "hint": "パスポート",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b165",
+    "sentence": "Compré un [[billete]] de ida y vuelta.",
+    "translation_ja": "往復切符を買った。",
+    "hint": "切符",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b166",
+    "sentence": "El [[avión]] llega a Madrid a las doce.",
+    "translation_ja": "飛行機は12時にマドリードに着く。",
+    "hint": "飛行機",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b167",
+    "sentence": "La [[salida]] está a la izquierda.",
+    "translation_ja": "出口は左にある。",
+    "hint": "出口",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b168",
+    "sentence": "Mi [[maleta]] es muy pesada.",
+    "translation_ja": "私のスーツケースはとても重い。",
+    "hint": "スーツケース",
+    "kind": "vocab",
+    "tags": ["travel"],
+    "level": "A1"
+  },
+  {
+    "id": "b169",
+    "sentence": "Hoy tengo un [[examen]] de matemáticas.",
+    "translation_ja": "今日は数学の試験がある。",
+    "hint": "試験",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b170",
+    "sentence": "El [[profesor]] explica la lección.",
+    "translation_ja": "先生が課の説明をする。",
+    "hint": "先生",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b171",
+    "sentence": "Escribo en mi [[cuaderno]].",
+    "translation_ja": "ノートに書く。",
+    "hint": "ノート",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b172",
+    "sentence": "¿Tienes un [[bolígrafo]]?",
+    "translation_ja": "ボールペン持ってる？",
+    "hint": "ボールペン",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b173",
+    "sentence": "Trabajo en una [[empresa]] japonesa.",
+    "translation_ja": "日本の会社で働いている。",
+    "hint": "会社",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b174",
+    "sentence": "Tengo una [[reunión]] a las tres.",
+    "translation_ja": "3時に会議がある。",
+    "hint": "会議",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A2"
+  },
+  {
+    "id": "b175",
+    "sentence": "No entiendo esta [[palabra]].",
+    "translation_ja": "この単語がわからない。",
+    "hint": "単語",
+    "kind": "vocab",
+    "tags": ["school_work"],
+    "level": "A1"
+  },
+  {
+    "id": "b176",
+    "sentence": "Hoy es [[lunes]].",
+    "translation_ja": "今日は月曜日だ。",
+    "hint": "月曜日",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b177",
+    "sentence": "Mi cumpleaños es en [[mayo]].",
+    "translation_ja": "私の誕生日は5月だ。",
+    "hint": "5月",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b178",
+    "sentence": "En [[invierno]] hace frío.",
+    "translation_ja": "冬は寒い。",
+    "hint": "冬",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b179",
+    "sentence": "Nos vemos el [[fin de semana]].",
+    "translation_ja": "週末に会おう。",
+    "hint": "週末",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b180",
+    "sentence": "Estudio español por la [[mañana]].",
+    "translation_ja": "私は午前中にスペイン語を勉強する。",
+    "hint": "朝、午前",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b181",
+    "sentence": "Espera un [[minuto]], por favor.",
+    "translation_ja": "ちょっと待ってください。",
+    "hint": "分",
+    "kind": "vocab",
+    "tags": ["time"],
+    "level": "A1"
+  },
+  {
+    "id": "b182",
+    "sentence": "Hoy hace mucho [[calor]].",
+    "translation_ja": "今日はとても暑い。",
+    "hint": "暑さ",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b183",
+    "sentence": "Hoy hace [[sol]].",
+    "translation_ja": "今日は晴れている。",
+    "hint": "太陽",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b184",
+    "sentence": "Me gusta nadar en el [[mar]].",
+    "translation_ja": "海で泳ぐのが好きだ。",
+    "hint": "海",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b185",
+    "sentence": "Mi [[perro]] se llama Toby.",
+    "translation_ja": "私の犬の名前はトビーだ。",
+    "hint": "犬",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b186",
+    "sentence": "Hay un [[árbol]] enorme en el jardín.",
+    "translation_ja": "庭に大きな木がある。",
+    "hint": "木",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b187",
+    "sentence": "Hoy hace mucho [[viento]].",
+    "translation_ja": "今日は風が強い。",
+    "hint": "風",
+    "kind": "vocab",
+    "tags": ["nature"],
+    "level": "A1"
+  },
+  {
+    "id": "b188",
+    "sentence": "Me pongo el [[abrigo]] porque hace frío.",
+    "translation_ja": "寒いのでコートを着る。",
+    "hint": "コート",
+    "kind": "vocab",
+    "tags": ["clothes"],
+    "level": "A1"
+  },
+  {
+    "id": "b189",
+    "sentence": "Esta [[camisa]] es muy bonita.",
+    "translation_ja": "このシャツはとてもきれいだ。",
+    "hint": "シャツ",
+    "kind": "vocab",
+    "tags": ["clothes"],
+    "level": "A1"
+  },
+  {
+    "id": "b190",
+    "sentence": "¿Qué [[talla]] usas?",
+    "translation_ja": "サイズはいくつ？",
+    "hint": "（服の）サイズ",
+    "kind": "vocab",
+    "tags": ["clothes"],
+    "level": "A2"
+  },
+  {
+    "id": "b191",
+    "sentence": "Juego al [[fútbol]] los domingos.",
+    "translation_ja": "日曜日にサッカーをする。",
+    "hint": "サッカー",
+    "kind": "vocab",
+    "tags": ["hobbies"],
+    "level": "A1"
+  },
+  {
+    "id": "b192",
+    "sentence": "Me encanta la [[música]] clásica.",
+    "translation_ja": "クラシック音楽が大好きだ。",
+    "hint": "音楽",
+    "kind": "vocab",
+    "tags": ["hobbies"],
+    "level": "A1"
+  },
+  {
+    "id": "b193",
+    "sentence": "Vamos a una [[fiesta]] el sábado.",
+    "translation_ja": "土曜日にパーティーに行く。",
+    "hint": "パーティー",
+    "kind": "vocab",
+    "tags": ["hobbies"],
+    "level": "A1"
+  },
+  {
+    "id": "b194",
+    "sentence": "Leo el [[periódico]] cada mañana.",
+    "translation_ja": "毎朝新聞を読む。",
+    "hint": "新聞",
+    "kind": "vocab",
+    "tags": ["hobbies"],
+    "level": "A1"
+  },
+  {
+    "id": "b195",
+    "sentence": "Este coche es muy [[caro]].",
+    "translation_ja": "この車はとても高い。",
+    "hint": "（値段が）高い",
+    "kind": "vocab",
+    "tags": ["adjectives"],
+    "level": "A1"
+  },
+  {
+    "id": "b196",
+    "sentence": "El examen fue muy [[difícil]].",
+    "translation_ja": "試験はとても難しかった。",
+    "hint": "難しい",
+    "kind": "vocab",
+    "tags": ["adjectives"],
+    "level": "A1"
+  },
+  {
+    "id": "b197",
+    "sentence": "Mi hermano es muy [[alto]].",
+    "translation_ja": "兄はとても背が高い。",
+    "hint": "背が高い",
+    "kind": "vocab",
+    "tags": ["adjectives"],
+    "level": "A1"
+  },
+  {
+    "id": "b198",
+    "sentence": "Este restaurante es [[barato]].",
+    "translation_ja": "このレストランは安い。",
+    "hint": "安い",
+    "kind": "vocab",
+    "tags": ["adjectives"],
+    "level": "A1"
+  },
+  {
+    "id": "b199",
+    "sentence": "El café está muy [[caliente]].",
+    "translation_ja": "コーヒーがとても熱い。",
+    "hint": "熱い",
+    "kind": "vocab",
+    "tags": ["adjectives"],
+    "level": "A1"
+  },
+  {
+    "id": "b200",
+    "sentence": "Hoy estoy muy [[cansado]].",
+    "translation_ja": "今日はとても疲れている。",
+    "hint": "疲れた",
+    "kind": "vocab",
+    "tags": ["feelings"],
+    "level": "A1"
+  },
+  {
+    "id": "b201",
+    "sentence": "Mi vecino es muy [[amable]].",
+    "translation_ja": "隣人はとても親切だ。",
+    "hint": "親切な",
+    "kind": "vocab",
+    "tags": ["feelings"],
+    "level": "A1"
+  },
+  {
+    "id": "b202",
+    "sentence": "Tengo mucha [[hambre]].",
+    "translation_ja": "とてもおなかがすいている。",
+    "hint": "空腹",
+    "kind": "vocab",
+    "tags": ["feelings"],
+    "level": "A1"
+  },
+  {
+    "id": "b203",
+    "sentence": "Tengo [[miedo]] de los perros.",
+    "translation_ja": "犬が怖い。",
+    "hint": "恐怖",
+    "kind": "vocab",
+    "tags": ["feelings"],
+    "level": "A2"
+  },
+  {
+    "id": "b204",
+    "sentence": "Mi coche es [[rojo]].",
+    "translation_ja": "私の車は赤い。",
+    "hint": "赤い",
+    "kind": "vocab",
+    "tags": ["colors"],
+    "level": "A1"
+  },
+  {
+    "id": "b205",
+    "sentence": "El cielo es [[azul]].",
+    "translation_ja": "空は青い。",
+    "hint": "青い",
+    "kind": "vocab",
+    "tags": ["colors"],
+    "level": "A1"
+  },
+  {
+    "id": "b206",
+    "sentence": "Vivo [[cerca]] de la estación.",
+    "translation_ja": "駅の近くに住んでいる。",
+    "hint": "近くに",
+    "kind": "vocab",
+    "tags": ["function"],
+    "level": "A1"
+  },
+  {
+    "id": "b207",
+    "sentence": "[[Siempre]] desayuno a las siete.",
+    "translation_ja": "いつも7時に朝食をとる。",
+    "hint": "いつも",
+    "kind": "vocab",
+    "tags": ["function"],
+    "level": "A1"
+  },
+  {
+    "id": "b208",
+    "sentence": "¿[[Dónde]] está el baño?",
+    "translation_ja": "トイレはどこですか？",
+    "hint": "どこ",
+    "kind": "vocab",
+    "tags": ["function"],
+    "level": "A1"
+  },
+  {
+    "id": "b209",
+    "sentence": "Voy a la playa [[con]] mis amigos.",
+    "translation_ja": "友だちと海に行く。",
+    "hint": "〜と一緒に",
+    "kind": "vocab",
+    "tags": ["function"],
+    "level": "A1"
+  },
+  {
+    "id": "b210",
+    "sentence": "Estudio español [[porque]] me gusta.",
+    "translation_ja": "好きだからスペイン語を勉強している。",
+    "hint": "なぜなら",
+    "kind": "vocab",
+    "tags": ["function"],
+    "level": "A1"
+  },
+  {
+    "id": "b211",
+    "sentence": "Muchas [[gracias]] por tu ayuda.",
+    "translation_ja": "手伝ってくれてどうもありがとう。",
+    "hint": "ありがとう",
+    "kind": "vocab",
+    "tags": ["greetings"],
+    "level": "A1"
+  },
+  {
+    "id": "b212",
+    "sentence": "[[Buenos días]], ¿cómo está usted?",
+    "translation_ja": "おはようございます、お元気ですか？",
+    "hint": "おはようございます",
+    "kind": "vocab",
+    "tags": ["greetings"],
+    "level": "A1"
+  }
+]

@@ -3,13 +3,18 @@ import { Link, useNavigate } from 'react-router'
 import { VERBS } from '../data/verbs'
 import { VOCAB } from '../data/vocab'
 import { getDueItems } from '../db/progress'
-import { conjQuestionsFromItems, vocabWordsFromItems } from '../domain/srs/review'
+import {
+  clozeQuestionsFromItems,
+  conjQuestionsFromItems,
+  vocabWordsFromItems,
+} from '../domain/srs/review'
 import { makeVocabQuestion } from '../domain/vocab/quiz'
+import { allClozeItems, useClozeStore } from '../store/clozeStore'
 import { useConjugationStore } from '../store/conjugationStore'
 import { useVocabStore, vocabDirection, vocabQuizPath } from '../store/vocabStore'
 import { shuffle } from '../utils/random'
 
-type Due = { conj: string[]; vocab: string[] }
+type Due = { conj: string[]; vocab: string[]; cloze: string[] }
 
 export function Review() {
   const [due, setDue] = useState<Due | null>(null)
@@ -18,12 +23,19 @@ export function Review() {
   const startConj = useConjugationStore((s) => s.start)
   const vocabSetup = useVocabStore((s) => s.setup)
   const startVocab = useVocabStore((s) => s.start)
+  const clozeSetup = useClozeStore((s) => s.setup)
+  const clozeCustom = useClozeStore((s) => s.customItems)
+  const startCloze = useClozeStore((s) => s.start)
   const navigate = useNavigate()
 
   useEffect(() => {
-    Promise.all([getDueItems('conj'), getDueItems('vocab')])
-      .then(([conj, vocab]) =>
-        setDue({ conj: conj.map((r) => r.itemId), vocab: vocab.map((r) => r.itemId) }),
+    Promise.all([getDueItems('conj'), getDueItems('vocab'), getDueItems('cloze')])
+      .then(([conj, vocab, cloze]) =>
+        setDue({
+          conj: conj.map((r) => r.itemId),
+          vocab: vocab.map((r) => r.itemId),
+          cloze: cloze.map((r) => r.itemId),
+        }),
       )
       .catch((e) => {
         console.error(e)
@@ -47,7 +59,13 @@ export function Review() {
     navigate(vocabQuizPath(vocabSetup.mode))
   }
 
-  const nothingDue = due.conj.length === 0 && due.vocab.length === 0
+  const reviewCloze = () => {
+    const items = allClozeItems(clozeCustom)
+    startCloze(shuffle(clozeQuestionsFromItems(due.cloze.slice(0, clozeSetup.count), items)))
+    navigate('/cloze/quiz')
+  }
+
+  const nothingDue = due.conj.length + due.vocab.length + due.cloze.length === 0
 
   return (
     <div className="grid gap-6">
@@ -68,6 +86,12 @@ export function Review() {
         count={due.vocab.length}
         onStart={reviewVocab}
         settingsPath="/vocab"
+      />
+      <ReviewCard
+        title="例文穴埋め"
+        count={due.cloze.length}
+        onStart={reviewCloze}
+        settingsPath="/cloze"
       />
 
       {nothingDue && (

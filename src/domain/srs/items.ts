@@ -1,3 +1,4 @@
+import type { ClozeItem } from '../cloze/types'
 import type { ConjugationQuestion } from '../quiz/generator'
 import type { VocabWord } from '../vocab/types'
 
@@ -12,6 +13,16 @@ export function conjItemId(q: Pick<ConjugationQuestion, 'id'>): string {
 /** 語彙は出題の向きに関係なく単語ごとに記録する：vocab:food:agua */
 export function vocabItemId(word: Pick<VocabWord, 'id'>): string {
   return `vocab:${word.id}`
+}
+
+/** 穴埋めは問題ごとに記録する：cloze:b001 */
+export function clozeItemId(item: Pick<ClozeItem, 'id'>): string {
+  return `cloze:${item.id}`
+}
+
+/** cloze:b001 → b001（問題の id） */
+export function parseClozeItemId(itemId: string): string | null {
+  return itemId.startsWith('cloze:') ? itemId.slice('cloze:'.length) : null
 }
 
 /** conj:hablar:present:0 → { infinitive, tense, person } */

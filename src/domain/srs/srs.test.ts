@@ -1,9 +1,10 @@
 import { describe, expect, it } from 'vitest'
+import { BUILTIN_CLOZE } from '../../data/cloze'
 import { VERBS } from '../../data/verbs'
 import { VOCAB } from '../../data/vocab'
 import { seededRng } from '../../utils/random'
 import { conjItemId, parseConjItemId, parseVocabItemId, vocabItemId } from './items'
-import { conjQuestionsFromItems, vocabWordsFromItems } from './review'
+import { clozeQuestionsFromItems, conjQuestionsFromItems, vocabWordsFromItems } from './review'
 import { prioritize } from './select'
 import { DAY, RELEARN_DELAY, qualityOf, review, type SrsState } from './sm2'
 
@@ -73,6 +74,9 @@ describe('復習の問題を作る', () => {
 
     const words = vocabWordsFromItems(['vocab:food:agua', 'vocab:food:nothing'], VOCAB)
     expect(words.map((w) => w.es)).toEqual(['agua'])
+
+    const cloze = clozeQuestionsFromItems(['cloze:b001', 'cloze:deleted'], BUILTIN_CLOZE)
+    expect(cloze.map((q) => q.answer)).toEqual(['hablo'])
   })
 })
 

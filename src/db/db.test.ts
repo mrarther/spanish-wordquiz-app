@@ -1,6 +1,7 @@
 import 'fake-indexeddb/auto'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { DAY, RELEARN_DELAY } from '../domain/srs/sm2'
+import { deleteCustomCloze, listCustomCloze, putCustomCloze } from './cloze'
 import { AppDB } from './db'
 import { getDueItems, getProgressMap, recordAnswer } from './progress'
 import { loadSetting, saveSetting } from './settings'
@@ -65,5 +66,33 @@ describe('設定', () => {
     expect(await loadSetting('x', db)).toBeUndefined()
     await saveSetting('x', { count: 20 }, db)
     expect(await loadSetting('x', db)).toEqual({ count: 20 })
+  })
+})
+
+describe('自作の穴埋め問題', () => {
+  it('追加・上書き・削除でき、新しく更新した順に並ぶ', async () => {
+    const base = {
+      translation_ja: '訳',
+      kind: 'vocab' as const,
+      tags: [],
+      level: 'A1' as const,
+      source: 'custom' as const,
+    }
+    await putCustomCloze(
+      [
+        { ...base, id: 'a', sentence: '[[uno]]', updatedAt: 1 },
+        { ...base, id: 'b', sentence: '[[dos]]', updatedAt: 2 },
+      ],
+      db,
+    )
+    await putCustomCloze([{ ...base, id: 'a', sentence: '[[tres]]', updatedAt: 3 }], db)
+    let list = await listCustomCloze(db)
+    expect(list.map((i) => [i.id, i.sentence])).toEqual([
+      ['a', '[[tres]]'],
+      ['b', '[[dos]]'],
+    ])
+    await deleteCustomCloze('a', db)
+    list = await listCustomCloze(db)
+    expect(list.map((i) => i.id)).toEqual(['b'])
   })
 })

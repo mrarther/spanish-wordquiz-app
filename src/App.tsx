@@ -1,4 +1,8 @@
 import { createBrowserRouter, Link, Outlet, RouterProvider } from 'react-router'
+import { ClozeManager } from './routes/ClozeManager'
+import { ClozeQuiz } from './routes/ClozeQuiz'
+import { ClozeResult } from './routes/ClozeResult'
+import { ClozeSetup } from './routes/ClozeSetup'
 import { ConjugationQuiz } from './routes/ConjugationQuiz'
 import { ConjugationResult } from './routes/ConjugationResult'
 import { ConjugationSetup } from './routes/ConjugationSetup'
@@ -32,6 +36,10 @@ const router = createBrowserRouter([
       { path: '/vocab/cards', element: <Flashcards /> },
       { path: '/vocab/quiz', element: <VocabQuiz /> },
       { path: '/vocab/result', element: <VocabResult /> },
+      { path: '/cloze', element: <ClozeSetup /> },
+      { path: '/cloze/quiz', element: <ClozeQuiz /> },
+      { path: '/cloze/result', element: <ClozeResult /> },
+      { path: '/cloze/manage', element: <ClozeManager /> },
       { path: '/review', element: <Review /> },
     ],
   },

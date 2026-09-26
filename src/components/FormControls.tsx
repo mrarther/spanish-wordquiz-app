@@ -30,7 +30,7 @@ export function Chip({
   )
 }
 
-export function Radio<T extends string | number>({
+export function Radio<T extends string | number | boolean>({
   value,
   onChange,
   options,
@@ -43,7 +43,7 @@ export function Radio<T extends string | number>({
     <div className="flex flex-wrap gap-2">
       {options.map((o) => (
         <Chip
-          key={o.value}
+          key={String(o.value)}
           checked={o.value === value}
           onChange={() => onChange(o.value)}
           label={o.label}

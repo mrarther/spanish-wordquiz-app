@@ -1,11 +1,13 @@
 import { VOCAB_CATEGORIES } from '../data/vocab'
 import { loadSetting, saveSetting } from '../db/settings'
 import { TENSES } from '../domain/conjugation/types'
+import { useClozeStore, type ClozeSetup } from './clozeStore'
 import { useConjugationStore, type ConjugationSetup } from './conjugationStore'
 import { useVocabStore, type VocabSetup } from './vocabStore'
 
 const CONJUGATION_KEY = 'conjugationSetup'
 const VOCAB_KEY = 'vocabSetup'
+const CLOZE_KEY = 'clozeSetup'
 
 /**
  * 保存しておいた設定を読み込み、以後の設定の変更を保存する。
@@ -13,9 +15,11 @@ const VOCAB_KEY = 'vocabSetup'
  */
 export async function initPersistence() {
   try {
-    const [conj, vocab] = await Promise.all([
+    const [conj, vocab, cloze] = await Promise.all([
       loadSetting<Partial<ConjugationSetup>>(CONJUGATION_KEY),
       loadSetting<Partial<VocabSetup>>(VOCAB_KEY),
+      loadSetting<Partial<ClozeSetup>>(CLOZE_KEY),
+      useClozeStore.getState().loadCustom(),
     ])
     if (conj) {
       useConjugationStore.setState((s) => {
@@ -30,6 +34,7 @@ export async function initPersistence() {
         return { setup: { ...setup, categories: setup.categories.filter((c) => ids.has(c)) } }
       })
     }
+    if (cloze) useClozeStore.setState((s) => ({ setup: { ...s.setup, ...cloze } }))
   } catch (e) {
     console.error('設定の読み込みに失敗しました', e)
   }
@@ -41,5 +46,8 @@ export async function initPersistence() {
   })
   useVocabStore.subscribe((s, prev) => {
     if (s.setup !== prev.setup) save(VOCAB_KEY, s.setup)
+  })
+  useClozeStore.subscribe((s, prev) => {
+    if (s.setup !== prev.setup) save(CLOZE_KEY, s.setup)
   })
 }

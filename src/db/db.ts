@@ -1,4 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
+import type { ClozeItem } from '../domain/cloze/types'
 import type { ItemType } from '../domain/srs/items'
 import type { SrsState } from '../domain/srs/sm2'
 
@@ -19,15 +20,18 @@ export class AppDB extends Dexie {
   progress!: EntityTable<ProgressRow, 'itemId'>
   attempts!: EntityTable<AttemptRow, 'id'>
   settings!: EntityTable<SettingRow, 'key'>
+  customCloze!: EntityTable<ClozeItem, 'id'>
 
   constructor(name = 'spanish-wordquiz') {
     super(name)
-    // テーブルを追加・変更するときは version を上げる（customCloze・testResults はフェーズ7・8で追加する）
+    // テーブルを追加・変更するときは version を上げる。前の version の定義は消さずに残す
     this.version(1).stores({
       progress: 'itemId, type, [type+due]',
       attempts: '++id, itemId, type, at',
       settings: 'key',
     })
+    // 自作の穴埋め問題
+    this.version(2).stores({ customCloze: 'id, updatedAt' })
   }
 }
 
