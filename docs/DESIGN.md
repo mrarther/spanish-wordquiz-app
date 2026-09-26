@@ -54,6 +54,10 @@
   - 4択
 - 動詞グループで絞り込める：規則、語幹変化（e→ie、o→ue、e→i）、不規則
 
+- 4択の誤答は、同じ時制の別の人称 → 同じ法の別の時制 → 全時制の順に、紛らわしいものから選ぶ
+- 命令法（否定）は画面に "no" を表示し、入力は "no" があってもなくても正解にする
+- 結果画面では、間違えた問題とアクセントの注意を一覧表示し、「間違えた問題をもう一度」で解き直せる
+
 ### 4.2 語彙学習
 
 - 単語カード：西→日、日→西
@@ -114,7 +118,7 @@ spanish_wordquiz_app/
 │   ├── main.tsx / App.tsx
 │   ├── routes/             # 画面単位
 │   │   ├── Home.tsx
-│   │   ├── ConjugationSetup.tsx / ConjugationQuiz.tsx
+│   │   ├── ConjugationSetup.tsx / ConjugationQuiz.tsx / ConjugationResult.tsx
 │   │   ├── VocabSetup.tsx / VocabQuiz.tsx / Flashcards.tsx
 │   │   ├── ClozeSetup.tsx / ClozeQuiz.tsx
 │   │   ├── ClozeManager.tsx   # 自作問題の一覧・追加・編集・削除、インポート／エクスポート
@@ -147,8 +151,8 @@ spanish_wordquiz_app/
 │   │   ├── vocab/*.json        # カテゴリ別の単語
 │   │   └── cloze.json          # 最初から入っている穴埋め問題
 │   ├── db/                     # Dexie スキーマ、リポジトリ
-│   ├── store/                  # Zustand
-│   └── utils/
+│   ├── store/                  # Zustand（conjugationStore：クイズの設定・出題・回答）
+│   └── utils/                  # random.ts（シャッフル、シード付き乱数）
 ├── tests/e2e/
 ├── index.html, vite.config.ts（Vitest 設定を含む）, tsconfig.json, .oxlintrc.json, .prettierrc.json
 └── README.md
@@ -270,3 +274,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | フェーズ2完了。活用エンジンを実装し、動詞データに zc・preteriteStem・futureStem を追加                                                   |
 | 2026-09-26 | フェーズ3：規則動詞を226語追加し、全250語に。動詞を追加するときのルールを追記                                                            |
 | 2026-09-26 | 語幹変化、アクセント移動、zc、-uir/-eer、過去分詞が不規則な動詞、その他の不規則動詞を118語追加（全368語）。stemChange に i>í・u>ú を追加 |
+| 2026-09-26 | フェーズ4完了。活用クイズの画面（設定・出題・結果）、回答判定、出題生成、4択の誤答生成を実装                                             |
