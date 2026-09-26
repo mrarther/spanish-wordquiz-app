@@ -1,0 +1,279 @@
+{
+  "id": "house",
+  "label_ja": "家・日用品",
+  "words": [
+    {
+      "es": "casa",
+      "ja": "家",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "piso",
+      "ja": "マンション、階",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "apartamento",
+      "ja": "アパート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "habitación",
+      "ja": "部屋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "dormitorio",
+      "ja": "寝室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "cocina",
+      "ja": "台所",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "baño",
+      "ja": "浴室、トイレ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "salón",
+      "ja": "居間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "comedor",
+      "ja": "ダイニング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "jardín",
+      "ja": "庭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "puerta",
+      "ja": "ドア",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "ventana",
+      "ja": "窓",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "pared",
+      "ja": "壁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "suelo",
+      "ja": "床",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "techo",
+      "ja": "天井、屋根",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "escalera",
+      "ja": "階段",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "llave",
+      "ja": "鍵",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "mesa",
+      "ja": "テーブル、机",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "silla",
+      "ja": "いす",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "cama",
+      "ja": "ベッド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "sofá",
+      "ja": "ソファ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "armario",
+      "ja": "たんす、戸棚",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "lámpara",
+      "ja": "ランプ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "espejo",
+      "ja": "鏡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ducha",
+      "ja": "シャワー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "nevera",
+      "ja": "冷蔵庫",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "horno",
+      "ja": "オーブン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "lavadora",
+      "ja": "洗濯機",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "televisión",
+      "ja": "テレビ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "ordenador",
+      "ja": "パソコン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "teléfono",
+      "ja": "電話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "móvil",
+      "ja": "携帯電話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "libro",
+      "ja": "本",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "reloj",
+      "ja": "時計",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "foto",
+      "ja": "写真",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "regalo",
+      "ja": "プレゼント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "basura",
+      "ja": "ごみ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "dinero",
+      "ja": "お金",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "bolsa",
+      "ja": "袋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    }
+  ]
+}

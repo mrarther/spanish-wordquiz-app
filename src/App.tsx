@@ -2,7 +2,11 @@ import { createBrowserRouter, Link, Outlet, RouterProvider } from 'react-router'
 import { ConjugationQuiz } from './routes/ConjugationQuiz'
 import { ConjugationResult } from './routes/ConjugationResult'
 import { ConjugationSetup } from './routes/ConjugationSetup'
+import { Flashcards } from './routes/Flashcards'
 import { Home } from './routes/Home'
+import { VocabQuiz } from './routes/VocabQuiz'
+import { VocabResult } from './routes/VocabResult'
+import { VocabSetup } from './routes/VocabSetup'
 
 function Layout() {
   return (
@@ -23,6 +27,10 @@ const router = createBrowserRouter([
       { path: '/conjugation', element: <ConjugationSetup /> },
       { path: '/conjugation/quiz', element: <ConjugationQuiz /> },
       { path: '/conjugation/result', element: <ConjugationResult /> },
+      { path: '/vocab', element: <VocabSetup /> },
+      { path: '/vocab/cards', element: <Flashcards /> },
+      { path: '/vocab/quiz', element: <VocabQuiz /> },
+      { path: '/vocab/result', element: <VocabResult /> },
     ],
   },
 ])

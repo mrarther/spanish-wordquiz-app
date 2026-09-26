@@ -1,0 +1,211 @@
+{
+  "id": "numbers",
+  "label_ja": "数",
+  "words": [
+    {
+      "es": "cero",
+      "ja": "0",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "uno",
+      "ja": "1",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "dos",
+      "ja": "2",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "tres",
+      "ja": "3",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "cuatro",
+      "ja": "4",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "cinco",
+      "ja": "5",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "seis",
+      "ja": "6",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "siete",
+      "ja": "7",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "ocho",
+      "ja": "8",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "nueve",
+      "ja": "9",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "diez",
+      "ja": "10",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "once",
+      "ja": "11",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "doce",
+      "ja": "12",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "trece",
+      "ja": "13",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "catorce",
+      "ja": "14",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "quince",
+      "ja": "15",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "dieciséis",
+      "ja": "16",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "diecisiete",
+      "ja": "17",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "dieciocho",
+      "ja": "18",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "diecinueve",
+      "ja": "19",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "veinte",
+      "ja": "20",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "treinta",
+      "ja": "30",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "cuarenta",
+      "ja": "40",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "cincuenta",
+      "ja": "50",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "sesenta",
+      "ja": "60",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "setenta",
+      "ja": "70",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "ochenta",
+      "ja": "80",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "noventa",
+      "ja": "90",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "cien",
+      "ja": "100",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "mil",
+      "ja": "1000",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "millón",
+      "ja": "100万",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "primero",
+      "ja": "1番目の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "tercero",
+      "ja": "3番目の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "mitad",
+      "ja": "半分",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    }
+  ]
+}

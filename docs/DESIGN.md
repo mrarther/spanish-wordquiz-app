@@ -60,9 +60,13 @@
 
 ### 4.2 語彙学習
 
-- 単語カード：西→日、日→西
-- クイズ：4択、スペル入力
-- カテゴリ別（食べ物、旅行、仕事など）、CEFR レベル別（A1〜B2）で絞り込める
+- 単語カード：西→日、日→西。めくって「わかった／まだ」を自己採点する（Space でめくる、← まだ、→ わかった）
+- クイズ：4択（西→日、日→西）、スペル入力（日→西）
+- カテゴリ別（17カテゴリ：挨拶、家族、食べ物、旅行、仕事など）、CEFR レベル別で絞り込める。最初のデータは A1〜A2 の約600語
+- 名詞は冠詞付きで表示する（el libro、la casa、男女同形は el/la estudiante、el agua のような例外は `article` で指定）
+- スペル入力では、名詞の冠詞はあってもなくても正解。同じ意味の別の語（zumo と jugo など）も正解にする
+- 4択の誤答は、同じカテゴリの同じ品詞 → 同じ品詞 → すべての順に選ぶ。綴りか意味が正解と同じ語は選ばない
+- 結果画面では、間違えた単語（単語カードでは「まだ」の単語）を一覧表示し、解き直せる
 
 ### 4.3 例文穴埋め問題
 
@@ -119,14 +123,14 @@ spanish_wordquiz_app/
 │   ├── routes/             # 画面単位
 │   │   ├── Home.tsx
 │   │   ├── ConjugationSetup.tsx / ConjugationQuiz.tsx / ConjugationResult.tsx
-│   │   ├── VocabSetup.tsx / VocabQuiz.tsx / Flashcards.tsx
+│   │   ├── VocabSetup.tsx / VocabQuiz.tsx / Flashcards.tsx / VocabResult.tsx
 │   │   ├── ClozeSetup.tsx / ClozeQuiz.tsx
 │   │   ├── ClozeManager.tsx   # 自作問題の一覧・追加・編集・削除、インポート／エクスポート
 │   │   ├── TestSetup.tsx / TestRun.tsx / TestResult.tsx  # 総合テスト
 │   │   ├── Review.tsx         # SRS 復習
 │   │   ├── Stats.tsx
 │   │   └── Settings.tsx
-│   ├── components/         # QuizCard, AnswerInput, AccentKeyboard, ProgressBar ...
+│   ├── components/         # AnswerInput, AccentKeyboard, ProgressBar, FormControls, WordDetails ...
 │   ├── domain/             # 画面に依存しない純粋ロジック（テストの中心）
 │   │   ├── conjugation/
 │   │   │   ├── types.ts        # Tense, Mood, Person, VerbEntry
@@ -139,6 +143,9 @@ spanish_wordquiz_app/
 │   │   │   ├── generator.ts    # 出題生成（ランダム、SRS の重み付け）
 │   │   │   ├── distractors.ts  # 4択の誤答選択肢を作る
 │   │   │   └── answerCheck.ts  # 正規化、アクセントのゆるめ判定
+│   │   ├── vocab/
+│   │   │   ├── types.ts        # VocabEntry, VocabWord, 品詞
+│   │   │   └── quiz.ts         # 絞り込み、出題生成、冠詞、4択の誤答
 │   │   ├── cloze/
 │   │   │   ├── parse.ts        # "[[答え]]" 記法 ⇔ {before, answer, after} の変換
 │   │   │   └── validate.ts     # 自作問題の入力チェック
@@ -148,7 +155,7 @@ spanish_wordquiz_app/
 │   │   └── srs/sm2.ts
 │   ├── data/
 │   │   ├── verbs.json          # 動詞：不定詞、意味、分類、不規則形の上書き
-│   │   ├── vocab/*.json        # カテゴリ別の単語
+│   │   ├── vocab/*.json        # カテゴリ別の単語（vocab.ts で読み込む）
 │   │   └── cloze.json          # 最初から入っている穴埋め問題
 │   ├── db/                     # Dexie スキーマ、リポジトリ
 │   ├── store/                  # Zustand（conjugationStore：クイズの設定・出題・回答）
@@ -200,9 +207,25 @@ spanish_wordquiz_app/
 
 ### 6.2 語彙（`vocab/*.json`）
 
+カテゴリごとに1ファイル（`src/data/vocab/<カテゴリid>.json`）。カテゴリを追加したら `src/data/vocab.ts` の一覧にも加える（一覧の順が画面の表示順）。
+
 ```ts
-{ id: string; es: string; ja: string; pos: string; gender?: "m" | "f"; level: "A1" | "A2" | "B1" | "B2"; category: string; example?: string }
+// ファイル
+{ id: string; label_ja: string; words: VocabEntry[] }
+
+// VocabEntry（型は src/domain/vocab/types.ts）
+{
+  es: string;                  // 冠詞なし、形容詞は男性単数形（"libro", "rojo"）
+  ja: string;
+  pos: "noun" | "adj" | "adv" | "prep" | "conj" | "pron" | "interr" | "num" | "expr";
+  gender?: "m" | "f" | "mf";   // 名詞のみ。mf は男女同形。月の名前など冠詞を付けない名詞は省略
+  level: "A1" | "A2" | "B1" | "B2";
+  article?: string;            // 性と違う冠詞を使う名詞（agua → "el"）
+  example?: string;
+}
 ```
+
+- 単語の id は読み込み時に `カテゴリid:es`（例：`food:agua`）として付ける。SRS の進捗はこの id で記録するので、既存の語の `es` やファイル名は変えない
 
 ### 6.3 穴埋め問題（`cloze.json` と `customCloze`）
 
@@ -275,3 +298,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | フェーズ3：規則動詞を226語追加し、全250語に。動詞を追加するときのルールを追記                                                            |
 | 2026-09-26 | 語幹変化、アクセント移動、zc、-uir/-eer、過去分詞が不規則な動詞、その他の不規則動詞を118語追加（全368語）。stemChange に i>í・u>ú を追加 |
 | 2026-09-26 | フェーズ4完了。活用クイズの画面（設定・出題・結果）、回答判定、出題生成、4択の誤答生成を実装                                             |
+| 2026-09-26 | フェーズ5完了。語彙データ（17カテゴリ・595語）、単語カード、4択、スペル入力、結果画面を実装。語彙データの形式を確定                      |

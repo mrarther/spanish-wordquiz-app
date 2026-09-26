@@ -1,0 +1,258 @@
+{
+  "id": "school_work",
+  "label_ja": "学校・仕事",
+  "words": [
+    {
+      "es": "escuela",
+      "ja": "学校",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "colegio",
+      "ja": "（小中）学校",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "universidad",
+      "ja": "大学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "clase",
+      "ja": "授業、クラス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "profesor",
+      "ja": "先生",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "estudiante",
+      "ja": "学生",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A1"
+    },
+    {
+      "es": "alumno",
+      "ja": "生徒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "lección",
+      "ja": "課、レッスン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "examen",
+      "ja": "試験",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "pregunta",
+      "ja": "質問",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "respuesta",
+      "ja": "答え",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "ejercicio",
+      "ja": "練習問題、運動",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "tarea",
+      "ja": "宿題、作業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "cuaderno",
+      "ja": "ノート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "lápiz",
+      "ja": "鉛筆",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "bolígrafo",
+      "ja": "ボールペン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "papel",
+      "ja": "紙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "palabra",
+      "ja": "単語、言葉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "idioma",
+      "ja": "言語",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "frase",
+      "ja": "文",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "nota",
+      "ja": "成績、メモ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "trabajo",
+      "ja": "仕事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "oficina",
+      "ja": "事務所、オフィス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "empresa",
+      "ja": "会社",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "jefe",
+      "ja": "上司",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "empleado",
+      "ja": "従業員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "reunión",
+      "ja": "会議",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "sueldo",
+      "ja": "給料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "camarero",
+      "ja": "ウェイター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "cocinero",
+      "ja": "料理人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "enfermero",
+      "ja": "看護師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "abogado",
+      "ja": "弁護士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ingeniero",
+      "ja": "エンジニア",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "dependiente",
+      "ja": "店員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "problema",
+      "ja": "問題",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "idea",
+      "ja": "考え、アイデア",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    }
+  ]
+}

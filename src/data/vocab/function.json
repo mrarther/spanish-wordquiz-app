@@ -1,0 +1,372 @@
+{
+  "id": "function",
+  "label_ja": "副詞・前置詞・接続詞など",
+  "words": [
+    {
+      "es": "muy",
+      "ja": "とても",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "mucho",
+      "ja": "たくさん",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "poco",
+      "ja": "少し",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "bien",
+      "ja": "よく、元気に",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "mal",
+      "ja": "悪く",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "también",
+      "ja": "〜もまた",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "tampoco",
+      "ja": "〜もまた〜ない",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "siempre",
+      "ja": "いつも",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "nunca",
+      "ja": "決して〜ない",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "a veces",
+      "ja": "ときどき",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "ya",
+      "ja": "もう、すでに",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "todavía",
+      "ja": "まだ",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "ahora",
+      "ja": "今",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "después",
+      "ja": "後で",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "antes",
+      "ja": "前に",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "pronto",
+      "ja": "すぐに",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "tarde",
+      "ja": "遅く",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "temprano",
+      "ja": "早く",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "mañana",
+      "ja": "明日",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "aquí",
+      "ja": "ここ",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "allí",
+      "ja": "あそこ",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "cerca",
+      "ja": "近くに",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "lejos",
+      "ja": "遠くに",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "más",
+      "ja": "もっと",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "menos",
+      "ja": "より少なく",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "casi",
+      "ja": "ほとんど",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "solo",
+      "ja": "〜だけ",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "en",
+      "ja": "〜の中に、〜で",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "de",
+      "ja": "〜の、〜から",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "a",
+      "ja": "〜へ、〜に",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "con",
+      "ja": "〜と一緒に",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "sin",
+      "ja": "〜なしで",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "para",
+      "ja": "〜のために",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "por",
+      "ja": "〜によって、〜のあたりを",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "entre",
+      "ja": "〜の間に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "sobre",
+      "ja": "〜の上に、〜について",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "desde",
+      "ja": "〜から（起点）",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "hasta",
+      "ja": "〜まで",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "y",
+      "ja": "そして、〜と",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "o",
+      "ja": "または",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "pero",
+      "ja": "しかし",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "porque",
+      "ja": "なぜなら",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "si",
+      "ja": "もし",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "cuando",
+      "ja": "〜するとき",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "qué",
+      "ja": "何",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "quién",
+      "ja": "誰",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "dónde",
+      "ja": "どこ",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "cuándo",
+      "ja": "いつ",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "cómo",
+      "ja": "どのように",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "por qué",
+      "ja": "なぜ",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "cuánto",
+      "ja": "いくら、どれだけ",
+      "pos": "interr",
+      "level": "A1"
+    },
+    {
+      "es": "cuál",
+      "ja": "どれ",
+      "pos": "interr",
+      "level": "A2"
+    },
+    {
+      "es": "yo",
+      "ja": "私",
+      "pos": "pron",
+      "level": "A1"
+    },
+    {
+      "es": "tú",
+      "ja": "君",
+      "pos": "pron",
+      "level": "A1"
+    },
+    {
+      "es": "nosotros",
+      "ja": "私たち",
+      "pos": "pron",
+      "level": "A1"
+    },
+    {
+      "es": "ellos",
+      "ja": "彼ら",
+      "pos": "pron",
+      "level": "A1"
+    },
+    {
+      "es": "algo",
+      "ja": "何か",
+      "pos": "pron",
+      "level": "A2"
+    },
+    {
+      "es": "nada",
+      "ja": "何も〜ない",
+      "pos": "pron",
+      "level": "A2"
+    },
+    {
+      "es": "alguien",
+      "ja": "誰か",
+      "pos": "pron",
+      "level": "A2"
+    },
+    {
+      "es": "nadie",
+      "ja": "誰も〜ない",
+      "pos": "pron",
+      "level": "A2"
+    },
+    {
+      "es": "todo",
+      "ja": "すべて",
+      "pos": "pron",
+      "level": "A1"
+    }
+  ]
+}

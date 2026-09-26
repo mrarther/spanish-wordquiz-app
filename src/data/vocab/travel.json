@@ -1,0 +1,230 @@
+{
+  "id": "travel",
+  "label_ja": "交通・旅行",
+  "words": [
+    {
+      "es": "viaje",
+      "ja": "旅行",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "coche",
+      "ja": "車",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "autobús",
+      "ja": "バス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "tren",
+      "ja": "電車",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "avión",
+      "ja": "飛行機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "barco",
+      "ja": "船",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "bicicleta",
+      "ja": "自転車",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "metro",
+      "ja": "地下鉄",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "taxi",
+      "ja": "タクシー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "estación",
+      "ja": "駅",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "aeropuerto",
+      "ja": "空港",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "billete",
+      "ja": "切符",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "pasaporte",
+      "ja": "パスポート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "maleta",
+      "ja": "スーツケース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "hotel",
+      "ja": "ホテル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "reserva",
+      "ja": "予約",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "turista",
+      "ja": "観光客",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A1"
+    },
+    {
+      "es": "playa",
+      "ja": "浜辺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "país",
+      "ja": "国",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "mundo",
+      "ja": "世界",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "frontera",
+      "ja": "国境",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "viajero",
+      "ja": "旅行者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "equipaje",
+      "ja": "荷物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "vuelo",
+      "ja": "便、フライト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "salida",
+      "ja": "出口、出発",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "entrada",
+      "ja": "入口、入場券",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "izquierda",
+      "ja": "左",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "derecha",
+      "ja": "右",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "norte",
+      "ja": "北",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sur",
+      "ja": "南",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "este",
+      "ja": "東",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "oeste",
+      "ja": "西",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "adjectives",
+  "label_ja": "形容詞",
+  "words": [
+    {
+      "es": "grande",
+      "ja": "大きい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "pequeño",
+      "ja": "小さい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "alto",
+      "ja": "背が高い、高い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "bajo",
+      "ja": "背が低い、低い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "largo",
+      "ja": "長い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "corto",
+      "ja": "短い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "nuevo",
+      "ja": "新しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "viejo",
+      "ja": "古い、年老いた",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "joven",
+      "ja": "若い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "bueno",
+      "ja": "良い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "malo",
+      "ja": "悪い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "bonito",
+      "ja": "きれいな",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "feo",
+      "ja": "醜い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "guapo",
+      "ja": "ハンサムな、美しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "caro",
+      "ja": "（値段が）高い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "barato",
+      "ja": "安い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "fácil",
+      "ja": "簡単な",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "difícil",
+      "ja": "難しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "rápido",
+      "ja": "速い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "lento",
+      "ja": "（速度が）遅い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "fuerte",
+      "ja": "強い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "débil",
+      "ja": "弱い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "gordo",
+      "ja": "太った",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "delgado",
+      "ja": "やせた",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "rico",
+      "ja": "金持ちの、おいしい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "pobre",
+      "ja": "貧しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "limpio",
+      "ja": "清潔な",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "sucio",
+      "ja": "汚い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "lleno",
+      "ja": "いっぱいの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "vacío",
+      "ja": "空の（からの）",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "caliente",
+      "ja": "熱い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "frío",
+      "ja": "冷たい、寒い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "abierto",
+      "ja": "開いている",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "cerrado",
+      "ja": "閉まっている",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "importante",
+      "ja": "重要な",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "interesante",
+      "ja": "興味深い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "aburrido",
+      "ja": "退屈な",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "divertido",
+      "ja": "楽しい、面白い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "mismo",
+      "ja": "同じ",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "diferente",
+      "ja": "違う",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "mejor",
+      "ja": "より良い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "peor",
+      "ja": "より悪い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "próximo",
+      "ja": "次の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "último",
+      "ja": "最後の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "libre",
+      "ja": "自由な、空いている",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ocupado",
+      "ja": "忙しい、使用中の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "famoso",
+      "ja": "有名な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "peligroso",
+      "ja": "危険な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "tranquilo",
+      "ja": "静かな、落ち着いた",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "cómodo",
+      "ja": "快適な",
+      "pos": "adj",
+      "level": "A2"
+    }
+  ]
+}

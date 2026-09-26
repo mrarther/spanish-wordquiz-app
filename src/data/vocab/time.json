@@ -1,0 +1,272 @@
+{
+  "id": "time",
+  "label_ja": "時間・曜日・月",
+  "words": [
+    {
+      "es": "tiempo",
+      "ja": "時間、天気",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "hora",
+      "ja": "時間、〜時",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "minuto",
+      "ja": "分",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "segundo",
+      "ja": "秒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "día",
+      "ja": "日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "semana",
+      "ja": "週",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "mes",
+      "ja": "月（暦）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "año",
+      "ja": "年",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "mañana",
+      "ja": "朝、午前",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "tarde",
+      "ja": "午後",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "noche",
+      "ja": "夜",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "fin de semana",
+      "ja": "週末",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "fecha",
+      "ja": "日付",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "siglo",
+      "ja": "世紀",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "momento",
+      "ja": "瞬間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "hoy",
+      "ja": "今日",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "ayer",
+      "ja": "昨日",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "lunes",
+      "ja": "月曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "martes",
+      "ja": "火曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "miércoles",
+      "ja": "水曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "jueves",
+      "ja": "木曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "viernes",
+      "ja": "金曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "sábado",
+      "ja": "土曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "domingo",
+      "ja": "日曜日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "enero",
+      "ja": "1月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "febrero",
+      "ja": "2月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "marzo",
+      "ja": "3月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "abril",
+      "ja": "4月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "mayo",
+      "ja": "5月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "junio",
+      "ja": "6月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "julio",
+      "ja": "7月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "agosto",
+      "ja": "8月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "septiembre",
+      "ja": "9月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "octubre",
+      "ja": "10月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "noviembre",
+      "ja": "11月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "diciembre",
+      "ja": "12月",
+      "pos": "noun",
+      "level": "A1"
+    },
+    {
+      "es": "primavera",
+      "ja": "春",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "verano",
+      "ja": "夏",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "otoño",
+      "ja": "秋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "invierno",
+      "ja": "冬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    }
+  ]
+}

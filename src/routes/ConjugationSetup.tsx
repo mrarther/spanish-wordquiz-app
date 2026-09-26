@@ -1,9 +1,11 @@
-import { useMemo, type ReactNode } from 'react'
+import { useMemo } from 'react'
 import { useNavigate } from 'react-router'
+import { Chip, Radio, Section } from '../components/FormControls'
 import { VERBS } from '../data/verbs'
 import { TENSES, type Mood, type Tense, type VerbEntry } from '../domain/conjugation/types'
 import { buildConjugationPool, generateConjugationQuiz } from '../domain/quiz/generator'
 import { useConjugationStore, type ConjugationSetup as Setup } from '../store/conjugationStore'
+import { toggle } from '../utils/list'
 
 const MOODS: { mood: Mood; label: string }[] = [
   { mood: 'indicative', label: '直説法' },
@@ -18,10 +20,6 @@ const GROUPS: { group: VerbEntry['group']; label: string }[] = [
 ]
 
 const COUNTS = [10, 20, 30]
-
-function toggle<T>(list: T[], item: T): T[] {
-  return list.includes(item) ? list.filter((x) => x !== item) : [...list, item]
-}
 
 export function ConjugationSetup() {
   const setup = useConjugationStore((s) => s.setup)
@@ -135,59 +133,6 @@ export function ConjugationSetup() {
           スタート
         </button>
       </div>
-    </div>
-  )
-}
-
-function Section({ title, children }: { title: string; children: ReactNode }) {
-  return (
-    <section className="grid gap-2">
-      <h3 className="font-semibold">{title}</h3>
-      {children}
-    </section>
-  )
-}
-
-function Chip({
-  checked,
-  onChange,
-  label,
-}: {
-  checked: boolean
-  onChange: () => void
-  label: string
-}) {
-  return (
-    <label
-      className={`cursor-pointer rounded-full border px-3 py-1 text-sm select-none ${
-        checked ? 'border-blue-600 bg-blue-600 text-white' : 'border-gray-300 bg-white'
-      }`}
-    >
-      <input type="checkbox" className="sr-only" checked={checked} onChange={onChange} />
-      {label}
-    </label>
-  )
-}
-
-function Radio<T extends string | number>({
-  value,
-  onChange,
-  options,
-}: {
-  value: T
-  onChange: (value: T) => void
-  options: { value: T; label: string }[]
-}) {
-  return (
-    <div className="flex flex-wrap gap-2">
-      {options.map((o) => (
-        <Chip
-          key={o.value}
-          checked={o.value === value}
-          onChange={() => onChange(o.value)}
-          label={o.label}
-        />
-      ))}
     </div>
   )
 }

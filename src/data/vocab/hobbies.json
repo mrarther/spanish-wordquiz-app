@@ -1,0 +1,181 @@
+{
+  "id": "hobbies",
+  "label_ja": "趣味・スポーツ",
+  "words": [
+    {
+      "es": "deporte",
+      "ja": "スポーツ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "fútbol",
+      "ja": "サッカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "baloncesto",
+      "ja": "バスケットボール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "tenis",
+      "ja": "テニス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "música",
+      "ja": "音楽",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "canción",
+      "ja": "歌",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "película",
+      "ja": "映画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "juego",
+      "ja": "ゲーム、遊び",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "partido",
+      "ja": "試合",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "equipo",
+      "ja": "チーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pelota",
+      "ja": "ボール",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "fiesta",
+      "ja": "パーティー、祭り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "baile",
+      "ja": "ダンス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "arte",
+      "ja": "芸術",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pintura",
+      "ja": "絵画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "novela",
+      "ja": "小説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "revista",
+      "ja": "雑誌",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "periódico",
+      "ja": "新聞",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "noticia",
+      "ja": "ニュース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "concierto",
+      "ja": "コンサート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "guitarra",
+      "ja": "ギター",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "piano",
+      "ja": "ピアノ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "paseo",
+      "ja": "散歩",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "afición",
+      "ja": "趣味",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tiempo libre",
+      "ja": "自由時間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "greetings",
+  "label_ja": "挨拶・基本表現",
+  "words": [
+    {
+      "es": "hola",
+      "ja": "こんにちは（やあ）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "adiós",
+      "ja": "さようなら",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "buenos días",
+      "ja": "おはようございます",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "buenas tardes",
+      "ja": "こんにちは（午後）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "buenas noches",
+      "ja": "こんばんは、おやすみなさい",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "gracias",
+      "ja": "ありがとう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "muchas gracias",
+      "ja": "どうもありがとう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "de nada",
+      "ja": "どういたしまして",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "por favor",
+      "ja": "お願いします",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "perdón",
+      "ja": "ごめんなさい",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "lo siento",
+      "ja": "申し訳ありません",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "disculpe",
+      "ja": "すみません（呼びかけ）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "con permiso",
+      "ja": "失礼します",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "hasta luego",
+      "ja": "またね",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "hasta mañana",
+      "ja": "また明日",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "nos vemos",
+      "ja": "また会おう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "mucho gusto",
+      "ja": "はじめまして",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "encantado",
+      "ja": "よろしく（男性が言う）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "qué tal",
+      "ja": "調子はどう？",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "bienvenido",
+      "ja": "ようこそ",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "sí",
+      "ja": "はい",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "no",
+      "ja": "いいえ",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "claro",
+      "ja": "もちろん",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "vale",
+      "ja": "オーケー、了解",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "de acuerdo",
+      "ja": "賛成です、了解",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "salud",
+      "ja": "乾杯！、お大事に",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "buen provecho",
+      "ja": "召し上がれ",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "feliz cumpleaños",
+      "ja": "誕生日おめでとう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "cuidado",
+      "ja": "気をつけて",
+      "pos": "expr",
+      "level": "A2"
+    }
+  ]
+}

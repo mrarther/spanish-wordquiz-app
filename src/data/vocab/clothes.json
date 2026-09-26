@@ -1,0 +1,153 @@
+{
+  "id": "clothes",
+  "label_ja": "衣服",
+  "words": [
+    {
+      "es": "ropa",
+      "ja": "服",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "camisa",
+      "ja": "シャツ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "camiseta",
+      "ja": "Tシャツ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "pantalón",
+      "ja": "ズボン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "falda",
+      "ja": "スカート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "vestido",
+      "ja": "ドレス、ワンピース",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "chaqueta",
+      "ja": "ジャケット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "abrigo",
+      "ja": "コート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "jersey",
+      "ja": "セーター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "zapato",
+      "ja": "靴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "bota",
+      "ja": "ブーツ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "calcetín",
+      "ja": "靴下",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sombrero",
+      "ja": "（つばのある）帽子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gorra",
+      "ja": "キャップ（帽子）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "bolso",
+      "ja": "ハンドバッグ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cinturón",
+      "ja": "ベルト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "bufanda",
+      "ja": "マフラー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "guante",
+      "ja": "手袋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "traje",
+      "ja": "スーツ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "talla",
+      "ja": "（服の）サイズ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "bañador",
+      "ja": "水着",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    }
+  ]
+}

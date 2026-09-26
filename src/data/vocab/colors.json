@@ -1,0 +1,91 @@
+{
+  "id": "colors",
+  "label_ja": "色",
+  "words": [
+    {
+      "es": "color",
+      "ja": "色",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "rojo",
+      "ja": "赤い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "azul",
+      "ja": "青い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "verde",
+      "ja": "緑の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "amarillo",
+      "ja": "黄色い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "blanco",
+      "ja": "白い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "negro",
+      "ja": "黒い",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "gris",
+      "ja": "灰色の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "marrón",
+      "ja": "茶色の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "naranja",
+      "ja": "オレンジ色の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "rosa",
+      "ja": "ピンクの",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "morado",
+      "ja": "紫の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "claro",
+      "ja": "明るい（色）",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "oscuro",
+      "ja": "暗い（色）",
+      "pos": "adj",
+      "level": "A2"
+    }
+  ]
+}

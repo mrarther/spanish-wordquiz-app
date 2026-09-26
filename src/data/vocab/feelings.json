@@ -1,0 +1,163 @@
+{
+  "id": "feelings",
+  "label_ja": "感情・性格",
+  "words": [
+    {
+      "es": "contento",
+      "ja": "満足した、うれしい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "feliz",
+      "ja": "幸せな",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "triste",
+      "ja": "悲しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "cansado",
+      "ja": "疲れた",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "enfermo",
+      "ja": "病気の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "enfadado",
+      "ja": "怒った",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "nervioso",
+      "ja": "緊張した",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "preocupado",
+      "ja": "心配した",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "sorprendido",
+      "ja": "驚いた",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "simpático",
+      "ja": "感じのよい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "antipático",
+      "ja": "感じの悪い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "amable",
+      "ja": "親切な",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "inteligente",
+      "ja": "頭のよい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "tonto",
+      "ja": "ばかな",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "trabajador",
+      "ja": "働き者の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "perezoso",
+      "ja": "怠け者の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "tímido",
+      "ja": "内気な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "alegre",
+      "ja": "陽気な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "serio",
+      "ja": "まじめな",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "miedo",
+      "ja": "恐怖",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "amor",
+      "ja": "愛",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "alegría",
+      "ja": "喜び",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "sueño",
+      "ja": "眠気、夢",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "hambre",
+      "ja": "空腹",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1",
+      "article": "el"
+    },
+    {
+      "es": "sed",
+      "ja": "のどの渇き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    }
+  ]
+}
