@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { VERBS } from '../../data/verbs'
 import { VOCAB, VOCAB_CATEGORIES } from '../../data/vocab'
 import { seededRng } from '../../utils/random'
 import { checkAnswer } from '../quiz/answerCheck'
@@ -143,5 +144,48 @@ describe('vocabChoices', () => {
     const q = makeVocabQuestion(word('time:lunes'), 'ja-es', VOCAB)
     const timeNouns = VOCAB.filter((w) => w.category === 'time' && w.pos === 'noun').map(displayEs)
     for (const c of vocabChoices(q, VOCAB, seededRng(2))) expect(timeNouns).toContain(c)
+  })
+})
+
+describe('動詞カテゴリ', () => {
+  const verbs = VOCAB.filter((w) => w.category === 'verbs')
+
+  it('verbs.json のすべての動詞が、原形・意味・レベル付きで入っている', () => {
+    expect(verbs).toHaveLength(VERBS.length)
+    expect(word('verbs:hablar')).toMatchObject({
+      es: 'hablar',
+      ja: '話す',
+      pos: 'verb',
+      level: 'A1',
+    })
+    expect(VOCAB_CATEGORIES.find((c) => c.id === 'verbs')).toMatchObject({
+      label_ja: '動詞',
+      count: VERBS.length,
+    })
+  })
+
+  it('動詞の4択は、両方の向きで選択肢がすべて動詞になる', () => {
+    const verbSpanish = new Set(verbs.map((w) => w.es))
+    const verbMeanings = new Set(verbs.map((w) => w.ja))
+    const rng = seededRng(11)
+    for (const w of verbs) {
+      const esJa = vocabChoices(makeVocabQuestion(w, 'es-ja', VOCAB), VOCAB, rng)
+      expect(
+        esJa.every((c) => verbMeanings.has(c)),
+        w.es,
+      ).toBe(true)
+      const jaEs = vocabChoices(makeVocabQuestion(w, 'ja-es', VOCAB), VOCAB, rng)
+      expect(
+        jaEs.every((c) => verbSpanish.has(c)),
+        w.es,
+      ).toBe(true)
+      expect(new Set(jaEs).size).toBe(4)
+    }
+  })
+
+  it('同じ意味の動詞は、スペル入力でどちらも正解になる', () => {
+    const q = makeVocabQuestion(word('verbs:contestar'), 'ja-es', VOCAB)
+    expect(q.prompt).toBe('答える')
+    expect(checkAnswer('responder', q.accepted, 'strict').correct).toBe(true)
   })
 })

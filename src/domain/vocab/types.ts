@@ -1,10 +1,11 @@
 export type Level = 'A1' | 'A2' | 'B1' | 'B2'
 
 export type PartOfSpeech =
-  'noun' | 'adj' | 'adv' | 'prep' | 'conj' | 'pron' | 'interr' | 'num' | 'expr'
+  'noun' | 'verb' | 'adj' | 'adv' | 'prep' | 'conj' | 'pron' | 'interr' | 'num' | 'expr'
 
 export const POS_LABELS: Record<PartOfSpeech, string> = {
   noun: '名詞',
+  verb: '動詞',
   adj: '形容詞',
   adv: '副詞',
   prep: '前置詞',

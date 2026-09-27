@@ -1,3 +1,5 @@
+import type { Level } from '../vocab/types'
+
 /** 人称のインデックス：0=yo, 1=tú, 2=él/ella/usted, 3=nosotros, 4=vosotros, 5=ellos/ellas/ustedes */
 export type Person = 0 | 1 | 2 | 3 | 4 | 5
 
@@ -63,6 +65,8 @@ export type VerbEntry = {
   infinitive: string
   meaning_ja: string
   group: 'regular' | 'stem' | 'irregular'
+  /** 語彙学習の動詞カテゴリで使うレベル */
+  level: Level
   stemChange?: StemChange
   /** conocer → conozco のように a/o の前で c → zc になる */
   zc?: boolean

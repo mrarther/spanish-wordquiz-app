@@ -25,6 +25,7 @@ describe('verbs.json', () => {
     expect(v.infinitive).toMatch(/(ar|er|ir|ír)$/)
     expect(v.meaning_ja).not.toBe('')
     expect(['regular', 'stem', 'irregular']).toContain(v.group)
+    expect(['A1', 'A2', 'B1']).toContain(v.level)
     for (const [tense, forms] of Object.entries(v.irregular ?? {})) {
       expect(SIMPLE_TENSES, tense).toContain(tense)
       expect(forms.length).toBeLessThanOrEqual(6)
@@ -36,11 +37,11 @@ describe('verbs.json', () => {
   it.each(regulars.map((v) => [v.infinitive, v] as const))(
     '%s（regular）は不規則の指定を持たない',
     (_, v) => {
-      const { infinitive, meaning_ja, group, ...rest } = v
+      const { infinitive, meaning_ja, group, level, ...rest } = v
       expect(rest).toEqual({})
       // エンジンが自動で扱えない型の動詞は regular にしない
       expect(infinitive).not.toMatch(/[^gq]uir$|eer$|[aeiou]c[ei]r$|uar$/)
-      expect(meaning_ja && group).toBeTruthy()
+      expect(meaning_ja && group && level).toBeTruthy()
     },
   )
 

@@ -83,7 +83,7 @@ export function generateVocabQuiz(
 
 /**
  * 4択の選択肢（正解を含む、並びはランダム）。
- * 誤答は紛らわしい順に選ぶ：同じカテゴリの同じ品詞 → 同じ品詞 → すべて。
+ * 誤答は紛らわしい順に選ぶ：同じカテゴリの同じ品詞 → 同じ品詞 → すべて（動詞は動詞の中からだけ）。
  * 綴りか意味が正解と同じ語（naranja「オレンジ」と「オレンジ色の」など）は除く
  */
 export function vocabChoices(
@@ -108,6 +108,7 @@ export function vocabChoices(
   const samePos = all.filter((w) => w.pos === q.word.pos)
   add(samePos.filter((w) => w.category === q.word.category))
   add(samePos)
-  add([...all])
+  // 動詞の問題は選択肢を動詞だけにする（動詞は数百語あるので足りなくならない）
+  if (q.word.pos !== 'verb') add([...all])
   return shuffle([q.answer, ...wrong], rng)
 }

@@ -1,4 +1,5 @@
 import type { VocabCategoryFile, VocabWord } from '../domain/vocab/types'
+import { VERBS } from './verbs'
 import adjectives from './vocab/adjectives.json'
 import body from './vocab/body.json'
 import city from './vocab/city.json'
@@ -17,9 +18,17 @@ import schoolWork from './vocab/school_work.json'
 import time from './vocab/time.json'
 import travel from './vocab/travel.json'
 
+/** 動詞カテゴリは活用クイズと同じ verbs.json から作る（データを二重に持たない） */
+const verbs: VocabCategoryFile = {
+  id: 'verbs',
+  label_ja: '動詞',
+  words: VERBS.map((v) => ({ es: v.infinitive, ja: v.meaning_ja, pos: 'verb', level: v.level })),
+}
+
 /** 画面に表示するカテゴリの順番 */
 const FILES = [
   greetings,
+  verbs,
   family,
   body,
   food,
