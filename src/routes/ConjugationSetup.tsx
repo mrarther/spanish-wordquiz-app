@@ -46,7 +46,7 @@ export function ConjugationSetup() {
           const tenses = (Object.keys(TENSES) as Tense[]).filter((t) => TENSES[t].mood === mood)
           return (
             <fieldset key={mood} className="grid gap-1">
-              <legend className="mb-1 text-sm font-semibold text-gray-600">{label}</legend>
+              <legend className="mb-1 text-sm font-semibold text-ink-muted">{label}</legend>
               <div className="flex flex-wrap gap-2">
                 {tenses.map((t) => (
                   <Chip
@@ -127,10 +127,10 @@ export function ConjugationSetup() {
 
       <div className="grid gap-2">
         {poolSize === 0 ? (
-          <p className="text-sm text-red-600">時制と動詞の種類を1つ以上選んでください。</p>
+          <p className="text-sm text-danger">時制と動詞の種類を1つ以上選んでください。</p>
         ) : (
           poolSize < setup.count && (
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-ink-muted">
               条件に合う問題が {poolSize} 問なので、全て出題します。
             </p>
           )

@@ -9,7 +9,7 @@ export function WordDetails({ word }: { word: VocabWord }) {
         {displayEs(word)}
       </p>
       <p>{word.ja}</p>
-      <p className="text-xs text-gray-500">
+      <p className="text-xs text-ink-subtle">
         {POS_LABELS[word.pos]}・{word.level}
       </p>
     </div>

@@ -7,6 +7,7 @@ const menu = [
   { title: '例文穴埋め', description: '例文の空欄を埋める（自作問題も可）', to: '/cloze' },
   { title: '総合テスト', description: '全分野を混ぜて実力チェック', to: '/test' },
   { title: '統計', description: '正答率の推移・苦手な時制と単語・テストのスコア', to: '/stats' },
+  { title: '設定', description: '画面のテーマ（ライト・ダーク）、入力補助ボタン', to: '/settings' },
 ]
 
 export function Home() {
@@ -16,7 +17,7 @@ export function Home() {
         const body = (
           <>
             <p className="font-semibold">{item.title}</p>
-            <p className="text-sm text-gray-600">{item.description}</p>
+            <p className="text-sm text-ink-muted">{item.description}</p>
           </>
         )
         return (
@@ -24,14 +25,14 @@ export function Home() {
             {item.to ? (
               <Link
                 to={item.to}
-                className="block rounded-lg border border-gray-300 p-4 hover:border-blue-500 hover:bg-blue-50"
+                className="block rounded-lg border border-line p-4 hover:border-blue-500 hover:bg-accent-soft"
               >
                 {body}
               </Link>
             ) : (
-              <div className="rounded-lg border border-dashed border-gray-300 p-4 opacity-60">
+              <div className="rounded-lg border border-dashed border-line p-4 opacity-60">
                 {body}
-                <p className="mt-1 text-xs text-gray-500">準備中</p>
+                <p className="mt-1 text-xs text-ink-subtle">準備中</p>
               </div>
             )}
           </li>

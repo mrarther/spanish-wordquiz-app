@@ -67,17 +67,17 @@ export function ConjugationQuiz() {
     <div className="grid gap-6">
       <ProgressBar current={answers.length} total={questions.length} />
 
-      <div className="grid gap-2 rounded-lg border border-gray-300 p-4">
-        <p className="text-sm text-gray-600">{TENSES[tense].label_ja}</p>
+      <div className="grid gap-2 rounded-lg border border-line p-4">
+        <p className="text-sm text-ink-muted">{TENSES[tense].label_ja}</p>
         <p className="text-2xl font-bold" lang="es">
           {verb.infinitive}
-          <span className="ml-2 text-base font-normal text-gray-600">{verb.meaning_ja}</span>
+          <span className="ml-2 text-base font-normal text-ink-muted">{verb.meaning_ja}</span>
         </p>
         <p className="text-lg" lang="es">
           {PERSON_LABELS[person]}
         </p>
         {isCompound(tense) && (
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-ink-subtle">
             haber + 過去分詞で答えてください（例：he hablado）
           </p>
         )}
@@ -105,10 +105,10 @@ export function ConjugationQuiz() {
                 lang="es"
                 className={`rounded-md border px-3 py-3 text-lg ${
                   isAnswer
-                    ? 'border-green-600 bg-green-50'
+                    ? 'border-green-600 bg-success-soft'
                     : chosen
-                      ? 'border-red-600 bg-red-50'
-                      : 'border-gray-300 bg-white hover:bg-gray-100'
+                      ? 'border-red-600 bg-danger-soft'
+                      : 'border-line bg-surface hover:bg-surface-muted'
                 }`}
               >
                 {negative ? `no ${c}` : c}
@@ -120,13 +120,13 @@ export function ConjugationQuiz() {
 
       {result && (
         <div
-          className={`grid gap-2 rounded-lg p-4 ${result.correct ? 'bg-green-50' : 'bg-red-50'}`}
+          className={`grid gap-2 rounded-lg p-4 ${result.correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
           role="status"
         >
           <p className="font-bold">
             {result.correct ? '正解！' : '不正解'}
             {result.accentMistake && (
-              <span className="ml-2 text-sm font-normal text-amber-700">アクセント記号に注意</span>
+              <span className="ml-2 text-sm font-normal text-warning">アクセント記号に注意</span>
             )}
           </p>
           {(!result.correct || result.accentMistake) && (

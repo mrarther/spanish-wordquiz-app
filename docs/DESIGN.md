@@ -29,6 +29,7 @@
 | D11 | 穴埋めの空欄は1問につき**ちょうど1つ**                                                                                                                     | 入力欄・4択・正誤判定を1つにでき、画面も判定も単純になる。複数の空欄を練習したい場合は、問題を分けて作る                     |
 | D12 | 総合テストは分野に均等に割り振り、問題は SRS を使わずランダムに選ぶ。回答した問題は SRS に記録する                                                         | テストは今の実力を偏りなく測るためのもの。一方で、テストで間違えた問題は復習で解き直せるようにしたい                         |
 | D13 | **GitHub Pages**（public リポジトリ `mrarther/spanish-wordquiz-app`）に GitHub Actions で公開する。公開パスは `/spanish-wordquiz-app/`                     | 無料で、push するだけで公開できる。テストが通ったときだけ公開するので、壊れた版を出しにくい                                  |
+| D14 | 色は役割ごとのトークンで指定し、テーマ（ライト・ダーク・端末に合わせる）でトークンの値を切り替える                                                         | クラスごとに `dark:` を書き足すより漏れが少なく、コントラストをトークン単位で確かめられる                                    |
 
 ## 3. 技術スタック
 
@@ -141,11 +142,20 @@
   - どのグラフも「表で見る」で同じ値を表でも確認できる（ツールチップだけに頼らない）
   - 色は役割ごとに CSS 変数で定義する（`src/index.css`）。ダークモードの値はフェーズ11で追加する
 
-### 4.7 設定
+### 4.7 設定・画面の共通部分
 
-- 1回に出題する問題数
-- アクセント記号の扱い（厳密／ゆるめ）
-- ñ・á などを入力するための補助ボタン
+- 設定画面（`/settings`）
+  - 画面のテーマ：端末に合わせる（初期値）・ライト・ダーク
+  - á・é・ñ などの入力補助ボタンの表示／非表示
+  - 問題数・アクセント記号の扱い・出題形式は、それぞれのクイズの設定画面で選ぶ（クイズごとに違う値を使いたいため）
+  - 学習データはブラウザの中にだけ保存されることの説明と、自作問題のエクスポートへの案内
+- 設定は IndexedDB（`settings` の `appSettings`）に保存する。テーマは `localStorage` にも写し、`index.html` の小さなスクリプトで最初の描画の前に当てる（読み込み時のちらつきを防ぐ。正式な値は IndexedDB）
+- 画面上部に、アプリ名（ホームへ）と「復習・統計・設定」へのメニューを置く。幅が狭いとメニューは2行目に回る
+- ダークモード（D14）
+  - 色はすべて役割ごとのトークン（`bg-surface`、`text-ink-muted`、`border-line`、`text-link`、`bg-success-soft` など）で指定し、トークンの値をテーマで切り替える（`src/index.css`）。青・緑・赤の濃いボタンや枠線は両方のテーマでそのまま使う
+  - `data-theme="dark"` または、端末がダークで `data-theme="light"` でないときにダークの値を使う
+  - 文字と背景のコントラストは、両方のテーマですべて 4.5:1 以上になるように値を決めた。グラフの色（ライト `#2a78d6`、ダーク `#3987e5`）はそれぞれの背景でパレット検証済み
+- レスポンシブ：1列のレイアウト（最大幅 `max-w-xl`）で、幅 320px〜1280px のどの画面も横にはみ出さないことを E2E で確かめる
 
 ### 4.8 PWA と公開
 
@@ -176,6 +186,7 @@ spanish_wordquiz_app/
 │   │   ├── TestSetup.tsx / TestRun.tsx / TestResult.tsx  # 総合テスト
 │   │   ├── Review.tsx         # SRS 復習
 │   │   ├── Stats.tsx       # 統計
+│   │   ├── Settings.tsx    # 設定（テーマ、入力補助ボタン）
 │   │   └── Settings.tsx
 │   ├── components/         # AnswerInput, AccentKeyboard, ProgressBar, FormControls, WordDetails, ClozeSentence ...
 │   │   └── charts/         # ColumnChart, LineChart, ChartParts（Tooltip, TableView, StatTile, BarList）, scale.ts, useWidth.ts
@@ -215,7 +226,7 @@ spanish_wordquiz_app/
 │   │   ├── vocab/*.json        # カテゴリ別の単語（vocab.ts で読み込む）
 │   │   └── cloze.json          # 最初から入っている穴埋め問題（cloze.ts で読み込む）
 │   ├── db/                     # Dexie：db.ts（スキーマ）、progress.ts（回答の記録・SRS）、settings.ts、cloze.ts（自作問題）、testResults.ts
-│   ├── store/                  # Zustand：conjugationStore・vocabStore・clozeStore・testStore（設定・出題・回答）、persistence.ts（設定の保存と復元）
+│   ├── store/                  # Zustand：conjugationStore・vocabStore・clozeStore・testStore（設定・出題・回答）、persistence.ts（設定の保存と復元）、appSettingsStore（テーマ・入力補助ボタン）
 │   └── utils/                  # random.ts（シャッフル、シード付き乱数）、list.ts、time.ts
 ├── tests/e2e/                  # Playwright の E2E テスト（playwright.config.ts、インストール済みの Chrome を使う）
 ├── index.html, vite.config.ts（PWA・公開パス・ファイル分割・Vitest の設定）, playwright.config.ts, tsconfig.json, .oxlintrc.json, .prettierrc.json
@@ -331,7 +342,7 @@ spanish_wordquiz_app/
 | 8        | 総合テスト：`test/compose.ts`・`test/score.ts` とテスト、設定・実施（タイマー付き）・結果の3画面、`testResults` への保存                                         |
 | 9        | 統計画面                                                                                                                                                         |
 | 10       | PWA 化とデプロイ（GitHub Pages か Vercel）                                                                                                                       |
-| 11       | 仕上げ：Playwright の E2E、レスポンシブ対応、ダークモード                                                                                                        |
+| 11       | 仕上げ：Playwright の E2E、レスポンシブ対応、ダークモード、設定画面                                                                                              |
 
 **MVP はフェーズ1〜4**で、活用クイズだけが動く状態です。その後は、語彙 → SRS → 穴埋め → 総合テスト → 統計の順に足していきます。
 
@@ -356,6 +367,9 @@ spanish_wordquiz_app/
   - 総合テスト：3分野を混ぜて出題し、途中で正誤を表示しない。前後に移動しても答えが残る。未回答を確認して採点し、分野別の結果と一覧を表示し、結果を保存する
   - 総合テスト：制限時間が来ると自動で採点する（`page.clock` で時間を進める）
   - 総合テスト（4択）：選んだ答えと選択肢の並びが、前後に移動しても変わらない
+  - テーマ：ダーク・ライトの切り替えと再読み込み後の保持、「端末に合わせる」で端末の設定に従う
+  - 入力補助ボタンを非表示にできる
+  - レスポンシブ：幅 320・768・1280px で、全画面と出題中の画面が横にはみ出さない
   - 統計：学習記録がないときの案内。IndexedDB に書き込んだ回答履歴とテスト結果から、連続学習日数・正答率・苦手な時制と単語・テストの推移が正しく表示される
 - `npm run test:e2e` の pwa プロジェクト：本番ビルドのプレビューで、マニフェスト・オフライン対応の通知・オフラインでの再読み込みと画面移動・URL の直接指定を確認する
 - GitHub Actions：push のたびに上記の確認をすべて行い、通ったときだけ公開する
@@ -376,3 +390,4 @@ spanish_wordquiz_app/
 | 2026-09-26 | フェーズ8完了。総合テスト（範囲・形式・問題数・制限時間の設定、移動できる解答画面、時間切れの自動採点、分野別の結果、結果の保存）を実装（D12）。IndexedDB を version 3 に                               |
 | 2026-09-26 | フェーズ9完了。統計画面（数値タイル、分野別・時制別の正答率、直近14日の回答数と正答率、苦手な単語、総合テストの推移）を SVG の自作グラフで実装                                                          |
 | 2026-09-27 | フェーズ10完了。PWA 化（オフライン対応、更新の通知、アイコン）、ファイル分割、GitHub Pages への公開（GitHub Actions でテスト後に公開）を実装（D13）                                                     |
+| 2026-09-27 | フェーズ11完了。ダークモード（役割ごとの色トークン、D14）、設定画面（テーマ・入力補助ボタン）、画面上部のメニュー、レスポンシブの確認、グラフの目盛りの修正、テーマ・レスポンシブの E2E を追加          |

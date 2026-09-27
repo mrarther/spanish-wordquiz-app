@@ -23,12 +23,12 @@ export function VocabResult() {
 
   return (
     <div className="grid gap-6">
-      <div className="rounded-lg border border-gray-300 p-6 text-center">
-        <p className="text-sm text-gray-600">{cards ? 'わかった単語' : '結果'}</p>
+      <div className="rounded-lg border border-line p-6 text-center">
+        <p className="text-sm text-ink-muted">{cards ? 'わかった単語' : '結果'}</p>
         <p className="text-4xl font-bold">
           {correct} / {answers.length}
         </p>
-        <p className="text-gray-600">
+        <p className="text-ink-muted">
           {cards ? '' : '正答率 '}
           {answers.length ? Math.round((correct / answers.length) * 100) : 0}%
         </p>
@@ -41,7 +41,7 @@ export function VocabResult() {
           </h2>
           <ul className="grid gap-2">
             {mistakes.map(({ question: q, given, correct }) => (
-              <li key={q.id} className="rounded-md border border-gray-200 p-3 text-sm">
+              <li key={q.id} className="rounded-md border border-line-soft p-3 text-sm">
                 <p>
                   <span className="font-semibold" lang="es">
                     {displayEs(q.word)}
@@ -50,9 +50,9 @@ export function VocabResult() {
                   {q.word.ja}
                 </p>
                 {given && (
-                  <p className="text-gray-600">
+                  <p className="text-ink-muted">
                     あなたの答え：
-                    <span className={correct ? 'text-amber-700' : 'text-red-600'}>{given}</span>
+                    <span className={correct ? 'text-warning' : 'text-danger'}>{given}</span>
                   </p>
                 )}
               </li>
@@ -77,11 +77,11 @@ export function VocabResult() {
             await startVocabQuiz(setup)
             navigate(vocabQuizPath(setup.mode))
           }}
-          className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-blue-700 hover:bg-blue-50"
+          className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-link hover:bg-accent-soft"
         >
           同じ設定で新しい単語
         </button>
-        <Link to="/vocab" className="text-center text-sm text-blue-700 underline">
+        <Link to="/vocab" className="text-center text-sm text-link underline">
           設定を変える
         </Link>
       </div>

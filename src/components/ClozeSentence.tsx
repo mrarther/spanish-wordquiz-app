@@ -14,15 +14,15 @@ export function ClozeSentence({ parsed, hint, reveal, className }: Props) {
     <p lang="es" className={className}>
       {parsed.before}
       {reveal ? (
-        <span className="rounded bg-green-100 px-1 font-semibold text-green-800">
+        <span className="rounded bg-success-muted px-1 font-semibold text-success">
           {parsed.answer}
         </span>
       ) : (
-        <span className="inline-block min-w-16 border-b-2 border-gray-500" aria-label="空欄">
+        <span className="inline-block min-w-16 border-b-2 border-ink-subtle" aria-label="空欄">
           &nbsp;
         </span>
       )}
-      {hint && <span className="ml-1 text-gray-500">（{hint}）</span>}
+      {hint && <span className="ml-1 text-ink-subtle">（{hint}）</span>}
       {parsed.after}
     </p>
   )

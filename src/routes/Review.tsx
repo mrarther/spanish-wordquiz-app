@@ -43,8 +43,8 @@ export function Review() {
       })
   }, [])
 
-  if (error) return <p className="text-red-600">学習記録を読み込めませんでした。</p>
-  if (!due) return <p className="text-gray-600">読み込み中…</p>
+  if (error) return <p className="text-danger">学習記録を読み込めませんでした。</p>
+  if (!due) return <p className="text-ink-muted">読み込み中…</p>
 
   // 期限切れの古い順に1回分の問題数だけ取り出し、出題順はシャッフルする
   const reviewConj = () => {
@@ -70,7 +70,7 @@ export function Review() {
   return (
     <div className="grid gap-6">
       <h2 className="text-xl font-bold">復習</h2>
-      <p className="text-sm text-gray-600">
+      <p className="text-sm text-ink-muted">
         間違えた問題や、覚えてから時間がたった問題を、忘れる前に出題します。
         1回の問題数と出題形式は、それぞれの設定画面の設定を使います。
       </p>
@@ -95,7 +95,7 @@ export function Review() {
       />
 
       {nothingDue && (
-        <p className="rounded-lg bg-green-50 p-4 text-sm">
+        <p className="rounded-lg bg-success-soft p-4 text-sm">
           今は復習する問題がありません。新しい問題に挑戦しましょう。
         </p>
       )}
@@ -110,12 +110,12 @@ function ReviewCard(props: {
   settingsPath: string
 }) {
   return (
-    <section className="grid gap-3 rounded-lg border border-gray-300 p-4">
+    <section className="grid gap-3 rounded-lg border border-line p-4">
       <div className="flex items-baseline justify-between">
         <h3 className="font-semibold">{props.title}</h3>
         <p>
           <span className="text-2xl font-bold">{props.count}</span>
-          <span className="ml-1 text-sm text-gray-600">問</span>
+          <span className="ml-1 text-sm text-ink-muted">問</span>
         </p>
       </div>
       <button
@@ -126,7 +126,7 @@ function ReviewCard(props: {
       >
         復習を始める
       </button>
-      <Link to={props.settingsPath} className="text-center text-sm text-blue-700 underline">
+      <Link to={props.settingsPath} className="text-center text-sm text-link underline">
         出題形式を変える
       </Link>
     </section>

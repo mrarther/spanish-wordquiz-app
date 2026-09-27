@@ -16,7 +16,7 @@ export function AccentKeyboard({ onInsert, disabled }: Props) {
           disabled={disabled}
           onMouseDown={(e) => e.preventDefault()}
           onClick={() => onInsert(c)}
-          className="h-10 w-10 rounded-md border border-gray-300 bg-white text-lg hover:bg-gray-100 disabled:opacity-40"
+          className="h-10 w-10 rounded-md border border-line bg-surface text-lg hover:bg-surface-muted disabled:opacity-40"
         >
           {c}
         </button>

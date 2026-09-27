@@ -1,58 +1,14 @@
-import { expect, test, type Page } from '@playwright/test'
-
-type Seed = {
-  attempts: { itemId: string; type: string; correct: boolean; daysAgo: number }[]
-  tests: { correct: number; total: number; daysAgo: number }[]
-}
-
-/** アプリが作った IndexedDB に、回答履歴と総合テストの結果を直接書き込む */
-async function seed(page: Page, data: Seed) {
-  await page.evaluate(
-    (d) =>
-      new Promise<void>((resolve, reject) => {
-        const DAY = 24 * 60 * 60 * 1000
-        const open = indexedDB.open('spanish-wordquiz')
-        open.onsuccess = () => {
-          const tx = open.result.transaction(['attempts', 'testResults'], 'readwrite')
-          for (const a of d.attempts) {
-            tx.objectStore('attempts').add({
-              itemId: a.itemId,
-              type: a.type,
-              correct: a.correct,
-              accentMistake: false,
-              at: Date.now() - a.daysAgo * DAY,
-            })
-          }
-          for (const t of d.tests) {
-            tx.objectStore('testResults').add({
-              at: Date.now() - t.daysAgo * DAY,
-              durationMs: 60_000,
-              timeLimitMin: null,
-              timedOut: false,
-              format: 'input',
-              range: {},
-              total: t.total,
-              correct: t.correct,
-              bySection: {},
-              wrongItemIds: [],
-            })
-          }
-          tx.oncomplete = () => {
-            open.result.close()
-            resolve()
-          }
-          tx.onerror = () => reject(tx.error)
-        }
-      }),
-    data,
-  )
-}
+import { expect, test } from '@playwright/test'
+import { seed, type Seed } from './helpers'
 
 const repeat = (n: number, a: Seed['attempts'][number]) => Array.from({ length: n }, () => a)
 
 test('学習記録がないときは案内を表示する', async ({ page }) => {
   await page.goto('/')
-  await page.getByText('統計', { exact: true }).click()
+  await page
+    .getByRole('navigation', { name: 'メニュー' })
+    .getByRole('link', { name: '統計' })
+    .click()
   await expect(page.getByText('まだ学習記録がありません。')).toBeVisible()
 })
 
@@ -90,7 +46,10 @@ test('連続学習日数・正答率・苦手な時制と単語・テストの�
       { correct: 15, total: 20, daysAgo: 0 },
     ],
   })
-  await page.getByText('統計', { exact: true }).click()
+  await page
+    .getByRole('navigation', { name: 'メニュー' })
+    .getByRole('link', { name: '統計' })
+    .click()
 
   const tile = (label: string) =>
     page.locator('div', { has: page.getByText(label, { exact: true }) }).last()

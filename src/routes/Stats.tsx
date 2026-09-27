@@ -58,18 +58,18 @@ export function Stats() {
       })
   }, [])
 
-  if (error) return <p className="text-red-600">学習記録を読み込めませんでした。</p>
-  if (!data) return <p className="text-gray-600">読み込み中…</p>
+  if (error) return <p className="text-danger">学習記録を読み込めませんでした。</p>
+  if (!data) return <p className="text-ink-muted">読み込み中…</p>
 
   const { attempts, tests, now } = data
   if (attempts.length === 0 && tests.length === 0) {
     return (
       <div className="grid gap-4">
         <h2 className="text-xl font-bold">統計</h2>
-        <p className="rounded-lg bg-gray-50 p-4 text-sm">
+        <p className="rounded-lg bg-surface-muted p-4 text-sm">
           まだ学習記録がありません。クイズに答えると、ここに正答率や学習の記録が表示されます。
         </p>
-        <Link to="/" className="text-sm text-blue-700 underline">
+        <Link to="/" className="text-sm text-link underline">
           ホームへ
         </Link>
       </div>
@@ -122,7 +122,7 @@ export function Stats() {
       </Section>
 
       <Section title={`直近${DAYS}日の学習`}>
-        <p className="text-sm text-gray-600">回答数</p>
+        <p className="text-sm text-ink-muted">回答数</p>
         <ColumnChart
           ariaLabel={`直近${DAYS}日の日別の回答数`}
           formatValue={(v) => `${Math.round(v)}`}
@@ -133,7 +133,7 @@ export function Stats() {
             detail: d.total ? `正解 ${d.correct}問` : undefined,
           }))}
         />
-        <p className="text-sm text-gray-600">正答率</p>
+        <p className="text-sm text-ink-muted">正答率</p>
         <LineChart
           ariaLabel={`直近${DAYS}日の日別の正答率`}
           data={days.map((d) => ({
@@ -155,7 +155,7 @@ export function Stats() {
           <Empty>活用の回答が{MIN_TENSE_ANSWERS}問以上ある時制がまだありません。</Empty>
         ) : (
           <>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-ink-subtle">
               正答率の低い順（回答が{MIN_TENSE_ANSWERS}問以上の時制）
             </p>
             <BarList
@@ -179,16 +179,16 @@ export function Stats() {
             <caption className="sr-only">間違えた回数の多い単語</caption>
             <thead>
               <tr className="text-left">
-                <th scope="col" className="border-b border-gray-300 px-2 py-1">
+                <th scope="col" className="border-b border-line px-2 py-1">
                   単語
                 </th>
-                <th scope="col" className="border-b border-gray-300 px-2 py-1">
+                <th scope="col" className="border-b border-line px-2 py-1">
                   意味
                 </th>
-                <th scope="col" className="border-b border-gray-300 px-2 py-1 text-right">
+                <th scope="col" className="border-b border-line px-2 py-1 text-right">
                   間違い
                 </th>
-                <th scope="col" className="border-b border-gray-300 px-2 py-1 text-right">
+                <th scope="col" className="border-b border-line px-2 py-1 text-right">
                   正答率
                 </th>
               </tr>
@@ -196,12 +196,12 @@ export function Stats() {
             <tbody className="tabular-nums">
               {weakWords.map((w) => (
                 <tr key={w.itemId}>
-                  <td className="border-b border-gray-100 px-2 py-1 font-semibold" lang="es">
+                  <td className="border-b border-line-soft px-2 py-1 font-semibold" lang="es">
                     {displayEs(w.word)}
                   </td>
-                  <td className="border-b border-gray-100 px-2 py-1">{w.word.ja}</td>
-                  <td className="border-b border-gray-100 px-2 py-1 text-right">{w.wrong}回</td>
-                  <td className="border-b border-gray-100 px-2 py-1 text-right">
+                  <td className="border-b border-line-soft px-2 py-1">{w.word.ja}</td>
+                  <td className="border-b border-line-soft px-2 py-1 text-right">{w.wrong}回</td>
+                  <td className="border-b border-line-soft px-2 py-1 text-right">
                     {percentText(accuracy({ total: w.total, correct: w.total - w.wrong }))}
                   </td>
                 </tr>
@@ -215,7 +215,7 @@ export function Stats() {
         {trend.length === 0 ? (
           <Empty>
             まだ総合テストを受けていません。
-            <Link to="/test" className="ml-1 text-blue-700 underline">
+            <Link to="/test" className="ml-1 text-link underline">
               総合テストへ
             </Link>
           </Empty>
@@ -259,5 +259,5 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
 }
 
 function Empty({ children }: { children: ReactNode }) {
-  return <p className="text-sm text-gray-600">{children}</p>
+  return <p className="text-sm text-ink-muted">{children}</p>
 }

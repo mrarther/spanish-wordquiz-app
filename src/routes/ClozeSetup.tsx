@@ -36,7 +36,7 @@ export function ClozeSetup() {
     <div className="grid gap-6">
       <div className="flex items-baseline justify-between">
         <h2 className="text-xl font-bold">例文穴埋めの設定</h2>
-        <Link to="/cloze/manage" className="text-sm text-blue-700 underline">
+        <Link to="/cloze/manage" className="text-sm text-link underline">
           自作問題の管理（{customItems.length}問）
         </Link>
       </div>
@@ -138,10 +138,10 @@ export function ClozeSetup() {
 
       <div className="grid gap-2">
         {poolSize === 0 ? (
-          <p className="text-sm text-red-600">条件に合う問題がありません。</p>
+          <p className="text-sm text-danger">条件に合う問題がありません。</p>
         ) : (
           poolSize < setup.count && (
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-ink-muted">
               条件に合う問題が {poolSize} 問なので、全て出題します。
             </p>
           )

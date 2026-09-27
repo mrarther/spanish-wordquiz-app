@@ -7,7 +7,7 @@ async function readAnswers(page: Page) {
     const [label, verbLine] = await item.locator('p').allInnerTexts()
     const [tense, person] = label.split('・')
     const infinitive = verbLine.split('（')[0]
-    const answer = await item.locator('span.text-green-700').innerText()
+    const answer = await item.locator('span.text-success').innerText()
     answers.set(`${tense}|${infinitive}|${person}`, answer)
   }
   return answers
@@ -61,14 +61,20 @@ test('間違えた活用の問題が、10分後に復習に出て、正解する
 
   // 直後はまだ復習対象ではない
   await page.getByRole('link', { name: 'Spanish Word Quiz' }).click()
-  await page.getByText('復習', { exact: true }).click()
+  await page
+    .getByRole('navigation', { name: 'メニュー' })
+    .getByRole('link', { name: '復習' })
+    .click()
   const conjCard = page.locator('section', { hasText: '活用' })
   await expect(conjCard.locator('span.text-2xl')).toHaveText('0')
 
   // 10分以上たつと、間違えた10問が復習対象になる
   await page.clock.fastForward('11:00')
   await page.getByRole('link', { name: 'Spanish Word Quiz' }).click()
-  await page.getByText('復習', { exact: true }).click()
+  await page
+    .getByRole('navigation', { name: 'メニュー' })
+    .getByRole('link', { name: '復習' })
+    .click()
   await expect(conjCard.locator('span.text-2xl')).toHaveText('10')
 
   // 復習では、間違えた問題だけが出題される。全問正解する
@@ -85,7 +91,10 @@ test('間違えた活用の問題が、10分後に復習に出て、正解する
 
   // 正解した問題は翌日まで復習に出ない
   await page.getByRole('link', { name: 'Spanish Word Quiz' }).click()
-  await page.getByText('復習', { exact: true }).click()
+  await page
+    .getByRole('navigation', { name: 'メニュー' })
+    .getByRole('link', { name: '復習' })
+    .click()
   await expect(conjCard.locator('span.text-2xl')).toHaveText('0')
 })
 

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Tooltip } from './ChartParts'
-import { columnPath, labelStep, niceMax } from './scale'
+import { columnPath, labelStep, niceMax, yTicks } from './scale'
 import { useWidth } from './useWidth'
 
 export type ColumnDatum = { key: string; label: string; value: number; detail?: string }
@@ -34,7 +34,7 @@ export function ColumnChart(props: {
     <div ref={ref} className="relative">
       {width > 0 && (
         <svg width={width} height={HEIGHT} role="group" aria-label={props.ariaLabel}>
-          {[0, yMax / 2, yMax].map((t) => (
+          {yTicks(yMax).map((t) => (
             <g key={t}>
               <line
                 x1={M.left}

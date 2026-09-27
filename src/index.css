@@ -1,11 +1,114 @@
 @import 'tailwindcss';
 
-/* グラフの色（役割ごとに定義。ダークモードはフェーズ11で追加する） */
+/*
+ * 色は役割ごとのトークンで指定する（bg-surface、text-ink-muted など）。
+ * テーマ：data-theme="light" / "dark" で固定、属性がなければ端末の設定に従う
+ */
+@theme inline {
+  --color-surface: var(--app-surface);
+  --color-surface-muted: var(--app-surface-muted);
+  --color-ink: var(--app-ink);
+  --color-ink-muted: var(--app-ink-muted);
+  --color-ink-subtle: var(--app-ink-subtle);
+  --color-line: var(--app-line);
+  --color-line-soft: var(--app-line-soft);
+  --color-link: var(--app-link);
+  --color-accent-soft: var(--app-accent-soft);
+  --color-accent-muted: var(--app-accent-muted);
+  --color-success: var(--app-success);
+  --color-success-soft: var(--app-success-soft);
+  --color-success-muted: var(--app-success-muted);
+  --color-danger: var(--app-danger);
+  --color-danger-soft: var(--app-danger-soft);
+  --color-warning: var(--app-warning);
+}
+
 :root {
+  color-scheme: light;
+  --app-surface: #ffffff;
+  --app-surface-muted: #f3f4f6;
+  --app-ink: #111827;
+  --app-ink-muted: #4b5563;
+  --app-ink-subtle: #5f6672;
+  --app-line: #d1d5db;
+  --app-line-soft: #e5e7eb;
+  --app-link: #1d4ed8;
+  --app-accent-soft: #eff6ff;
+  --app-accent-muted: #bfdbfe;
+  --app-success: #15803d;
+  --app-success-soft: #f0fdf4;
+  --app-success-muted: #dcfce7;
+  --app-danger: #b91c1c;
+  --app-danger-soft: #fef2f2;
+  --app-warning: #b45309;
+
+  /* グラフ（1系列の色は背景ごとにパレット検証済み） */
   --chart-surface: #ffffff;
   --chart-series-1: #2a78d6;
   --chart-grid: #e1e0d9;
   --chart-axis: #c3c2b7;
   --chart-text-secondary: #52514e;
   --chart-text-muted: #898781;
+}
+
+/* ダークの値：端末がダーク（明示的にライトにしていない）とき、または明示的にダークのとき */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --app-surface: #1a1a19;
+    --app-surface-muted: #262624;
+    --app-ink: #f3f3f1;
+    --app-ink-muted: #c3c2b7;
+    --app-ink-subtle: #9d9b94;
+    --app-line: #45453f;
+    --app-line-soft: #2f2f2c;
+    --app-link: #8ab8f2;
+    --app-accent-soft: #172a42;
+    --app-accent-muted: #22436b;
+    --app-success: #6fd67a;
+    --app-success-soft: #13301a;
+    --app-success-muted: #1d4a27;
+    --app-danger: #ff8a8a;
+    --app-danger-soft: #3a1818;
+    --app-warning: #f2b964;
+
+    --chart-surface: #1a1a19;
+    --chart-series-1: #3987e5;
+    --chart-grid: #2c2c2a;
+    --chart-axis: #45453f;
+    --chart-text-secondary: #c3c2b7;
+    --chart-text-muted: #9d9b94;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --app-surface: #1a1a19;
+  --app-surface-muted: #262624;
+  --app-ink: #f3f3f1;
+  --app-ink-muted: #c3c2b7;
+  --app-ink-subtle: #9d9b94;
+  --app-line: #45453f;
+  --app-line-soft: #2f2f2c;
+  --app-link: #8ab8f2;
+  --app-accent-soft: #172a42;
+  --app-accent-muted: #22436b;
+  --app-success: #6fd67a;
+  --app-success-soft: #13301a;
+  --app-success-muted: #1d4a27;
+  --app-danger: #ff8a8a;
+  --app-danger-soft: #3a1818;
+  --app-warning: #f2b964;
+
+  --chart-surface: #1a1a19;
+  --chart-series-1: #3987e5;
+  --chart-grid: #2c2c2a;
+  --chart-axis: #45453f;
+  --chart-text-secondary: #c3c2b7;
+  --chart-text-muted: #9d9b94;
+}
+
+body {
+  background-color: var(--app-surface);
+  color: var(--app-ink);
 }

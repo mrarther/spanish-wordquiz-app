@@ -21,7 +21,7 @@ export function Chip({
   return (
     <label
       className={`cursor-pointer rounded-full border px-3 py-1 text-sm select-none ${
-        checked ? 'border-blue-600 bg-blue-600 text-white' : 'border-gray-300 bg-white'
+        checked ? 'border-blue-600 bg-blue-600 text-white' : 'border-line bg-surface'
       }`}
     >
       <input type="checkbox" className="sr-only" checked={checked} onChange={onChange} />

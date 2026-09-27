@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useAppSettings } from '../store/appSettingsStore'
 import { AccentKeyboard } from './AccentKeyboard'
 
 type Props = {
@@ -20,6 +21,7 @@ export function AnswerInput({
   submitLabel = '答える',
 }: Props) {
   const ref = useRef<HTMLInputElement>(null)
+  const showKeyboard = useAppSettings((s) => s.settings.showAccentKeyboard)
 
   useEffect(() => {
     if (!disabled) ref.current?.focus()
@@ -45,7 +47,7 @@ export function AnswerInput({
       }}
     >
       <div className="flex items-center gap-2">
-        {prefix && <span className="text-lg text-gray-500">{prefix}</span>}
+        {prefix && <span className="text-lg text-ink-subtle">{prefix}</span>}
         <input
           ref={ref}
           value={value}
@@ -56,11 +58,11 @@ export function AnswerInput({
           autoCorrect="off"
           spellCheck={false}
           lang="es"
-          className="w-full rounded-md border border-gray-300 px-3 py-2 text-lg disabled:bg-gray-100"
+          className="w-full rounded-md border border-line px-3 py-2 text-lg disabled:bg-surface-muted"
           aria-label="答え"
         />
       </div>
-      <AccentKeyboard onInsert={insert} disabled={disabled} />
+      {showKeyboard && <AccentKeyboard onInsert={insert} disabled={disabled} />}
       {!disabled && (
         <button
           type="submit"

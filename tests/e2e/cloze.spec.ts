@@ -109,5 +109,5 @@ test('組み込みの穴埋め問題を4択で解ける', async ({ page }) => {
   await choices.first().click()
   await expect(page.getByRole('status')).toBeVisible()
   // 回答後は空欄に正解が入る
-  await expect(page.locator('span.bg-green-100')).toBeVisible()
+  await expect(page.locator('span.bg-success-muted')).toBeVisible()
 })

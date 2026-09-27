@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { columnPath, labelStep, niceMax } from './scale'
+import { columnPath, labelStep, niceMax, yTicks } from './scale'
 
 describe('グラフの目盛り', () => {
   it('上限をきりのよい値に切り上げる', () => {
@@ -20,5 +20,12 @@ describe('グラフの目盛り', () => {
   it('高さ 0 の棒は描かない。低い棒は角丸を高さに合わせる', () => {
     expect(columnPath(0, 10, 20, 0)).toBe('')
     expect(columnPath(0, 10, 20, 2)).toBe('M0,12V12Q0,10 2,10H18Q20,10 20,12V12Z')
+  })
+
+  it('中間の目盛りは整数のときだけ置く', () => {
+    expect(yTicks(10)).toEqual([0, 5, 10])
+    expect(yTicks(2)).toEqual([0, 1, 2])
+    expect(yTicks(5)).toEqual([0, 5])
+    expect(yTicks(1)).toEqual([0, 1])
   })
 })

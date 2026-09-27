@@ -44,7 +44,7 @@ export function VocabSetup() {
       </Section>
 
       {setup.mode === 'spelling' ? (
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-ink-muted">
           意味を見て、スペイン語を入力します。名詞は冠詞（el / la）があってもなくても正解です。
         </p>
       ) : (
@@ -124,10 +124,10 @@ export function VocabSetup() {
 
       <div className="grid gap-2">
         {poolSize === 0 ? (
-          <p className="text-sm text-red-600">カテゴリとレベルを1つ以上選んでください。</p>
+          <p className="text-sm text-danger">カテゴリとレベルを1つ以上選んでください。</p>
         ) : (
           poolSize < setup.count && (
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-ink-muted">
               条件に合う単語が {poolSize} 語なので、全て出題します。
             </p>
           )

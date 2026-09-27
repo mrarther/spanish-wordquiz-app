@@ -7,25 +7,25 @@ import { ClozeSentence } from './ClozeSentence'
 export function TestQuestionView({ q, reveal }: { q: TestQuestion; reveal?: boolean }) {
   return (
     <div className="grid gap-1">
-      <p className="text-xs text-gray-500">{SECTION_LABELS[q.section]}</p>
+      <p className="text-xs text-ink-subtle">{SECTION_LABELS[q.section]}</p>
       {q.section === 'conj' && (
         <>
-          <p className="text-sm text-gray-600">{TENSES[q.conj.tense].label_ja}</p>
+          <p className="text-sm text-ink-muted">{TENSES[q.conj.tense].label_ja}</p>
           <p className="text-xl font-bold" lang="es">
             {q.conj.verb.infinitive}
-            <span className="ml-2 text-base font-normal text-gray-600">
+            <span className="ml-2 text-base font-normal text-ink-muted">
               {q.conj.verb.meaning_ja}
             </span>
           </p>
           <p lang="es">{PERSON_LABELS[q.conj.person]}</p>
           {isCompound(q.conj.tense) && !reveal && (
-            <p className="text-xs text-gray-500">haber + 過去分詞で答えてください</p>
+            <p className="text-xs text-ink-subtle">haber + 過去分詞で答えてください</p>
           )}
         </>
       )}
       {q.section === 'vocab' && (
         <>
-          <p className="text-sm text-gray-600">スペイン語で言うと？</p>
+          <p className="text-sm text-ink-muted">スペイン語で言うと？</p>
           <p className="text-xl font-bold">{q.vocab.prompt}</p>
         </>
       )}
@@ -37,7 +37,7 @@ export function TestQuestionView({ q, reveal }: { q: TestQuestion; reveal?: bool
             reveal={reveal}
             className="text-xl"
           />
-          <p className="text-sm text-gray-600">{q.cloze.item.translation_ja}</p>
+          <p className="text-sm text-ink-muted">{q.cloze.item.translation_ja}</p>
         </>
       )}
     </div>

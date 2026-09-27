@@ -43,7 +43,7 @@ export function Flashcards() {
       <button
         type="button"
         onClick={() => setFlipped((f) => !f)}
-        className="grid min-h-56 place-items-center rounded-xl border border-gray-300 bg-white p-6 text-center shadow-sm hover:bg-gray-50"
+        className="grid min-h-56 place-items-center rounded-xl border border-line bg-surface p-6 text-center shadow-sm hover:bg-surface-muted"
         aria-label={flipped ? 'カードの表に戻す' : 'カードをめくる'}
       >
         {flipped ? (
@@ -53,7 +53,7 @@ export function Flashcards() {
             <p className="text-3xl font-bold" lang={question.direction === 'es-ja' ? 'es' : 'ja'}>
               {question.prompt}
             </p>
-            <p className="text-xs text-gray-500">タップまたは Space でめくる</p>
+            <p className="text-xs text-ink-subtle">タップまたは Space でめくる</p>
           </div>
         )}
       </button>
@@ -63,7 +63,7 @@ export function Flashcards() {
           <button
             type="button"
             onClick={() => judge(false)}
-            className="rounded-md border border-gray-300 px-4 py-3 font-semibold hover:bg-gray-100"
+            className="rounded-md border border-line px-4 py-3 font-semibold hover:bg-surface-muted"
           >
             まだ（←）
           </button>

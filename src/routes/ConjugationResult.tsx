@@ -22,12 +22,12 @@ export function ConjugationResult() {
 
   return (
     <div className="grid gap-6">
-      <div className="rounded-lg border border-gray-300 p-6 text-center">
-        <p className="text-sm text-gray-600">結果</p>
+      <div className="rounded-lg border border-line p-6 text-center">
+        <p className="text-sm text-ink-muted">結果</p>
         <p className="text-4xl font-bold">
           {correct} / {answers.length}
         </p>
-        <p className="text-gray-600">
+        <p className="text-ink-muted">
           正答率 {answers.length ? Math.round((correct / answers.length) * 100) : 0}%
         </p>
       </div>
@@ -37,8 +37,8 @@ export function ConjugationResult() {
           <h2 className="font-semibold">間違えた問題・アクセントの注意</h2>
           <ul className="grid gap-2">
             {mistakes.map(({ question: q, given, correct }) => (
-              <li key={q.id} className="rounded-md border border-gray-200 p-3 text-sm">
-                <p className="text-gray-600">
+              <li key={q.id} className="rounded-md border border-line-soft p-3 text-sm">
+                <p className="text-ink-muted">
                   {TENSES[q.tense].label_ja}・{PERSON_LABELS[q.person]}
                 </p>
                 <p lang="es">
@@ -46,9 +46,9 @@ export function ConjugationResult() {
                 </p>
                 <p lang="es">
                   あなたの答え：
-                  <span className={correct ? 'text-amber-700' : 'text-red-600'}>{given}</span>
+                  <span className={correct ? 'text-warning' : 'text-danger'}>{given}</span>
                   <span className="mx-2">→</span>
-                  正解：<span className="font-semibold text-green-700">{q.answer}</span>
+                  正解：<span className="font-semibold text-success">{q.answer}</span>
                 </p>
               </li>
             ))}
@@ -72,11 +72,11 @@ export function ConjugationResult() {
             await startConjugationQuiz(setup)
             navigate('/conjugation/quiz')
           }}
-          className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-blue-700 hover:bg-blue-50"
+          className="rounded-md border border-blue-600 px-4 py-3 font-semibold text-link hover:bg-accent-soft"
         >
           同じ設定で新しい問題
         </button>
-        <Link to="/conjugation" className="text-center text-sm text-blue-700 underline">
+        <Link to="/conjugation" className="text-center text-sm text-link underline">
           設定を変える
         </Link>
       </div>

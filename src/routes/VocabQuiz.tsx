@@ -66,8 +66,8 @@ export function VocabQuiz() {
     <div className="grid gap-6">
       <ProgressBar current={answers.length} total={questions.length} />
 
-      <div className="grid gap-1 rounded-lg border border-gray-300 p-4">
-        <p className="text-sm text-gray-600">
+      <div className="grid gap-1 rounded-lg border border-line p-4">
+        <p className="text-sm text-ink-muted">
           {question.direction === 'es-ja' ? '意味は？' : 'スペイン語で言うと？'}
         </p>
         <p className="text-2xl font-bold" lang={promptLang}>
@@ -96,10 +96,10 @@ export function VocabQuiz() {
                 lang={choiceLang}
                 className={`rounded-md border px-3 py-3 ${
                   isAnswer
-                    ? 'border-green-600 bg-green-50'
+                    ? 'border-green-600 bg-success-soft'
                     : chosen
-                      ? 'border-red-600 bg-red-50'
-                      : 'border-gray-300 bg-white hover:bg-gray-100'
+                      ? 'border-red-600 bg-danger-soft'
+                      : 'border-line bg-surface hover:bg-surface-muted'
                 }`}
               >
                 {c}
@@ -111,13 +111,13 @@ export function VocabQuiz() {
 
       {result && (
         <div
-          className={`grid gap-3 rounded-lg p-4 ${result.correct ? 'bg-green-50' : 'bg-red-50'}`}
+          className={`grid gap-3 rounded-lg p-4 ${result.correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
           role="status"
         >
           <p className="font-bold">
             {result.correct ? '正解！' : '不正解'}
             {result.accentMistake && (
-              <span className="ml-2 text-sm font-normal text-amber-700">アクセント記号に注意</span>
+              <span className="ml-2 text-sm font-normal text-warning">アクセント記号に注意</span>
             )}
           </p>
           <WordDetails word={question.word} />

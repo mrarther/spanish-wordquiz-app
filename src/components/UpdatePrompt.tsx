@@ -18,7 +18,7 @@ export function UpdatePrompt() {
   return (
     <div
       role="status"
-      className="fixed inset-x-4 bottom-4 z-20 mx-auto flex max-w-xl flex-wrap items-center gap-3 rounded-lg border border-gray-300 bg-white p-3 text-sm shadow-md"
+      className="fixed inset-x-4 bottom-4 z-20 mx-auto flex max-w-xl flex-wrap items-center gap-3 rounded-lg border border-line bg-surface p-3 text-sm shadow-md"
     >
       <p className="flex-1">
         {needRefresh
@@ -37,7 +37,7 @@ export function UpdatePrompt() {
       <button
         type="button"
         onClick={close}
-        className="rounded-md border border-gray-300 px-3 py-1 hover:bg-gray-100"
+        className="rounded-md border border-line px-3 py-1 hover:bg-surface-muted"
       >
         {needRefresh ? 'あとで' : '閉じる'}
       </button>

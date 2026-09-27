@@ -20,15 +20,15 @@ export function TestResult() {
 
   return (
     <div className="grid gap-6">
-      <div className="rounded-lg border border-gray-300 p-6 text-center">
-        <p className="text-sm text-gray-600">総合テストの結果</p>
+      <div className="rounded-lg border border-line p-6 text-center">
+        <p className="text-sm text-ink-muted">総合テストの結果</p>
         <p className="text-4xl font-bold">
           {score.correct} / {score.total}
         </p>
-        <p className="text-gray-600">正答率 {percent(score)}%</p>
-        <p className="text-sm text-gray-600">所要時間 {formatTime(finishedAt - startedAt)}</p>
+        <p className="text-ink-muted">正答率 {percent(score)}%</p>
+        <p className="text-sm text-ink-muted">所要時間 {formatTime(finishedAt - startedAt)}</p>
         {timedOut && (
-          <p className="mt-2 text-sm font-semibold text-red-600">時間切れで自動的に採点しました</p>
+          <p className="mt-2 text-sm font-semibold text-danger">時間切れで自動的に採点しました</p>
         )}
       </div>
 
@@ -45,7 +45,7 @@ export function TestResult() {
                     {sec.correct} / {sec.total}（{percent(sec)}%）
                   </span>
                 </div>
-                <div className="h-2 overflow-hidden rounded-full bg-gray-200">
+                <div className="h-2 overflow-hidden rounded-full bg-line-soft">
                   <div className="h-full bg-green-600" style={{ width: `${percent(sec)}%` }} />
                 </div>
               </li>
@@ -61,24 +61,24 @@ export function TestResult() {
             {wrong.map((r) => (
               <li
                 key={r.question.id}
-                className="grid gap-2 rounded-md border border-gray-200 p-3 text-sm"
+                className="grid gap-2 rounded-md border border-line-soft p-3 text-sm"
               >
                 <TestQuestionView q={r.question} reveal />
                 <p lang="es">
                   あなたの答え：
-                  <span className="text-red-600">
+                  <span className="text-danger">
                     {r.answered ? displayAnswer(r.question, r.given) : '（未回答）'}
                   </span>
                   <span className="mx-2">→</span>
                   正解：
-                  <span className="font-semibold text-green-700">
+                  <span className="font-semibold text-success">
                     {displayAnswer(r.question, r.question.answer)}
                   </span>
                 </p>
               </li>
             ))}
           </ul>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-ink-subtle">
             回答した問題は復習の記録に入ります。間違えた問題は「復習」から解き直せます。
           </p>
         </section>
@@ -95,10 +95,10 @@ export function TestResult() {
         >
           同じ範囲でもう一度
         </button>
-        <Link to="/review" className="text-center text-sm text-blue-700 underline">
+        <Link to="/review" className="text-center text-sm text-link underline">
           復習へ
         </Link>
-        <Link to="/test" className="text-center text-sm text-blue-700 underline">
+        <Link to="/test" className="text-center text-sm text-link underline">
           設定を変える
         </Link>
       </div>

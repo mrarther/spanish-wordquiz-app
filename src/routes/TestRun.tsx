@@ -51,13 +51,13 @@ export function TestRun() {
   return (
     <div className="grid gap-5">
       <div className="flex items-center justify-between">
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-ink-muted">
           問題 {index + 1} / {questions.length}
           <span className="ml-2">（未回答 {unanswered}）</span>
         </p>
         {remaining !== null && (
           <p
-            className={`font-mono text-lg font-semibold ${remaining < 60_000 ? 'text-red-600' : ''}`}
+            className={`font-mono text-lg font-semibold ${remaining < 60_000 ? 'text-danger' : ''}`}
             aria-label="残り時間"
           >
             {formatTime(remaining)}
@@ -65,7 +65,7 @@ export function TestRun() {
         )}
       </div>
 
-      <div className="rounded-lg border border-gray-300 p-4">
+      <div className="rounded-lg border border-line p-4">
         <TestQuestionView q={q} />
       </div>
 
@@ -89,8 +89,8 @@ export function TestRun() {
               lang="es"
               className={`rounded-md border px-3 py-3 ${
                 answers[q.id] === c
-                  ? 'border-blue-600 bg-blue-50 font-semibold'
-                  : 'border-gray-300 bg-white hover:bg-gray-100'
+                  ? 'border-blue-600 bg-accent-soft font-semibold'
+                  : 'border-line bg-surface hover:bg-surface-muted'
               }`}
             >
               {displayAnswer(q, c)}
@@ -104,7 +104,7 @@ export function TestRun() {
           type="button"
           onClick={() => setIndex(index - 1)}
           disabled={index === 0}
-          className="flex-1 rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-100 disabled:opacity-40"
+          className="flex-1 rounded-md border border-line px-4 py-2 hover:bg-surface-muted disabled:opacity-40"
         >
           前へ
         </button>
@@ -112,7 +112,7 @@ export function TestRun() {
           type="button"
           onClick={() => setIndex(index + 1)}
           disabled={isLast}
-          className="flex-1 rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-100 disabled:opacity-40"
+          className="flex-1 rounded-md border border-line px-4 py-2 hover:bg-surface-muted disabled:opacity-40"
         >
           次へ
         </button>
@@ -130,8 +130,8 @@ export function TestRun() {
               i === index
                 ? 'bg-blue-600 text-white'
                 : answers[x.id]?.trim()
-                  ? 'bg-blue-100'
-                  : 'border border-gray-300 bg-white'
+                  ? 'bg-accent-muted'
+                  : 'border border-line bg-surface'
             }`}
           >
             {i + 1}

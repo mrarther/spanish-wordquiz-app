@@ -141,7 +141,7 @@ export function ClozeManager() {
     <div className="grid gap-6">
       <div className="flex items-baseline justify-between">
         <h2 className="text-xl font-bold">自作問題の管理</h2>
-        <Link to="/cloze" className="text-sm text-blue-700 underline">
+        <Link to="/cloze" className="text-sm text-link underline">
           穴埋めの設定へ戻る
         </Link>
       </div>
@@ -158,14 +158,14 @@ export function ClozeManager() {
           type="button"
           onClick={exportAll}
           disabled={customItems.length === 0}
-          className="rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-100 disabled:opacity-40"
+          className="rounded-md border border-line px-4 py-2 hover:bg-surface-muted disabled:opacity-40"
         >
           エクスポート
         </button>
         <button
           type="button"
           onClick={() => fileRef.current?.click()}
-          className="rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-100"
+          className="rounded-md border border-line px-4 py-2 hover:bg-surface-muted"
         >
           インポート
         </button>
@@ -184,10 +184,10 @@ export function ClozeManager() {
       </div>
 
       {message && (
-        <div className="rounded-lg bg-blue-50 p-3 text-sm" role="status">
+        <div className="rounded-lg bg-accent-soft p-3 text-sm" role="status">
           <p>{message.text}</p>
           {message.details && message.details.length > 0 && (
-            <ul className="mt-1 list-disc pl-5 text-red-700">
+            <ul className="mt-1 list-disc pl-5 text-danger">
               {message.details.map((d) => (
                 <li key={d}>{d}</li>
               ))}
@@ -209,7 +209,7 @@ export function ClozeManager() {
       <section className="grid gap-2">
         <h3 className="font-semibold">自作問題（{customItems.length}問）</h3>
         {customItems.length === 0 ? (
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-ink-muted">
             まだ自作問題はありません。「問題を追加」から作るか、エクスポートしたファイルをインポートしてください。
           </p>
         ) : (
@@ -219,11 +219,11 @@ export function ClozeManager() {
               return (
                 <li
                   key={item.id}
-                  className="grid gap-1 rounded-md border border-gray-200 p-3 text-sm"
+                  className="grid gap-1 rounded-md border border-line-soft p-3 text-sm"
                 >
                   {parsed ? <ClozeSentence parsed={parsed} reveal /> : <p>{item.sentence}</p>}
-                  <p className="text-gray-600">{item.translation_ja}</p>
-                  <p className="text-xs text-gray-500">
+                  <p className="text-ink-muted">{item.translation_ja}</p>
+                  <p className="text-xs text-ink-subtle">
                     {CLOZE_KIND_LABELS[item.kind]}・{item.level}
                     {item.tags.length > 0 && `・${item.tags.map(clozeTagLabel).join('、')}`}
                   </p>
@@ -231,14 +231,14 @@ export function ClozeManager() {
                     <button
                       type="button"
                       onClick={() => openForm(toForm(item))}
-                      className="text-blue-700 underline"
+                      className="text-link underline"
                     >
                       編集
                     </button>
                     <button
                       type="button"
                       onClick={() => remove(item)}
-                      className="text-red-700 underline"
+                      className="text-danger underline"
                     >
                       削除
                     </button>
@@ -267,7 +267,7 @@ function ClozeForm(props: {
 
   return (
     <form
-      className="grid gap-4 rounded-lg border border-blue-300 p-4"
+      className="grid gap-4 rounded-lg border border-accent-muted p-4"
       onSubmit={(e) => {
         e.preventDefault()
         props.onSave()
@@ -286,7 +286,7 @@ function ClozeForm(props: {
           onChange={(e) => onChange({ sentence: e.target.value })}
           rows={2}
           lang="es"
-          className="w-full rounded-md border border-gray-300 px-3 py-2"
+          className="w-full rounded-md border border-line px-3 py-2"
         />
       </Field>
 
@@ -307,7 +307,7 @@ function ClozeForm(props: {
           aria-label="ヒント"
           value={form.hint}
           onChange={(e) => onChange({ hint: e.target.value })}
-          className="w-full rounded-md border border-gray-300 px-3 py-2"
+          className="w-full rounded-md border border-line px-3 py-2"
         />
       </Field>
 
@@ -316,7 +316,7 @@ function ClozeForm(props: {
           aria-label="日本語訳"
           value={form.translation_ja}
           onChange={(e) => onChange({ translation_ja: e.target.value })}
-          className="w-full rounded-md border border-gray-300 px-3 py-2"
+          className="w-full rounded-md border border-line px-3 py-2"
         />
       </Field>
 
@@ -330,7 +330,7 @@ function ClozeForm(props: {
           value={form.alternatives}
           onChange={(e) => onChange({ alternatives: e.target.value })}
           lang="es"
-          className="w-full rounded-md border border-gray-300 px-3 py-2"
+          className="w-full rounded-md border border-line px-3 py-2"
         />
       </Field>
 
@@ -361,22 +361,22 @@ function ClozeForm(props: {
           value={form.extraTags}
           onChange={(e) => onChange({ extraTags: e.target.value })}
           placeholder="その他のタグ（カンマ区切り）"
-          className="mt-2 w-full rounded-md border border-gray-300 px-3 py-2"
+          className="mt-2 w-full rounded-md border border-line px-3 py-2"
         />
       </Field>
 
-      <div className="grid gap-1 rounded-md bg-gray-50 p-3">
-        <p className="text-xs font-semibold text-gray-600">プレビュー</p>
+      <div className="grid gap-1 rounded-md bg-surface-muted p-3">
+        <p className="text-xs font-semibold text-ink-muted">プレビュー</p>
         {parsed ? (
           <>
             <ClozeSentence parsed={parsed} hint={form.hint.trim() || undefined} />
-            <p className="text-sm text-gray-600">{form.translation_ja}</p>
+            <p className="text-sm text-ink-muted">{form.translation_ja}</p>
             <p className="text-sm">
               正解：<span className="font-semibold">{parsed.answer}</span>
             </p>
           </>
         ) : (
-          <p className="text-sm text-gray-500">例文に [[答え]] を1つ入れると表示されます</p>
+          <p className="text-sm text-ink-subtle">例文に [[答え]] を1つ入れると表示されます</p>
         )}
       </div>
 
@@ -390,7 +390,7 @@ function ClozeForm(props: {
         <button
           type="button"
           onClick={props.onCancel}
-          className="rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-100"
+          className="rounded-md border border-line px-4 py-2 hover:bg-surface-muted"
         >
           キャンセル
         </button>
@@ -404,9 +404,9 @@ function Field(props: { label: string; help?: string; error?: string; children: 
     <div className="grid gap-1">
       <span className="text-sm font-semibold">{props.label}</span>
       {props.children}
-      {props.help && <span className="text-xs text-gray-500">{props.help}</span>}
+      {props.help && <span className="text-xs text-ink-subtle">{props.help}</span>}
       {props.error && (
-        <span className="text-sm text-red-600" role="alert">
+        <span className="text-sm text-danger" role="alert">
           {props.error}
         </span>
       )}

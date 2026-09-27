@@ -51,7 +51,7 @@ export function TestSetup() {
   return (
     <div className="grid gap-6">
       <h2 className="text-xl font-bold">総合テストの設定</h2>
-      <p className="text-sm text-gray-600">
+      <p className="text-sm text-ink-muted">
         活用・語彙・例文穴埋めを混ぜて出題します。途中では正誤を表示せず、最後にまとめて採点します。
       </p>
 
@@ -177,11 +177,11 @@ export function TestSetup() {
 
       <div className="grid gap-2">
         {total === 0 ? (
-          <p className="text-sm text-red-600">
+          <p className="text-sm text-danger">
             分野と範囲を選んでください。条件に合う問題がありません。
           </p>
         ) : (
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-ink-muted">
             {TEST_SECTIONS.filter((s) => counts[s] > 0)
               .map((s) => `${SECTION_LABELS[s]} ${counts[s]}問`)
               .join('・')}

@@ -6,6 +6,11 @@ export function niceMax(value: number): number {
   return step * magnitude
 }
 
+/** 目盛り：0・中間・上限。中間が整数にならない（上限が 1 や 5 の）ときは 0 と上限だけにする */
+export function yTicks(max: number): number[] {
+  return Number.isInteger(max / 2) ? [0, max / 2, max] : [0, max]
+}
+
 /** x 軸のラベルを何本おきに出すか（最後のラベルは必ず出す） */
 export function labelStep(bandWidth: number, minLabelWidth = 36): number {
   return Math.max(1, Math.ceil(minLabelWidth / bandWidth))
