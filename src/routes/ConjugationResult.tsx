@@ -1,4 +1,5 @@
 import { Link, Navigate, useNavigate } from 'react-router'
+import { SpeakButton } from '../components/SpeakButton'
 import { PERSON_LABELS, TENSES } from '../domain/conjugation/types'
 import { startConjugationQuiz, useConjugationStore } from '../store/conjugationStore'
 
@@ -49,6 +50,9 @@ export function ConjugationResult() {
                   <span className={correct ? 'text-warning' : 'text-danger'}>{given}</span>
                   <span className="mx-2">→</span>
                   正解：<span className="font-semibold text-success">{q.answer}</span>
+                  <SpeakButton
+                    text={q.tense === 'imperativeNegative' ? `no ${q.answer}` : q.answer}
+                  />
                 </p>
               </li>
             ))}

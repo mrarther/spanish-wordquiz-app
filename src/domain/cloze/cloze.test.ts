@@ -7,7 +7,7 @@ import { conjugateAll } from '../conjugation/conjugate'
 import { TENSES, type Tense } from '../conjugation/types'
 import { checkAnswer } from '../quiz/answerCheck'
 import { exportCloze, parseClozeImport } from './io'
-import { countBlanks, formatCloze, parseCloze } from './parse'
+import { countBlanks, fillCloze, formatCloze, parseCloze } from './parse'
 import { clozeChoices, filterCloze, generateClozeQuiz, makeClozeQuestion } from './quiz'
 import type { ClozeItem } from './types'
 import { cleanDraft, isValid, validateCloze, type ClozeDraft } from './validate'
@@ -27,6 +27,10 @@ describe('parseCloze', () => {
     const p = parseCloze('Ayer yo [[comí]] paella.')
     expect(p).toEqual({ before: 'Ayer yo ', answer: 'comí', after: ' paella.' })
     expect(formatCloze(p!)).toBe('Ayer yo [[comí]] paella.')
+  })
+
+  it('空欄に答えを入れた例文を作る', () => {
+    expect(fillCloze(parseCloze('¿[[Tienes]] hermanos?')!)).toBe('¿Tienes hermanos?')
   })
 
   it('答えの前後の空白は除き、複数語の答えも扱える', () => {

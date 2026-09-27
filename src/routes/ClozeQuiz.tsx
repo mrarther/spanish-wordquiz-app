@@ -1,10 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { AnswerInput } from '../components/AnswerInput'
+import { ChoiceGrid } from '../components/ChoiceGrid'
 import { ClozeSentence } from '../components/ClozeSentence'
 import { ProgressBar } from '../components/ProgressBar'
+import { SpeakButton } from '../components/SpeakButton'
+import { useAutoSpeak } from '../components/useSpeech'
 import { VERBS } from '../data/verbs'
 import { VOCAB } from '../data/vocab'
+import { fillCloze } from '../domain/cloze/parse'
 import { clozeChoices } from '../domain/cloze/quiz'
 import { CLOZE_KIND_LABELS } from '../domain/cloze/types'
 import { checkAnswer, type CheckResult } from '../domain/quiz/answerCheck'
@@ -32,6 +36,12 @@ export function ClozeQuiz() {
     [question, format, customItems],
   )
   const isLast = index === questions.length - 1
+
+  // 読み上げ：回答後に、答えを入れた例文全体
+  useAutoSpeak(
+    question && result ? fillCloze(question.parsed) : null,
+    `${question?.id}:${result ? 'answer' : 'question'}`,
+  )
 
   const next = () => {
     if (isLast) {
@@ -76,7 +86,10 @@ export function ClozeQuiz() {
           {CLOZE_KIND_LABELS[item.kind]}・{item.level}
           {item.source === 'custom' && '・自作'}
         </p>
-        <ClozeSentence parsed={parsed} hint={item.hint} reveal={!!result} className="text-xl" />
+        <div className="flex items-start gap-1">
+          <ClozeSentence parsed={parsed} hint={item.hint} reveal={!!result} className="text-xl" />
+          {result && <SpeakButton text={fillCloze(parsed)} />}
+        </div>
         <p className="text-sm text-ink-muted">{item.translation_ja}</p>
       </div>
 
@@ -88,30 +101,16 @@ export function ClozeQuiz() {
           disabled={!!result}
         />
       ) : (
-        <div className="grid grid-cols-2 gap-2">
-          {choices.map((c) => {
-            const chosen = result && c === input
-            const isAnswer = result && c === question.answer
-            return (
-              <button
-                key={c}
-                type="button"
-                disabled={!!result}
-                onClick={() => submit(c)}
-                lang="es"
-                className={`rounded-md border px-3 py-3 text-lg ${
-                  isAnswer
-                    ? 'border-green-600 bg-success-soft'
-                    : chosen
-                      ? 'border-red-600 bg-danger-soft'
-                      : 'border-line bg-surface hover:bg-surface-muted'
-                }`}
-              >
-                {c}
-              </button>
-            )
-          })}
-        </div>
+        <ChoiceGrid
+          choices={choices}
+          onSelect={submit}
+          disabled={!!result}
+          state={(c) =>
+            !result ? 'idle' : c === question.answer ? 'correct' : c === input ? 'wrong' : 'idle'
+          }
+          lang="es"
+          large
+        />
       )}
 
       {result && (

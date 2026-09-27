@@ -1,6 +1,9 @@
 import { Link } from 'react-router'
 import { Chip, Radio, Section } from '../components/FormControls'
 import { useAppSettings, type Theme } from '../store/appSettingsStore'
+import { isSpeechSupported, speak, stopSpeaking, type SpeechLang } from '../utils/speech'
+
+const SAMPLE = 'Hola, ¿qué tal? Vamos a practicar español.'
 
 export function Settings() {
   const settings = useAppSettings((s) => s.settings)
@@ -31,6 +34,46 @@ export function Settings() {
         <p className="text-xs text-ink-subtle">
           スペイン語のキーボードを使っている場合は、表示しなくてもかまいません。
         </p>
+      </Section>
+
+      <Section title="読み上げ">
+        {isSpeechSupported() ? (
+          <>
+            <Chip
+              checked={settings.speech}
+              onChange={() => {
+                if (settings.speech) stopSpeaking()
+                update({ speech: !settings.speech })
+              }}
+              label="スペイン語を読み上げる"
+            />
+            <p className="text-xs text-ink-subtle">
+              オンのとき、問題の表示時や回答後にスペイン語を自動で読み上げ、スピーカーのボタンでもう一度聞けます。答えが分かってしまうものは回答するまで読みません。画面上部のボタンでも切り替えられます。
+            </p>
+            <Radio<SpeechLang>
+              value={settings.speechLang}
+              onChange={(speechLang) => update({ speechLang })}
+              options={[
+                { value: 'es-ES', label: 'スペインの発音' },
+                { value: 'es-MX', label: '中南米の発音' },
+              ]}
+            />
+            <div>
+              <button
+                type="button"
+                onClick={() => speak(SAMPLE, settings.speechLang)}
+                className="rounded-md border border-line px-3 py-1 text-sm hover:bg-surface-muted"
+              >
+                試しに聞く
+              </button>
+            </div>
+            <p className="text-xs text-ink-subtle">
+              音声は端末に入っているものを使います。スペイン語の音声がない端末では、発音が不自然になることがあります。
+            </p>
+          </>
+        ) : (
+          <p className="text-sm text-ink-muted">このブラウザは読み上げに対応していません。</p>
+        )}
       </Section>
 
       <Section title="クイズごとの設定">

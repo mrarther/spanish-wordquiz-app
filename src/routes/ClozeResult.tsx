@@ -1,5 +1,7 @@
 import { Link, Navigate, useNavigate } from 'react-router'
 import { ClozeSentence } from '../components/ClozeSentence'
+import { SpeakButton } from '../components/SpeakButton'
+import { fillCloze } from '../domain/cloze/parse'
 import { startClozeQuiz, useClozeStore } from '../store/clozeStore'
 
 export function ClozeResult() {
@@ -33,7 +35,10 @@ export function ClozeResult() {
           <ul className="grid gap-2">
             {mistakes.map(({ question: q, given, correct }) => (
               <li key={q.id} className="grid gap-1 rounded-md border border-line-soft p-3 text-sm">
-                <ClozeSentence parsed={q.parsed} reveal />
+                <div className="flex items-start gap-1">
+                  <ClozeSentence parsed={q.parsed} reveal />
+                  <SpeakButton text={fillCloze(q.parsed)} />
+                </div>
                 <p className="text-ink-muted">{q.item.translation_ja}</p>
                 <p lang="es">
                   あなたの答え：

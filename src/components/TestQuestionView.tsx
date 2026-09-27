@@ -2,6 +2,7 @@ import { isCompound } from '../domain/conjugation/compound'
 import { PERSON_LABELS, TENSES } from '../domain/conjugation/types'
 import { SECTION_LABELS, type TestQuestion } from '../domain/test/compose'
 import { ClozeSentence } from './ClozeSentence'
+import { SpeakButton } from './SpeakButton'
 
 /** 総合テストの問題文を分野ごとに表示する。reveal なら正解を入れて表示する（結果画面用） */
 export function TestQuestionView({ q, reveal }: { q: TestQuestion; reveal?: boolean }) {
@@ -13,6 +14,7 @@ export function TestQuestionView({ q, reveal }: { q: TestQuestion; reveal?: bool
           <p className="text-sm text-ink-muted">{TENSES[q.conj.tense].label_ja}</p>
           <p className="text-xl font-bold" lang="es">
             {q.conj.verb.infinitive}
+            <SpeakButton text={q.conj.verb.infinitive} />
             <span className="ml-2 text-base font-normal text-ink-muted">
               {q.conj.verb.meaning_ja}
             </span>

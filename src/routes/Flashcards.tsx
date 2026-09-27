@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { ProgressBar } from '../components/ProgressBar'
+import { SpeakButton } from '../components/SpeakButton'
+import { useAutoSpeak } from '../components/useSpeech'
 import { WordDetails } from '../components/WordDetails'
+import { displayEs } from '../domain/vocab/quiz'
 import { useVocabStore } from '../store/vocabStore'
 
 export function Flashcards() {
@@ -12,6 +15,11 @@ export function Flashcards() {
   const [flipped, setFlipped] = useState(false)
 
   const question = questions[answers.length]
+
+  // 読み上げ：スペイン語の面が見えたとき（西→日は表、日→西はめくったとき）
+  const spanish = question && displayEs(question.word)
+  const spanishSide = question?.direction === 'es-ja' ? !flipped : flipped
+  useAutoSpeak(spanishSide ? spanish : null, `${question?.id}:${flipped}`)
 
   const judge = (known: boolean) => {
     if (!question) return
@@ -57,6 +65,13 @@ export function Flashcards() {
           </div>
         )}
       </button>
+
+      {/* 日→西では、めくるまでボタンを出さない（答えが分かってしまうため） */}
+      {spanish && (question.direction === 'es-ja' || flipped) && (
+        <div className="-mt-4 text-center">
+          <SpeakButton text={spanish} />
+        </div>
+      )}
 
       {flipped && (
         <div className="grid grid-cols-2 gap-2">

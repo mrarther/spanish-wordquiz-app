@@ -1,5 +1,7 @@
 import { Link, Navigate, useNavigate } from 'react-router'
+import { SpeakButton } from '../components/SpeakButton'
 import { TestQuestionView } from '../components/TestQuestionView'
+import { fillCloze } from '../domain/cloze/parse'
 import { displayAnswer } from '../domain/test/display'
 import { SECTION_LABELS, TEST_SECTIONS } from '../domain/test/compose'
 import { percent } from '../domain/test/score'
@@ -74,6 +76,13 @@ export function TestResult() {
                   <span className="font-semibold text-success">
                     {displayAnswer(r.question, r.question.answer)}
                   </span>
+                  <SpeakButton
+                    text={
+                      r.question.section === 'cloze'
+                        ? fillCloze(r.question.cloze.parsed)
+                        : displayAnswer(r.question, r.question.answer)
+                    }
+                  />
                 </p>
               </li>
             ))}

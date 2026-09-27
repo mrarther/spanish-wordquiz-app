@@ -1,4 +1,5 @@
 import { Link, Navigate, useNavigate } from 'react-router'
+import { SpeakButton } from '../components/SpeakButton'
 import { displayEs } from '../domain/vocab/quiz'
 import { startVocabQuiz, useVocabStore, vocabQuizPath } from '../store/vocabStore'
 
@@ -46,6 +47,7 @@ export function VocabResult() {
                   <span className="font-semibold" lang="es">
                     {displayEs(q.word)}
                   </span>
+                  <SpeakButton text={displayEs(q.word)} />
                   <span className="mx-2">…</span>
                   {q.word.ja}
                 </p>

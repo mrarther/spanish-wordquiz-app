@@ -1,11 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { AnswerInput } from '../components/AnswerInput'
+import { ChoiceGrid } from '../components/ChoiceGrid'
 import { ProgressBar } from '../components/ProgressBar'
+import { SpeakButton } from '../components/SpeakButton'
+import { useAutoSpeak } from '../components/useSpeech'
 import { WordDetails } from '../components/WordDetails'
 import { VOCAB } from '../data/vocab'
 import { checkAnswer, type CheckResult } from '../domain/quiz/answerCheck'
-import { vocabChoices } from '../domain/vocab/quiz'
+import { displayEs, vocabChoices } from '../domain/vocab/quiz'
 import { useVocabStore } from '../store/vocabStore'
 
 export function VocabQuiz() {
@@ -26,6 +29,11 @@ export function VocabQuiz() {
     [question, mode],
   )
   const isLast = index === questions.length - 1
+
+  // 読み上げ：西→日は表示時に単語、日→西は回答後に単語（答えを先に明かさない）
+  const spanish = question && displayEs(question.word)
+  const spokenNow = question?.direction === 'es-ja' ? !result : !!result
+  useAutoSpeak(spokenNow ? spanish : null, `${question?.id}:${result ? 'answer' : 'question'}`)
 
   const next = () => {
     if (isLast) {
@@ -72,6 +80,7 @@ export function VocabQuiz() {
         </p>
         <p className="text-2xl font-bold" lang={promptLang}>
           {question.prompt}
+          {question.direction === 'es-ja' && <SpeakButton text={spanish!} />}
         </p>
       </div>
 
@@ -83,30 +92,15 @@ export function VocabQuiz() {
           disabled={!!result}
         />
       ) : (
-        <div className="grid grid-cols-2 gap-2">
-          {choices.map((c) => {
-            const chosen = result && c === input
-            const isAnswer = result && c === question.answer
-            return (
-              <button
-                key={c}
-                type="button"
-                disabled={!!result}
-                onClick={() => submit(c)}
-                lang={choiceLang}
-                className={`rounded-md border px-3 py-3 ${
-                  isAnswer
-                    ? 'border-green-600 bg-success-soft'
-                    : chosen
-                      ? 'border-red-600 bg-danger-soft'
-                      : 'border-line bg-surface hover:bg-surface-muted'
-                }`}
-              >
-                {c}
-              </button>
-            )
-          })}
-        </div>
+        <ChoiceGrid
+          choices={choices}
+          onSelect={submit}
+          disabled={!!result}
+          state={(c) =>
+            !result ? 'idle' : c === question.answer ? 'correct' : c === input ? 'wrong' : 'idle'
+          }
+          lang={choiceLang}
+        />
       )}
 
       {result && (
@@ -120,7 +114,10 @@ export function VocabQuiz() {
               <span className="ml-2 text-sm font-normal text-warning">アクセント記号に注意</span>
             )}
           </p>
-          <WordDetails word={question.word} />
+          <div className="flex items-start gap-1">
+            <WordDetails word={question.word} />
+            <SpeakButton text={spanish!} />
+          </div>
           <button
             type="button"
             onClick={next}

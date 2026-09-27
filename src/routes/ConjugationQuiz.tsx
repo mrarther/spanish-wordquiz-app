@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { AnswerInput } from '../components/AnswerInput'
+import { ChoiceGrid } from '../components/ChoiceGrid'
 import { ProgressBar } from '../components/ProgressBar'
+import { SpeakButton } from '../components/SpeakButton'
+import { useAutoSpeak } from '../components/useSpeech'
 import { isCompound } from '../domain/conjugation/compound'
 import { PERSON_LABELS, TENSES } from '../domain/conjugation/types'
 import { checkAnswer, type CheckResult } from '../domain/quiz/answerCheck'
@@ -26,6 +29,15 @@ export function ConjugationQuiz() {
     [question, format],
   )
   const isLast = index === questions.length - 1
+
+  // 読み上げ：表示時は動詞の原形、回答後は正解（命令法の否定は "no" 付き）
+  const answerText =
+    question &&
+    (question.tense === 'imperativeNegative' ? `no ${question.answer}` : question.answer)
+  useAutoSpeak(
+    question && (result ? answerText : question.verb.infinitive),
+    `${question?.id}:${result ? 'answer' : 'question'}`,
+  )
 
   const next = () => {
     if (isLast) {
@@ -71,6 +83,7 @@ export function ConjugationQuiz() {
         <p className="text-sm text-ink-muted">{TENSES[tense].label_ja}</p>
         <p className="text-2xl font-bold" lang="es">
           {verb.infinitive}
+          <SpeakButton text={verb.infinitive} />
           <span className="ml-2 text-base font-normal text-ink-muted">{verb.meaning_ja}</span>
         </p>
         <p className="text-lg" lang="es">
@@ -92,30 +105,17 @@ export function ConjugationQuiz() {
           prefix={negative ? 'no' : undefined}
         />
       ) : (
-        <div className="grid grid-cols-2 gap-2">
-          {choices.map((c) => {
-            const chosen = result && c === input
-            const isAnswer = result && c === question.answer
-            return (
-              <button
-                key={c}
-                type="button"
-                disabled={!!result}
-                onClick={() => submit(c)}
-                lang="es"
-                className={`rounded-md border px-3 py-3 text-lg ${
-                  isAnswer
-                    ? 'border-green-600 bg-success-soft'
-                    : chosen
-                      ? 'border-red-600 bg-danger-soft'
-                      : 'border-line bg-surface hover:bg-surface-muted'
-                }`}
-              >
-                {negative ? `no ${c}` : c}
-              </button>
-            )
-          })}
-        </div>
+        <ChoiceGrid
+          choices={choices}
+          onSelect={submit}
+          disabled={!!result}
+          state={(c) =>
+            !result ? 'idle' : c === question.answer ? 'correct' : c === input ? 'wrong' : 'idle'
+          }
+          lang="es"
+          format={(c) => (negative ? `no ${c}` : c)}
+          large
+        />
       )}
 
       {result && (
@@ -128,13 +128,12 @@ export function ConjugationQuiz() {
             {result.accentMistake && (
               <span className="ml-2 text-sm font-normal text-warning">アクセント記号に注意</span>
             )}
+            <SpeakButton text={answerText!} />
           </p>
           {(!result.correct || result.accentMistake) && (
             <p lang="es">
               正解：
-              <span className="font-semibold">
-                {negative ? `no ${question.answer}` : question.answer}
-              </span>
+              <span className="font-semibold">{answerText}</span>
             </p>
           )}
           <button

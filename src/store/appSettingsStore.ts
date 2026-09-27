@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import type { SpeechLang } from '../utils/speech'
 
 /** system：端末の設定に合わせる */
 export type Theme = 'system' | 'light' | 'dark'
@@ -7,6 +8,9 @@ export type AppSettings = {
   theme: Theme
   /** 入力欄の下に á・ñ などの入力補助ボタンを表示する */
   showAccentKeyboard: boolean
+  /** スペイン語を読み上げる（オンのとき、問題の表示時・回答後に自動で読み、スピーカーのボタンを表示する） */
+  speech: boolean
+  speechLang: SpeechLang
 }
 
 type State = {
@@ -15,7 +19,7 @@ type State = {
 }
 
 export const useAppSettings = create<State>((set) => ({
-  settings: { theme: 'system', showAccentKeyboard: true },
+  settings: { theme: 'system', showAccentKeyboard: true, speech: false, speechLang: 'es-ES' },
   update: (patch) => set((s) => ({ settings: { ...s.settings, ...patch } })),
 }))
 

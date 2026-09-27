@@ -1,4 +1,5 @@
 import { createBrowserRouter, Link, NavLink, Outlet, RouterProvider } from 'react-router'
+import { SpeechToggle } from './components/SpeechToggle'
 import { UpdatePrompt } from './components/UpdatePrompt'
 import { ClozeManager } from './routes/ClozeManager'
 import { ClozeQuiz } from './routes/ClozeQuiz'
@@ -32,7 +33,7 @@ function Layout() {
         <h1 className="text-xl font-bold sm:text-2xl">
           <Link to="/">Spanish Word Quiz</Link>
         </h1>
-        <nav aria-label="メニュー" className="flex gap-4 text-sm">
+        <nav aria-label="メニュー" className="flex items-center gap-4 text-sm">
           {NAV.map(({ to, label }) => (
             <NavLink
               key={to}
@@ -44,6 +45,7 @@ function Layout() {
               {label}
             </NavLink>
           ))}
+          <SpeechToggle />
         </nav>
       </header>
       <Outlet />

@@ -35,3 +35,8 @@ export function parseCloze(sentence: string): ParsedCloze | null {
 export function formatCloze({ before, answer, after }: ParsedCloze): string {
   return `${before}[[${answer}]]${after}`
 }
+
+/** 空欄に答えを入れた例文（読み上げ用） */
+export function fillCloze({ before, answer, after }: ParsedCloze): string {
+  return `${before}${answer}${after}`
+}

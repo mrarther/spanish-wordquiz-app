@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { AnswerInput } from '../components/AnswerInput'
+import { ChoiceGrid } from '../components/ChoiceGrid'
+import { useAutoSpeak } from '../components/useSpeech'
 import { TestQuestionView } from '../components/TestQuestionView'
 import { displayAnswer, isNegativeImperative } from '../domain/test/display'
 import { useTestStore } from '../store/testStore'
@@ -18,6 +20,10 @@ export function TestRun() {
   const navigate = useNavigate()
 
   const [index, setIndex] = useState(0)
+
+  // 読み上げ：活用問題の動詞の原形だけ（ほかの問題は答えが分かってしまうので読まない）
+  const current = questions[index]
+  useAutoSpeak(current?.section === 'conj' ? current.conj.verb.infinitive : null, current?.id ?? '')
   const [now, setNow] = useState(() => Date.now())
 
   // 制限時間があれば1秒ごとに残り時間を更新し、時間切れで自動的に採点する
@@ -79,24 +85,13 @@ export function TestRun() {
           submitLabel={isLast ? '入力を確定' : '次の問題へ（Enter）'}
         />
       ) : (
-        <div className="grid grid-cols-2 gap-2">
-          {(choices[q.id] ?? []).map((c) => (
-            <button
-              key={c}
-              type="button"
-              onClick={() => answer(q.id, c)}
-              aria-pressed={answers[q.id] === c}
-              lang="es"
-              className={`rounded-md border px-3 py-3 ${
-                answers[q.id] === c
-                  ? 'border-blue-600 bg-accent-soft font-semibold'
-                  : 'border-line bg-surface hover:bg-surface-muted'
-              }`}
-            >
-              {displayAnswer(q, c)}
-            </button>
-          ))}
-        </div>
+        <ChoiceGrid
+          choices={choices[q.id] ?? []}
+          onSelect={(c) => answer(q.id, c)}
+          state={(c) => (answers[q.id] === c ? 'selected' : 'idle')}
+          lang="es"
+          format={(c) => displayAnswer(q, c)}
+        />
       )}
 
       <div className="flex gap-2">
