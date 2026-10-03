@@ -2458,5 +2458,1239 @@
       "subjunctivePresent": ["sonría", "sonrías", "sonría", "sonriamos", "sonriáis", "sonrían"]
     },
     "level": "A2"
+  },
+  {
+    "infinitive": "abandonar",
+    "meaning_ja": "捨てる、見捨てる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "acabar",
+    "meaning_ja": "終える、終わる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "adaptar",
+    "meaning_ja": "適応させる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "ahorrar",
+    "meaning_ja": "節約する、貯金する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "alegrar",
+    "meaning_ja": "喜ばせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "animar",
+    "meaning_ja": "励ます",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "asegurar",
+    "meaning_ja": "保証する、確かめる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "cancelar",
+    "meaning_ja": "取り消す",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "causar",
+    "meaning_ja": "引き起こす",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "citar",
+    "meaning_ja": "引用する、会う約束をする",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "colaborar",
+    "meaning_ja": "協力する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "compensar",
+    "meaning_ja": "埋め合わせる",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "concentrar",
+    "meaning_ja": "集中させる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "confirmar",
+    "meaning_ja": "確認する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "consultar",
+    "meaning_ja": "相談する、調べる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "contaminar",
+    "meaning_ja": "汚染する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "cooperar",
+    "meaning_ja": "協力し合う",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "cultivar",
+    "meaning_ja": "栽培する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "declarar",
+    "meaning_ja": "宣言する、申告する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "depositar",
+    "meaning_ja": "預ける",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "desarrollar",
+    "meaning_ja": "発展させる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "disculpar",
+    "meaning_ja": "許す（失礼を）",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "dudar",
+    "meaning_ja": "疑う",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "editar",
+    "meaning_ja": "編集する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "elaborar",
+    "meaning_ja": "作り上げる",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "emigrar",
+    "meaning_ja": "移住する（国外へ）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "engañar",
+    "meaning_ja": "だます",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "enojar",
+    "meaning_ja": "怒らせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "entrenar",
+    "meaning_ja": "訓練する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "entrevistar",
+    "meaning_ja": "インタビューする",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "escapar",
+    "meaning_ja": "逃げる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "exagerar",
+    "meaning_ja": "誇張する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "examinar",
+    "meaning_ja": "調べる、試験する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "exportar",
+    "meaning_ja": "輸出する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "fallar",
+    "meaning_ja": "失敗する、故障する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "fascinar",
+    "meaning_ja": "魅了する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "fijar",
+    "meaning_ja": "固定する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "fracasar",
+    "meaning_ja": "失敗に終わる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "frenar",
+    "meaning_ja": "ブレーキをかける",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "generar",
+    "meaning_ja": "生み出す",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "gestionar",
+    "meaning_ja": "管理する、手続きする",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "grabar",
+    "meaning_ja": "録音する、録画する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "heredar",
+    "meaning_ja": "相続する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "ignorar",
+    "meaning_ja": "知らない、無視する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "iluminar",
+    "meaning_ja": "照らす",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "impresionar",
+    "meaning_ja": "感銘を与える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "impulsar",
+    "meaning_ja": "推進する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "inaugurar",
+    "meaning_ja": "開業する、開会する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "ingresar",
+    "meaning_ja": "入る、入金する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "inspirar",
+    "meaning_ja": "ひらめきを与える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "instalar",
+    "meaning_ja": "設置する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "integrar",
+    "meaning_ja": "統合する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "intercambiar",
+    "meaning_ja": "交換する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "interpretar",
+    "meaning_ja": "解釈する、演じる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "inventar",
+    "meaning_ja": "発明する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "lamentar",
+    "meaning_ja": "残念に思う",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "liberar",
+    "meaning_ja": "解放する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "limitar",
+    "meaning_ja": "制限する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "lograr",
+    "meaning_ja": "達成する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "manipular",
+    "meaning_ja": "操作する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "mencionar",
+    "meaning_ja": "言及する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "molestar",
+    "meaning_ja": "迷惑をかける",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "motivar",
+    "meaning_ja": "やる気にさせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "ocultar",
+    "meaning_ja": "隠す",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "operar",
+    "meaning_ja": "手術する、操作する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "opinar",
+    "meaning_ja": "意見を述べる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "optar",
+    "meaning_ja": "選ぶ（〜を選択する）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "preservar",
+    "meaning_ja": "保護する、保存する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "presionar",
+    "meaning_ja": "圧力をかける",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "procesar",
+    "meaning_ja": "処理する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "proclamar",
+    "meaning_ja": "宣言する（公に）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "progresar",
+    "meaning_ja": "進歩する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "protestar",
+    "meaning_ja": "抗議する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "rechazar",
+    "meaning_ja": "拒否する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "reclamar",
+    "meaning_ja": "要求する、苦情を言う",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "recuperar",
+    "meaning_ja": "取り戻す",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "reflejar",
+    "meaning_ja": "反映する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "reflexionar",
+    "meaning_ja": "よく考える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "relacionar",
+    "meaning_ja": "関連づける",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "rellenar",
+    "meaning_ja": "記入する、詰める",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "renunciar",
+    "meaning_ja": "あきらめる、辞任する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "rescatar",
+    "meaning_ja": "救出する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "reservar",
+    "meaning_ja": "予約する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "retrasar",
+    "meaning_ja": "遅らせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "revisar",
+    "meaning_ja": "見直す",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "rodear",
+    "meaning_ja": "囲む",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "soportar",
+    "meaning_ja": "耐える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "sospechar",
+    "meaning_ja": "疑う（怪しいと思う）",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "subrayar",
+    "meaning_ja": "下線を引く、強調する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "superar",
+    "meaning_ja": "乗り越える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "tolerar",
+    "meaning_ja": "容認する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "transformar",
+    "meaning_ja": "変える（変形させる）",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "trasladar",
+    "meaning_ja": "移す",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "valorar",
+    "meaning_ja": "評価する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "vigilar",
+    "meaning_ja": "見張る",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "aliviar",
+    "meaning_ja": "和らげる",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "acercar",
+    "meaning_ja": "近づける",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "arriesgar",
+    "meaning_ja": "危険にさらす",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "amenazar",
+    "meaning_ja": "脅す",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "aterrizar",
+    "meaning_ja": "着陸する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "calificar",
+    "meaning_ja": "評価する（点をつける）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "chocar",
+    "meaning_ja": "ぶつかる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "clasificar",
+    "meaning_ja": "分類する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "complicar",
+    "meaning_ja": "複雑にする",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "criticar",
+    "meaning_ja": "批判する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "descargar",
+    "meaning_ja": "ダウンロードする、荷を降ろす",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "destacar",
+    "meaning_ja": "際立たせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "embarcar",
+    "meaning_ja": "乗船する、搭乗する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "encargar",
+    "meaning_ja": "任せる、注文する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "equivocar",
+    "meaning_ja": "間違える",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "garantizar",
+    "meaning_ja": "保証する（請け合う）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "implicar",
+    "meaning_ja": "含意する、巻き込む",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "juzgar",
+    "meaning_ja": "判断する、裁く",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "modificar",
+    "meaning_ja": "修正する",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "otorgar",
+    "meaning_ja": "授与する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "perjudicar",
+    "meaning_ja": "害を与える",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "provocar",
+    "meaning_ja": "引き起こす（挑発する）",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "simplificar",
+    "meaning_ja": "単純にする",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "suplicar",
+    "meaning_ja": "懇願する（ひたすら頼む）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "tranquilizar",
+    "meaning_ja": "落ち着かせる",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "ubicar",
+    "meaning_ja": "位置づける",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "ejercer",
+    "meaning_ja": "行使する、従事する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "absorber",
+    "meaning_ja": "吸収する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "pretender",
+    "meaning_ja": "〜しようとする",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "combatir",
+    "meaning_ja": "戦う（〜と闘う）",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "percibir",
+    "meaning_ja": "知覚する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "persuadir",
+    "meaning_ja": "説得する（説き伏せる）",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "sobrevivir",
+    "meaning_ja": "生き残る",
+    "group": "regular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "suprimir",
+    "meaning_ja": "廃止する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "invadir",
+    "meaning_ja": "侵入する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "prescindir",
+    "meaning_ja": "なしで済ませる",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "presumir",
+    "meaning_ja": "自慢する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "transcurrir",
+    "meaning_ja": "（時が）経過する",
+    "group": "regular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "invertir",
+    "meaning_ja": "投資する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "consentir",
+    "meaning_ja": "同意する（許す）",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "requerir",
+    "meaning_ja": "必要とする（求める）",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "referir",
+    "meaning_ja": "言及する（関連づけて述べる）",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "digerir",
+    "meaning_ja": "消化する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "competir",
+    "meaning_ja": "競う",
+    "group": "stem",
+    "stemChange": "e>i",
+    "level": "B2"
+  },
+  {
+    "infinitive": "concebir",
+    "meaning_ja": "思いつく、妊娠する",
+    "group": "stem",
+    "stemChange": "e>i",
+    "level": "B2"
+  },
+  {
+    "infinitive": "promover",
+    "meaning_ja": "促進する",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B2"
+  },
+  {
+    "infinitive": "renovar",
+    "meaning_ja": "更新する",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B1"
+  },
+  {
+    "infinitive": "reforzar",
+    "meaning_ja": "強化する",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B2"
+  },
+  {
+    "infinitive": "forzar",
+    "meaning_ja": "強いる（無理にさせる）",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B2"
+  },
+  {
+    "infinitive": "comprobar",
+    "meaning_ja": "確かめる",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B1"
+  },
+  {
+    "infinitive": "confesar",
+    "meaning_ja": "告白する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B1"
+  },
+  {
+    "infinitive": "gobernar",
+    "meaning_ja": "統治する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "manifestar",
+    "meaning_ja": "表明する",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B2"
+  },
+  {
+    "infinitive": "tropezar",
+    "meaning_ja": "つまずく",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B1"
+  },
+  {
+    "infinitive": "regar",
+    "meaning_ja": "水をやる",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B1"
+  },
+  {
+    "infinitive": "fregar",
+    "meaning_ja": "（食器を）洗う",
+    "group": "stem",
+    "stemChange": "e>ie",
+    "level": "B1"
+  },
+  {
+    "infinitive": "apostar",
+    "meaning_ja": "賭ける",
+    "group": "stem",
+    "stemChange": "o>ue",
+    "level": "B1"
+  },
+  {
+    "infinitive": "desconfiar",
+    "meaning_ja": "信用しない",
+    "group": "stem",
+    "stemChange": "i>í",
+    "level": "B2"
+  },
+  {
+    "infinitive": "aparecer",
+    "meaning_ja": "現れる",
+    "group": "irregular",
+    "zc": true,
+    "level": "B1"
+  },
+  {
+    "infinitive": "permanecer",
+    "meaning_ja": "とどまる",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "favorecer",
+    "meaning_ja": "有利にする",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "fortalecer",
+    "meaning_ja": "強くする",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "enriquecer",
+    "meaning_ja": "豊かにする",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "envejecer",
+    "meaning_ja": "年をとる",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "padecer",
+    "meaning_ja": "（病気などに）苦しむ",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "carecer",
+    "meaning_ja": "欠いている",
+    "group": "irregular",
+    "zc": true,
+    "level": "B2"
+  },
+  {
+    "infinitive": "deducir",
+    "meaning_ja": "推論する、差し引く",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "deduj",
+    "level": "B2"
+  },
+  {
+    "infinitive": "seducir",
+    "meaning_ja": "魅惑する",
+    "group": "irregular",
+    "zc": true,
+    "preteriteStem": "seduj",
+    "level": "B2"
+  },
+  {
+    "infinitive": "disminuir",
+    "meaning_ja": "減少する",
+    "group": "irregular",
+    "level": "B1"
+  },
+  {
+    "infinitive": "atribuir",
+    "meaning_ja": "（〜のせいに）帰する",
+    "group": "irregular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "constituir",
+    "meaning_ja": "構成する",
+    "group": "irregular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "instruir",
+    "meaning_ja": "教育する（指導する）",
+    "group": "irregular",
+    "level": "B2"
+  },
+  {
+    "infinitive": "proponer",
+    "meaning_ja": "提案する",
+    "group": "irregular",
+    "preteriteStem": "propus",
+    "futureStem": "propondr",
+    "pastParticiple": "propuesto",
+    "irregular": {
+      "present": ["propongo"],
+      "imperativeAffirmative": [null, "propón"]
+    },
+    "level": "B1"
+  },
+  {
+    "infinitive": "componer",
+    "meaning_ja": "構成する、作曲する",
+    "group": "irregular",
+    "preteriteStem": "compus",
+    "futureStem": "compondr",
+    "pastParticiple": "compuesto",
+    "irregular": {
+      "present": ["compongo"],
+      "imperativeAffirmative": [null, "compón"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "disponer",
+    "meaning_ja": "配置する、自由に使える",
+    "group": "irregular",
+    "preteriteStem": "dispus",
+    "futureStem": "dispondr",
+    "pastParticiple": "dispuesto",
+    "irregular": {
+      "present": ["dispongo"],
+      "imperativeAffirmative": [null, "dispón"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "exponer",
+    "meaning_ja": "展示する、説明する",
+    "group": "irregular",
+    "preteriteStem": "expus",
+    "futureStem": "expondr",
+    "pastParticiple": "expuesto",
+    "irregular": {
+      "present": ["expongo"],
+      "imperativeAffirmative": [null, "expón"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "imponer",
+    "meaning_ja": "課す、押しつける",
+    "group": "irregular",
+    "preteriteStem": "impus",
+    "futureStem": "impondr",
+    "pastParticiple": "impuesto",
+    "irregular": {
+      "present": ["impongo"],
+      "imperativeAffirmative": [null, "impón"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "detener",
+    "meaning_ja": "止める、逮捕する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "detuv",
+    "futureStem": "detendr",
+    "irregular": {
+      "present": ["detengo"],
+      "imperativeAffirmative": [null, "detén"]
+    },
+    "level": "B1"
+  },
+  {
+    "infinitive": "contener",
+    "meaning_ja": "含む（中に入れている）",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "contuv",
+    "futureStem": "contendr",
+    "irregular": {
+      "present": ["contengo"],
+      "imperativeAffirmative": [null, "contén"]
+    },
+    "level": "B1"
+  },
+  {
+    "infinitive": "sostener",
+    "meaning_ja": "支える、主張する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "sostuv",
+    "futureStem": "sostendr",
+    "irregular": {
+      "present": ["sostengo"],
+      "imperativeAffirmative": [null, "sostén"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "retener",
+    "meaning_ja": "引き止める、保持する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "retuv",
+    "futureStem": "retendr",
+    "irregular": {
+      "present": ["retengo"],
+      "imperativeAffirmative": [null, "retén"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "convenir",
+    "meaning_ja": "都合がよい、合意する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "convin",
+    "futureStem": "convendr",
+    "irregular": {
+      "present": ["convengo"],
+      "imperativeAffirmative": [null, "convén"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "prevenir",
+    "meaning_ja": "予防する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "previn",
+    "futureStem": "prevendr",
+    "irregular": {
+      "present": ["prevengo"],
+      "imperativeAffirmative": [null, "prevén"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "intervenir",
+    "meaning_ja": "介入する",
+    "group": "irregular",
+    "stemChange": "e>ie",
+    "preteriteStem": "intervin",
+    "futureStem": "intervendr",
+    "irregular": {
+      "present": ["intervengo"],
+      "imperativeAffirmative": [null, "intervén"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "atraer",
+    "meaning_ja": "引きつける",
+    "group": "irregular",
+    "preteriteStem": "atraj",
+    "irregular": {
+      "present": ["atraigo"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "distraer",
+    "meaning_ja": "気をそらす",
+    "group": "irregular",
+    "preteriteStem": "distraj",
+    "irregular": {
+      "present": ["distraigo"]
+    },
+    "level": "B1"
+  },
+  {
+    "infinitive": "extraer",
+    "meaning_ja": "抽出する",
+    "group": "irregular",
+    "preteriteStem": "extraj",
+    "irregular": {
+      "present": ["extraigo"]
+    },
+    "level": "B2"
+  },
+  {
+    "infinitive": "deshacer",
+    "meaning_ja": "元に戻す、ほどく",
+    "group": "irregular",
+    "preteriteStem": "deshic",
+    "futureStem": "deshar",
+    "pastParticiple": "deshecho",
+    "irregular": {
+      "present": ["deshago"],
+      "preterite": [null, null, "deshizo"],
+      "imperativeAffirmative": [null, "deshaz"]
+    },
+    "level": "B2"
   }
 ]

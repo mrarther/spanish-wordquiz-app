@@ -484,6 +484,75 @@ describe('追加した語幹変化・その他の動詞', () => {
   })
 })
 
+describe('上級の動詞（B1〜B2）', () => {
+  it('poner・tener・venir・traer・hacer の複合動詞', () => {
+    expectTable('proponer', {
+      present: f('propongo propones propone proponemos proponéis proponen'),
+      preterite: f('propuse propusiste propuso propusimos propusisteis propusieron'),
+      future: f('propondré propondrás propondrá propondremos propondréis propondrán'),
+      subjunctivePresent: f('proponga propongas proponga propongamos propongáis propongan'),
+      imperativeAffirmative: imp('propón proponga propongamos proponed propongan'),
+    })
+    expect(pastParticiple(verb('proponer'))).toBe('propuesto')
+    expect(pastParticiple(verb('exponer'))).toBe('expuesto')
+    expectTable('detener', {
+      present: f('detengo detienes detiene detenemos detenéis detienen'),
+      preterite: f('detuve detuviste detuvo detuvimos detuvisteis detuvieron'),
+      imperativeAffirmative: imp('detén detenga detengamos detened detengan'),
+    })
+    expect(conjugate(verb('sostener'), 'future', 0)).toBe('sostendré')
+    expectTable('convenir', {
+      present: f('convengo convienes conviene convenimos convenís convienen'),
+      preterite: f('convine conviniste convino convinimos convinisteis convinieron'),
+      imperativeAffirmative: imp('convén convenga convengamos convenid convengan'),
+    })
+    expect(gerund(verb('prevenir'))).toBe('previniendo')
+    expect(conjugate(verb('intervenir'), 'conditional', 2)).toBe('intervendría')
+    expectTable('atraer', {
+      present: f('atraigo atraes atrae atraemos atraéis atraen'),
+      preterite: f('atraje atrajiste atrajo atrajimos atrajisteis atrajeron'),
+      subjunctiveImperfect: f('atrajera atrajeras atrajera atrajéramos atrajerais atrajeran'),
+    })
+    expect(gerund(verb('distraer'))).toBe('distrayendo')
+    expect(pastParticiple(verb('extraer'))).toBe('extraído')
+    expectTable('deshacer', {
+      present: f('deshago deshaces deshace deshacemos deshacéis deshacen'),
+      preterite: f('deshice deshiciste deshizo deshicimos deshicisteis deshicieron'),
+      future: f('desharé desharás deshará desharemos desharéis desharán'),
+      imperativeAffirmative: imp('deshaz deshaga deshagamos deshaced deshagan'),
+    })
+    expect(pastParticiple(verb('deshacer'))).toBe('deshecho')
+  })
+
+  it.each([
+    ['deducir', 'present', 0, 'deduzco'],
+    ['deducir', 'preterite', 5, 'dedujeron'],
+    ['aparecer', 'subjunctivePresent', 0, 'aparezca'],
+    ['disminuir', 'present', 0, 'disminuyo'],
+    ['atribuir', 'preterite', 2, 'atribuyó'],
+    ['invertir', 'present', 0, 'invierto'],
+    ['invertir', 'preterite', 2, 'invirtió'],
+    ['requerir', 'subjunctivePresent', 3, 'requiramos'],
+    ['competir', 'present', 1, 'compites'],
+    ['concebir', 'preterite', 5, 'concibieron'],
+    ['promover', 'present', 2, 'promueve'],
+    ['reforzar', 'present', 0, 'refuerzo'],
+    ['reforzar', 'preterite', 0, 'reforcé'],
+    ['reforzar', 'subjunctivePresent', 2, 'refuerce'],
+    ['regar', 'present', 0, 'riego'],
+    ['regar', 'preterite', 0, 'regué'],
+    ['tropezar', 'subjunctivePresent', 3, 'tropecemos'],
+    ['desconfiar', 'present', 0, 'desconfío'],
+    ['ejercer', 'present', 0, 'ejerzo'],
+    ['rechazar', 'preterite', 0, 'rechacé'],
+    ['juzgar', 'subjunctivePresent', 1, 'juzgues'],
+    ['aliviar', 'present', 0, 'alivio'],
+    ['sobrevivir', 'preterite', 5, 'sobrevivieron'],
+  ] as const)('%s %s[%i] = %s', (inf, tense, person, expected) => {
+    expect(conjugate(verb(inf), tense, person)).toBe(expected)
+  })
+})
+
 describe('複合時制', () => {
   it('haber + 過去分詞', () => {
     expect(conjugateAll(verb('hablar'), 'presentPerfect')).toEqual([

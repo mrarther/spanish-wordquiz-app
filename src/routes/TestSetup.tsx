@@ -17,7 +17,7 @@ import { allClozeItems, useClozeStore } from '../store/clozeStore'
 import { rangeOf, startTest, useTestStore, type TestSetup as Setup } from '../store/testStore'
 import { toggle } from '../utils/list'
 
-const LEVELS: Level[] = ['A1', 'A2', 'B1']
+const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2']
 const COUNTS = [10, 20, 30, 50]
 const TIME_LIMITS: (number | null)[] = [null, 5, 10, 20, 30]
 

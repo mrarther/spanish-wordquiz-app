@@ -367,6 +367,156 @@
       "ja": "すべて",
       "pos": "pron",
       "level": "A1"
+    },
+    {
+      "es": "además",
+      "ja": "さらに",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "sin embargo",
+      "ja": "しかしながら",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "aunque",
+      "ja": "〜だけれども",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "por lo tanto",
+      "ja": "したがって",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "mientras",
+      "ja": "〜する間",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "en cambio",
+      "ja": "それに対して",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "incluso",
+      "ja": "〜さえ",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "quizás",
+      "ja": "たぶん",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "apenas",
+      "ja": "ほとんど〜ない",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "bastante",
+      "ja": "かなり",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "demasiado",
+      "ja": "〜すぎる",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "enseguida",
+      "ja": "ただちに",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "a menudo",
+      "ja": "しばしば",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "de repente",
+      "ja": "突然",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "por fin",
+      "ja": "ついに",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "sobre todo",
+      "ja": "特に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "en realidad",
+      "ja": "実は",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "es decir",
+      "ja": "つまり",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "a pesar de",
+      "ja": "〜にもかかわらず",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "debido a",
+      "ja": "〜が原因で",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "según",
+      "ja": "〜によれば",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "hacia",
+      "ja": "〜の方へ",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "durante",
+      "ja": "〜の間",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "contra",
+      "ja": "〜に反対して",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "cada vez más",
+      "ja": "ますます",
+      "pos": "adv",
+      "level": "B2"
     }
   ]
 }

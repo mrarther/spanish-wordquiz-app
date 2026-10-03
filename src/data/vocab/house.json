@@ -274,6 +274,48 @@
       "pos": "noun",
       "gender": "f",
       "level": "A2"
+    },
+    {
+      "es": "mueble",
+      "ja": "家具",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "alfombra",
+      "ja": "じゅうたん",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cortina",
+      "ja": "カーテン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "almohada",
+      "ja": "枕",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "enchufe",
+      "ja": "コンセント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "grifo",
+      "ja": "蛇口",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

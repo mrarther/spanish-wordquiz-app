@@ -225,6 +225,41 @@
       "pos": "noun",
       "gender": "m",
       "level": "A2"
+    },
+    {
+      "es": "alojamiento",
+      "ja": "宿泊施設",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "destino",
+      "ja": "目的地、運命",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "excursión",
+      "ja": "遠足、小旅行",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "guía",
+      "ja": "ガイド",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "aduana",
+      "ja": "税関",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

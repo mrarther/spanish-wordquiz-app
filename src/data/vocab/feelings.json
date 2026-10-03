@@ -158,6 +158,137 @@
       "pos": "noun",
       "gender": "f",
       "level": "A1"
+    },
+    {
+      "es": "orgulloso",
+      "ja": "誇りに思っている",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "celoso",
+      "ja": "嫉妬深い",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "avergonzado",
+      "ja": "恥ずかしい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "agradecido",
+      "ja": "感謝している",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "decepcionado",
+      "ja": "がっかりした",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "emocionado",
+      "ja": "わくわくした、感動した",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "relajado",
+      "ja": "リラックスした",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "solitario",
+      "ja": "孤独な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "generoso",
+      "ja": "気前のよい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "honesto",
+      "ja": "正直な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "egoísta",
+      "ja": "自分勝手な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "valiente",
+      "ja": "勇敢な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "responsable",
+      "ja": "責任感のある",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "paciente",
+      "ja": "忍耐強い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "optimista",
+      "ja": "楽観的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "pesimista",
+      "ja": "悲観的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "ansiedad",
+      "ja": "不安",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vergüenza",
+      "ja": "恥",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "orgullo",
+      "ja": "誇り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "esperanza",
+      "ja": "希望",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "confianza",
+      "ja": "信頼",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }

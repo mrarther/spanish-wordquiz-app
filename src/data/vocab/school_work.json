@@ -253,6 +253,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "A1"
+    },
+    {
+      "es": "carrera",
+      "ja": "経歴、大学の専攻",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "título",
+      "ja": "学位、題名",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "beca",
+      "ja": "奨学金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "asignatura",
+      "ja": "科目",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "proyecto",
+      "ja": "計画、プロジェクト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "contrato",
+      "ja": "契約",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "entrevista",
+      "ja": "面接、インタビュー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "salario",
+      "ja": "給与",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cliente",
+      "ja": "顧客",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "negocio",
+      "ja": "商売、ビジネス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "economía",
+      "ja": "経済",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "presupuesto",
+      "ja": "予算",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "competencia",
+      "ja": "競争、能力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

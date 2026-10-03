@@ -301,6 +301,246 @@
       "ja": "快適な",
       "pos": "adj",
       "level": "A2"
+    },
+    {
+      "es": "actual",
+      "ja": "現在の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "agradable",
+      "ja": "心地よい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "amplio",
+      "ja": "広い、幅広い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "anterior",
+      "ja": "前の、以前の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "básico",
+      "ja": "基本的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "capaz",
+      "ja": "能力のある",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "cierto",
+      "ja": "確かな",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "común",
+      "ja": "共通の、普通の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "complejo",
+      "ja": "複雑な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "distinto",
+      "ja": "異なる",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "eficaz",
+      "ja": "効果的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "enorme",
+      "ja": "巨大な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "escaso",
+      "ja": "乏しい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "estrecho",
+      "ja": "狭い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "evidente",
+      "ja": "明らかな",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "exacto",
+      "ja": "正確な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "extraño",
+      "ja": "奇妙な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "falso",
+      "ja": "偽の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "fundamental",
+      "ja": "根本的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "grave",
+      "ja": "重大な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "inmediato",
+      "ja": "即座の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "justo",
+      "ja": "公正な、ちょうどの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "local",
+      "ja": "地元の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "necesario",
+      "ja": "必要な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "obvio",
+      "ja": "当然の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "original",
+      "ja": "独創的な、元の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "perfecto",
+      "ja": "完璧な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "posible",
+      "ja": "可能な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "principal",
+      "ja": "主要な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "profundo",
+      "ja": "深い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "propio",
+      "ja": "自分自身の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "público",
+      "ja": "公共の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "raro",
+      "ja": "珍しい、変な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "real",
+      "ja": "現実の、王の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "reciente",
+      "ja": "最近の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "seguro",
+      "ja": "安全な、確信している",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "sencillo",
+      "ja": "簡単な、質素な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "suave",
+      "ja": "柔らかい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "útil",
+      "ja": "役に立つ",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "valioso",
+      "ja": "価値のある",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

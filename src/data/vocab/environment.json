@@ -1,0 +1,174 @@
+{
+  "id": "environment",
+  "label_ja": "環境・科学",
+  "words": [
+    {
+      "es": "medio ambiente",
+      "ja": "環境",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "contaminación",
+      "ja": "汚染",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "energía",
+      "ja": "エネルギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "clima",
+      "ja": "気候",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cambio climático",
+      "ja": "気候変動",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "reciclaje",
+      "ja": "リサイクル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "recurso",
+      "ja": "資源",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "naturaleza",
+      "ja": "自然",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "especie",
+      "ja": "（生物の）種",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sequía",
+      "ja": "干ばつ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "inundación",
+      "ja": "洪水",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "terremoto",
+      "ja": "地震",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "incendio",
+      "ja": "火事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ciencia",
+      "ja": "科学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "investigación",
+      "ja": "研究、調査",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "experimento",
+      "ja": "実験",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "teoría",
+      "ja": "理論",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "descubrimiento",
+      "ja": "発見",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "planeta",
+      "ja": "惑星",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "universo",
+      "ja": "宇宙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "residuo",
+      "ja": "廃棄物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "selva",
+      "ja": "ジャングル、密林",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "desierto",
+      "ja": "砂漠",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "océano",
+      "ja": "大洋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    }
+  ]
+}

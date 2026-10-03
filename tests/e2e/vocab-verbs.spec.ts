@@ -10,7 +10,8 @@ async function startVerbQuiz(page: Page, direction: string) {
   await page.getByText('すべて', { exact: true }).click() // すべて外す
   await page.getByText(/^動詞（\d+）$/).click()
   await page.getByText('B1', { exact: true }).click()
-  await expect(page.getByText(/^動詞（368）$/)).toBeVisible()
+  await page.getByText('B2', { exact: true }).click()
+  await expect(page.getByText(/^動詞（551）$/)).toBeVisible()
   await page.getByRole('button', { name: 'スタート' }).click()
 }
 

@@ -11,7 +11,7 @@ import {
 } from '../store/vocabStore'
 import { toggle } from '../utils/list'
 
-const LEVELS: Level[] = ['A1', 'A2', 'B1']
+const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2']
 const COUNTS = [10, 20, 30, 50]
 
 export function VocabSetup() {

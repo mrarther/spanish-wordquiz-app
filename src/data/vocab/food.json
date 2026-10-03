@@ -373,6 +373,41 @@
       "pos": "noun",
       "gender": "f",
       "level": "A2"
+    },
+    {
+      "es": "harina",
+      "ja": "小麦粉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ajo",
+      "ja": "ニンニク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pimienta",
+      "ja": "コショウ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "sabor",
+      "ja": "味",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ración",
+      "ja": "（料理の）一人前",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

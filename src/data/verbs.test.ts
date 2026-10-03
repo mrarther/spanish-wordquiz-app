@@ -25,7 +25,7 @@ describe('verbs.json', () => {
     expect(v.infinitive).toMatch(/(ar|er|ir|ír)$/)
     expect(v.meaning_ja).not.toBe('')
     expect(['regular', 'stem', 'irregular']).toContain(v.group)
-    expect(['A1', 'A2', 'B1']).toContain(v.level)
+    expect(['A1', 'A2', 'B1', 'B2']).toContain(v.level)
     for (const [tense, forms] of Object.entries(v.irregular ?? {})) {
       expect(SIMPLE_TENSES, tense).toContain(tense)
       expect(forms.length).toBeLessThanOrEqual(6)

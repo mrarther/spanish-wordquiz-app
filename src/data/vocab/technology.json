@@ -1,0 +1,160 @@
+{
+  "id": "technology",
+  "label_ja": "技術・メディア",
+  "words": [
+    {
+      "es": "internet",
+      "ja": "インターネット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "red",
+      "ja": "ネットワーク、網",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aplicación",
+      "ja": "アプリ、応用",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pantalla",
+      "ja": "画面",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "contraseña",
+      "ja": "パスワード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "correo electrónico",
+      "ja": "電子メール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mensaje",
+      "ja": "メッセージ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "archivo",
+      "ja": "ファイル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "programa",
+      "ja": "番組、プログラム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "usuario",
+      "ja": "利用者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "dato",
+      "ja": "データ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tecnología",
+      "ja": "技術",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "máquina",
+      "ja": "機械",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "herramienta",
+      "ja": "道具",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "prensa",
+      "ja": "報道機関",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "anuncio",
+      "ja": "広告、お知らせ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "publicidad",
+      "ja": "宣伝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cámara",
+      "ja": "カメラ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "batería",
+      "ja": "バッテリー、ドラム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "seguridad",
+      "ja": "安全、セキュリティ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "página",
+      "ja": "ページ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "enlace",
+      "ja": "リンク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    }
+  ]
+}

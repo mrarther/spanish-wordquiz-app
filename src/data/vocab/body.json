@@ -211,6 +211,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "A1"
+    },
+    {
+      "es": "cerebro",
+      "ja": "脳",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pulmón",
+      "ja": "肺",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hueso",
+      "ja": "骨",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "músculo",
+      "ja": "筋肉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "herida",
+      "ja": "けが、傷",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "alergia",
+      "ja": "アレルギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "síntoma",
+      "ja": "症状",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tratamiento",
+      "ja": "治療",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "receta",
+      "ja": "処方箋、レシピ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }
