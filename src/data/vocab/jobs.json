@@ -211,6 +211,55 @@
       "pos": "noun",
       "gender": "mf",
       "level": "B2"
+    },
+    {
+      "es": "peluquero",
+      "ja": "美容師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "carnicero",
+      "ja": "肉屋（人）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "guardia",
+      "ja": "警備員",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "jardinero",
+      "ja": "庭師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "albañil",
+      "ja": "れんが職人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "economista",
+      "ja": "経済学者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "psicólogo",
+      "ja": "心理学者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

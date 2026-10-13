@@ -155,6 +155,104 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "portátil",
+      "ja": "ノートパソコン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "teclado",
+      "ja": "キーボード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "impresora",
+      "ja": "プリンター",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cargador",
+      "ja": "充電器",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "altavoz",
+      "ja": "スピーカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "wifi",
+      "ja": "Wi-Fi",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "red social",
+      "ja": "SNS",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "perfil",
+      "ja": "プロフィール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "descarga",
+      "ja": "ダウンロード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "robot",
+      "ja": "ロボット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "navegador",
+      "ja": "ブラウザ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "buscador",
+      "ja": "検索エンジン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "copia de seguridad",
+      "ja": "バックアップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "inteligencia artificial",
+      "ja": "人工知能",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

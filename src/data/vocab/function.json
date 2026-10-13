@@ -517,6 +517,126 @@
       "ja": "ますます",
       "pos": "adv",
       "level": "B2"
+    },
+    {
+      "es": "ni",
+      "ja": "〜も〜ない",
+      "pos": "conj",
+      "level": "A2"
+    },
+    {
+      "es": "por eso",
+      "ja": "それゆえ",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "dentro de",
+      "ja": "〜の中に、〜後に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "fuera de",
+      "ja": "〜の外に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "delante de",
+      "ja": "〜の前に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "detrás de",
+      "ja": "〜の後ろに",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "encima de",
+      "ja": "〜の上に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "debajo de",
+      "ja": "〜の下に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "al lado de",
+      "ja": "〜の隣に",
+      "pos": "prep",
+      "level": "A2"
+    },
+    {
+      "es": "sino",
+      "ja": "〜ではなく",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "pues",
+      "ja": "それで、だって",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "así que",
+      "ja": "だから",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "alrededor de",
+      "ja": "〜のまわりに、約",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "junto a",
+      "ja": "〜のそばに",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "en lugar de",
+      "ja": "〜の代わりに",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "probablemente",
+      "ja": "おそらく",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "realmente",
+      "ja": "本当に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "finalmente",
+      "ja": "最後に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "ya que",
+      "ja": "〜なので",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "aun así",
+      "ja": "それでも",
+      "pos": "adv",
+      "level": "B2"
     }
   ]
 }

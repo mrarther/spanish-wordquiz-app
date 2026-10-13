@@ -211,6 +211,132 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "final",
+      "ja": "終わり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "parte",
+      "ja": "部分",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ejemplo",
+      "ja": "例",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tipo",
+      "ja": "種類",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "error",
+      "ja": "誤り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "suerte",
+      "ja": "運",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "principio",
+      "ja": "始まり、原則",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "manera",
+      "ja": "方法",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "modo",
+      "ja": "方法、様式",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tema",
+      "ja": "テーマ、話題",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "asunto",
+      "ja": "事柄",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "importancia",
+      "ja": "重要性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "atención",
+      "ja": "注意",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "concepto",
+      "ja": "概念",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "riesgo",
+      "ja": "リスク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "reto",
+      "ja": "挑戦",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "propósito",
+      "ja": "目的",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "consecuencia",
+      "ja": "帰結",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

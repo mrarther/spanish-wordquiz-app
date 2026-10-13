@@ -267,6 +267,76 @@
       "pos": "noun",
       "gender": "f",
       "level": "A2"
+    },
+    {
+      "es": "sobrino",
+      "ja": "甥",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sobrina",
+      "ja": "姪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pareja",
+      "ja": "カップル、パートナー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "adulto",
+      "ja": "大人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "suegro",
+      "ja": "義父",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "suegra",
+      "ja": "義母",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cuñado",
+      "ja": "義理の兄弟",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cuñada",
+      "ja": "義理の姉妹",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "gemelo",
+      "ja": "双子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "anciano",
+      "ja": "老人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

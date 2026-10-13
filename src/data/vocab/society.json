@@ -253,6 +253,104 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "organización",
+      "ja": "組織",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "voluntario",
+      "ja": "ボランティア",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "campaña",
+      "ja": "キャンペーン、運動",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "mayoría",
+      "ja": "多数派",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ladrón",
+      "ja": "泥棒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sindicato",
+      "ja": "労働組合",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "asociación",
+      "ja": "協会",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "refugiado",
+      "ja": "難民",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "corrupción",
+      "ja": "汚職",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reforma",
+      "ja": "改革",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "candidato",
+      "ja": "候補者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "minoría",
+      "ja": "少数派",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "crimen",
+      "ja": "（重大な）犯罪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "seguridad social",
+      "ja": "社会保障",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

@@ -667,6 +667,186 @@
       "ja": "単純な",
       "pos": "adj",
       "level": "B1"
+    },
+    {
+      "es": "especial",
+      "ja": "特別な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "estupendo",
+      "ja": "とても良い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "gratis",
+      "ja": "無料の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "increíble",
+      "ja": "信じられない",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "típico",
+      "ja": "典型的な、名物の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "atento",
+      "ja": "注意深い、親切な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "breve",
+      "ja": "（時間が）短い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "cercano",
+      "ja": "近い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "cultural",
+      "ja": "文化の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "económico",
+      "ja": "経済の、安い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "elegante",
+      "ja": "上品な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "escolar",
+      "ja": "学校の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "físico",
+      "ja": "身体の、物理的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "frecuente",
+      "ja": "頻繁な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "general",
+      "ja": "一般的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "humano",
+      "ja": "人間の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "ideal",
+      "ja": "理想的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "internacional",
+      "ja": "国際的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "natural",
+      "ja": "自然な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "negativo",
+      "ja": "否定的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "positivo",
+      "ja": "前向きな",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "práctico",
+      "ja": "実用的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "privado",
+      "ja": "私的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "social",
+      "ja": "社会の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "urgente",
+      "ja": "緊急の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "constante",
+      "ja": "絶え間ない",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "cotidiano",
+      "ja": "日常の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "eficiente",
+      "ja": "効率的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "fiel",
+      "ja": "忠実な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "mental",
+      "ja": "精神の",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

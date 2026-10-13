@@ -1,0 +1,188 @@
+{
+  "id": "measures",
+  "label_ja": "数・形・単位",
+  "words": [
+    {
+      "es": "número",
+      "ja": "数、番号",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "forma",
+      "ja": "形",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "círculo",
+      "ja": "円",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cuadrado",
+      "ja": "正方形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "triángulo",
+      "ja": "三角形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "línea",
+      "ja": "線",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "punto",
+      "ja": "点",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tamaño",
+      "ja": "大きさ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "peso",
+      "ja": "重さ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "altura",
+      "ja": "高さ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "metro",
+      "ja": "メートル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "centímetro",
+      "ja": "センチメートル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "kilómetro",
+      "ja": "キロメートル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "litro",
+      "ja": "リットル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gramo",
+      "ja": "グラム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "docena",
+      "ja": "ダース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "par",
+      "ja": "対（2つ1組）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "longitud",
+      "ja": "長さ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "anchura",
+      "ja": "幅",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "porcentaje",
+      "ja": "パーセント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "suma",
+      "ja": "合計、足し算",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "resta",
+      "ja": "引き算",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "total",
+      "ja": "総計",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "doble",
+      "ja": "2倍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "máximo",
+      "ja": "最大",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mínimo",
+      "ja": "最小",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    }
+  ]
+}

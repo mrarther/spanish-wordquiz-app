@@ -169,6 +169,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "volcán",
+      "ja": "火山",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "huracán",
+      "ja": "ハリケーン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "oxígeno",
+      "ja": "酸素",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "plástico",
+      "ja": "プラスチック",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "vidrio",
+      "ja": "ガラス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "metal",
+      "ja": "金属",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "gas",
+      "ja": "ガス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "petróleo",
+      "ja": "石油",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "energía solar",
+      "ja": "太陽エネルギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

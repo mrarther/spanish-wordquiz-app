@@ -190,6 +190,48 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "cola",
+      "ja": "行列",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "carrito",
+      "ja": "ショッピングカート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cesta",
+      "ja": "かご",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "factura",
+      "ja": "請求書",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "envío",
+      "ja": "発送",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pedido",
+      "ja": "注文",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

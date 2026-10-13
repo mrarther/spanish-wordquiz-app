@@ -1,0 +1,189 @@
+{
+  "id": "nationalities",
+  "label_ja": "国籍・言語",
+  "words": [
+    {
+      "es": "japonés",
+      "ja": "日本の、日本人、日本語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "español",
+      "ja": "スペインの、スペイン人、スペイン語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "inglés",
+      "ja": "イギリスの、英語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "francés",
+      "ja": "フランスの、フランス語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "alemán",
+      "ja": "ドイツの、ドイツ語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "italiano",
+      "ja": "イタリアの、イタリア語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "chino",
+      "ja": "中国の、中国語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "coreano",
+      "ja": "韓国の、韓国語",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "mexicano",
+      "ja": "メキシコの",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "portugués",
+      "ja": "ポルトガルの、ポルトガル語",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ruso",
+      "ja": "ロシアの、ロシア語",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "árabe",
+      "ja": "アラブの、アラビア語",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "estadounidense",
+      "ja": "アメリカ合衆国の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "argentino",
+      "ja": "アルゼンチンの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "colombiano",
+      "ja": "コロンビアの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "peruano",
+      "ja": "ペルーの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "chileno",
+      "ja": "チリの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "cubano",
+      "ja": "キューバの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "venezolano",
+      "ja": "ベネズエラの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "brasileño",
+      "ja": "ブラジルの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "canadiense",
+      "ja": "カナダの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "europeo",
+      "ja": "ヨーロッパの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "asiático",
+      "ja": "アジアの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "africano",
+      "ja": "アフリカの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "americano",
+      "ja": "アメリカ大陸の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "extranjero",
+      "ja": "外国の、外国人",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "nacionalidad",
+      "ja": "国籍",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "latinoamericano",
+      "ja": "ラテンアメリカの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "lengua materna",
+      "ja": "母語",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "acento",
+      "ja": "なまり、アクセント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    }
+  ]
+}

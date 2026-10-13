@@ -289,6 +289,111 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "sorpresa",
+      "ja": "驚き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tristeza",
+      "ja": "悲しみ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "felicidad",
+      "ja": "幸福",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "enfado",
+      "ja": "怒り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cariño",
+      "ja": "愛情",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "paciencia",
+      "ja": "忍耐",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "humor",
+      "ja": "ユーモア、機嫌",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "estrés",
+      "ja": "ストレス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "calma",
+      "ja": "落ち着き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pena",
+      "ja": "悲しみ、残念なこと",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "odio",
+      "ja": "憎しみ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "envidia",
+      "ja": "ねたみ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "soledad",
+      "ja": "孤独",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "nostalgia",
+      "ja": "郷愁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ilusión",
+      "ja": "期待、幻想",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

@@ -1,0 +1,174 @@
+{
+  "id": "arts",
+  "label_ja": "芸術・文化",
+  "words": [
+    {
+      "es": "actriz",
+      "ja": "女優",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "obra",
+      "ja": "作品、工事",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "escultura",
+      "ja": "彫刻",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "galería",
+      "ja": "画廊、ギャラリー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "estilo",
+      "ja": "スタイル、様式",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "autor",
+      "ja": "作者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "personaje",
+      "ja": "登場人物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "escena",
+      "ja": "場面",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "obra de teatro",
+      "ja": "演劇作品",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "director",
+      "ja": "監督、校長",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "público",
+      "ja": "観客",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "orquesta",
+      "ja": "オーケストラ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ópera",
+      "ja": "オペラ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "festival",
+      "ja": "フェスティバル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "leyenda",
+      "ja": "伝説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "poesía",
+      "ja": "詩（文学）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "literatura",
+      "ja": "文学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "diseño",
+      "ja": "デザイン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "belleza",
+      "ja": "美しさ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "talento",
+      "ja": "才能",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "patrimonio",
+      "ja": "遺産",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mito",
+      "ja": "神話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "arquitectura",
+      "ja": "建築",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "creatividad",
+      "ja": "創造性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}

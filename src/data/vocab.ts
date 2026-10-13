@@ -2,10 +2,12 @@ import type { VocabCategoryFile, VocabWord } from '../domain/vocab/types'
 import { VERBS } from './verbs'
 import abstract from './vocab/abstract.json'
 import adjectives from './vocab/adjectives.json'
+import arts from './vocab/arts.json'
 import body from './vocab/body.json'
 import city from './vocab/city.json'
 import clothes from './vocab/clothes.json'
 import colors from './vocab/colors.json'
+import communication from './vocab/communication.json'
 import environment from './vocab/environment.json'
 import family from './vocab/family.json'
 import feelings from './vocab/feelings.json'
@@ -14,6 +16,9 @@ import functionWords from './vocab/function.json'
 import greetings from './vocab/greetings.json'
 import hobbies from './vocab/hobbies.json'
 import jobs from './vocab/jobs.json'
+import measures from './vocab/measures.json'
+import medical from './vocab/medical.json'
+import nationalities from './vocab/nationalities.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
@@ -36,7 +41,9 @@ const FILES = [
   greetings,
   verbs,
   family,
+  nationalities,
   body,
+  medical,
   food,
   shopping,
   house,
@@ -47,15 +54,18 @@ const FILES = [
   jobs,
   time,
   numbers,
+  measures,
   colors,
   adjectives,
   feelings,
   nature,
   hobbies,
+  arts,
   society,
   environment,
   technology,
   abstract,
+  communication,
   functionWords,
 ] as VocabCategoryFile[]
 

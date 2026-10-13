@@ -348,6 +348,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "rato",
+      "ja": "しばらくの間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "temporada",
+      "ja": "季節、シーズン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aniversario",
+      "ja": "記念日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "plazo",
+      "ja": "期限",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

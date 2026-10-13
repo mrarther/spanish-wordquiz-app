@@ -1,0 +1,174 @@
+{
+  "id": "communication",
+  "label_ja": "言葉・コミュニケーション",
+  "words": [
+    {
+      "es": "conversación",
+      "ja": "会話",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "consejo",
+      "ja": "助言",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "saludo",
+      "ja": "あいさつ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "invitación",
+      "ja": "招待",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "chiste",
+      "ja": "笑い話、ジョーク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "secreto",
+      "ja": "秘密",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "voz",
+      "ja": "声",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "gramática",
+      "ja": "文法",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "diálogo",
+      "ja": "対話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "discusión",
+      "ja": "議論、口論",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "explicación",
+      "ja": "説明",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "queja",
+      "ja": "苦情",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "despedida",
+      "ja": "別れのあいさつ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "promesa",
+      "ja": "約束",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "excusa",
+      "ja": "言い訳",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "broma",
+      "ja": "冗談",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "grito",
+      "ja": "叫び声",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "silencio",
+      "ja": "沈黙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "gesto",
+      "ja": "身ぶり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "significado",
+      "ja": "（言葉の）意味",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "vocabulario",
+      "ja": "語彙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "traducción",
+      "ja": "翻訳",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "debate",
+      "ja": "討論",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "rumor",
+      "ja": "うわさ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    }
+  ]
+}

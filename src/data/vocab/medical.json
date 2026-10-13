@@ -1,0 +1,174 @@
+{
+  "id": "medical",
+  "label_ja": "病院・医療",
+  "words": [
+    {
+      "es": "ambulancia",
+      "ja": "救急車",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "dieta",
+      "ja": "食事療法、ダイエット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "descanso",
+      "ja": "休息",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "paciente",
+      "ja": "患者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "consulta",
+      "ja": "診察、相談",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "operación",
+      "ja": "手術、操作",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "inyección",
+      "ja": "注射",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "vacuna",
+      "ja": "ワクチン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "análisis",
+      "ja": "検査、分析",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "virus",
+      "ja": "ウイルス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "seguro médico",
+      "ja": "医療保険",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "venda",
+      "ja": "包帯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "mareo",
+      "ja": "めまい、乗り物酔い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "quemadura",
+      "ja": "やけど",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "radiografía",
+      "ja": "レントゲン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "diagnóstico",
+      "ja": "診断",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "infección",
+      "ja": "感染症",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "bacteria",
+      "ja": "細菌",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tensión",
+      "ja": "血圧、緊張",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cirujano",
+      "ja": "外科医",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cicatriz",
+      "ja": "傷跡",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "embarazo",
+      "ja": "妊娠",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "recuperación",
+      "ja": "回復",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "salud mental",
+      "ja": "心の健康",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}
