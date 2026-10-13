@@ -148,6 +148,104 @@
       "pos": "noun",
       "gender": "m",
       "level": "A2"
+    },
+    {
+      "es": "blusa",
+      "ja": "ブラウス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pijama",
+      "ja": "パジャマ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "corbata",
+      "ja": "ネクタイ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "zapatilla",
+      "ja": "スニーカー、スリッパ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "sandalia",
+      "ja": "サンダル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "paraguas",
+      "ja": "傘",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "anillo",
+      "ja": "指輪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sudadera",
+      "ja": "トレーナー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "chándal",
+      "ja": "ジャージ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "collar",
+      "ja": "ネックレス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pendiente",
+      "ja": "イヤリング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "algodón",
+      "ja": "綿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "lana",
+      "ja": "羊毛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cuero",
+      "ja": "革",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

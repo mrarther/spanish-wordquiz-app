@@ -239,6 +239,104 @@
       "pos": "noun",
       "gender": "f",
       "level": "A2"
+    },
+    {
+      "es": "avenida",
+      "ja": "大通り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "catedral",
+      "ja": "大聖堂",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "castillo",
+      "ja": "城",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "palacio",
+      "ja": "宮殿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "fuente",
+      "ja": "噴水、泉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "zoo",
+      "ja": "動物園",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "aparcamiento",
+      "ja": "駐車場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gasolinera",
+      "ja": "ガソリンスタンド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "oficina de correos",
+      "ja": "郵便局",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "parada",
+      "ja": "停留所",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "acera",
+      "ja": "歩道",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "monumento",
+      "ja": "記念碑",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "quiosco",
+      "ja": "売店",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fábrica",
+      "ja": "工場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }

@@ -274,6 +274,111 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "frente",
+      "ja": "額",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "labio",
+      "ja": "唇",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "lengua",
+      "ja": "舌、言語",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "garganta",
+      "ja": "喉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pecho",
+      "ja": "胸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tos",
+      "ja": "せき",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "gripe",
+      "ja": "インフルエンザ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "dolor de cabeza",
+      "ja": "頭痛",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pastilla",
+      "ja": "錠剤",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cita",
+      "ja": "予約、デート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "mejilla",
+      "ja": "頬",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cintura",
+      "ja": "腰（ウエスト）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "uña",
+      "ja": "爪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tobillo",
+      "ja": "足首",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "codo",
+      "ja": "ひじ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

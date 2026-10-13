@@ -541,6 +541,132 @@
       "ja": "価値のある",
       "pos": "adj",
       "level": "B2"
+    },
+    {
+      "es": "ancho",
+      "ja": "幅の広い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "pesado",
+      "ja": "重い、うっとうしい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ligero",
+      "ja": "軽い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "duro",
+      "ja": "硬い、厳しい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "mojado",
+      "ja": "濡れた",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "seco",
+      "ja": "乾いた",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "moderno",
+      "ja": "現代的な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "antiguo",
+      "ja": "古い（古代の）",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ruidoso",
+      "ja": "うるさい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "dulce",
+      "ja": "甘い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "salado",
+      "ja": "塩辛い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "picante",
+      "ja": "辛い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "delicioso",
+      "ja": "とてもおいしい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "precioso",
+      "ja": "美しい、貴重な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "horrible",
+      "ja": "ひどい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "maravilloso",
+      "ja": "すばらしい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "listo",
+      "ja": "準備ができた、賢い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "blando",
+      "ja": "（物が）柔らかい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "silencioso",
+      "ja": "静かな（音のない）",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "amargo",
+      "ja": "苦い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "simple",
+      "ja": "単純な",
+      "pos": "adj",
+      "level": "B1"
     }
   ]
 }

@@ -267,6 +267,87 @@
       "pos": "noun",
       "gender": "m",
       "level": "A1"
+    },
+    {
+      "es": "mediodía",
+      "ja": "正午",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "medianoche",
+      "ja": "真夜中",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "futuro",
+      "ja": "未来",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "calendario",
+      "ja": "カレンダー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "anteayer",
+      "ja": "一昨日",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "pasado mañana",
+      "ja": "明後日",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "luego",
+      "ja": "あとで",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "madrugada",
+      "ja": "夜明け前、深夜",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "década",
+      "ja": "10年間",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "época",
+      "ja": "時代",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pasado",
+      "ja": "過去",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "presente",
+      "ja": "現在",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

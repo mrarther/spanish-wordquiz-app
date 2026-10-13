@@ -344,6 +344,83 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "diccionario",
+      "ja": "辞書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pizarra",
+      "ja": "黒板",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "regla",
+      "ja": "定規、規則",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "goma",
+      "ja": "消しゴム、ゴム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "recreo",
+      "ja": "休み時間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "curso",
+      "ja": "コース、学年",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "estuche",
+      "ja": "筆箱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "aprobado",
+      "ja": "合格",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "suspenso",
+      "ja": "不合格",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "oficio",
+      "ja": "職業（手仕事）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "jubilación",
+      "ja": "退職、年金生活",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

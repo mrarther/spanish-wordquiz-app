@@ -1,0 +1,216 @@
+{
+  "id": "jobs",
+  "label_ja": "職業",
+  "words": [
+    {
+      "es": "arquitecto",
+      "ja": "建築家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "artista",
+      "ja": "芸術家",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "bombero",
+      "ja": "消防士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cartero",
+      "ja": "郵便配達員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "conductor",
+      "ja": "運転手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "dentista",
+      "ja": "歯医者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "escritor",
+      "ja": "作家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "músico",
+      "ja": "音楽家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "panadero",
+      "ja": "パン職人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "piloto",
+      "ja": "パイロット",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "pintor",
+      "ja": "画家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "secretario",
+      "ja": "秘書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "actor",
+      "ja": "俳優",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cantante",
+      "ja": "歌手",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "deportista",
+      "ja": "スポーツ選手",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "carpintero",
+      "ja": "大工",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "científico",
+      "ja": "科学者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "farmacéutico",
+      "ja": "薬剤師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fotógrafo",
+      "ja": "写真家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "funcionario",
+      "ja": "公務員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "granjero",
+      "ja": "農場主",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mecánico",
+      "ja": "整備士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "periodista",
+      "ja": "記者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "político",
+      "ja": "政治家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "programador",
+      "ja": "プログラマー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "soldado",
+      "ja": "兵士",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "veterinario",
+      "ja": "獣医",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "empresario",
+      "ja": "経営者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "traductor",
+      "ja": "翻訳者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "juez",
+      "ja": "裁判官",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    }
+  ]
+}

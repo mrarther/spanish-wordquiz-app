@@ -4,6 +4,7 @@ import { VOCAB, VOCAB_CATEGORIES } from '../data/vocab'
 import { filterVocab } from '../domain/vocab/quiz'
 import type { Level } from '../domain/vocab/types'
 import {
+  ALL_WORDS,
   startVocabQuiz,
   useVocabStore,
   vocabQuizPath,
@@ -12,7 +13,7 @@ import {
 import { toggle } from '../utils/list'
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2']
-const COUNTS = [10, 20, 30, 50]
+const COUNTS = [10, 20, 30, 50, 100, ALL_WORDS]
 
 export function VocabSetup() {
   const setup = useVocabStore((s) => s.setup)
@@ -118,7 +119,7 @@ export function VocabSetup() {
         <Radio<number>
           value={setup.count}
           onChange={(count) => updateSetup({ count })}
-          options={COUNTS.map((c) => ({ value: c, label: `${c}語` }))}
+          options={COUNTS.map((c) => ({ value: c, label: c === ALL_WORDS ? 'すべて' : `${c}語` }))}
         />
       </Section>
 
@@ -126,9 +127,11 @@ export function VocabSetup() {
         {poolSize === 0 ? (
           <p className="text-sm text-danger">カテゴリとレベルを1つ以上選んでください。</p>
         ) : (
-          poolSize < setup.count && (
+          (setup.count === ALL_WORDS || poolSize < setup.count) && (
             <p className="text-sm text-ink-muted">
-              条件に合う単語が {poolSize} 語なので、全て出題します。
+              {setup.count === ALL_WORDS
+                ? `条件に合う ${poolSize} 語をすべて出題します。`
+                : `条件に合う単語が ${poolSize} 語なので、全て出題します。`}
             </p>
           )
         )}

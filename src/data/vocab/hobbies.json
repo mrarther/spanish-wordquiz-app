@@ -176,6 +176,104 @@
       "pos": "noun",
       "gender": "m",
       "level": "A2"
+    },
+    {
+      "es": "ajedrez",
+      "ja": "チェス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "natación",
+      "ja": "水泳",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ciclismo",
+      "ja": "サイクリング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "fotografía",
+      "ja": "写真撮影",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cuadro",
+      "ja": "（額入りの）絵",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "videojuego",
+      "ja": "テレビゲーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gol",
+      "ja": "ゴール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "jugador",
+      "ja": "選手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pesca",
+      "ja": "釣り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "jardinería",
+      "ja": "園芸",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "exposición",
+      "ja": "展覧会",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "poema",
+      "ja": "詩",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "torneo",
+      "ja": "トーナメント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "aficionado",
+      "ja": "ファン、愛好家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

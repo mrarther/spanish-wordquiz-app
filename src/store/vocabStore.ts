@@ -68,6 +68,9 @@ export async function startVocabQuiz(setup: VocabSetup) {
   useVocabStore.getState().start(generateVocabQuiz(VOCAB, opts, Math.random, srs))
 }
 
+/** 問題数の「すべて」。条件に合う単語の数より必ず大きい値にして、全部を出題する */
+export const ALL_WORDS = 100_000
+
 export function vocabDirection(setup: VocabSetup): Direction {
   return setup.mode === 'spelling' ? 'ja-es' : setup.direction
 }

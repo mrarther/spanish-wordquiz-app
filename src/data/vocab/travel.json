@@ -260,6 +260,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "mochila",
+      "ja": "リュックサック",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "asiento",
+      "ja": "座席",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "llegada",
+      "ja": "到着",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "horario",
+      "ja": "時刻表、時間割",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "camping",
+      "ja": "キャンプ場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "recuerdo",
+      "ja": "お土産、思い出",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "moto",
+      "ja": "バイク",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "camión",
+      "ja": "トラック",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "carretera",
+      "ja": "幹線道路",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tarjeta de embarque",
+      "ja": "搭乗券",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "andén",
+      "ja": "（駅の）ホーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "retraso",
+      "ja": "遅れ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "autopista",
+      "ja": "高速道路",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }

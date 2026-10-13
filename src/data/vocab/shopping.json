@@ -1,0 +1,195 @@
+{
+  "id": "shopping",
+  "label_ja": "買い物・お金",
+  "words": [
+    {
+      "es": "precio",
+      "ja": "値段",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "compra",
+      "ja": "買い物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "tarjeta",
+      "ja": "カード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "caja",
+      "ja": "箱、レジ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "kilo",
+      "ja": "キロ（グラム）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "oferta",
+      "ja": "特売",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "descuento",
+      "ja": "割引",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "efectivo",
+      "ja": "現金",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "moneda",
+      "ja": "硬貨、通貨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cajero",
+      "ja": "ATM、レジ係",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "recibo",
+      "ja": "領収書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "vendedor",
+      "ja": "販売員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cartera",
+      "ja": "財布",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "centro comercial",
+      "ja": "ショッピングモール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "paquete",
+      "ja": "包み、パック",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "probador",
+      "ja": "試着室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "devolución",
+      "ja": "返品、返金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "garantía",
+      "ja": "保証",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "monedero",
+      "ja": "小銭入れ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ahorro",
+      "ja": "貯金",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "gasto",
+      "ja": "出費",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "escaparate",
+      "ja": "ショーウィンドウ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "marca",
+      "ja": "ブランド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "calidad",
+      "ja": "品質",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cantidad",
+      "ja": "量",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "deuda",
+      "ja": "借金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "préstamo",
+      "ja": "ローン、貸付",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    }
+  ]
+}

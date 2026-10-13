@@ -13,10 +13,12 @@ import food from './vocab/food.json'
 import functionWords from './vocab/function.json'
 import greetings from './vocab/greetings.json'
 import hobbies from './vocab/hobbies.json'
+import jobs from './vocab/jobs.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
 import schoolWork from './vocab/school_work.json'
+import shopping from './vocab/shopping.json'
 import society from './vocab/society.json'
 import technology from './vocab/technology.json'
 import time from './vocab/time.json'
@@ -36,11 +38,13 @@ const FILES = [
   family,
   body,
   food,
+  shopping,
   house,
   clothes,
   city,
   travel,
   schoolWork,
+  jobs,
   time,
   numbers,
   colors,
