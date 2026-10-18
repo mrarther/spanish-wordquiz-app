@@ -246,6 +246,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "botón",
+      "ja": "ボタン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "bolsillo",
+      "ja": "ポケット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "moda",
+      "ja": "流行、ファッション",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ropa interior",
+      "ja": "下着",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "uniforme",
+      "ja": "制服",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "manga",
+      "ja": "袖",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "joya",
+      "ja": "宝石",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "disfraz",
+      "ja": "仮装",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cremallera",
+      "ja": "ファスナー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "calzado",
+      "ja": "履物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

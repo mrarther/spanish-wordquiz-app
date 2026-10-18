@@ -206,6 +206,84 @@
       "pos": "noun",
       "gender": "f",
       "level": "A2"
+    },
+    {
+      "es": "veintiuno",
+      "ja": "21",
+      "pos": "num",
+      "level": "A1"
+    },
+    {
+      "es": "doscientos",
+      "ja": "200",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "trescientos",
+      "ja": "300",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "quinientos",
+      "ja": "500",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "segundo",
+      "ja": "2番目の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "cuarto",
+      "ja": "4番目の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "quinto",
+      "ja": "5番目の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "sexto",
+      "ja": "6番目の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "décimo",
+      "ja": "10番目の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "séptimo",
+      "ja": "7番目の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "octavo",
+      "ja": "8番目の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "noveno",
+      "ja": "9番目の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "mil millones",
+      "ja": "10億",
+      "pos": "num",
+      "level": "B2"
     }
   ]
 }

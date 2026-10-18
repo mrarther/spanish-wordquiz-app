@@ -394,6 +394,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "educado",
+      "ja": "礼儀正しい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "asustado",
+      "ja": "怖がっている",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "harto",
+      "ja": "うんざりした",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "satisfecho",
+      "ja": "満足した",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "sensible",
+      "ja": "敏感な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "grosero",
+      "ja": "失礼な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "cariñoso",
+      "ja": "愛情深い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "ilusionado",
+      "ja": "わくわくしている",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "agobiado",
+      "ja": "追い詰められた",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "desesperado",
+      "ja": "絶望した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "frustrado",
+      "ja": "欲求不満の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "terco",
+      "ja": "頑固な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "maduro",
+      "ja": "成熟した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "creído",
+      "ja": "うぬぼれた",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

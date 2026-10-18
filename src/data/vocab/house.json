@@ -463,6 +463,111 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "luz",
+      "ja": "光、電気",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "aire acondicionado",
+      "ja": "エアコン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "terraza",
+      "ja": "テラス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "calefacción",
+      "ja": "暖房",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "alquiler",
+      "ja": "家賃",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mudanza",
+      "ja": "引っ越し",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "timbre",
+      "ja": "呼び鈴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "buzón",
+      "ja": "郵便受け",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "chimenea",
+      "ja": "暖炉、煙突",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "sótano",
+      "ja": "地下室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "vecindario",
+      "ja": "近所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "inquilino",
+      "ja": "借家人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "propietario",
+      "ja": "所有者、家主",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hipoteca",
+      "ja": "住宅ローン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "desván",
+      "ja": "屋根裏部屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

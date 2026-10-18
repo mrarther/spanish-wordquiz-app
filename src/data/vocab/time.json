@@ -376,6 +376,41 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "estación",
+      "ja": "季節",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "semestre",
+      "ja": "半年、学期",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "quincena",
+      "ja": "2週間",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "trimestre",
+      "ja": "四半期",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "víspera",
+      "ja": "前日、前夜",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

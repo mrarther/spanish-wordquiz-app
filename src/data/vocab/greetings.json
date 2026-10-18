@@ -175,6 +175,72 @@
       "ja": "気をつけて",
       "pos": "expr",
       "level": "A2"
+    },
+    {
+      "es": "bien gracias",
+      "ja": "元気です、ありがとう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "y tú",
+      "ja": "君は？",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "cómo estás",
+      "ja": "元気？（親しい人に）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "igualmente",
+      "ja": "こちらこそ",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "felicidades",
+      "ja": "おめでとう",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "buen viaje",
+      "ja": "よい旅を",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "no pasa nada",
+      "ja": "大丈夫、気にしないで",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "perdone",
+      "ja": "すみません（丁寧）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "por supuesto",
+      "ja": "もちろんです（当然）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "ojalá",
+      "ja": "〜でありますように",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "enhorabuena",
+      "ja": "おめでとう（成功に）",
+      "pos": "expr",
+      "level": "B1"
     }
   ]
 }

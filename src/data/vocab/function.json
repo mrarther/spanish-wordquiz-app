@@ -637,6 +637,132 @@
       "ja": "それでも",
       "pos": "adv",
       "level": "B2"
+    },
+    {
+      "es": "ahí",
+      "ja": "そこ",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "todos los días",
+      "ja": "毎日",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "allá",
+      "ja": "あちら",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "dentro",
+      "ja": "中に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "fuera",
+      "ja": "外に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "arriba",
+      "ja": "上に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "abajo",
+      "ja": "下に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "despacio",
+      "ja": "ゆっくり",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "ahora mismo",
+      "ja": "今すぐ",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "a la vez",
+      "ja": "同時に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "de vez en cuando",
+      "ja": "たまに",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "hoy en día",
+      "ja": "今日では",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "en absoluto",
+      "ja": "まったく〜ない",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "no obstante",
+      "ja": "それにもかかわらず",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "por consiguiente",
+      "ja": "その結果",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "en cuanto a",
+      "ja": "〜に関しては",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "con respecto a",
+      "ja": "〜について（関して）",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "a menos que",
+      "ja": "〜でない限り",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "siempre que",
+      "ja": "〜する限り",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "mediante",
+      "ja": "〜によって（手段）",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "salvo",
+      "ja": "〜を除いて",
+      "pos": "prep",
+      "level": "B2"
     }
   ]
 }

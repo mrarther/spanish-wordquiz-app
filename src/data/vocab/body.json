@@ -379,6 +379,90 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "barba",
+      "ja": "あごひげ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "lágrima",
+      "ja": "涙",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ceja",
+      "ja": "まゆ毛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pestaña",
+      "ja": "まつ毛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "bigote",
+      "ja": "口ひげ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "muñeca",
+      "ja": "手首、人形",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "sudor",
+      "ja": "汗",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "respiración",
+      "ja": "呼吸",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cadera",
+      "ja": "腰（ヒップ）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "hígado",
+      "ja": "肝臓",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "riñón",
+      "ja": "腎臓",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "vena",
+      "ja": "静脈",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

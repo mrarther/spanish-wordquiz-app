@@ -847,6 +847,198 @@
       "ja": "精神の",
       "pos": "adj",
       "level": "B2"
+    },
+    {
+      "es": "favorito",
+      "ja": "お気に入りの",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "rubio",
+      "ja": "金髪の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "moreno",
+      "ja": "日焼けした、黒髪の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "mayor",
+      "ja": "年上の、より大きい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "menor",
+      "ja": "年下の、より小さい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "imposible",
+      "ja": "不可能な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "verdadero",
+      "ja": "本当の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "lógico",
+      "ja": "論理的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "puntual",
+      "ja": "時間に正確な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "probable",
+      "ja": "ありそうな",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "absoluto",
+      "ja": "絶対的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "abstracto",
+      "ja": "抽象的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "ambiguo",
+      "ja": "あいまいな",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "brillante",
+      "ja": "輝かしい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "concreto",
+      "ja": "具体的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "considerable",
+      "ja": "かなりの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "crucial",
+      "ja": "極めて重要な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "decisivo",
+      "ja": "決定的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "dispuesto",
+      "ja": "〜する気がある",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "excesivo",
+      "ja": "過度の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "exitoso",
+      "ja": "成功した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "global",
+      "ja": "世界的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "innovador",
+      "ja": "革新的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "legal",
+      "ja": "合法の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "notable",
+      "ja": "著しい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "permanente",
+      "ja": "永続的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "polémico",
+      "ja": "議論を呼ぶ",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "relevante",
+      "ja": "重要な（関連する）",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "sostenible",
+      "ja": "持続可能な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "temporal",
+      "ja": "一時的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "tremendo",
+      "ja": "ものすごい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "vago",
+      "ja": "怠惰な、ぼんやりした",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

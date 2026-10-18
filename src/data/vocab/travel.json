@@ -351,6 +351,62 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "hostal",
+      "ja": "安宿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "turismo",
+      "ja": "観光",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "vuelta",
+      "ja": "帰り、一周",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "paisaje",
+      "ja": "景色",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "visado",
+      "ja": "ビザ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "trayecto",
+      "ja": "道のり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "crucero",
+      "ja": "クルーズ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "itinerario",
+      "ja": "旅程",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

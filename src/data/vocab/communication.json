@@ -169,6 +169,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "carta",
+      "ja": "手紙",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "postal",
+      "ja": "はがき",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "llamada",
+      "ja": "電話（通話）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "aviso",
+      "ja": "お知らせ、警告",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "comentario",
+      "ja": "コメント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "petición",
+      "ja": "依頼",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "malentendido",
+      "ja": "誤解",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "crítica",
+      "ja": "批評",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "elogio",
+      "ja": "賞賛",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lenguaje",
+      "ja": "言語（表現）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

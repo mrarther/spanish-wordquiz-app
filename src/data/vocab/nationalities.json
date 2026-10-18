@@ -184,6 +184,151 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "holandés",
+      "ja": "オランダの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "griego",
+      "ja": "ギリシャの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "indio",
+      "ja": "インドの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "australiano",
+      "ja": "オーストラリアの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "suizo",
+      "ja": "スイスの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "boliviano",
+      "ja": "ボリビアの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ecuatoriano",
+      "ja": "エクアドルの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "uruguayo",
+      "ja": "ウルグアイの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "paraguayo",
+      "ja": "パラグアイの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "turco",
+      "ja": "トルコの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "sueco",
+      "ja": "スウェーデンの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "irlandés",
+      "ja": "アイルランドの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "egipcio",
+      "ja": "エジプトの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "marroquí",
+      "ja": "モロッコの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "dominicano",
+      "ja": "ドミニカ共和国の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "puertorriqueño",
+      "ja": "プエルトリコの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "guatemalteco",
+      "ja": "グアテマラの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "costarricense",
+      "ja": "コスタリカの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "panameño",
+      "ja": "パナマの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "salvadoreño",
+      "ja": "エルサルバドルの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "hondureño",
+      "ja": "ホンジュラスの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "nicaragüense",
+      "ja": "ニカラグアの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "bilingüe",
+      "ja": "2か国語を話す",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "idioma oficial",
+      "ja": "公用語",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

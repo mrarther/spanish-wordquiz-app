@@ -253,6 +253,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "cable",
+      "ja": "ケーブル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "software",
+      "ja": "ソフトウェア",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nube",
+      "ja": "クラウド（ネット）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "videollamada",
+      "ja": "ビデオ通話",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tableta",
+      "ja": "タブレット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "señal",
+      "ja": "信号、電波",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "algoritmo",
+      "ja": "アルゴリズム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "dispositivo",
+      "ja": "機器、デバイス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pirata informático",
+      "ja": "ハッカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "servidor",
+      "ja": "サーバー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pantalla táctil",
+      "ja": "タッチパネル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "actualización",
+      "ja": "アップデート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "privacidad",
+      "ja": "プライバシー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

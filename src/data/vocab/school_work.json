@@ -421,6 +421,105 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "aula",
+      "ja": "教室",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2",
+      "article": "el"
+    },
+    {
+      "es": "carpeta",
+      "ja": "紙ばさみ、フォルダー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "conferencia",
+      "ja": "講演",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "currículum",
+      "ja": "履歴書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "turno",
+      "ja": "交代、シフト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "jornada",
+      "ja": "勤務時間、1日",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "matrícula",
+      "ja": "入学登録",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "licenciatura",
+      "ja": "学士課程",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "máster",
+      "ja": "修士課程",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "doctorado",
+      "ja": "博士課程",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ascenso",
+      "ja": "昇進",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "despido",
+      "ja": "解雇",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "plantilla",
+      "ja": "従業員（全体）、テンプレート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sede",
+      "ja": "本部",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

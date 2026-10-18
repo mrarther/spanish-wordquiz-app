@@ -583,6 +583,147 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "bebida",
+      "ja": "飲み物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "refresco",
+      "ja": "清涼飲料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "agua mineral",
+      "ja": "ミネラルウォーター",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1",
+      "article": "el"
+    },
+    {
+      "es": "pasta",
+      "ja": "パスタ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "pizza",
+      "ja": "ピザ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "hamburguesa",
+      "ja": "ハンバーガー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "aceituna",
+      "ja": "オリーブの実",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "calamar",
+      "ja": "イカ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pulpo",
+      "ja": "タコ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "propina",
+      "ja": "チップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "lenteja",
+      "ja": "レンズ豆",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "garbanzo",
+      "ja": "ひよこ豆",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "especia",
+      "ja": "香辛料",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "nata",
+      "ja": "生クリーム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "sardina",
+      "ja": "イワシ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "merluza",
+      "ja": "メルルーサ（白身魚）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aperitivo",
+      "ja": "前菜、食前酒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "solomillo",
+      "ja": "ヒレ肉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "guarnición",
+      "ja": "付け合わせ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "comensal",
+      "ja": "食事客",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
     }
   ]
 }

@@ -86,6 +86,36 @@
       "ja": "暗い（色）",
       "pos": "adj",
       "level": "A2"
+    },
+    {
+      "es": "celeste",
+      "ja": "水色の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "dorado",
+      "ja": "金色の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "plateado",
+      "ja": "銀色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "beis",
+      "ja": "ベージュの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "violeta",
+      "ja": "すみれ色の",
+      "pos": "adj",
+      "level": "B1"
     }
   ]
 }

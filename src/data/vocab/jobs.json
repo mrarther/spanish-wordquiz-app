@@ -260,6 +260,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "policía",
+      "ja": "警察官",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A1"
+    },
+    {
+      "es": "agricultor",
+      "ja": "農業従事者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pescador",
+      "ja": "漁師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "electricista",
+      "ja": "電気技師",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "diseñador",
+      "ja": "デザイナー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fontanero",
+      "ja": "配管工",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "investigador",
+      "ja": "研究者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "gerente",
+      "ja": "支配人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
     }
   ]
 }

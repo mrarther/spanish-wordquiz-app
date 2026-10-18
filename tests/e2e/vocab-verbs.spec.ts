@@ -48,9 +48,12 @@ test('問題数「すべて」では、条件に合う単語を全部出題す�
   await section(page, 'カテゴリ').getByText('すべて', { exact: true }).click() // カテゴリを全部外す
   await page.getByText(/^色（\d+）$/).click()
   await section(page, '問題数').getByText('100語', { exact: true }).click()
-  await expect(page.getByText(/条件に合う単語が 14 語なので/)).toBeVisible()
+  await expect(page.getByText(/条件に合う単語が \d+ 語なので/)).toBeVisible()
   await section(page, '問題数').getByText('すべて', { exact: true }).click()
-  await expect(page.getByText('条件に合う 14 語をすべて出題します。')).toBeVisible()
+  // 画面に出る語数（色・A1〜A2）と、実際に出題される数が一致する
+  const message = page.getByText(/条件に合う \d+ 語をすべて出題します。/)
+  await expect(message).toBeVisible()
+  const count = (await message.innerText()).match(/\d+/)![0]
   await page.getByRole('button', { name: 'スタート' }).click()
-  await expect(page.getByText('0 / 14', { exact: true })).toBeVisible()
+  await expect(page.getByText(`0 / ${count}`, { exact: true })).toBeVisible()
 })

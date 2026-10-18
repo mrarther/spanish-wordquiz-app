@@ -169,6 +169,69 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "jarabe",
+      "ja": "シロップ（薬）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "termómetro",
+      "ja": "体温計",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "dolor de muelas",
+      "ja": "歯痛",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pomada",
+      "ja": "軟膏",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "muela",
+      "ja": "奥歯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "esguince",
+      "ja": "ねんざ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "fractura",
+      "ja": "骨折",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "epidemia",
+      "ja": "伝染病の流行",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "anestesia",
+      "ja": "麻酔",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }
