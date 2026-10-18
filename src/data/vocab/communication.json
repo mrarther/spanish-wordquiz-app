@@ -239,6 +239,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "retórica",
+      "ja": "修辞学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "eufemismo",
+      "ja": "婉曲表現",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "ironía",
+      "ja": "皮肉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "argumentación",
+      "ja": "論証",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "réplica",
+      "ja": "反論、複製",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "interlocutor",
+      "ja": "対話の相手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "jerga",
+      "ja": "専門用語、隠語",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "modismo",
+      "ja": "慣用句",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "locuacidad",
+      "ja": "多弁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "circunloquio",
+      "ja": "遠回しな言い方",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

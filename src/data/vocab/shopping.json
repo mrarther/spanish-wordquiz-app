@@ -316,6 +316,55 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "rentabilidad",
+      "ja": "収益性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "balance",
+      "ja": "収支、決算",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "inflación",
+      "ja": "インフレ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "recesión",
+      "ja": "景気後退",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "auditoría",
+      "ja": "監査",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "cotización",
+      "ja": "相場、社会保険料",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "dividendo",
+      "ja": "配当",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

@@ -520,6 +520,34 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "productividad",
+      "ja": "生産性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "emprendimiento",
+      "ja": "起業",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "indemnización",
+      "ja": "補償金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "licitación",
+      "ja": "入札",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

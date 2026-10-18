@@ -3,7 +3,7 @@ import type { Level } from '../vocab/types'
 import { countBlanks, hasStrayBrackets, parseCloze } from './parse'
 import { CLOZE_KINDS, type ClozeKind } from './types'
 
-export const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2']
+export const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 export const LIMITS = { sentence: 300, translation: 300, hint: 50, alternative: 50, tag: 30 }
 

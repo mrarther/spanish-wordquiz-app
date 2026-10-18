@@ -39,7 +39,7 @@ describe('vocab/*.json', () => {
     expect(w.es).toBe(w.es.trim())
     expect(w.ja).not.toBe('')
     expect(Object.keys(POS_LABELS)).toContain(w.pos)
-    expect(['A1', 'A2', 'B1', 'B2']).toContain(w.level)
+    expect(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']).toContain(w.level)
     if (w.gender) expect(['m', 'f', 'mf']).toContain(w.gender)
     if (w.gender || w.article) expect(w.pos).toBe('noun')
   })

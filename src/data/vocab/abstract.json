@@ -449,6 +449,160 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "paradigma",
+      "ja": "パラダイム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "dilema",
+      "ja": "ジレンマ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "matiz",
+      "ja": "ニュアンス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "premisa",
+      "ja": "前提",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "alcance",
+      "ja": "範囲、影響力",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "paradoja",
+      "ja": "逆説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "trasfondo",
+      "ja": "背景",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "desenlace",
+      "ja": "結末",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "auge",
+      "ja": "最盛期、ブーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "declive",
+      "ja": "衰退",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "incertidumbre",
+      "ja": "不確実性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "pauta",
+      "ja": "指針、パターン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ámbito",
+      "ja": "分野、範囲",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "índole",
+      "ja": "性質、種類",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "coyuntura",
+      "ja": "情勢、局面",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "idiosincrasia",
+      "ja": "気質、特質",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "falacia",
+      "ja": "誤謬",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "axioma",
+      "ja": "公理",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "dicotomía",
+      "ja": "二分法",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "vertiente",
+      "ja": "側面、傾向",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "contrapartida",
+      "ja": "見返り、代償",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "salvedad",
+      "ja": "但し書き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

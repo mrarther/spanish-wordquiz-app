@@ -478,6 +478,102 @@
       "ja": "うぬぼれた",
       "pos": "adj",
       "level": "B2"
+    },
+    {
+      "es": "euforia",
+      "ja": "高揚感",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "resentimiento",
+      "ja": "恨み",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "remordimiento",
+      "ja": "良心の呵責",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "altruista",
+      "ja": "利他的な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "melancólico",
+      "ja": "憂うつな",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "perspicaz",
+      "ja": "洞察力のある",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "quisquilloso",
+      "ja": "気難しい",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "rencoroso",
+      "ja": "恨み深い",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "susceptible",
+      "ja": "傷つきやすい",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "desazón",
+      "ja": "不快感、不安",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "congoja",
+      "ja": "苦悩",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "desdén",
+      "ja": "軽蔑",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "mezquino",
+      "ja": "卑しい",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "displicente",
+      "ja": "冷淡な",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "ecuánime",
+      "ja": "冷静な、公平な",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

@@ -337,6 +337,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "ecosistema",
+      "ja": "生態系",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "desertificación",
+      "ja": "砂漠化",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "erosión",
+      "ja": "浸食",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "hábitat",
+      "ja": "生息地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "extinción",
+      "ja": "絶滅",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "vertido",
+      "ja": "（汚染物質の）流出",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "huella de carbono",
+      "ja": "カーボンフットプリント",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "glaciar",
+      "ja": "氷河",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "yacimiento",
+      "ja": "鉱床、遺跡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "acuífero",
+      "ja": "帯水層",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "mitigación",
+      "ja": "緩和",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "genoma",
+      "ja": "ゲノム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

@@ -281,6 +281,83 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "vanguardia",
+      "ja": "前衛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "obra maestra",
+      "ja": "傑作",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "metáfora",
+      "ja": "隠喩",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "prosa",
+      "ja": "散文",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "verso",
+      "ja": "詩句",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "narrador",
+      "ja": "語り手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "crítico",
+      "ja": "批評家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "mecenas",
+      "ja": "後援者、パトロン",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C2"
+    },
+    {
+      "es": "alegoría",
+      "ja": "寓意",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "estética",
+      "ja": "美学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "iconografía",
+      "ja": "図像学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

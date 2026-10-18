@@ -763,6 +763,114 @@
       "ja": "〜を除いて",
       "pos": "prep",
       "level": "B2"
+    },
+    {
+      "es": "a raíz de",
+      "ja": "〜がきっかけで",
+      "pos": "prep",
+      "level": "C1"
+    },
+    {
+      "es": "en virtud de",
+      "ja": "〜に基づいて",
+      "pos": "prep",
+      "level": "C1"
+    },
+    {
+      "es": "con miras a",
+      "ja": "〜を目指して",
+      "pos": "prep",
+      "level": "C1"
+    },
+    {
+      "es": "asimismo",
+      "ja": "同様に",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "por ende",
+      "ja": "それゆえに（文語）",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "si bien",
+      "ja": "〜ではあるが",
+      "pos": "conj",
+      "level": "C1"
+    },
+    {
+      "es": "a no ser que",
+      "ja": "〜でない限り（文語）",
+      "pos": "conj",
+      "level": "C1"
+    },
+    {
+      "es": "de ahí que",
+      "ja": "そのため〜",
+      "pos": "conj",
+      "level": "C1"
+    },
+    {
+      "es": "en definitiva",
+      "ja": "結局のところ",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "cuanto antes",
+      "ja": "できるだけ早く",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "no en vano",
+      "ja": "それもそのはず",
+      "pos": "adv",
+      "level": "C2"
+    },
+    {
+      "es": "en aras de",
+      "ja": "〜のために（目的、文語）",
+      "pos": "prep",
+      "level": "C2"
+    },
+    {
+      "es": "a tenor de",
+      "ja": "〜に従って",
+      "pos": "prep",
+      "level": "C2"
+    },
+    {
+      "es": "habida cuenta de",
+      "ja": "〜を考慮すると",
+      "pos": "prep",
+      "level": "C2"
+    },
+    {
+      "es": "so pena de",
+      "ja": "〜の罰を覚悟で",
+      "pos": "prep",
+      "level": "C2"
+    },
+    {
+      "es": "empero",
+      "ja": "しかしながら（文語）",
+      "pos": "conj",
+      "level": "C2"
+    },
+    {
+      "es": "toda vez que",
+      "ja": "〜であるから",
+      "pos": "conj",
+      "level": "C2"
+    },
+    {
+      "es": "a la postre",
+      "ja": "最終的に",
+      "pos": "adv",
+      "level": "C2"
     }
   ]
 }

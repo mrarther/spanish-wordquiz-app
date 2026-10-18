@@ -1039,6 +1039,186 @@
       "ja": "怠惰な、ぼんやりした",
       "pos": "adj",
       "level": "B2"
+    },
+    {
+      "es": "exhaustivo",
+      "ja": "網羅的な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "riguroso",
+      "ja": "厳密な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "pertinente",
+      "ja": "適切な、関連のある",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "inherente",
+      "ja": "本来備わっている",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "ineludible",
+      "ja": "避けられない",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "imprescindible",
+      "ja": "不可欠な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "paulatino",
+      "ja": "徐々の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "efímero",
+      "ja": "はかない",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "contundente",
+      "ja": "説得力のある、決定的な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "escueto",
+      "ja": "簡潔な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "latente",
+      "ja": "潜在的な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "obsoleto",
+      "ja": "時代遅れの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "sutil",
+      "ja": "微妙な、繊細な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "tajante",
+      "ja": "きっぱりとした",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "verosímil",
+      "ja": "もっともらしい",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "vigente",
+      "ja": "現行の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "arduo",
+      "ja": "骨の折れる",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "elocuente",
+      "ja": "雄弁な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "fortuito",
+      "ja": "偶然の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "idóneo",
+      "ja": "最適な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "ambivalente",
+      "ja": "相反する感情を持つ",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "inexorable",
+      "ja": "容赦ない",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "recóndito",
+      "ja": "奥深い、隠れた",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "somero",
+      "ja": "大まかな",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "fehaciente",
+      "ja": "確証のある",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "perentorio",
+      "ja": "差し迫った",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "fidedigno",
+      "ja": "（情報が）信頼できる",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "nimio",
+      "ja": "ささいな",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "prolijo",
+      "ja": "冗長な",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "ubicuo",
+      "ja": "至る所にある",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

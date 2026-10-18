@@ -232,6 +232,61 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "patología",
+      "ja": "病理、病気",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "secuela",
+      "ja": "後遺症",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "dolencia",
+      "ja": "持病",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "contagio",
+      "ja": "感染",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "pronóstico",
+      "ja": "予後、予報",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "crónico",
+      "ja": "慢性の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "convalecencia",
+      "ja": "回復期",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "afección",
+      "ja": "疾患",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

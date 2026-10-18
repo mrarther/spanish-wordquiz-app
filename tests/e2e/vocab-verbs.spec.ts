@@ -57,3 +57,20 @@ test('問題数「すべて」では、条件に合う単語を全部出題す�
   await page.getByRole('button', { name: 'スタート' }).click()
   await expect(page.getByText(`0 / ${count}`, { exact: true })).toBeVisible()
 })
+
+test('C1 だけを選ぶと、C1 の単語が出題される', async ({ page }) => {
+  await page.goto('/vocab')
+  await page.getByText('4択', { exact: true }).click()
+  const levels = section(page, 'レベル')
+  await levels.getByText('A1', { exact: true }).click() // 初期値の A1・A2 を外す
+  await levels.getByText('A2', { exact: true }).click()
+  await levels.getByText('C1', { exact: true }).click()
+  await expect(levels.getByRole('checkbox', { name: 'C2' })).not.toBeChecked()
+  await page.getByRole('button', { name: 'スタート' }).click()
+  for (let i = 0; i < 3; i++) {
+    await expect(page.locator('div.grid-cols-2 button')).toHaveCount(4)
+    await page.keyboard.press('1')
+    await expect(page.getByRole('status')).toContainText('・C1')
+    await page.keyboard.press('Enter')
+  }
+})
