@@ -365,6 +365,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "tique",
+      "ja": "レシート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ganga",
+      "ja": "掘り出し物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tienda en línea",
+      "ja": "オンラインショップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "código de barras",
+      "ja": "バーコード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "importe",
+      "ja": "金額",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mayorista",
+      "ja": "卸売業者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "minorista",
+      "ja": "小売業者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
     }
   ]
 }

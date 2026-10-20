@@ -284,6 +284,40 @@
       "ja": "10億",
       "pos": "num",
       "level": "B2"
+    },
+    {
+      "es": "tercio",
+      "ja": "3分の1",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "decena",
+      "ja": "約10",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "centenar",
+      "ja": "約100",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "impar",
+      "ja": "奇数の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "millar",
+      "ja": "約1000",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

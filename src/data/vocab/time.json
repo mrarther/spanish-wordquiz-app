@@ -411,6 +411,63 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "nochevieja",
+      "ja": "大みそか",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "día festivo",
+      "ja": "祝日",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "hora punta",
+      "ja": "ラッシュアワー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "a diario",
+      "ja": "日常的に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "tarde o temprano",
+      "ja": "遅かれ早かれ",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "en breve",
+      "ja": "まもなく",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "antaño",
+      "ja": "昔",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "de antemano",
+      "ja": "前もって",
+      "pos": "adv",
+      "level": "C1"
+    },
+    {
+      "es": "otrora",
+      "ja": "かつて",
+      "pos": "adv",
+      "level": "C2"
     }
   ]
 }

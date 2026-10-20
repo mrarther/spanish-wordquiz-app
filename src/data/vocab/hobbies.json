@@ -372,6 +372,83 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "lectura",
+      "ja": "読書",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "karaoke",
+      "ja": "カラオケ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "acampada",
+      "ja": "キャンプ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "escalada",
+      "ja": "クライミング",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "buceo",
+      "ja": "ダイビング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "crucigrama",
+      "ja": "クロスワード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rompecabezas",
+      "ja": "パズル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pasatiempo",
+      "ja": "気晴らし",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "naipe",
+      "ja": "トランプの札",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tejido",
+      "ja": "編み物、織物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "bricolaje",
+      "ja": "日曜大工",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

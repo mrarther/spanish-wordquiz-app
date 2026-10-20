@@ -568,6 +568,111 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "cubo de basura",
+      "ja": "ゴミ箱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "estante",
+      "ja": "棚",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "escoba",
+      "ja": "ほうき",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "fregona",
+      "ja": "モップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "trapo",
+      "ja": "ぞうきん",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "percha",
+      "ja": "ハンガー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "interruptor",
+      "ja": "スイッチ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "persiana",
+      "ja": "ブラインド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "portal",
+      "ja": "玄関ホール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tubería",
+      "ja": "配管",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cerradura",
+      "ja": "錠",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "azulejo",
+      "ja": "タイル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ático",
+      "ja": "最上階の部屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "baldosa",
+      "ja": "床タイル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "umbral",
+      "ja": "敷居",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

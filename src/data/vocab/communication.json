@@ -309,6 +309,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "charla",
+      "ja": "おしゃべり、講話",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pronunciación",
+      "ja": "発音",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tono",
+      "ja": "口調",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sinónimo",
+      "ja": "同義語",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "refrán",
+      "ja": "ことわざ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cita",
+      "ja": "引用",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "antónimo",
+      "ja": "反意語",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "abreviatura",
+      "ja": "略語",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "dialecto",
+      "ja": "方言",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "murmullo",
+      "ja": "ささやき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

@@ -871,6 +871,90 @@
       "ja": "最終的に",
       "pos": "adv",
       "level": "C2"
+    },
+    {
+      "es": "entonces",
+      "ja": "それなら、その時",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "otra vez",
+      "ja": "もう一度",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "como",
+      "ja": "〜のように",
+      "pos": "conj",
+      "level": "A1"
+    },
+    {
+      "es": "tan",
+      "ja": "そんなに",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "a lo mejor",
+      "ja": "もしかしたら",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "sin duda",
+      "ja": "間違いなく",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "al menos",
+      "ja": "少なくとも",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "de hecho",
+      "ja": "実際",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "por cierto",
+      "ja": "ところで",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "o sea",
+      "ja": "つまり（口語）",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "en vez de",
+      "ja": "〜の代わりに（口語）",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "mientras tanto",
+      "ja": "その間に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "a medida que",
+      "ja": "〜するにつれて",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "conforme",
+      "ja": "〜につれて（文語）",
+      "pos": "conj",
+      "level": "C1"
     }
   ]
 }

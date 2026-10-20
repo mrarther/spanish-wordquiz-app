@@ -1,0 +1,209 @@
+{
+  "id": "sports",
+  "label_ja": "スポーツ",
+  "words": [
+    {
+      "es": "piscina",
+      "ja": "プール",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "yoga",
+      "ja": "ヨガ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "balón",
+      "ja": "（大きい）ボール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gimnasia",
+      "ja": "体操",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "boxeo",
+      "ja": "ボクシング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "patinaje",
+      "ja": "スケート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "surf",
+      "ja": "サーフィン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "raqueta",
+      "ja": "ラケット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "carrera",
+      "ja": "競走、レース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "portería",
+      "ja": "ゴール（枠）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "portero",
+      "ja": "ゴールキーパー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "defensa",
+      "ja": "ディフェンス、防御",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "falta",
+      "ja": "反則",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "penalti",
+      "ja": "ペナルティキック",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tarjeta roja",
+      "ja": "レッドカード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "liga",
+      "ja": "リーグ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "semifinal",
+      "ja": "準決勝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "récord",
+      "ja": "記録",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pista",
+      "ja": "トラック、コート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cancha",
+      "ja": "競技場、コート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "atletismo",
+      "ja": "陸上競技",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "casco",
+      "ja": "ヘルメット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rival",
+      "ja": "ライバル",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "delantero",
+      "ja": "フォワード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "jugada",
+      "ja": "プレー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "marcador",
+      "ja": "スコアボード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "remo",
+      "ja": "ボート競技、オール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hincha",
+      "ja": "（熱狂的な）ファン",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "dopaje",
+      "ja": "ドーピング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

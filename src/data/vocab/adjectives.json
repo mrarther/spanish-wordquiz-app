@@ -1219,6 +1219,120 @@
       "ja": "至る所にある",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "correcto",
+      "ja": "正しい",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "incorrecto",
+      "ja": "間違った",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "redondo",
+      "ja": "丸い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "fresco",
+      "ja": "新鮮な、涼しい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "plano",
+      "ja": "平らな",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "agudo",
+      "ja": "鋭い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "grueso",
+      "ja": "厚い、太い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "fino",
+      "ja": "薄い、上品な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "transparente",
+      "ja": "透明な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "liso",
+      "ja": "なめらかな、まっすぐな",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tierno",
+      "ja": "（肉が）柔らかい、優しい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "crudo",
+      "ja": "生の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "hueco",
+      "ja": "空洞の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "opaco",
+      "ja": "不透明な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "brusco",
+      "ja": "突然の、乱暴な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "espeso",
+      "ja": "（液体が）濃い",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "podrido",
+      "ja": "腐った",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "caducado",
+      "ja": "期限切れの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "áspero",
+      "ja": "ざらざらした",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

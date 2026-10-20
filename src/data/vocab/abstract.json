@@ -603,6 +603,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "cosa",
+      "ja": "物、こと",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "vez",
+      "ja": "回、度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "lugar",
+      "ja": "場所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "resto",
+      "ja": "残り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sistema",
+      "ja": "システム、制度",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "estructura",
+      "ja": "構造",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "contexto",
+      "ja": "文脈",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "enfoque",
+      "ja": "アプローチ、焦点",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "requisito",
+      "ja": "必要条件",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "circunstancia",
+      "ja": "事情",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "implicación",
+      "ja": "関与、含意",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "connotación",
+      "ja": "（言葉の）含意",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

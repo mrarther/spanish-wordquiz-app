@@ -358,6 +358,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "cuento",
+      "ja": "物語、童話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "protagonista",
+      "ja": "主人公",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "capítulo",
+      "ja": "章",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "coro",
+      "ja": "合唱団",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "trama",
+      "ja": "筋書き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "género",
+      "ja": "ジャンル、性",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mural",
+      "ja": "壁画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "acuarela",
+      "ja": "水彩画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "balada",
+      "ja": "バラード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "interpretación",
+      "ja": "演奏、解釈",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "lienzo",
+      "ja": "キャンバス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "boceto",
+      "ja": "（下絵の）スケッチ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

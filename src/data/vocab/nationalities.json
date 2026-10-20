@@ -329,6 +329,84 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "castellano",
+      "ja": "カスティーリャの、スペイン語",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "vasco",
+      "ja": "バスクの、バスク語",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "catalán",
+      "ja": "カタルーニャの、カタルーニャ語",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "gallego",
+      "ja": "ガリシアの、ガリシア語",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "andaluz",
+      "ja": "アンダルシアの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "polaco",
+      "ja": "ポーランドの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "noruego",
+      "ja": "ノルウェーの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "danés",
+      "ja": "デンマークの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tailandés",
+      "ja": "タイの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "vietnamita",
+      "ja": "ベトナムの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "filipino",
+      "ja": "フィリピンの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "quechua",
+      "ja": "ケチュアの、ケチュア語",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "guaraní",
+      "ja": "グアラニーの、グアラニー語",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

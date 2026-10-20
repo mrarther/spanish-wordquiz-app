@@ -442,6 +442,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "compañero",
+      "ja": "仲間、同僚",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "familiar",
+      "ja": "親戚",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "bisabuelo",
+      "ja": "曽祖父",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bisabuela",
+      "ja": "曽祖母",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "conocido",
+      "ja": "知り合い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "desconocido",
+      "ja": "見知らぬ人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nuera",
+      "ja": "息子の妻",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "yerno",
+      "ja": "娘の夫",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "prometido",
+      "ja": "婚約者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hermanastro",
+      "ja": "（親の再婚による）義理の兄弟",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "primogénito",
+      "ja": "長子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "parentesco",
+      "ja": "親族関係",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "linaje",
+      "ja": "家系",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

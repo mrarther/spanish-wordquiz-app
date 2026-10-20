@@ -316,6 +316,90 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "gorro",
+      "ja": "（毛糸の）帽子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "chaleco",
+      "ja": "ベスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tela",
+      "ja": "布",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "seda",
+      "ja": "絹",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cordón",
+      "ja": "ひも、靴ひも",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tacón",
+      "ja": "（靴の）かかと、ヒール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bata",
+      "ja": "バスローブ、白衣",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "camisón",
+      "ja": "ネグリジェ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cuello",
+      "ja": "襟",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "vestimenta",
+      "ja": "服装",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "estampado",
+      "ja": "プリント柄",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "atuendo",
+      "ja": "装い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

@@ -116,6 +116,48 @@
       "ja": "すみれ色の",
       "pos": "adj",
       "level": "B1"
+    },
+    {
+      "es": "turquesa",
+      "ja": "ターコイズ色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "pálido",
+      "ja": "青白い、淡い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "granate",
+      "ja": "えんじ色の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "carmesí",
+      "ja": "深紅の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "ocre",
+      "ja": "黄土色の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "chillón",
+      "ja": "けばけばしい",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "añil",
+      "ja": "藍色の",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

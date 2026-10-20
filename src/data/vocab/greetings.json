@@ -241,6 +241,90 @@
       "ja": "おめでとう（成功に）",
       "pos": "expr",
       "level": "B1"
+    },
+    {
+      "es": "hasta pronto",
+      "ja": "またすぐに",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "qué pasa",
+      "ja": "どうしたの？、元気？",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "cuánto tiempo",
+      "ja": "久しぶり",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "a ver",
+      "ja": "ええと、どれどれ",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "oiga",
+      "ja": "すみません（呼びかけ、丁寧）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "dígame",
+      "ja": "もしもし（電話を受けて）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "qué lástima",
+      "ja": "残念だ",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "ánimo",
+      "ja": "がんばって",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "que te mejores",
+      "ja": "お大事に（相手に）",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "que tengas un buen día",
+      "ja": "よい一日を",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "menos mal",
+      "ja": "よかった、助かった",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "vaya",
+      "ja": "おや、まあ",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "en fin",
+      "ja": "まあ、要するに",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "qué va",
+      "ja": "まさか、とんでもない",
+      "pos": "expr",
+      "level": "B2"
     }
   ]
 }

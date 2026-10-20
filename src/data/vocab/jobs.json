@@ -316,6 +316,90 @@
       "pos": "noun",
       "gender": "mf",
       "level": "B2"
+    },
+    {
+      "es": "taxista",
+      "ja": "タクシー運転手",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "recepcionista",
+      "ja": "受付係",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "azafata",
+      "ja": "客室乗務員",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "camionero",
+      "ja": "トラック運転手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "socorrista",
+      "ja": "ライフガード",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "astronauta",
+      "ja": "宇宙飛行士",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "arqueólogo",
+      "ja": "考古学者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cerrajero",
+      "ja": "鍵屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "joyero",
+      "ja": "宝石商",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "notario",
+      "ja": "公証人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "portavoz",
+      "ja": "報道官",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "catedrático",
+      "ja": "（大学の）教授",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

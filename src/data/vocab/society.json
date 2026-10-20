@@ -603,6 +603,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "votante",
+      "ja": "有権者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "ideología",
+      "ja": "イデオロギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "izquierda",
+      "ja": "左派",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "derecha",
+      "ja": "右派",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "oposición",
+      "ja": "野党、反対",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "embajador",
+      "ja": "大使",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "dictadura",
+      "ja": "独裁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "coalición",
+      "ja": "連立",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tratado",
+      "ja": "条約",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "sanción",
+      "ja": "制裁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "golpe de estado",
+      "ja": "クーデター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "censura",
+      "ja": "検閲",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

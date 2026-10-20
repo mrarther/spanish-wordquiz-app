@@ -421,6 +421,83 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "panel solar",
+      "ja": "ソーラーパネル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "carbón",
+      "ja": "石炭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "combustible",
+      "ja": "燃料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lluvia ácida",
+      "ja": "酸性雨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "marea",
+      "ja": "潮",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cometa",
+      "ja": "彗星",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "eclipse",
+      "ja": "日食、月食",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "gravedad",
+      "ja": "重力、重大さ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "célula",
+      "ja": "細胞",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "aerogenerador",
+      "ja": "風力発電機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "fósil",
+      "ja": "化石",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

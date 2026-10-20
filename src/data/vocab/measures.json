@@ -267,6 +267,69 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "kilogramo",
+      "ja": "キログラム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "metro cuadrado",
+      "ja": "平方メートル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cubo",
+      "ja": "立方体、バケツ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pirámide",
+      "ja": "ピラミッド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "escala",
+      "ja": "縮尺、規模",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "proporción",
+      "ja": "比率",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "dimensión",
+      "ja": "寸法、次元",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "diámetro",
+      "ja": "直径",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "radio",
+      "ja": "半径、ラジオ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

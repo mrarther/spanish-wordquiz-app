@@ -1,0 +1,188 @@
+{
+  "id": "geography",
+  "label_ja": "地理・地形",
+  "words": [
+    {
+      "es": "continente",
+      "ja": "大陸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "región",
+      "ja": "地域、地方",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "provincia",
+      "ja": "県、州",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "península",
+      "ja": "半島",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cordillera",
+      "ja": "山脈",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "llanura",
+      "ja": "平野",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "orilla",
+      "ja": "岸",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "territorio",
+      "ja": "領土",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "golfo",
+      "ja": "湾",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "bahía",
+      "ja": "（小さな）湾",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cabo",
+      "ja": "岬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "meseta",
+      "ja": "台地",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cumbre",
+      "ja": "頂上、首脳会議",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "estrecho",
+      "ja": "海峡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ecuador",
+      "ja": "赤道",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "polo",
+      "ja": "極",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "oasis",
+      "ja": "オアシス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ladera",
+      "ja": "斜面",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "cauce",
+      "ja": "川床",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "desembocadura",
+      "ja": "河口",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "archipiélago",
+      "ja": "群島",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "litoral",
+      "ja": "沿岸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "latitud",
+      "ja": "緯度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "longitud",
+      "ja": "経度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "hemisferio",
+      "ja": "半球",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "afluente",
+      "ja": "支流",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

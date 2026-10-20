@@ -548,6 +548,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "compañero de clase",
+      "ja": "クラスメート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "apunte",
+      "ja": "（授業の）メモ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "redacción",
+      "ja": "作文",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ortografía",
+      "ja": "つづり（正書法）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tutor",
+      "ja": "指導教官、家庭教師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "teletrabajo",
+      "ja": "テレワーク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tesis",
+      "ja": "（学位）論文",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vacante",
+      "ja": "欠員",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "nómina",
+      "ja": "給与明細",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "becario",
+      "ja": "インターン、奨学生",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "rector",
+      "ja": "学長",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "expediente",
+      "ja": "成績記録、書類",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "claustro",
+      "ja": "教授会、回廊",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

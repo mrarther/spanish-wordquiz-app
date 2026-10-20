@@ -287,6 +287,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "tirita",
+      "ja": "ばんそうこう",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cita médica",
+      "ja": "診察の予約",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "urgencia",
+      "ja": "緊急、救急",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "silla de ruedas",
+      "ja": "車椅子",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cáncer",
+      "ja": "がん",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "camilla",
+      "ja": "担架",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "muleta",
+      "ja": "松葉づえ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "insomnio",
+      "ja": "不眠症",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "migraña",
+      "ja": "片頭痛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vómito",
+      "ja": "嘔吐",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "diabetes",
+      "ja": "糖尿病",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "trasplante",
+      "ja": "移植",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

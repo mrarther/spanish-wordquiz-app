@@ -1,0 +1,216 @@
+{
+  "id": "cooking",
+  "label_ja": "料理・台所",
+  "words": [
+    {
+      "es": "ingrediente",
+      "ja": "材料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "trozo",
+      "ja": "一切れ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cafetera",
+      "ja": "コーヒーメーカー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "servilleta",
+      "ja": "ナプキン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cucharada",
+      "ja": "大さじ1杯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cucharadita",
+      "ja": "小さじ1杯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "rebanada",
+      "ja": "（パンなどの）薄切り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tabla de cortar",
+      "ja": "まな板",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "delantal",
+      "ja": "エプロン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "batidora",
+      "ja": "ミキサー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tostadora",
+      "ja": "トースター",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tetera",
+      "ja": "やかん、ティーポット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "abrelatas",
+      "ja": "缶切り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mantel",
+      "ja": "テーブルクロス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bandeja",
+      "ja": "お盆",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "jarra",
+      "ja": "水差し",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "plato hondo",
+      "ja": "深皿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "congelador",
+      "ja": "冷凍庫",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "asado",
+      "ja": "ロースト、焼き肉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pizca",
+      "ja": "ひとつまみ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cazo",
+      "ja": "片手鍋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "colador",
+      "ja": "こし器",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sacacorchos",
+      "ja": "コルク抜き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cuenco",
+      "ja": "（器の）ボウル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "guiso",
+      "ja": "煮込み料理",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "fritura",
+      "ja": "揚げ物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "hervor",
+      "ja": "沸騰",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "aderezo",
+      "ja": "ドレッシング、調味料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "adobo",
+      "ja": "マリネ液",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "rebozado",
+      "ja": "（揚げ物の）衣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

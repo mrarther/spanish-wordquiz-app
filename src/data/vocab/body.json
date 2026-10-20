@@ -463,6 +463,97 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "oído",
+      "ja": "聴覚、耳（内耳）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "vista",
+      "ja": "視覚、景色",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "gusto",
+      "ja": "味覚、好み",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "talón",
+      "ja": "かかと",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "muslo",
+      "ja": "太もも",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "olfato",
+      "ja": "嗅覚",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tacto",
+      "ja": "触覚",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "nuca",
+      "ja": "うなじ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "párpado",
+      "ja": "まぶた",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "esqueleto",
+      "ja": "骨格",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "columna vertebral",
+      "ja": "背骨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "articulación",
+      "ja": "関節",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tendón",
+      "ja": "腱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

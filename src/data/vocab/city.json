@@ -414,6 +414,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "paso de peatones",
+      "ja": "横断歩道",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "calle peatonal",
+      "ja": "歩行者専用道路",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "rotonda",
+      "ja": "ロータリー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "atasco",
+      "ja": "渋滞",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "farola",
+      "ja": "街灯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "casco antiguo",
+      "ja": "旧市街",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "contenedor",
+      "ja": "ゴミ収集コンテナ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "polígono industrial",
+      "ja": "工業団地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "alcantarilla",
+      "ja": "下水溝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "periferia",
+      "ja": "郊外",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

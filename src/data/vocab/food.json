@@ -724,6 +724,153 @@
       "pos": "noun",
       "gender": "mf",
       "level": "B2"
+    },
+    {
+      "es": "tostada",
+      "ja": "トースト",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "sándwich",
+      "ja": "サンドイッチ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "zumo de naranja",
+      "ja": "オレンジジュース",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "filete",
+      "ja": "ステーキ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "brócoli",
+      "ja": "ブロッコリー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "aguacate",
+      "ja": "アボカド",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mango",
+      "ja": "マンゴー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "kiwi",
+      "ja": "キウイ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "chorizo",
+      "ja": "チョリソ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pan integral",
+      "ja": "全粒粉パン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "espinaca",
+      "ja": "ほうれん草",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "calabaza",
+      "ja": "かぼちゃ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "berenjena",
+      "ja": "なす",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "coliflor",
+      "ja": "カリフラワー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ciruela",
+      "ja": "プラム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "almendra",
+      "ja": "アーモンド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "nuez",
+      "ja": "クルミ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cacahuete",
+      "ja": "ピーナッツ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "trigo",
+      "ja": "小麦",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "avena",
+      "ja": "オートミール",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "embutido",
+      "ja": "腸詰め、ソーセージ類",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

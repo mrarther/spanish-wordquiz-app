@@ -574,6 +574,78 @@
       "ja": "冷静な、公平な",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "enamorado",
+      "ja": "恋している",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "sincero",
+      "ja": "誠実な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "curioso",
+      "ja": "好奇心の強い、珍しい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tolerante",
+      "ja": "寛容な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "humilde",
+      "ja": "謙虚な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "travieso",
+      "ja": "いたずらな",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "ingenuo",
+      "ja": "世間知らずの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "astuto",
+      "ja": "ずる賢い",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "impulsivo",
+      "ja": "衝動的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "testarudo",
+      "ja": "強情な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "apático",
+      "ja": "無気力な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "abatido",
+      "ja": "打ちひしがれた",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

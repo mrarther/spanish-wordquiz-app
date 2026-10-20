@@ -407,6 +407,104 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "agencia de viajes",
+      "ja": "旅行代理店",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pasajero",
+      "ja": "乗客",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gasolina",
+      "ja": "ガソリン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "temporada alta",
+      "ja": "繁忙期",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "equipaje de mano",
+      "ja": "機内持ち込み手荷物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "escala",
+      "ja": "乗り継ぎ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "albergue",
+      "ja": "ユースホステル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pensión",
+      "ja": "民宿、年金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "facturación",
+      "ja": "（荷物を預ける）チェックイン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tripulación",
+      "ja": "乗務員",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "peaje",
+      "ja": "通行料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "brújula",
+      "ja": "方位磁石",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "travesía",
+      "ja": "渡航",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "periplo",
+      "ja": "周遊旅行",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }
