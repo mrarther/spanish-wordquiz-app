@@ -498,6 +498,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "parque nacional",
+      "ja": "国立公園",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "calentamiento global",
+      "ja": "地球温暖化",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ola de calor",
+      "ja": "熱波",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tsunami",
+      "ja": "津波",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "especie en peligro",
+      "ja": "絶滅危惧種",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reserva natural",
+      "ja": "自然保護区",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "deshielo",
+      "ja": "雪解け",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "abono",
+      "ja": "肥料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "pesticida",
+      "ja": "殺虫剤",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

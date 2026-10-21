@@ -1333,6 +1333,144 @@
       "ja": "ざらざらした",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "único",
+      "ja": "唯一の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "siguiente",
+      "ja": "次の（後続の）",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "pasado",
+      "ja": "過去の、この前の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "diario",
+      "ja": "毎日の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "excelente",
+      "ja": "優れた",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "terrible",
+      "ja": "恐ろしい、ひどい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "medio",
+      "ja": "中くらいの、平均的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "directo",
+      "ja": "直接の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "exterior",
+      "ja": "外部の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "interior",
+      "ja": "内部の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "superior",
+      "ja": "上の、優れた",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "inferior",
+      "ja": "下の、劣った",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "semanal",
+      "ja": "週ごとの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "magnífico",
+      "ja": "見事な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "inolvidable",
+      "ja": "忘れられない",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "indirecto",
+      "ja": "間接的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "anual",
+      "ja": "年に一度の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "mensual",
+      "ja": "月ごとの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "aceptable",
+      "ja": "受け入れられる",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "insoportable",
+      "ja": "耐えられない",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "irrelevante",
+      "ja": "重要でない",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "imprevisible",
+      "ja": "予測できない",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "insólito",
+      "ja": "異例の",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

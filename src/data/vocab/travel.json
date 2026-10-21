@@ -505,6 +505,83 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "billete de ida",
+      "ja": "片道切符",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mostrador",
+      "ja": "カウンター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "puerta de embarque",
+      "ja": "搭乗ゲート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cinturón de seguridad",
+      "ja": "シートベルト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "viaje de negocios",
+      "ja": "出張",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "consigna",
+      "ja": "手荷物預かり所",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "despegue",
+      "ja": "離陸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "aterrizaje",
+      "ja": "着陸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mochilero",
+      "ja": "バックパッカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "turbulencia",
+      "ja": "乱気流",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "desfase horario",
+      "ja": "時差ぼけ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

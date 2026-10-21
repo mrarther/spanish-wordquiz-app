@@ -449,6 +449,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "origami",
+      "ja": "折り紙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "juego de mesa",
+      "ja": "ボードゲーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "concurso",
+      "ja": "コンテスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "equitación",
+      "ja": "乗馬",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "manualidad",
+      "ja": "手芸",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sorteo",
+      "ja": "くじ引き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "excursionista",
+      "ja": "ハイカー",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "vela",
+      "ja": "帆走、ヨット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "filatelia",
+      "ja": "切手収集",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

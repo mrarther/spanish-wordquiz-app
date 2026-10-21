@@ -211,6 +211,97 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "plato principal",
+      "ja": "メインディッシュ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "primer plato",
+      "ja": "最初の料理（1皿目）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "segundo plato",
+      "ja": "2皿目の料理",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "parrilla",
+      "ja": "グリル、焼き網",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "plancha",
+      "ja": "鉄板",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "papel de aluminio",
+      "ja": "アルミホイル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "comida casera",
+      "ja": "家庭料理",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "horneado",
+      "ja": "オーブン焼き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cucharón",
+      "ja": "おたま",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "espátula",
+      "ja": "へら",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "rallador",
+      "ja": "おろし金",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "molde",
+      "ja": "型",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cocción",
+      "ja": "加熱調理",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

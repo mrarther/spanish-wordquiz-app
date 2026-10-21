@@ -1,0 +1,139 @@
+{
+  "id": "daily_life",
+  "label_ja": "日常生活",
+  "words": [
+    {
+      "es": "rutina",
+      "ja": "日課",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "despertador",
+      "ja": "目覚まし時計",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "siesta",
+      "ja": "昼寝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "limpieza",
+      "ja": "掃除",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "merienda",
+      "ja": "おやつ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "mascota",
+      "ja": "ペット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "colada",
+      "ja": "洗濯（物）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "recado",
+      "ja": "用事、伝言",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "costumbre",
+      "ja": "習慣",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "hábito",
+      "ja": "癖、習慣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "agenda",
+      "ja": "手帳、予定表",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "llavero",
+      "ja": "キーホルダー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bolsa de la compra",
+      "ja": "買い物袋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "trámite",
+      "ja": "手続き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "madrugón",
+      "ja": "早起き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "puntualidad",
+      "ja": "時間厳守",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sobremesa",
+      "ja": "食後の団らん",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "imprevisto",
+      "ja": "予期せぬ出来事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "ajetreo",
+      "ja": "慌ただしさ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

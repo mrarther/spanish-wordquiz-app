@@ -1,0 +1,174 @@
+{
+  "id": "law",
+  "label_ja": "法律・犯罪",
+  "words": [
+    {
+      "es": "testigo",
+      "ja": "証人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "prueba",
+      "ja": "証拠、テスト",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "multa",
+      "ja": "罰金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "robo",
+      "ja": "盗難",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "detective",
+      "ja": "探偵",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "tribunal",
+      "ja": "裁判所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "juzgado",
+      "ja": "地方裁判所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "acusado",
+      "ja": "被告",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sentencia",
+      "ja": "判決",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "condena",
+      "ja": "有罪判決、刑",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "denuncia",
+      "ja": "告発、被害届",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "estafa",
+      "ja": "詐欺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "asesinato",
+      "ja": "殺人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "secuestro",
+      "ja": "誘拐",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "huella dactilar",
+      "ja": "指紋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fiscal",
+      "ja": "検察官",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "jurado",
+      "ja": "陪審",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "demanda",
+      "ja": "訴訟、需要",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "chantaje",
+      "ja": "恐喝",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "soborno",
+      "ja": "賄賂",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "fianza",
+      "ja": "保釈金、保証金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "cómplice",
+      "ja": "共犯者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "coartada",
+      "ja": "アリバイ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "reincidencia",
+      "ja": "再犯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    }
+  ]
+}

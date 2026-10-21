@@ -554,6 +554,90 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "dedo del pie",
+      "ja": "足の指",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "barbilla",
+      "ja": "あご（先）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "puño",
+      "ja": "こぶし",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "palma",
+      "ja": "手のひら",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "estatura",
+      "ja": "身長",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "arruga",
+      "ja": "しわ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "axila",
+      "ja": "わきの下",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ombligo",
+      "ja": "へそ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "peca",
+      "ja": "そばかす",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "lunar",
+      "ja": "ほくろ、水玉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pantorrilla",
+      "ja": "ふくらはぎ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "mandíbula",
+      "ja": "あご（骨）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

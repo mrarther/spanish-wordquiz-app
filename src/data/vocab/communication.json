@@ -379,6 +379,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "sobre",
+      "ja": "封筒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sello",
+      "ja": "切手、印",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "encuesta",
+      "ja": "アンケート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "intérprete",
+      "ja": "通訳",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "apodo",
+      "ja": "あだ名",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "firma",
+      "ja": "署名",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "remitente",
+      "ja": "差出人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "destinatario",
+      "ja": "受取人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tópico",
+      "ja": "決まり文句",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

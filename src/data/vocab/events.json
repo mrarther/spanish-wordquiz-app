@@ -1,0 +1,146 @@
+{
+  "id": "events",
+  "label_ja": "行事・祝祭",
+  "words": [
+    {
+      "es": "carnaval",
+      "ja": "カーニバル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "invitado",
+      "ja": "招待客",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tarta",
+      "ja": "（お祝いの）ケーキ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "celebración",
+      "ja": "祝賀",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "graduación",
+      "ja": "卒業式",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "desfile",
+      "ja": "パレード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "feria",
+      "ja": "市、見本市",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "brindis",
+      "ja": "乾杯（の音頭）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ceremonia",
+      "ja": "式典",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "bautizo",
+      "ja": "洗礼式",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "funeral",
+      "ja": "葬儀",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "procesión",
+      "ja": "（宗教の）行列",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "anfitrión",
+      "ja": "主催者、ホスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "banquete",
+      "ja": "宴会",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "entierro",
+      "ja": "埋葬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "luto",
+      "ja": "喪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "verbena",
+      "ja": "夜祭り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "homenaje",
+      "ja": "敬意、記念式典",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "romería",
+      "ja": "巡礼祭",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "conmemoración",
+      "ja": "記念",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    }
+  ]
+}

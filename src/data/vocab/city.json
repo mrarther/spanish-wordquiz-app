@@ -484,6 +484,76 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "plaza mayor",
+      "ja": "中央広場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "estación de autobuses",
+      "ja": "バスターミナル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "puerto",
+      "ja": "港",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "oficina de turismo",
+      "ja": "観光案内所",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cementerio",
+      "ja": "墓地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "templo",
+      "ja": "寺院",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mezquita",
+      "ja": "モスク",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "convento",
+      "ja": "修道院",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "muralla",
+      "ja": "城壁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "manzana",
+      "ja": "街区",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

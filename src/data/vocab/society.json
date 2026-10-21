@@ -687,6 +687,76 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "bandera",
+      "ja": "旗",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "inmigrante",
+      "ja": "（他国から来た）移民",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "riqueza",
+      "ja": "富",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ciudadanía",
+      "ja": "市民権",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "manifestante",
+      "ja": "デモ参加者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "emigrante",
+      "ja": "（国外へ出た）移民",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "patria",
+      "ja": "祖国",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "himno",
+      "ja": "国歌、賛歌",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "beneficencia",
+      "ja": "慈善",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "hambruna",
+      "ja": "飢饉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

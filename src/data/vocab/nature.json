@@ -730,6 +730,125 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "girasol",
+      "ja": "ひまわり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tulipán",
+      "ja": "チューリップ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cactus",
+      "ja": "サボテン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cangrejo",
+      "ja": "カニ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "barro",
+      "ja": "泥",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "roca",
+      "ja": "岩",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cascada",
+      "ja": "滝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "estanque",
+      "ja": "池",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "margarita",
+      "ja": "ヒナギク",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "medusa",
+      "ja": "クラゲ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "estrella de mar",
+      "ja": "ヒトデ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "arroyo",
+      "ja": "小川",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lagartija",
+      "ja": "（小さな）トカゲ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "mariquita",
+      "ja": "てんとう虫",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "acantilado",
+      "ja": "崖",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "manantial",
+      "ja": "湧き水",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "helecho",
+      "ja": "シダ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

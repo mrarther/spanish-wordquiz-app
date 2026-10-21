@@ -955,6 +955,78 @@
       "ja": "〜につれて（文語）",
       "pos": "conj",
       "level": "C1"
+    },
+    {
+      "es": "casi nunca",
+      "ja": "めったに〜ない",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "aún",
+      "ja": "まだ",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "claramente",
+      "ja": "明らかに",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "jamás",
+      "ja": "決して〜ない（強調）",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "excepto",
+      "ja": "〜以外",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "para que",
+      "ja": "〜するために",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "tras",
+      "ja": "〜の後で（文語）",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "ante",
+      "ja": "〜の前で（面前）",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "bajo",
+      "ja": "〜の下で（条件）",
+      "pos": "prep",
+      "level": "B2"
+    },
+    {
+      "es": "en caso de que",
+      "ja": "〜の場合には",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "sin que",
+      "ja": "〜することなしに",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "puesto que",
+      "ja": "〜なので（文語）",
+      "pos": "conj",
+      "level": "C1"
     }
   ]
 }

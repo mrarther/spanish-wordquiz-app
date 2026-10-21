@@ -414,6 +414,62 @@
       "pos": "noun",
       "gender": "mf",
       "level": "C1"
+    },
+    {
+      "es": "tarjeta de crédito",
+      "ja": "クレジットカード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "mercadillo",
+      "ja": "のみの市",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "puesto",
+      "ja": "屋台、職",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cuenta bancaria",
+      "ja": "銀行口座",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "regateo",
+      "ja": "値切り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "saldo",
+      "ja": "残高、在庫一掃セール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "transferencia",
+      "ja": "振込",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reembolso",
+      "ja": "払い戻し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

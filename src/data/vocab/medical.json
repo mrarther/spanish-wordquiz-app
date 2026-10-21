@@ -371,6 +371,90 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "sala de espera",
+      "ja": "待合室",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "catarro",
+      "ja": "鼻かぜ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "enfermería",
+      "ja": "看護、医務室",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "jeringa",
+      "ja": "注射器",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "píldora",
+      "ja": "丸薬、ピル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "antibiótico",
+      "ja": "抗生物質",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "inflamación",
+      "ja": "炎症",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "desmayo",
+      "ja": "失神",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "picor",
+      "ja": "かゆみ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "quirófano",
+      "ja": "手術室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "analgésico",
+      "ja": "鎮痛剤",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "hemorragia",
+      "ja": "出血",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

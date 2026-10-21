@@ -158,6 +158,42 @@
       "ja": "藍色の",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "crema",
+      "ja": "クリーム色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "lila",
+      "ja": "ライラック色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "caqui",
+      "ja": "カーキ色の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "fucsia",
+      "ja": "赤紫色の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "multicolor",
+      "ja": "多色の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "bermellón",
+      "ja": "朱色の",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

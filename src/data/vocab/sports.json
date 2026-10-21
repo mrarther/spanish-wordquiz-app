@@ -204,6 +204,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "campeón",
+      "ja": "チャンピオン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "competición",
+      "ja": "競技会",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "calentamiento",
+      "ja": "ウォーミングアップ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "lesión",
+      "ja": "（スポーツの）けが",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "red",
+      "ja": "（球技の）ネット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "resistencia",
+      "ja": "持久力、抵抗",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "eliminatoria",
+      "ja": "予選",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "saque",
+      "ja": "サーブ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "prórroga",
+      "ja": "延長戦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "pelotón",
+      "ja": "（自転車レースの）集団",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

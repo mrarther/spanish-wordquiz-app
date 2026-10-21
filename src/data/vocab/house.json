@@ -673,6 +673,97 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "cuarto de baño",
+      "ja": "浴室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "lavabo",
+      "ja": "洗面台",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "bañera",
+      "ja": "浴槽",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "fregadero",
+      "ja": "流し台",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mesilla",
+      "ja": "ナイトテーブル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "colchón",
+      "ja": "マットレス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cojín",
+      "ja": "クッション",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "jarrón",
+      "ja": "花瓶",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "marco",
+      "ja": "額縁",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "retrete",
+      "ja": "便器",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "encimera",
+      "ja": "調理台",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "edredón",
+      "ja": "掛け布団",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "escalón",
+      "ja": "（階段の）段",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

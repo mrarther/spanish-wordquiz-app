@@ -330,6 +330,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "mililitro",
+      "ja": "ミリリットル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pulgada",
+      "ja": "インチ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "capacidad",
+      "ja": "容量、能力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "frecuencia",
+      "ja": "頻度、周波数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "intensidad",
+      "ja": "強さ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fracción",
+      "ja": "分数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "hectárea",
+      "ja": "ヘクタール",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "densidad",
+      "ja": "密度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ecuación",
+      "ja": "方程式",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

@@ -9,7 +9,9 @@ import clothes from './vocab/clothes.json'
 import colors from './vocab/colors.json'
 import communication from './vocab/communication.json'
 import cooking from './vocab/cooking.json'
+import dailyLife from './vocab/daily_life.json'
 import environment from './vocab/environment.json'
+import events from './vocab/events.json'
 import family from './vocab/family.json'
 import feelings from './vocab/feelings.json'
 import food from './vocab/food.json'
@@ -18,6 +20,8 @@ import geography from './vocab/geography.json'
 import greetings from './vocab/greetings.json'
 import hobbies from './vocab/hobbies.json'
 import jobs from './vocab/jobs.json'
+import law from './vocab/law.json'
+import materials from './vocab/materials.json'
 import measures from './vocab/measures.json'
 import medical from './vocab/medical.json'
 import nationalities from './vocab/nationalities.json'
@@ -50,6 +54,8 @@ const FILES = [
   food,
   cooking,
   shopping,
+  dailyLife,
+  events,
   house,
   clothes,
   city,
@@ -59,6 +65,7 @@ const FILES = [
   time,
   numbers,
   measures,
+  materials,
   colors,
   adjectives,
   feelings,
@@ -68,6 +75,7 @@ const FILES = [
   sports,
   arts,
   society,
+  law,
   environment,
   technology,
   abstract,

@@ -468,6 +468,62 @@
       "ja": "かつて",
       "pos": "adv",
       "level": "C2"
+    },
+    {
+      "es": "media hora",
+      "ja": "30分",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "cuarto de hora",
+      "ja": "15分",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "fecha límite",
+      "ja": "締め切り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "instante",
+      "ja": "一瞬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "milenio",
+      "ja": "千年紀",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "horario de verano",
+      "ja": "夏時間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "porvenir",
+      "ja": "将来",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "efeméride",
+      "ja": "（出来事の）記念日",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

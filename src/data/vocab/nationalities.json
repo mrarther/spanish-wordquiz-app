@@ -407,6 +407,78 @@
       "ja": "グアラニーの、グアラニー語",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "escocés",
+      "ja": "スコットランドの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "belga",
+      "ja": "ベルギーの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "austriaco",
+      "ja": "オーストリアの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "indonesio",
+      "ja": "インドネシアの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "húngaro",
+      "ja": "ハンガリーの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "checo",
+      "ja": "チェコの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "israelí",
+      "ja": "イスラエルの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "iraní",
+      "ja": "イランの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "pakistaní",
+      "ja": "パキスタンの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "neozelandés",
+      "ja": "ニュージーランドの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "sudafricano",
+      "ja": "南アフリカの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "nigeriano",
+      "ja": "ナイジェリアの",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

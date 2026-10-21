@@ -646,6 +646,84 @@
       "ja": "打ちひしがれた",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "agotado",
+      "ja": "疲れ果てた",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "confundido",
+      "ja": "混乱した",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "aliviado",
+      "ja": "ほっとした",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "despistado",
+      "ja": "うっかりした",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "sociable",
+      "ja": "社交的な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "cobarde",
+      "ja": "臆病な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "conmovido",
+      "ja": "感動した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "indignado",
+      "ja": "憤慨した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "nostálgico",
+      "ja": "懐かしがる",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "malhumorado",
+      "ja": "機嫌の悪い",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "ambicioso",
+      "ja": "野心的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "resignado",
+      "ja": "あきらめた",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "eufórico",
+      "ja": "有頂天の",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

@@ -183,6 +183,83 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "pradera",
+      "ja": "草原",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "sabana",
+      "ja": "サバンナ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pantano",
+      "ja": "沼地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "zona horaria",
+      "ja": "時間帯（時差の）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tundra",
+      "ja": "ツンドラ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "delta",
+      "ja": "三角州",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "altiplano",
+      "ja": "高原",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "relieve",
+      "ja": "起伏、地形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "paralelo",
+      "ja": "緯線",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "meridiano",
+      "ja": "子午線",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "istmo",
+      "ja": "地峡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

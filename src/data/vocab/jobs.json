@@ -400,6 +400,83 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "modelo",
+      "ja": "モデル",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "mensajero",
+      "ja": "配達人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "payaso",
+      "ja": "ピエロ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "presentador",
+      "ja": "司会者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "obrero",
+      "ja": "労働者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "barrendero",
+      "ja": "清掃員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "locutor",
+      "ja": "アナウンサー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "agente inmobiliario",
+      "ja": "不動産業者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ejecutivo",
+      "ja": "重役",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "autónomo",
+      "ja": "自営業者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "asesor",
+      "ja": "コンサルタント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

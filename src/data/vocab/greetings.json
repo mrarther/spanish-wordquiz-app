@@ -325,6 +325,72 @@
       "ja": "まさか、とんでもない",
       "pos": "expr",
       "level": "B2"
+    },
+    {
+      "es": "chao",
+      "ja": "じゃあね",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "buenas",
+      "ja": "やあ（くだけた挨拶）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "saludos",
+      "ja": "よろしく（手紙の結び）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "un abrazo",
+      "ja": "元気で（手紙の結び）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "cuídate",
+      "ja": "元気でね、気をつけて",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "mucha suerte",
+      "ja": "幸運を祈る",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "gracias a ti",
+      "ja": "こちらこそありがとう",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "sin problema",
+      "ja": "問題ないよ",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "que lo pases bien",
+      "ja": "楽しんでね",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "con mucho gusto",
+      "ja": "喜んで",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "lo que sea",
+      "ja": "何でもいい",
+      "pos": "expr",
+      "level": "B2"
     }
   ]
 }

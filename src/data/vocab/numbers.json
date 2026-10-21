@@ -318,6 +318,37 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "triple",
+      "ja": "3倍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "billón",
+      "ja": "1兆",
+      "pos": "num",
+      "level": "C1"
+    },
+    {
+      "es": "undécimo",
+      "ja": "11番目の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "vigésimo",
+      "ja": "20番目の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "centésimo",
+      "ja": "100番目の",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

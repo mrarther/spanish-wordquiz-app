@@ -442,6 +442,90 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "escultor",
+      "ja": "彫刻家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "poeta",
+      "ja": "詩人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "novelista",
+      "ja": "小説家",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "bailarín",
+      "ja": "ダンサー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "comedia",
+      "ja": "喜劇",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "documental",
+      "ja": "ドキュメンタリー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "compositor",
+      "ja": "作曲家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sinfonía",
+      "ja": "交響曲",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tragedia",
+      "ja": "悲劇",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cortometraje",
+      "ja": "短編映画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "reseña",
+      "ja": "書評、レビュー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "dramaturgo",
+      "ja": "劇作家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }
