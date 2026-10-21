@@ -757,6 +757,83 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "revolución",
+      "ja": "革命",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "independencia",
+      "ja": "独立",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "república",
+      "ja": "共和国",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "clase social",
+      "ja": "社会階級",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "colonia",
+      "ja": "植民地",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "imperio",
+      "ja": "帝国",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "monarquía",
+      "ja": "君主制",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "dictador",
+      "ja": "独裁者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "burguesía",
+      "ja": "ブルジョワ階級",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "nobleza",
+      "ja": "貴族",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "esclavitud",
+      "ja": "奴隷制",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

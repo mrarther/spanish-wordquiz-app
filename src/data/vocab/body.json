@@ -638,6 +638,62 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "cabello",
+      "ja": "髪（文語）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rostro",
+      "ja": "顔（文語）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "costilla",
+      "ja": "肋骨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "intestino",
+      "ja": "腸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sien",
+      "ja": "こめかみ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "nudillo",
+      "ja": "指の関節",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "cráneo",
+      "ja": "頭蓋骨",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "poro",
+      "ja": "毛穴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

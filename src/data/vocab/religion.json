@@ -1,0 +1,161 @@
+{
+  "id": "religion",
+  "label_ja": "宗教・哲学",
+  "words": [
+    {
+      "es": "dios",
+      "ja": "神",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ángel",
+      "ja": "天使",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "misa",
+      "ja": "ミサ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "oración",
+      "ja": "祈り、文",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "fe",
+      "ja": "信仰",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "alma",
+      "ja": "魂",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "article": "el"
+    },
+    {
+      "es": "infierno",
+      "ja": "地獄",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "paraíso",
+      "ja": "楽園",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "diablo",
+      "ja": "悪魔",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "filosofía",
+      "ja": "哲学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pecado",
+      "ja": "（宗教上の）罪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sacerdote",
+      "ja": "司祭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "monje",
+      "ja": "修道士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "monja",
+      "ja": "修道女",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "budismo",
+      "ja": "仏教",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ética",
+      "ja": "倫理",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "moral",
+      "ja": "道徳",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "conciencia",
+      "ja": "意識、良心",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "existencia",
+      "ja": "存在",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sabiduría",
+      "ja": "知恵",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "virtud",
+      "ja": "美徳",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ateo",
+      "ja": "無神論者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

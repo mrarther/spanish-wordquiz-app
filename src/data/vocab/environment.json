@@ -561,6 +561,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "contaminación acústica",
+      "ja": "騒音公害",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "energía eólica",
+      "ja": "風力エネルギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "energía nuclear",
+      "ja": "原子力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ecologista",
+      "ja": "環境保護活動家",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "hidrógeno",
+      "ja": "水素",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "carbono",
+      "ja": "炭素",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "compost",
+      "ja": "堆肥",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "microplástico",
+      "ja": "マイクロプラスチック",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

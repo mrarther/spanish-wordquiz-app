@@ -997,6 +997,125 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "arroz con leche",
+      "ja": "ライスプディング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "croqueta",
+      "ja": "コロッケ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tapa",
+      "ja": "タパス（小皿料理）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "huevo frito",
+      "ja": "目玉焼き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "huevo duro",
+      "ja": "ゆで卵",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mayonesa",
+      "ja": "マヨネーズ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "kétchup",
+      "ja": "ケチャップ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "salmón",
+      "ja": "サーモン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pincho",
+      "ja": "ピンチョス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mostaza",
+      "ja": "マスタード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cereal",
+      "ja": "穀物、シリアル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fideo",
+      "ja": "麺",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pavo",
+      "ja": "七面鳥",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bacalao",
+      "ja": "タラ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mejillón",
+      "ja": "ムール貝",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "albóndiga",
+      "ja": "ミートボール",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ostra",
+      "ja": "（貝の）カキ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

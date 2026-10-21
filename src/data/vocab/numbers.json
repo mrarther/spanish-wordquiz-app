@@ -349,6 +349,42 @@
       "ja": "100番目の",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "ciento",
+      "ja": "100（101以上の数で）",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "cuatrocientos",
+      "ja": "400",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "seiscientos",
+      "ja": "600",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "setecientos",
+      "ja": "700",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "ochocientos",
+      "ja": "800",
+      "pos": "num",
+      "level": "A2"
+    },
+    {
+      "es": "novecientos",
+      "ja": "900",
+      "pos": "num",
+      "level": "A2"
     }
   ]
 }

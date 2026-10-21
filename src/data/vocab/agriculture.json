@@ -1,0 +1,139 @@
+{
+  "id": "agriculture",
+  "label_ja": "農業・田舎",
+  "words": [
+    {
+      "es": "granja",
+      "ja": "農場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cosecha",
+      "ja": "収穫",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "agricultura",
+      "ja": "農業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tractor",
+      "ja": "トラクター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "huerto",
+      "ja": "菜園",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pastor",
+      "ja": "羊飼い、牧師",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "campesino",
+      "ja": "農民",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "molino",
+      "ja": "風車、粉ひき場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "viña",
+      "ja": "ブドウ畑",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "olivo",
+      "ja": "オリーブの木",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cultivo",
+      "ja": "栽培、作物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ganado",
+      "ja": "家畜",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "rebaño",
+      "ja": "群れ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "establo",
+      "ja": "家畜小屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "aldea",
+      "ja": "村落",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "granero",
+      "ja": "穀物倉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "riego",
+      "ja": "灌漑",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "siembra",
+      "ja": "種まき",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "arado",
+      "ja": "すき（農具）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

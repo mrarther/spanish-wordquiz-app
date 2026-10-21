@@ -1,0 +1,140 @@
+{
+  "id": "office",
+  "label_ja": "事務・文房具",
+  "words": [
+    {
+      "es": "clip",
+      "ja": "クリップ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pegamento",
+      "ja": "のり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "rotulador",
+      "ja": "マーカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sacapuntas",
+      "ja": "鉛筆削り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "calculadora",
+      "ja": "電卓",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "fotocopia",
+      "ja": "コピー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "documento",
+      "ja": "書類",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "grapadora",
+      "ja": "ホッチキス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "celo",
+      "ja": "セロハンテープ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "folio",
+      "ja": "（A4の）用紙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fotocopiadora",
+      "ja": "コピー機",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "formulario",
+      "ja": "申込用紙、書式",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "informe",
+      "ja": "報告書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ventanilla",
+      "ja": "窓口",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "departamento",
+      "ja": "部署、アパート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "despacho",
+      "ja": "事務室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "archivador",
+      "ja": "ファイルキャビネット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "acta",
+      "ja": "議事録",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2",
+      "article": "el"
+    },
+    {
+      "es": "sucursal",
+      "ja": "支店",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}

@@ -778,6 +778,83 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "vida",
+      "ja": "人生、生活",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "muerte",
+      "ja": "死",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "progreso",
+      "ja": "進歩",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "responsabilidad",
+      "ja": "責任",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "respeto",
+      "ja": "尊敬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "calidad de vida",
+      "ja": "生活の質",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "deber",
+      "ja": "義務",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sentido común",
+      "ja": "常識",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "prejuicio",
+      "ja": "偏見",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "privilegio",
+      "ja": "特権",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "incógnita",
+      "ja": "謎、未知数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

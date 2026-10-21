@@ -589,6 +589,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "hermano mayor",
+      "ja": "兄",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "hermana mayor",
+      "ja": "姉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "hermano menor",
+      "ja": "弟",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "hermana menor",
+      "ja": "妹",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A1"
+    },
+    {
+      "es": "hijo único",
+      "ja": "一人っ子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "soltero",
+      "ja": "独身者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pariente",
+      "ja": "親類",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "recién nacido",
+      "ja": "新生児",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "adolescente",
+      "ja": "（10代の）若者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "viuda",
+      "ja": "未亡人",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

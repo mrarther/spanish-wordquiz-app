@@ -764,6 +764,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "ventilador",
+      "ja": "扇風機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "chalé",
+      "ja": "一戸建て",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "estudio",
+      "ja": "ワンルーム、書斎",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "alarma",
+      "ja": "警報",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "adosado",
+      "ja": "テラスハウス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "trastero",
+      "ja": "物置",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tendedero",
+      "ja": "物干し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "radiador",
+      "ja": "ラジエーター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cerrojo",
+      "ja": "かんぬき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "felpudo",
+      "ja": "玄関マット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

@@ -141,6 +141,55 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "inauguración",
+      "ja": "開会式、開業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "petardo",
+      "ja": "爆竹",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "gala",
+      "ja": "祝賀会、ガラ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cabalgata",
+      "ja": "（祭りの）パレード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "clausura",
+      "ja": "閉会式",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "comunión",
+      "ja": "聖体拝領",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "jubileo",
+      "ja": "記念祭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

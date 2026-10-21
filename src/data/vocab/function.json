@@ -1027,6 +1027,72 @@
       "ja": "〜なので（文語）",
       "pos": "conj",
       "level": "C1"
+    },
+    {
+      "es": "cerca de",
+      "ja": "〜の近くに",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "lejos de",
+      "ja": "〜から遠くに",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "antes de",
+      "ja": "〜の前に（時間）",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "después de",
+      "ja": "〜の後に",
+      "pos": "prep",
+      "level": "A1"
+    },
+    {
+      "es": "a partir de",
+      "ja": "〜から（以降）",
+      "pos": "prep",
+      "level": "B1"
+    },
+    {
+      "es": "hasta que",
+      "ja": "〜するまで",
+      "pos": "conj",
+      "level": "B1"
+    },
+    {
+      "es": "por lo general",
+      "ja": "一般に",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "tal vez",
+      "ja": "もしかすると",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "en cuanto",
+      "ja": "〜するとすぐに",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "antes de que",
+      "ja": "〜する前に",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "a fin de que",
+      "ja": "〜するために（文語）",
+      "pos": "conj",
+      "level": "C1"
     }
   ]
 }

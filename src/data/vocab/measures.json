@@ -393,6 +393,56 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "medio litro",
+      "ja": "0.5リットル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "grado centígrado",
+      "ja": "摂氏（度）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "milla",
+      "ja": "マイル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "perímetro",
+      "ja": "周囲の長さ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "área",
+      "ja": "面積",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2",
+      "article": "el"
+    },
+    {
+      "es": "onza",
+      "ja": "オンス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "eje",
+      "ja": "軸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

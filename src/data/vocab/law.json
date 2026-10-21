@@ -169,6 +169,69 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "delincuente",
+      "ja": "犯罪者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "preso",
+      "ja": "囚人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "herencia",
+      "ja": "遺産、相続",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "testamento",
+      "ja": "遺言",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "agresión",
+      "ja": "暴行",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "derecho penal",
+      "ja": "刑法",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "legítima defensa",
+      "ja": "正当防衛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "abogacía",
+      "ja": "弁護士業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "indulto",
+      "ja": "恩赦",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

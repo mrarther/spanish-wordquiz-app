@@ -2,7 +2,9 @@ import type { VocabCategoryFile, VocabWord } from '../domain/vocab/types'
 import { VERBS } from './verbs'
 import abstract from './vocab/abstract.json'
 import adjectives from './vocab/adjectives.json'
+import agriculture from './vocab/agriculture.json'
 import arts from './vocab/arts.json'
+import beauty from './vocab/beauty.json'
 import body from './vocab/body.json'
 import city from './vocab/city.json'
 import clothes from './vocab/clothes.json'
@@ -28,9 +30,12 @@ import nationalities from './vocab/nationalities.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
+import office from './vocab/office.json'
+import religion from './vocab/religion.json'
 import schoolWork from './vocab/school_work.json'
 import shopping from './vocab/shopping.json'
 import society from './vocab/society.json'
+import space from './vocab/space.json'
 import sports from './vocab/sports.json'
 import technology from './vocab/technology.json'
 import time from './vocab/time.json'
@@ -51,6 +56,7 @@ const FILES = [
   nationalities,
   body,
   medical,
+  beauty,
   food,
   cooking,
   shopping,
@@ -62,6 +68,7 @@ const FILES = [
   travel,
   schoolWork,
   jobs,
+  office,
   time,
   numbers,
   measures,
@@ -71,11 +78,14 @@ const FILES = [
   feelings,
   nature,
   geography,
+  space,
+  agriculture,
   hobbies,
   sports,
   arts,
   society,
   law,
+  religion,
   environment,
   technology,
   abstract,

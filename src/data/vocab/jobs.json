@@ -477,6 +477,77 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "ama de casa",
+      "ja": "主婦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2",
+      "article": "el"
+    },
+    {
+      "es": "chef",
+      "ja": "シェフ",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "pastelero",
+      "ja": "菓子職人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "florista",
+      "ja": "花屋（人）",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "bibliotecario",
+      "ja": "図書館司書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "repartidor",
+      "ja": "配達員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "contable",
+      "ja": "会計士",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "canguro",
+      "ja": "ベビーシッター（スペイン）、カンガルー",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "guionista",
+      "ja": "脚本家",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "sastre",
+      "ja": "仕立て屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

@@ -479,6 +479,66 @@
       "ja": "ナイジェリアの",
       "pos": "adj",
       "level": "B2"
+    },
+    {
+      "es": "británico",
+      "ja": "英国の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ucraniano",
+      "ja": "ウクライナの",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "finlandés",
+      "ja": "フィンランドの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "rumano",
+      "ja": "ルーマニアの",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "búlgaro",
+      "ja": "ブルガリアの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "croata",
+      "ja": "クロアチアの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "libanés",
+      "ja": "レバノンの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "senegalés",
+      "ja": "セネガルの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "keniano",
+      "ja": "ケニアの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "mongol",
+      "ja": "モンゴルの",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

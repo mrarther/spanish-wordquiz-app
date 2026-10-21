@@ -463,6 +463,69 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "pantalón corto",
+      "ja": "半ズボン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "camiseta de tirantes",
+      "ja": "タンクトップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "chancla",
+      "ja": "ビーチサンダル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "talla única",
+      "ja": "フリーサイズ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "boina",
+      "ja": "ベレー帽",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "capucha",
+      "ja": "フード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "costura",
+      "ja": "縫い目、裁縫",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "zueco",
+      "ja": "木靴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "forro",
+      "ja": "裏地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

@@ -274,6 +274,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "béisbol",
+      "ja": "野球",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "rugby",
+      "ja": "ラグビー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "judo",
+      "ja": "柔道",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "kárate",
+      "ja": "空手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "balonmano",
+      "ja": "ハンドボール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "hockey",
+      "ja": "ホッケー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "esgrima",
+      "ja": "フェンシング",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "triatlón",
+      "ja": "トライアスロン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "grada",
+      "ja": "観客席",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "medallista",
+      "ja": "メダリスト",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
     }
   ]
 }

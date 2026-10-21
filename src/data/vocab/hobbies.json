@@ -512,6 +512,48 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "dominó",
+      "ja": "ドミノ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "canto",
+      "ja": "歌唱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "billar",
+      "ja": "ビリヤード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "caza",
+      "ja": "狩猟",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "meditación",
+      "ja": "瞑想",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "parapente",
+      "ja": "パラグライダー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

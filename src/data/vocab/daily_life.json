@@ -134,6 +134,48 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "ropa sucia",
+      "ja": "汚れた服（洗濯物）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "plan",
+      "ja": "予定、計画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tarea doméstica",
+      "ja": "家事",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "vida cotidiana",
+      "ja": "日常生活",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "recibo de la luz",
+      "ja": "電気料金の請求書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ritmo de vida",
+      "ja": "生活のリズム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

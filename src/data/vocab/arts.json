@@ -526,6 +526,77 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "trompeta",
+      "ja": "トランペット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "banda",
+      "ja": "バンド、帯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "flamenco",
+      "ja": "フラメンコ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "saxofón",
+      "ja": "サックス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "arpa",
+      "ja": "ハープ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2",
+      "article": "el"
+    },
+    {
+      "es": "cantautor",
+      "ja": "シンガーソングライター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mosaico",
+      "ja": "モザイク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "zarzuela",
+      "ja": "サルスエラ（スペインの歌劇）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "grabado",
+      "ja": "版画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "fábula",
+      "ja": "寓話",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

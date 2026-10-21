@@ -724,6 +724,73 @@
       "ja": "有頂天の",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "molesto",
+      "ja": "不快な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "animado",
+      "ja": "元気な、活気のある",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "deprimido",
+      "ja": "落ち込んだ",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tenso",
+      "ja": "張り詰めた",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "ansioso",
+      "ja": "不安な、切望する",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "arrogante",
+      "ja": "傲慢な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "modesto",
+      "ja": "控えめな、質素な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "bondadoso",
+      "ja": "善良な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "compasivo",
+      "ja": "思いやりのある",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "vanidoso",
+      "ja": "うぬぼれの強い",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "añoranza",
+      "ja": "切ない思い（郷愁）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

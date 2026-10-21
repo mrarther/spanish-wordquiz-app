@@ -849,6 +849,105 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "pollito",
+      "ja": "ひよこ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gatito",
+      "ja": "子猫",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cola",
+      "ja": "しっぽ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "loro",
+      "ja": "オウム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cachorro",
+      "ja": "（動物の）子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nido",
+      "ja": "巣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pluma",
+      "ja": "羽、ペン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "ala",
+      "ja": "翼",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "article": "el"
+    },
+    {
+      "es": "ciervo",
+      "ja": "シカ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cisne",
+      "ja": "白鳥",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pico",
+      "ja": "くちばし、山頂",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "jabalí",
+      "ja": "イノシシ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "golondrina",
+      "ja": "ツバメ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "garra",
+      "ja": "（動物の）爪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

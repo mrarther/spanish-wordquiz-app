@@ -1,0 +1,160 @@
+{
+  "id": "beauty",
+  "label_ja": "美容・身だしなみ",
+  "words": [
+    {
+      "es": "maquillaje",
+      "ja": "化粧",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "champú",
+      "ja": "シャンプー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "perfume",
+      "ja": "香水",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cepillo",
+      "ja": "ブラシ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "secador",
+      "ja": "ドライヤー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "gel de ducha",
+      "ja": "ボディソープ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pasta de dientes",
+      "ja": "歯磨き粉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "corte de pelo",
+      "ja": "ヘアカット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "desodorante",
+      "ja": "デオドラント",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "crema hidratante",
+      "ja": "保湿クリーム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pintalabios",
+      "ja": "口紅",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "esmalte de uñas",
+      "ja": "マニキュア",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "maquinilla de afeitar",
+      "ja": "かみそり",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "peinado",
+      "ja": "髪型",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tinte",
+      "ja": "ヘアカラー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cosmético",
+      "ja": "化粧品",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "higiene",
+      "ja": "衛生",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "protector solar",
+      "ja": "日焼け止め",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tatuaje",
+      "ja": "入れ墨",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rímel",
+      "ja": "マスカラ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "aseo",
+      "ja": "身だしなみ、洗面所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "depilación",
+      "ja": "脱毛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}

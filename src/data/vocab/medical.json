@@ -455,6 +455,77 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "rehabilitación",
+      "ja": "リハビリ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fisioterapia",
+      "ja": "理学療法",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vendaje",
+      "ja": "包帯（処置）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "dosis",
+      "ja": "服用量",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "efecto secundario",
+      "ja": "副作用",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pandemia",
+      "ja": "パンデミック",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ingreso",
+      "ja": "入院、収入",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cuarentena",
+      "ja": "隔離",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "prescripción",
+      "ja": "処方",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "alta",
+      "ja": "退院（の許可）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1",
+      "article": "el"
     }
   ]
 }

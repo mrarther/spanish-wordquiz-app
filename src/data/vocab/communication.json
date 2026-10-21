@@ -442,6 +442,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "mensaje de texto",
+      "ja": "ショートメッセージ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "código postal",
+      "ja": "郵便番号",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "buzón de voz",
+      "ja": "留守番電話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "prefijo",
+      "ja": "市外局番、接頭辞",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "correo certificado",
+      "ja": "書留",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "eslogan",
+      "ja": "スローガン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cotilleo",
+      "ja": "うわさ話",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lema",
+      "ja": "標語",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

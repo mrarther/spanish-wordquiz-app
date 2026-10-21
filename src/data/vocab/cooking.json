@@ -302,6 +302,76 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "receta",
+      "ja": "レシピ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "hornillo",
+      "ja": "コンロ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "plato llano",
+      "ja": "平皿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "termo",
+      "ja": "魔法瓶",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "campana extractora",
+      "ja": "換気扇",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vajilla",
+      "ja": "食器一式",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cubierto",
+      "ja": "カトラリー（一式）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "olla a presión",
+      "ja": "圧力鍋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fiambrera",
+      "ja": "弁当箱",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fogón",
+      "ja": "かまど、こんろ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

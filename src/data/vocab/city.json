@@ -554,6 +554,69 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "ascensor",
+      "ja": "エレベーター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "polideportivo",
+      "ja": "スポーツセンター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "centro de salud",
+      "ja": "診療所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "plaza de toros",
+      "ja": "闘牛場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "escalera mecánica",
+      "ja": "エスカレーター",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "callejón",
+      "ja": "路地",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ambulatorio",
+      "ja": "外来診療所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "tanatorio",
+      "ja": "葬儀場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "bulevar",
+      "ja": "並木の大通り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

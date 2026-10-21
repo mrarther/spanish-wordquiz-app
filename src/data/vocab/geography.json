@@ -260,6 +260,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "globo terráqueo",
+      "ja": "地球儀",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sierra",
+      "ja": "（小さな）山脈、のこぎり",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cerro",
+      "ja": "小山",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "barranco",
+      "ja": "峡谷",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "puerto de montaña",
+      "ja": "峠",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "arrecife",
+      "ja": "サンゴ礁",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "atolón",
+      "ja": "環礁",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

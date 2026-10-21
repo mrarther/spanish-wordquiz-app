@@ -1,0 +1,167 @@
+{
+  "id": "space",
+  "label_ja": "宇宙・天文",
+  "words": [
+    {
+      "es": "cohete",
+      "ja": "ロケット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "espacio",
+      "ja": "宇宙、空間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "luna llena",
+      "ja": "満月",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "astronomía",
+      "ja": "天文学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "galaxia",
+      "ja": "銀河",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "satélite",
+      "ja": "衛星",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "telescopio",
+      "ja": "望遠鏡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nave espacial",
+      "ja": "宇宙船",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "marciano",
+      "ja": "火星人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "extraterrestre",
+      "ja": "宇宙人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "luna nueva",
+      "ja": "新月",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "horóscopo",
+      "ja": "星占い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "órbita",
+      "ja": "軌道",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "constelación",
+      "ja": "星座",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "asteroide",
+      "ja": "小惑星",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "meteorito",
+      "ja": "隕石",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "agujero negro",
+      "ja": "ブラックホール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "atmósfera",
+      "ja": "大気",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "signo del zodiaco",
+      "ja": "（占いの）星座",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cosmos",
+      "ja": "宇宙（秩序ある全体）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "sonda espacial",
+      "ja": "宇宙探査機",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "nebulosa",
+      "ja": "星雲",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ingravidez",
+      "ja": "無重力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    }
+  ]
+}

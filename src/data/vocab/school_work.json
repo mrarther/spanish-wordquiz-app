@@ -723,6 +723,76 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "educación física",
+      "ja": "体育",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "informática",
+      "ja": "情報科学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "geografía",
+      "ja": "地理学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "lengua extranjera",
+      "ja": "外国語",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "empleo",
+      "ja": "雇用、仕事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "paro",
+      "ja": "（スペインで）失業",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "práctica",
+      "ja": "実習、練習",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "profesorado",
+      "ja": "教員（全体）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "alumnado",
+      "ja": "生徒（全体）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "currículo",
+      "ja": "教育課程",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

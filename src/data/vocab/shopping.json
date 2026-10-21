@@ -470,6 +470,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "billete",
+      "ja": "紙幣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pago",
+      "ja": "支払い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cajero automático",
+      "ja": "現金自動預払機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tarjeta regalo",
+      "ja": "ギフトカード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cupón",
+      "ja": "クーポン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "hipermercado",
+      "ja": "大型スーパー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "interés",
+      "ja": "利子、興味",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "mercancía",
+      "ja": "商品",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

@@ -524,6 +524,72 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "esta noche",
+      "ja": "今夜",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "la semana que viene",
+      "ja": "来週",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "el año pasado",
+      "ja": "去年",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "hace poco",
+      "ja": "少し前に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "dentro de poco",
+      "ja": "もうすぐ",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "al principio",
+      "ja": "最初は",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "al final",
+      "ja": "最後には",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "actualmente",
+      "ja": "現在",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "últimamente",
+      "ja": "最近",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "antiguamente",
+      "ja": "昔は",
+      "pos": "adv",
+      "level": "B2"
+    },
+    {
+      "es": "a la larga",
+      "ja": "長い目で見れば",
+      "pos": "adv",
+      "level": "C1"
     }
   ]
 }

@@ -31,6 +31,7 @@ test('日→西：動詞の意味が出題され、選択肢はすべて動詞�
     await expect(page.getByRole('status')).toBeVisible()
     await expect(page.getByText('動詞・', { exact: false })).toBeVisible()
     await page.keyboard.press('Enter')
+    await expect(page.getByRole('status')).toHaveCount(0)
   }
 })
 
@@ -72,5 +73,7 @@ test('C1 だけを選ぶと、C1 の単語が出題される', async ({ page }) 
     await page.keyboard.press('1')
     await expect(page.getByRole('status')).toContainText('・C1')
     await page.keyboard.press('Enter')
+    // 前の問題の結果が消えて、次の問題が答えられる状態になるまで待つ
+    await expect(page.getByRole('status')).toHaveCount(0)
   }
 })

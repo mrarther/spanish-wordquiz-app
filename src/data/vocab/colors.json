@@ -194,6 +194,36 @@
       "ja": "朱色の",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "pelirrojo",
+      "ja": "赤毛の",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "azul marino",
+      "ja": "紺色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "castaño",
+      "ja": "栗色の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "verde oliva",
+      "ja": "オリーブ色の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "blanco roto",
+      "ja": "オフホワイトの",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

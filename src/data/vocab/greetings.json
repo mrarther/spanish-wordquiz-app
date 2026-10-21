@@ -391,6 +391,66 @@
       "ja": "何でもいい",
       "pos": "expr",
       "level": "B2"
+    },
+    {
+      "es": "muy bien",
+      "ja": "とても元気です",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "más o menos",
+      "ja": "まあまあ",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "encantada",
+      "ja": "よろしく（女性が言う）",
+      "pos": "expr",
+      "level": "A1"
+    },
+    {
+      "es": "feliz año nuevo",
+      "ja": "新年おめでとう",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "feliz navidad",
+      "ja": "メリークリスマス",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "perdona",
+      "ja": "ごめん（親しい人に）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "disculpa",
+      "ja": "すみません（親しい人に）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "adelante",
+      "ja": "どうぞ（入って）",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "no hay de qué",
+      "ja": "どういたしまして（丁寧）",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "un placer",
+      "ja": "光栄です",
+      "pos": "expr",
+      "level": "B1"
     }
   ]
 }

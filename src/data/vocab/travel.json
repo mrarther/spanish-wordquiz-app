@@ -582,6 +582,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "habitación doble",
+      "ja": "ダブルルーム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "habitación individual",
+      "ja": "シングルルーム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "recepción",
+      "ja": "フロント、受付",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "pensión completa",
+      "ja": "3食付き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "media pensión",
+      "ja": "2食付き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "vuelo directo",
+      "ja": "直行便",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "seguro de viaje",
+      "ja": "旅行保険",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "transbordo",
+      "ja": "乗り換え",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

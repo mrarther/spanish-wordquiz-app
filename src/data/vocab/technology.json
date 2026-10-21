@@ -547,6 +547,76 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "teléfono inteligente",
+      "ja": "スマートフォン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "televisor",
+      "ja": "テレビ受像機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mando a distancia",
+      "ja": "リモコン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pila",
+      "ja": "電池",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "consola",
+      "ja": "ゲーム機",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pendrive",
+      "ja": "USBメモリ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "seguidor",
+      "ja": "フォロワー、支持者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "internauta",
+      "ja": "ネットユーザー",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "bloguero",
+      "ja": "ブロガー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "publicación",
+      "ja": "投稿、出版",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

@@ -1471,6 +1471,96 @@
       "ja": "異例の",
       "pos": "adj",
       "level": "C2"
+    },
+    {
+      "es": "otro",
+      "ja": "他の",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "cada",
+      "ja": "それぞれの",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "alguno",
+      "ja": "何らかの",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ninguno",
+      "ja": "一つも〜ない",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "complicado",
+      "ja": "ややこしい",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "sano",
+      "ja": "健康な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "cualquier",
+      "ja": "どんな〜でも",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "demás",
+      "ja": "その他の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "frágil",
+      "ja": "壊れやすい",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "resistente",
+      "ja": "丈夫な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "flexible",
+      "ja": "柔軟な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "rígido",
+      "ja": "硬直した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "abundante",
+      "ja": "豊富な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "apropiado",
+      "ja": "ふさわしい",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "ajeno",
+      "ja": "他人の",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }
