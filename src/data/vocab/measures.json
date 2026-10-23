@@ -443,6 +443,48 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "caloría",
+      "ja": "カロリー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "peso neto",
+      "ja": "正味重量",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "nudo",
+      "ja": "ノット、結び目",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "vatio",
+      "ja": "ワット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "voltio",
+      "ja": "ボルト（電圧）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "decibelio",
+      "ja": "デシベル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

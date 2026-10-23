@@ -539,6 +539,54 @@
       "ja": "モンゴルの",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "hispano",
+      "ja": "スペイン語圏の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "oriental",
+      "ja": "東洋の、東の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "occidental",
+      "ja": "西洋の、西の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "mediterráneo",
+      "ja": "地中海の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "hispanohablante",
+      "ja": "スペイン語を話す",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "nórdico",
+      "ja": "北欧の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "francófono",
+      "ja": "フランス語圏の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "anglosajón",
+      "ja": "アングロサクソンの",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

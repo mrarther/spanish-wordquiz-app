@@ -1,0 +1,188 @@
+{
+  "id": "tools",
+  "label_ja": "道具・工具",
+  "words": [
+    {
+      "es": "martillo",
+      "ja": "ハンマー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "clavo",
+      "ja": "くぎ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "linterna",
+      "ja": "懐中電灯",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cuerda",
+      "ja": "ロープ、ひも",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "hilo",
+      "ja": "糸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "tornillo",
+      "ja": "ねじ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "destornillador",
+      "ja": "ドライバー（工具）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "taladro",
+      "ja": "ドリル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cinta métrica",
+      "ja": "巻き尺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "escalera de mano",
+      "ja": "脚立、はしご",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cadena",
+      "ja": "鎖",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "candado",
+      "ja": "南京錠",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pincel",
+      "ja": "絵筆",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pala",
+      "ja": "シャベル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "manguera",
+      "ja": "ホース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aguja",
+      "ja": "針",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "imán",
+      "ja": "磁石",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "lupa",
+      "ja": "虫眼鏡",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "llave inglesa",
+      "ja": "スパナ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "serrucho",
+      "ja": "のこぎり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "brocha",
+      "ja": "はけ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "rastrillo",
+      "ja": "熊手",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "carretilla",
+      "ja": "手押し車",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "palanca",
+      "ja": "てこ、レバー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tuerca",
+      "ja": "ナット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "polea",
+      "ja": "滑車",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    }
+  ]
+}

@@ -451,6 +451,54 @@
       "ja": "光栄です",
       "pos": "expr",
       "level": "B1"
+    },
+    {
+      "es": "de verdad",
+      "ja": "本当に？",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "claro que sí",
+      "ja": "もちろんだよ",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "buen fin de semana",
+      "ja": "よい週末を",
+      "pos": "expr",
+      "level": "A2"
+    },
+    {
+      "es": "que aproveche",
+      "ja": "召し上がれ（どうぞ）",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "hasta otra",
+      "ja": "またね（次回まで）",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "ni idea",
+      "ja": "さっぱりわからない",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "mucho ánimo",
+      "ja": "がんばってね（強く励ます）",
+      "pos": "expr",
+      "level": "B1"
+    },
+    {
+      "es": "a sus órdenes",
+      "ja": "かしこまりました",
+      "pos": "expr",
+      "level": "B2"
     }
   ]
 }

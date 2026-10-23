@@ -526,6 +526,41 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "pantalón vaquero",
+      "ja": "ジーンズ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "sujetador",
+      "ja": "ブラジャー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "calzoncillo",
+      "ja": "（男性用）下着",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "braga",
+      "ja": "ショーツ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "chubasquero",
+      "ja": "レインジャケット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

@@ -155,6 +155,62 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "esponja",
+      "ja": "スポンジ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "toallita",
+      "ja": "ウェットティッシュ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cortaúñas",
+      "ja": "爪切り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "colonia",
+      "ja": "オーデコロン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "acondicionador",
+      "ja": "コンディショナー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "espuma de afeitar",
+      "ja": "シェービングフォーム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "peluca",
+      "ja": "かつら",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "manicura",
+      "ja": "爪の手入れ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

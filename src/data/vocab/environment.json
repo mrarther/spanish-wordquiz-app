@@ -617,6 +617,48 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "desastre natural",
+      "ja": "自然災害",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nivel del mar",
+      "ja": "海面",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "catástrofe",
+      "ja": "大惨事",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ozono",
+      "ja": "オゾン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "reforestación",
+      "ja": "植林",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "huella ecológica",
+      "ja": "エコロジカル・フットプリント",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

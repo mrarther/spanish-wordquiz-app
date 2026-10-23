@@ -156,6 +156,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "biblia",
+      "ja": "聖書",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "milagro",
+      "ja": "奇跡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "santo",
+      "ja": "聖人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cristianismo",
+      "ja": "キリスト教",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "islam",
+      "ja": "イスラム教",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "judaísmo",
+      "ja": "ユダヤ教",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "creencia",
+      "ja": "信念、信仰",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "peregrino",
+      "ja": "巡礼者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

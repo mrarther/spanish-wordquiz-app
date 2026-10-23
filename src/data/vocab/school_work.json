@@ -793,6 +793,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "tiza",
+      "ja": "チョーク",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "trabajo en equipo",
+      "ja": "チームワーク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "repaso",
+      "ja": "復習",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "evaluación",
+      "ja": "評価",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "baja laboral",
+      "ja": "休職、病欠",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "jefe de estudios",
+      "ja": "教頭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "contrato indefinido",
+      "ja": "無期限雇用契約",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

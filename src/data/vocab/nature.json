@@ -948,6 +948,69 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "koala",
+      "ja": "コアラ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "canguro",
+      "ja": "カンガルー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "camello",
+      "ja": "ラクダ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mosca",
+      "ja": "ハエ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "foca",
+      "ja": "アザラシ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cucaracha",
+      "ja": "ゴキブリ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "grillo",
+      "ja": "コオロギ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "avispa",
+      "ja": "スズメバチ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "orca",
+      "ja": "シャチ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

@@ -12,6 +12,7 @@ import colors from './vocab/colors.json'
 import communication from './vocab/communication.json'
 import cooking from './vocab/cooking.json'
 import dailyLife from './vocab/daily_life.json'
+import economy from './vocab/economy.json'
 import environment from './vocab/environment.json'
 import events from './vocab/events.json'
 import family from './vocab/family.json'
@@ -25,11 +26,13 @@ import jobs from './vocab/jobs.json'
 import law from './vocab/law.json'
 import materials from './vocab/materials.json'
 import measures from './vocab/measures.json'
+import military from './vocab/military.json'
 import medical from './vocab/medical.json'
 import nationalities from './vocab/nationalities.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
+import psychology from './vocab/psychology.json'
 import office from './vocab/office.json'
 import religion from './vocab/religion.json'
 import schoolWork from './vocab/school_work.json'
@@ -39,7 +42,9 @@ import space from './vocab/space.json'
 import sports from './vocab/sports.json'
 import technology from './vocab/technology.json'
 import time from './vocab/time.json'
+import tools from './vocab/tools.json'
 import travel from './vocab/travel.json'
+import vehicles from './vocab/vehicles.json'
 
 /** 動詞カテゴリは活用クイズと同じ verbs.json から作る（データを二重に持たない） */
 const verbs: VocabCategoryFile = {
@@ -56,19 +61,23 @@ const FILES = [
   nationalities,
   body,
   medical,
+  psychology,
   beauty,
   food,
   cooking,
   shopping,
+  economy,
   dailyLife,
   events,
   house,
   clothes,
   city,
   travel,
+  vehicles,
   schoolWork,
   jobs,
   office,
+  tools,
   time,
   numbers,
   measures,
@@ -85,6 +94,7 @@ const FILES = [
   arts,
   society,
   law,
+  military,
   religion,
   environment,
   technology,

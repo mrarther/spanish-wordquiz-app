@@ -1,0 +1,188 @@
+{
+  "id": "vehicles",
+  "label_ja": "乗り物",
+  "words": [
+    {
+      "es": "tranvía",
+      "ja": "路面電車",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "furgoneta",
+      "ja": "バン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "helicóptero",
+      "ja": "ヘリコプター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "patinete",
+      "ja": "キックボード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "autocar",
+      "ja": "長距離バス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ferry",
+      "ja": "フェリー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "rueda",
+      "ja": "車輪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "motor",
+      "ja": "エンジン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "carnet de conducir",
+      "ja": "運転免許証",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "submarino",
+      "ja": "潜水艦",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "velero",
+      "ja": "帆船",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "yate",
+      "ja": "（大型の）ヨット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "canoa",
+      "ja": "カヌー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "lancha",
+      "ja": "（小型の）ボート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "caravana",
+      "ja": "キャンピングカー、渋滞",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "volante",
+      "ja": "ハンドル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "freno",
+      "ja": "ブレーキ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "maletero",
+      "ja": "（車の）トランク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "globo aerostático",
+      "ja": "熱気球",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "avioneta",
+      "ja": "小型飛行機",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "neumático",
+      "ja": "タイヤ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "parabrisas",
+      "ja": "フロントガラス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "retrovisor",
+      "ja": "バックミラー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "matrícula",
+      "ja": "ナンバープレート",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pinchazo",
+      "ja": "パンク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "remolque",
+      "ja": "トレーラー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

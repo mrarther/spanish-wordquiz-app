@@ -135,6 +135,62 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "papelera",
+      "ja": "くずかご",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "grapa",
+      "ja": "ホッチキスの針",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "chincheta",
+      "ja": "画びょう",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tarjeta de visita",
+      "ja": "名刺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tóner",
+      "ja": "トナー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "organigrama",
+      "ja": "組織図",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "orden del día",
+      "ja": "議題",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "membrete",
+      "ja": "レターヘッド",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

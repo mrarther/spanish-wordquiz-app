@@ -176,6 +176,41 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "pausa",
+      "ja": "休憩",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "lista de tareas",
+      "ja": "やることリスト",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "rato libre",
+      "ja": "空き時間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "turno de noche",
+      "ja": "夜勤",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "quehacer",
+      "ja": "用事、雑事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

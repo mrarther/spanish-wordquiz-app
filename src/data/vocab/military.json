@@ -1,0 +1,147 @@
+{
+  "id": "military",
+  "label_ja": "軍事・安全",
+  "words": [
+    {
+      "es": "arma",
+      "ja": "武器",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "article": "el"
+    },
+    {
+      "es": "bomba",
+      "ja": "爆弾、ポンプ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "batalla",
+      "ja": "戦い",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "enemigo",
+      "ja": "敵",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ataque",
+      "ja": "攻撃",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "capitán",
+      "ja": "隊長、船長",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "misil",
+      "ja": "ミサイル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tanque",
+      "ja": "戦車、タンク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "aliado",
+      "ja": "同盟国、味方",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "invasión",
+      "ja": "侵略",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "general",
+      "ja": "将軍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "refugio",
+      "ja": "避難所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "espía",
+      "ja": "スパイ",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "guerrero",
+      "ja": "戦士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tropa",
+      "ja": "部隊",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "armada",
+      "ja": "海軍",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "fuerza aérea",
+      "ja": "空軍",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "rendición",
+      "ja": "降伏",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tregua",
+      "ja": "休戦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "armisticio",
+      "ja": "休戦協定",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

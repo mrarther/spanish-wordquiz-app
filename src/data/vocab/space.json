@@ -162,6 +162,48 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "ovni",
+      "ja": "UFO",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "estación espacial",
+      "ja": "宇宙ステーション",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "año luz",
+      "ja": "光年",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cráter",
+      "ja": "クレーター",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "alunizaje",
+      "ja": "月面着陸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "gravitación",
+      "ja": "万有引力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

@@ -372,6 +372,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "cucharilla",
+      "ja": "ティースプーン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "abrebotellas",
+      "ja": "栓抜き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "paño de cocina",
+      "ja": "ふきん",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "papel de cocina",
+      "ja": "キッチンペーパー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "escurridor",
+      "ja": "水切りかご",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sazón",
+      "ja": "味付け、旬",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "mortero",
+      "ja": "すり鉢",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

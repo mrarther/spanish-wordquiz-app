@@ -659,6 +659,62 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "abuelito",
+      "ja": "おじいちゃん",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "abuelita",
+      "ja": "おばあちゃん",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "nene",
+      "ja": "赤ちゃん（口語）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tito",
+      "ja": "おじさん（口語）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tita",
+      "ja": "おばさん（口語）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pareja de hecho",
+      "ja": "事実婚のパートナー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "familia política",
+      "ja": "姻族",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "prole",
+      "ja": "子ども（大勢の）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

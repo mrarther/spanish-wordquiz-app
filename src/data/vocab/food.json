@@ -1116,6 +1116,90 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "pan de molde",
+      "ja": "食パン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "magdalena",
+      "ja": "マドレーヌ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cruasán",
+      "ja": "クロワッサン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "bollo",
+      "ja": "菓子パン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pimentón",
+      "ja": "パプリカ（粉）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "calabacín",
+      "ja": "ズッキーニ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "apio",
+      "ja": "セロリ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "higo",
+      "ja": "イチジク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rábano",
+      "ja": "ラディッシュ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "granada",
+      "ja": "ザクロ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "dátil",
+      "ja": "ナツメヤシの実",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "níspero",
+      "ja": "ビワ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

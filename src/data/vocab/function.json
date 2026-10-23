@@ -1093,6 +1093,48 @@
       "ja": "〜するために（文語）",
       "pos": "conj",
       "level": "C1"
+    },
+    {
+      "es": "ya no",
+      "ja": "もう〜ない",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "todavía no",
+      "ja": "まだ〜ない",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "casi siempre",
+      "ja": "ほとんどいつも",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "en general",
+      "ja": "一般的に",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "nada más",
+      "ja": "〜するとすぐに、それだけ",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "de nuevo",
+      "ja": "再び",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "mientras que",
+      "ja": "〜である一方",
+      "pos": "conj",
+      "level": "B2"
     }
   ]
 }

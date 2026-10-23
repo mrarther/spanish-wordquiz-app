@@ -498,6 +498,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "cartel",
+      "ja": "ポスター、看板",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "folleto",
+      "ja": "パンフレット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "titular",
+      "ja": "（記事の）見出し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "noticiero",
+      "ja": "ニュース番組",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pancarta",
+      "ja": "横断幕",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "nota de prensa",
+      "ja": "プレスリリース",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tertulia",
+      "ja": "談話会",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

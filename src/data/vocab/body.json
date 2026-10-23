@@ -694,6 +694,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "pulgar",
+      "ja": "親指",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "dedo gordo",
+      "ja": "足の親指",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "mano derecha",
+      "ja": "右手、腹心",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "meñique",
+      "ja": "小指",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "índice",
+      "ja": "人差し指、索引",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tronco",
+      "ja": "胴体",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "glándula",
+      "ja": "腺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

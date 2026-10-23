@@ -834,6 +834,55 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "jubilado",
+      "ja": "年金生活者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "diversidad",
+      "ja": "多様性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "integración",
+      "ja": "（社会への）統合",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tercera edad",
+      "ja": "高齢者層",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ayuda humanitaria",
+      "ja": "人道支援",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "brecha",
+      "ja": "格差、裂け目",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "marginación",
+      "ja": "社会的疎外",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

@@ -617,6 +617,48 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "botón",
+      "ja": "（画面の）ボタン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "emoticono",
+      "ja": "絵文字",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "etiqueta",
+      "ja": "タグ、ラベル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "virus informático",
+      "ja": "コンピュータウイルス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sistema operativo",
+      "ja": "OS（基本ソフト）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ciberacoso",
+      "ja": "ネットいじめ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

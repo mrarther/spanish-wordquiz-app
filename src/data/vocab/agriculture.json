@@ -134,6 +134,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "invernadero",
+      "ja": "温室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fertilizante",
+      "ja": "（化学）肥料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "espantapájaros",
+      "ja": "かかし",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "gallinero",
+      "ja": "鶏小屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "vendimia",
+      "ja": "ブドウの収穫",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "cosechadora",
+      "ja": "コンバイン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "pienso",
+      "ja": "飼料",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "parcela",
+      "ja": "（土地の）区画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

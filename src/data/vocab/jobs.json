@@ -548,6 +548,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "pescadero",
+      "ja": "魚屋（人）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "frutero",
+      "ja": "果物屋（人）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "marinero",
+      "ja": "船員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "zapatero",
+      "ja": "靴職人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "diplomático",
+      "ja": "外交官",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "minero",
+      "ja": "鉱員",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "herrero",
+      "ja": "鍛冶屋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "jornalero",
+      "ja": "日雇い労働者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

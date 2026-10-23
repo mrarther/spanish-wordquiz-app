@@ -590,6 +590,43 @@
       "ja": "長い目で見れば",
       "pos": "adv",
       "level": "C1"
+    },
+    {
+      "es": "anoche",
+      "ja": "昨夜",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "esta mañana",
+      "ja": "今朝",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "por la noche",
+      "ja": "夜に",
+      "pos": "adv",
+      "level": "A1"
+    },
+    {
+      "es": "la próxima vez",
+      "ja": "次回",
+      "pos": "adv",
+      "level": "A2"
+    },
+    {
+      "es": "fin de mes",
+      "ja": "月末",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "de momento",
+      "ja": "今のところ",
+      "pos": "adv",
+      "level": "B1"
     }
   ]
 }

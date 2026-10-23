@@ -554,6 +554,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "puzle",
+      "ja": "ジグソーパズル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "manga",
+      "ja": "（日本の）漫画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "anime",
+      "ja": "アニメ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "serie",
+      "ja": "（テレビの）シリーズ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "podcast",
+      "ja": "ポッドキャスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "club de lectura",
+      "ja": "読書会",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "voluntariado",
+      "ja": "ボランティア活動",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

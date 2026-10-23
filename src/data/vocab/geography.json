@@ -309,6 +309,62 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "mapamundi",
+      "ja": "世界地図",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "zona rural",
+      "ja": "農村部",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "zona urbana",
+      "ja": "都市部",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "nordeste",
+      "ja": "北東",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sudoeste",
+      "ja": "南西",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "occidente",
+      "ja": "西洋、西",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "oriente",
+      "ja": "東洋、東",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "trópico",
+      "ja": "回帰線",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

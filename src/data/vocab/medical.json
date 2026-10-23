@@ -526,6 +526,62 @@
       "gender": "f",
       "level": "C1",
       "article": "el"
+    },
+    {
+      "es": "pañuelo de papel",
+      "ja": "ティッシュ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "botiquín",
+      "ja": "救急箱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "análisis de sangre",
+      "ja": "血液検査",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "colirio",
+      "ja": "目薬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "calmante",
+      "ja": "鎮静剤",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "presión arterial",
+      "ja": "血圧",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ataque al corazón",
+      "ja": "心臓発作",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "derrame cerebral",
+      "ja": "脳卒中",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

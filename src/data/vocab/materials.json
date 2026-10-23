@@ -246,6 +246,48 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "ceniza",
+      "ja": "灰",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "poliéster",
+      "ja": "ポリエステル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "nailon",
+      "ja": "ナイロン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "yeso",
+      "ja": "石膏",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "carbón vegetal",
+      "ja": "木炭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "chatarra",
+      "ja": "くず鉄",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

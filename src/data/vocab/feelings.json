@@ -791,6 +791,36 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "gracioso",
+      "ja": "おかしい（面白い）",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "inseguro",
+      "ja": "自信のない",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "entusiasmado",
+      "ja": "熱中した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "decidido",
+      "ja": "決意した",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "amargado",
+      "ja": "ひねくれた",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

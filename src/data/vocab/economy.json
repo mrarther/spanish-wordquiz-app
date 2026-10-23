@@ -1,0 +1,146 @@
+{
+  "id": "economy",
+  "label_ja": "経済・金融",
+  "words": [
+    {
+      "es": "crecimiento",
+      "ja": "成長",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "consumo",
+      "ja": "消費",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bolsa",
+      "ja": "株式市場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "acción",
+      "ja": "株",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "mercado laboral",
+      "ja": "労働市場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "banco central",
+      "ja": "中央銀行",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tipo de interés",
+      "ja": "金利",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "capital",
+      "ja": "資本",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "multinacional",
+      "ja": "多国籍企業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "exportación",
+      "ja": "輸出",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "importación",
+      "ja": "輸入",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "renta",
+      "ja": "所得、家賃",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "oferta y demanda",
+      "ja": "需要と供給",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "accionista",
+      "ja": "株主",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "divisa",
+      "ja": "外貨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "pyme",
+      "ja": "中小企業",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "déficit",
+      "ja": "赤字",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "subvención",
+      "ja": "補助金",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "monopolio",
+      "ja": "独占",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "superávit",
+      "ja": "黒字",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    }
+  ]
+}

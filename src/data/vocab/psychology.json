@@ -1,0 +1,174 @@
+{
+  "id": "psychology",
+  "label_ja": "心・心理",
+  "words": [
+    {
+      "es": "sentimiento",
+      "ja": "気持ち",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mente",
+      "ja": "心、精神",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "personalidad",
+      "ja": "性格",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "carácter",
+      "ja": "性格、文字",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "emoción",
+      "ja": "感情",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "pensamiento",
+      "ja": "思考",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "motivación",
+      "ja": "動機づけ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "psicología",
+      "ja": "心理学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "actitud",
+      "ja": "態度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "autoestima",
+      "ja": "自尊心",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "comportamiento",
+      "ja": "行動",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "conducta",
+      "ja": "振る舞い",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "terapia",
+      "ja": "（心理）療法",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "instinto",
+      "ja": "本能",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "voluntad",
+      "ja": "意志",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "frustración",
+      "ja": "欲求不満",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "empatía",
+      "ja": "共感",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "obsesión",
+      "ja": "執着",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "depresión",
+      "ja": "うつ病、不況",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "trauma",
+      "ja": "トラウマ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "inconsciente",
+      "ja": "無意識",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "percepción",
+      "ja": "知覚",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "temperamento",
+      "ja": "気質",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "fobia",
+      "ja": "恐怖症",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    }
+  ]
+}

@@ -638,6 +638,55 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "ida",
+      "ja": "行き",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "parada de taxis",
+      "ja": "タクシー乗り場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "guía de viaje",
+      "ja": "旅行ガイドブック",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "souvenir",
+      "ja": "おみやげ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "taquilla",
+      "ja": "切符売り場",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "vagón",
+      "ja": "車両",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "litera",
+      "ja": "寝台",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

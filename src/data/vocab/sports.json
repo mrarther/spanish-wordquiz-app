@@ -344,6 +344,48 @@
       "pos": "noun",
       "gender": "mf",
       "level": "C1"
+    },
+    {
+      "es": "patín",
+      "ja": "スケート靴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "canasta",
+      "ja": "（バスケの）ゴール、かご",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "selección",
+      "ja": "代表チーム、選択",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "fichaje",
+      "ja": "（選手の）移籍・契約",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "deportividad",
+      "ja": "スポーツマンシップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "remate",
+      "ja": "シュート、仕上げ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

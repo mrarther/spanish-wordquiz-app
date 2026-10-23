@@ -385,6 +385,26 @@
       "ja": "900",
       "pos": "num",
       "level": "A2"
+    },
+    {
+      "es": "número par",
+      "ja": "偶数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cuádruple",
+      "ja": "4倍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "trigésimo",
+      "ja": "30番目の",
+      "pos": "adj",
+      "level": "C2"
     }
   ]
 }

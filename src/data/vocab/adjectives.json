@@ -1561,6 +1561,66 @@
       "ja": "他人の",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "activo",
+      "ja": "活動的な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "inútil",
+      "ja": "役に立たない",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "incómodo",
+      "ja": "居心地の悪い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "clásico",
+      "ja": "古典的な",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "oficial",
+      "ja": "公式の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tropical",
+      "ja": "熱帯の",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "pasivo",
+      "ja": "受け身の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "contemporáneo",
+      "ja": "現代の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "urbano",
+      "ja": "都市の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "rural",
+      "ja": "田舎の",
+      "pos": "adj",
+      "level": "B2"
     }
   ]
 }

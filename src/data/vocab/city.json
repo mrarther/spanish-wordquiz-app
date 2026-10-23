@@ -617,6 +617,41 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "parque infantil",
+      "ja": "（公園の）遊び場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "faro",
+      "ja": "灯台",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "paseo marítimo",
+      "ja": "海岸遊歩道",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "muelle",
+      "ja": "埠頭",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "acueducto",
+      "ja": "水道橋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }
