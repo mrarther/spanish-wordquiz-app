@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 import { choiceIndexFromKey } from '../domain/quiz/choiceKeys'
 
 /** idle：未選択 / selected：選択中（総合テスト） / correct・wrong：回答後の正解・選んだ誤答 */
@@ -31,7 +31,8 @@ function isTyping(target: EventTarget | null): boolean {
 
 /** 4択のボタン。数字キー（1〜4）でも選べる */
 export function ChoiceGrid({ choices, onSelect, state, disabled, lang, format, large }: Props) {
-  useEffect(() => {
+  // 画面に選択肢が出た時点でキーを受け付けられるよう、描画の前（useLayoutEffect）に登録する
+  useLayoutEffect(() => {
     if (disabled) return
     const onKey = (e: KeyboardEvent) => {
       if (e.repeat || e.ctrlKey || e.metaKey || e.altKey || isTyping(e.target)) return

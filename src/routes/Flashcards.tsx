@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { ProgressBar } from '../components/ProgressBar'
 import { SpeakButton } from '../components/SpeakButton'
@@ -29,7 +29,7 @@ export function Flashcards() {
   }
 
   // Space でめくる。めくった後は ← で「まだ」、→ で「わかった」
-  useEffect(() => {
+  useLayoutEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === ' ') {
         e.preventDefault()

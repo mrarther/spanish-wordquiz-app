@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useLayoutEffect, useMemo, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router'
 import { AnswerInput } from '../components/AnswerInput'
 import { ChoiceGrid } from '../components/ChoiceGrid'
@@ -49,7 +49,7 @@ export function ConjugationQuiz() {
   }
 
   // 結果表示中は Enter で次へ進む
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!result) return
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Enter') {
