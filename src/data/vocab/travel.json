@@ -694,6 +694,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "trotamundos",
+      "ja": "世界を旅する人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "salvoconducto",
+      "ja": "通行証",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

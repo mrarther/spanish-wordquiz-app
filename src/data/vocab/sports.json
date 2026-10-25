@@ -400,6 +400,34 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "banquillo",
+      "ja": "ベンチ（選手の）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "remontada",
+      "ja": "逆転",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cantera",
+      "ja": "下部組織（育成）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "goleador",
+      "ja": "得点王・ストライカー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

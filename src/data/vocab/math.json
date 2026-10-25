@@ -1,0 +1,278 @@
+{
+  "id": "math",
+  "label_ja": "数学",
+  "words": [
+    {
+      "es": "multiplicación",
+      "ja": "掛け算",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "división",
+      "ja": "割り算",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "decimal",
+      "ja": "小数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "raíz cuadrada",
+      "ja": "平方根",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "potencia",
+      "ja": "累乗",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cálculo",
+      "ja": "計算",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "álgebra",
+      "ja": "代数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2",
+      "article": "el"
+    },
+    {
+      "es": "geometría",
+      "ja": "幾何学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "estadística",
+      "ja": "統計",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "probabilidad",
+      "ja": "確率",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "media aritmética",
+      "ja": "算術平均",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "mediana",
+      "ja": "中央値",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ángulo recto",
+      "ja": "直角",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "teorema",
+      "ja": "定理",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "demostración",
+      "ja": "証明",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "número primo",
+      "ja": "素数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "número impar",
+      "ja": "奇数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "cociente",
+      "ja": "商",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "divisor",
+      "ja": "約数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "múltiplo",
+      "ja": "倍数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "denominador",
+      "ja": "分母",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "numerador",
+      "ja": "分子（分数の）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "vértice",
+      "ja": "頂点",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "perpendicular",
+      "ja": "垂直な",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "simétrico",
+      "ja": "対称の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "logaritmo",
+      "ja": "対数",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "integral",
+      "ja": "積分",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "derivada",
+      "ja": "導関数・微分",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "gráfica",
+      "ja": "グラフ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "coordenada",
+      "ja": "座標",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "infinito",
+      "ja": "無限",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hipotenusa",
+      "ja": "斜辺",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "cateto",
+      "ja": "直角を挟む辺",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "polígono",
+      "ja": "多角形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hexágono",
+      "ja": "六角形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pentágono",
+      "ja": "五角形",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cilindro",
+      "ja": "円柱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "variable",
+      "ja": "変数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "conjunto",
+      "ja": "集合",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

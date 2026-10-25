@@ -863,6 +863,27 @@
       "pos": "noun",
       "gender": "f",
       "level": "B1"
+    },
+    {
+      "es": "selectividad",
+      "ja": "大学入試",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "expediente académico",
+      "ja": "成績証明",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "claustro de profesores",
+      "ja": "教授会",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

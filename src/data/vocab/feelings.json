@@ -842,6 +842,27 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "regocijo",
+      "ja": "大喜び",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "estupor",
+      "ja": "呆然",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "pesadumbre",
+      "ja": "悲嘆",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

@@ -582,6 +582,27 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "solapa",
+      "ja": "襟の折り返し",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "dedal",
+      "ja": "指ぬき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hombrera",
+      "ja": "肩パッド",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

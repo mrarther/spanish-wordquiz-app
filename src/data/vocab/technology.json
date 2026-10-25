@@ -666,6 +666,13 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "latencia",
+      "ja": "遅延（レイテンシ）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

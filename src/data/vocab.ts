@@ -17,6 +17,7 @@ import economy from './vocab/economy.json'
 import environment from './vocab/environment.json'
 import events from './vocab/events.json'
 import family from './vocab/family.json'
+import film from './vocab/film.json'
 import feelings from './vocab/feelings.json'
 import food from './vocab/food.json'
 import functionWords from './vocab/function.json'
@@ -25,6 +26,7 @@ import greetings from './vocab/greetings.json'
 import hobbies from './vocab/hobbies.json'
 import jobs from './vocab/jobs.json'
 import law from './vocab/law.json'
+import math from './vocab/math.json'
 import materials from './vocab/materials.json'
 import measures from './vocab/measures.json'
 import military from './vocab/military.json'
@@ -34,11 +36,13 @@ import nationalities from './vocab/nationalities.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
+import plants from './vocab/plants.json'
 import psychology from './vocab/psychology.json'
 import office from './vocab/office.json'
 import relationships from './vocab/relationships.json'
 import religion from './vocab/religion.json'
 import schoolWork from './vocab/school_work.json'
+import sea from './vocab/sea.json'
 import shopping from './vocab/shopping.json'
 import society from './vocab/society.json'
 import space from './vocab/space.json'
@@ -87,19 +91,23 @@ const FILES = [
   time,
   numbers,
   measures,
+  math,
   materials,
   colors,
   adjectives,
   feelings,
   weather,
   nature,
+  plants,
   geography,
+  sea,
   space,
   agriculture,
   hobbies,
   sports,
   arts,
   music,
+  film,
   society,
   law,
   military,

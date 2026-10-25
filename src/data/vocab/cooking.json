@@ -435,6 +435,19 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "sofrito",
+      "ja": "ソフリト（炒め野菜）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "escalfado",
+      "ja": "ポーチした",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

@@ -1,0 +1,292 @@
+{
+  "id": "film",
+  "label_ja": "映画・放送",
+  "words": [
+    {
+      "es": "cartelera",
+      "ja": "上映案内",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "subtítulos",
+      "ja": "字幕",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "doblaje",
+      "ja": "吹き替え",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "versión original",
+      "ja": "原語版",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tráiler",
+      "ja": "予告編",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "rodaje",
+      "ja": "撮影",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "plató",
+      "ja": "撮影セット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "productor",
+      "ja": "プロデューサー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "productora",
+      "ja": "制作会社",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reparto",
+      "ja": "キャスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "protagonista principal",
+      "ja": "主演",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "actor secundario",
+      "ja": "助演俳優",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "efectos especiales",
+      "ja": "特殊効果",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "banda sonora",
+      "ja": "サウンドトラック",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "taquillazo",
+      "ja": "大ヒット作",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "precuela",
+      "ja": "前日譚",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "largometraje",
+      "ja": "長編映画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cine mudo",
+      "ja": "無声映画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "película de terror",
+      "ja": "ホラー映画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "película de acción",
+      "ja": "アクション映画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ciencia ficción",
+      "ja": "SF",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "telenovela",
+      "ja": "連続メロドラマ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "episodio",
+      "ja": "話（エピソード）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "emisora",
+      "ja": "放送局",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cadena de televisión",
+      "ja": "テレビ局",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "audiencia",
+      "ja": "視聴率・視聴者",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "en directo",
+      "ja": "生放送で",
+      "pos": "adv",
+      "level": "B1"
+    },
+    {
+      "es": "retransmisión",
+      "ja": "中継",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "telediario",
+      "ja": "テレビニュース",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "anuncio publicitario",
+      "ja": "コマーシャル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "cineasta",
+      "ja": "映画人・映画監督",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "fotograma",
+      "ja": "コマ（フィルムの）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "montaje",
+      "ja": "編集",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "plano secuencia",
+      "ja": "長回し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "cinéfilo",
+      "ja": "映画ファン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "estreno mundial",
+      "ja": "世界初公開",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "claqueta",
+      "ja": "カチンコ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "crítica de cine",
+      "ja": "映画評論",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reportaje",
+      "ja": "ルポルタージュ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "corresponsal",
+      "ja": "特派員",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "cámara lenta",
+      "ja": "スローモーション",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    }
+  ]
+}

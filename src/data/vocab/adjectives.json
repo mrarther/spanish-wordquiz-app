@@ -1639,6 +1639,42 @@
       "ja": "こぎれいな",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "pulido",
+      "ja": "洗練された",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "ufano",
+      "ja": "得意げな",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "ostentoso",
+      "ja": "これ見よがしの",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "lánguido",
+      "ja": "ぐったりした",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "diáfano",
+      "ja": "透き通った・明快な",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "sigiloso",
+      "ja": "ひそかな",
+      "pos": "adj",
+      "level": "C1"
     }
   ]
 }

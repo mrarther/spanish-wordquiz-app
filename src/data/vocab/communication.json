@@ -575,6 +575,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "perorata",
+      "ja": "長話",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "retahíla",
+      "ja": "羅列",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

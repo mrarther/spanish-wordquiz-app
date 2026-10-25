@@ -674,6 +674,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "claroscuro",
+      "ja": "明暗法",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "tríptico",
+      "ja": "三連画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

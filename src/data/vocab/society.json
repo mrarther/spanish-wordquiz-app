@@ -918,6 +918,27 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "xenofobia",
+      "ja": "外国人嫌悪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "gentrificación",
+      "ja": "ジェントリフィケーション",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "padrón",
+      "ja": "住民登録",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

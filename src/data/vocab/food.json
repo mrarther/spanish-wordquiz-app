@@ -1228,6 +1228,34 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "azafrán",
+      "ja": "サフラン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "comino",
+      "ja": "クミン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "torrija",
+      "ja": "スペイン風フレンチトースト",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "alioli",
+      "ja": "アリオリソース",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

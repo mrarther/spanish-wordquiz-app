@@ -1,0 +1,259 @@
+{
+  "id": "sea",
+  "label_ja": "海・航海",
+  "words": [
+    {
+      "es": "ancla",
+      "ja": "錨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "article": "el"
+    },
+    {
+      "es": "proa",
+      "ja": "船首",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "popa",
+      "ja": "船尾",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "babor",
+      "ja": "左舷",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "estribor",
+      "ja": "右舷",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "cubierta",
+      "ja": "甲板",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "mástil",
+      "ja": "マスト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "timón",
+      "ja": "舵",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "casco del barco",
+      "ja": "船体",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "naufragio",
+      "ja": "難破",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "náufrago",
+      "ja": "遭難者（難破船の）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "marea alta",
+      "ja": "満潮",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "marea baja",
+      "ja": "干潮",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "oleaje",
+      "ja": "うねり・波浪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "corriente marina",
+      "ja": "海流",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "coral",
+      "ja": "サンゴ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "alta mar",
+      "ja": "外洋",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pesquero",
+      "ja": "漁船",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "red de pesca",
+      "ja": "漁網",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "boya",
+      "ja": "ブイ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "salvavidas",
+      "ja": "救命胴衣・浮き輪",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "bote salvavidas",
+      "ja": "救命ボート",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "buzo",
+      "ja": "ダイバー",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "marejada",
+      "ja": "波立ち",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "rompeolas",
+      "ja": "防波堤",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "dársena",
+      "ja": "船だまり",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "astillero",
+      "ja": "造船所",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "nudo marino",
+      "ja": "ノット（速さ）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "pirata",
+      "ja": "海賊",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "A2"
+    },
+    {
+      "es": "gaviota reidora",
+      "ja": "ユリカモメ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "camarote",
+      "ja": "船室",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "bodega del barco",
+      "ja": "船倉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "balsa",
+      "ja": "いかだ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "oleada",
+      "ja": "大波・殺到",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "espuma",
+      "ja": "泡",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "salitre",
+      "ja": "潮気",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

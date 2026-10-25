@@ -918,6 +918,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "quimera",
+      "ja": "幻想・妄想",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "vaivén",
+      "ja": "浮き沈み・行き来",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

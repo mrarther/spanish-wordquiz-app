@@ -1,0 +1,361 @@
+{
+  "id": "plants",
+  "label_ja": "植物",
+  "words": [
+    {
+      "es": "hoja seca",
+      "ja": "枯れ葉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "tallo",
+      "ja": "茎",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "espina",
+      "ja": "とげ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "brote",
+      "ja": "芽",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "yema",
+      "ja": "つぼみ・芽",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "capullo",
+      "ja": "つぼみ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "polen",
+      "ja": "花粉",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "savia",
+      "ja": "樹液",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "corteza",
+      "ja": "樹皮",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "copa del árbol",
+      "ja": "樹冠",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "enredadera",
+      "ja": "つる植物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "hiedra",
+      "ja": "ツタ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "roble",
+      "ja": "オーク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "encina",
+      "ja": "トキワガシ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "olmo",
+      "ja": "ニレ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "sauce",
+      "ja": "ヤナギ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "abeto",
+      "ja": "モミ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "palmera",
+      "ja": "ヤシの木",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cerezo",
+      "ja": "桜の木",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "almendro",
+      "ja": "アーモンドの木",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "naranjo",
+      "ja": "オレンジの木",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "clavel",
+      "ja": "カーネーション",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "lirio",
+      "ja": "ユリ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "orquídea",
+      "ja": "ラン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "amapola",
+      "ja": "ヒナゲシ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "jazmín",
+      "ja": "ジャスミン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lavanda",
+      "ja": "ラベンダー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "hongo",
+      "ja": "キノコ・菌類",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "seta",
+      "ja": "キノコ（食用）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "alga",
+      "ja": "海藻",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1",
+      "article": "el"
+    },
+    {
+      "es": "maleza",
+      "ja": "雑草（の茂み）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "mala hierba",
+      "ja": "雑草",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "arbusto",
+      "ja": "低木",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "seto",
+      "ja": "生け垣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "maceta",
+      "ja": "植木鉢",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "fotosíntesis",
+      "ja": "光合成",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "clorofila",
+      "ja": "葉緑素",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "marchito",
+      "ja": "しおれた",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "perenne",
+      "ja": "多年生の・常緑の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "caduco",
+      "ja": "落葉性の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "helecho arborescente",
+      "ja": "木生シダ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "cebada",
+      "ja": "大麦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "caña de azúcar",
+      "ja": "サトウキビ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "hortensia",
+      "ja": "アジサイ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "crisantemo",
+      "ja": "菊",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "magnolia",
+      "ja": "モクレン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "azucena",
+      "ja": "白ユリ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "loto",
+      "ja": "蓮",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "nenúfar",
+      "ja": "スイレン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "secuoya",
+      "ja": "セコイア",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "eucalipto",
+      "ja": "ユーカリ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    }
+  ]
+}

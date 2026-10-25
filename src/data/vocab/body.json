@@ -743,6 +743,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "esternón",
+      "ja": "胸骨",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "clavícula",
+      "ja": "鎖骨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

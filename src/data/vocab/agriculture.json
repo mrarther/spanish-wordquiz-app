@@ -197,6 +197,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "hoz",
+      "ja": "鎌",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "trilla",
+      "ja": "脱穀",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

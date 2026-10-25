@@ -1141,6 +1141,18 @@
       "ja": "〜しさえすれば",
       "pos": "conj",
       "level": "C1"
+    },
+    {
+      "es": "así pues",
+      "ja": "そういうわけで",
+      "pos": "conj",
+      "level": "B2"
+    },
+    {
+      "es": "dicho sea de paso",
+      "ja": "ついでに言えば",
+      "pos": "expr",
+      "level": "C1"
     }
   ]
 }
