@@ -211,6 +211,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "cola de espera",
+      "ja": "順番待ち",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "lavandería",
+      "ja": "コインランドリー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }

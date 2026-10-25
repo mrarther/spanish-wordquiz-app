@@ -547,6 +547,34 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "tartamudeo",
+      "ja": "吃音",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "indirecta",
+      "ja": "遠回しな言い方・当てこすり",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "elocuencia",
+      "ja": "雄弁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "muletilla",
+      "ja": "口癖",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

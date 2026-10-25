@@ -904,6 +904,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "coherencia",
+      "ja": "一貫性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "ambigüedad",
+      "ja": "あいまいさ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

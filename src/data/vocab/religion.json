@@ -212,6 +212,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "ermita",
+      "ja": "小さな礼拝堂",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "herejía",
+      "ja": "異端",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

@@ -169,6 +169,39 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "resiliencia",
+      "ja": "回復力・レジリエンス",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "apego",
+      "ja": "愛着",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "introvertido",
+      "ja": "内向的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "extrovertido",
+      "ja": "外向的な",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "subconsciente",
+      "ja": "潜在意識",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

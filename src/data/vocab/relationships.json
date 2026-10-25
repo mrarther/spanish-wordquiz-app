@@ -1,0 +1,272 @@
+{
+  "id": "relationships",
+  "label_ja": "人間関係",
+  "words": [
+    {
+      "es": "noviazgo",
+      "ja": "交際期間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "compromiso",
+      "ja": "婚約・約束",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "pelea",
+      "ja": "けんか",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "reconciliación",
+      "ja": "仲直り",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ruptura",
+      "ja": "別れ（破局）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "celos",
+      "ja": "嫉妬",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "lealtad",
+      "ja": "忠誠・誠実さ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "infidelidad",
+      "ja": "浮気",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "complicidad",
+      "ja": "心の通じ合い",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "afinidad",
+      "ja": "気が合うこと",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "rivalidad",
+      "ja": "ライバル関係",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "colega",
+      "ja": "同僚・仲間",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B1"
+    },
+    {
+      "es": "compañero de piso",
+      "ja": "ルームメイト",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "mejor amigo",
+      "ja": "親友",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "flechazo",
+      "ja": "一目ぼれ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "media naranja",
+      "ja": "運命の相手",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "abrazo",
+      "ja": "抱擁・ハグ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "beso",
+      "ja": "キス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A1"
+    },
+    {
+      "es": "desamor",
+      "ja": "失恋・愛情の冷めること",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "convivencia",
+      "ja": "同居・共生",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "vínculo",
+      "ja": "絆・つながり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "desencuentro",
+      "ja": "すれ違い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "pretendiente",
+      "ja": "求婚者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "cortejo",
+      "ja": "求愛",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "camaradería",
+      "ja": "仲間意識",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "enemistad",
+      "ja": "敵意・不仲",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "discusión de pareja",
+      "ja": "夫婦げんか",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "amor platónico",
+      "ja": "片思い・精神的な恋",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "amor a primera vista",
+      "ja": "一目で恋に落ちること",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "relación a distancia",
+      "ja": "遠距離恋愛",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "exnovio",
+      "ja": "元彼",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "exmujer",
+      "ja": "元妻",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "amante",
+      "ja": "愛人・恋人",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "confidente",
+      "ja": "打ち明け相手",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "apoyo",
+      "ja": "支え",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "roce",
+      "ja": "摩擦・あつれき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "trato",
+      "ja": "付き合い・扱い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "desconfianza",
+      "ja": "不信",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}

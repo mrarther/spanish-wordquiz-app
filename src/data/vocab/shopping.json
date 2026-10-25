@@ -582,6 +582,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "B2"
+    },
+    {
+      "es": "rebajas",
+      "ja": "バーゲン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "vale de descuento",
+      "ja": "割引券",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }

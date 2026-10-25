@@ -561,6 +561,27 @@
       "pos": "noun",
       "gender": "m",
       "level": "B2"
+    },
+    {
+      "es": "tirantes",
+      "ja": "サスペンダー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pajarita",
+      "ja": "蝶ネクタイ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "dobladillo",
+      "ja": "裾（折り返し）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

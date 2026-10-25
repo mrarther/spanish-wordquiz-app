@@ -659,6 +659,13 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "cortafuegos",
+      "ja": "ファイアウォール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

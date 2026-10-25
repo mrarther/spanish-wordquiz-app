@@ -883,6 +883,41 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "cohesión social",
+      "ja": "社会的結束",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "exclusión social",
+      "ja": "社会的排除",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "asistencia social",
+      "ja": "社会福祉",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "envejecimiento",
+      "ja": "高齢化",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "natalidad",
+      "ja": "出生率",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

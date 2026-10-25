@@ -1,0 +1,280 @@
+{
+  "id": "weather",
+  "label_ja": "天気・気象",
+  "words": [
+    {
+      "es": "soleado",
+      "ja": "晴れた",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "nublado",
+      "ja": "曇った",
+      "pos": "adj",
+      "level": "A1"
+    },
+    {
+      "es": "lluvioso",
+      "ja": "雨の多い",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "chubasco",
+      "ja": "にわか雨",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "llovizna",
+      "ja": "霧雨",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aguacero",
+      "ja": "土砂降り",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tornado",
+      "ja": "竜巻",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "ola de frío",
+      "ja": "寒波",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "nevada",
+      "ja": "降雪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "helada",
+      "ja": "霜が降りること・凍結",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "bochorno",
+      "ja": "蒸し暑さ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "despejado",
+      "ja": "晴れ渡った",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "templado",
+      "ja": "温暖な",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "húmedo",
+      "ja": "湿った",
+      "pos": "adj",
+      "level": "A2"
+    },
+    {
+      "es": "ventoso",
+      "ja": "風の強い",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "tempestad",
+      "ja": "嵐（大荒れ）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ráfaga",
+      "ja": "突風",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "borrasca",
+      "ja": "低気圧・荒天",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "anticiclón",
+      "ja": "高気圧",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "precipitación",
+      "ja": "降水",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "sensación térmica",
+      "ja": "体感温度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "monzón",
+      "ja": "モンスーン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ventisca",
+      "ja": "吹雪",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "neblina",
+      "ja": "もや",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "calima",
+      "ja": "煙霧（砂塵のもや）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "canícula",
+      "ja": "酷暑期",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "aguanieve",
+      "ja": "みぞれ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2",
+      "article": "el"
+    },
+    {
+      "es": "isobara",
+      "ja": "等圧線",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "meteorología",
+      "ja": "気象学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "meteorólogo",
+      "ja": "気象予報士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "alerta meteorológica",
+      "ja": "気象警報",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "nubarrón",
+      "ja": "大きな黒雲",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cielo encapotado",
+      "ja": "どんよりした空",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "chaparrón",
+      "ja": "夕立",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sequedad",
+      "ja": "乾燥",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "heladas tardías",
+      "ja": "遅霜",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "boletín meteorológico",
+      "ja": "気象情報",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "frente frío",
+      "ja": "寒冷前線",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "bruma",
+      "ja": "海霧",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "vendaval",
+      "ja": "強風",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    }
+  ]
+}

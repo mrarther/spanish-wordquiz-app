@@ -821,6 +821,27 @@
       "ja": "ひねくれた",
       "pos": "adj",
       "level": "C1"
+    },
+    {
+      "es": "asco",
+      "ja": "嫌悪・むかつき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "alivio",
+      "ja": "安堵",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "desasosiego",
+      "ja": "落ち着かなさ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
     }
   ]
 }

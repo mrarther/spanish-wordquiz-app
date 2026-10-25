@@ -280,6 +280,27 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "abogado defensor",
+      "ja": "弁護人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cadena perpetua",
+      "ja": "終身刑",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "recurso de apelación",
+      "ja": "控訴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

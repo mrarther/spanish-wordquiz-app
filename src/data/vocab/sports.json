@@ -386,6 +386,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "fuera de juego",
+      "ja": "オフサイド",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hinchada",
+      "ja": "サポーター（集団）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

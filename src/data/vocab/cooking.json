@@ -421,6 +421,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "rodillo",
+      "ja": "めん棒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "espumadera",
+      "ja": "網じゃくし",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
     }
   ]
 }

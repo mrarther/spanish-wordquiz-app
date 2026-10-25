@@ -842,6 +842,27 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "apuntes",
+      "ja": "ノート（講義の）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "pupitre",
+      "ja": "学習机",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "prácticas",
+      "ja": "インターンシップ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
     }
   ]
 }

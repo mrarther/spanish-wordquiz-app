@@ -627,6 +627,13 @@
       "ja": "今のところ",
       "pos": "adv",
       "level": "B1"
+    },
+    {
+      "es": "lustro",
+      "ja": "5年間",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

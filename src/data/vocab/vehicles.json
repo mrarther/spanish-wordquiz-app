@@ -183,6 +183,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "monopatín",
+      "ja": "スケートボード",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "teleférico",
+      "ja": "ロープウェイ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "todoterreno",
+      "ja": "四輪駆動車",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "hidroavión",
+      "ja": "水上飛行機",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

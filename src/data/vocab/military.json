@@ -142,6 +142,27 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "cuartel",
+      "ja": "兵舎",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "emboscada",
+      "ja": "待ち伏せ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "desarme",
+      "ja": "軍縮",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

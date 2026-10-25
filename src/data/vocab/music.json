@@ -1,0 +1,345 @@
+{
+  "id": "music",
+  "label_ja": "音楽",
+  "words": [
+    {
+      "es": "disco",
+      "ja": "レコード・アルバム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "letra",
+      "ja": "歌詞",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "grupo musical",
+      "ja": "バンド・音楽グループ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "violonchelo",
+      "ja": "チェロ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "clarinete",
+      "ja": "クラリネット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "acordeón",
+      "ja": "アコーディオン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "gira",
+      "ja": "ツアー（公演旅行）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "estribillo",
+      "ja": "サビ・リフレイン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "nota musical",
+      "ja": "音符",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "armonía",
+      "ja": "ハーモニー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "afinado",
+      "ja": "音程の合った",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "desafinado",
+      "ja": "音程の外れた",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "director de orquesta",
+      "ja": "指揮者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "solista",
+      "ja": "ソリスト",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "pentagrama",
+      "ja": "五線譜",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "compás",
+      "ja": "拍子・小節",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "acorde",
+      "ja": "和音",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "auriculares",
+      "ja": "ヘッドホン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "micrófono",
+      "ja": "マイク",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "ensayo general",
+      "ja": "リハーサル（通し稽古）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cuarteto",
+      "ja": "四重奏",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "virtuoso",
+      "ja": "名手・名人",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "contrapunto",
+      "ja": "対位法",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "cadencia",
+      "ja": "終止形・リズム",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "melómano",
+      "ja": "音楽愛好家",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "villancico",
+      "ja": "クリスマスキャロル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "arco de violín",
+      "ja": "弓（バイオリンの）",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "metrónomo",
+      "ja": "メトロノーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "sinfónico",
+      "ja": "交響楽の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "melódico",
+      "ja": "旋律の美しい",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "tenor",
+      "ja": "テノール",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "soprano",
+      "ja": "ソプラノ",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "B2"
+    },
+    {
+      "es": "barítono",
+      "ja": "バリトン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "contralto",
+      "ja": "アルト（女性低音）",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "oboe",
+      "ja": "オーボエ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "fagot",
+      "ja": "ファゴット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "trombón",
+      "ja": "トロンボーン",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "xilófono",
+      "ja": "木琴",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "pandereta",
+      "ja": "タンバリン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "castañuelas",
+      "ja": "カスタネット",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "gaita",
+      "ja": "バグパイプ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ukelele",
+      "ja": "ウクレレ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "sintetizador",
+      "ja": "シンセサイザー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "nana",
+      "ja": "子守歌",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "serenata",
+      "ja": "セレナーデ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "preludio",
+      "ja": "前奏曲",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "obertura",
+      "ja": "序曲",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "improvisación",
+      "ja": "即興",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "tocadiscos",
+      "ja": "レコードプレーヤー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    }
+  ]
+}

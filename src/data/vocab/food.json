@@ -1200,6 +1200,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "nabo",
+      "ja": "かぶ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "remolacha",
+      "ja": "ビーツ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "membrillo",
+      "ja": "マルメロ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "morcilla",
+      "ja": "ブラッドソーセージ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
     }
   ]
 }

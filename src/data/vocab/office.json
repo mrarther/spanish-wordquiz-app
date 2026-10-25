@@ -191,6 +191,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "trituradora de papel",
+      "ja": "シュレッダー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pizarra blanca",
+      "ja": "ホワイトボード",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
     }
   ]
 }

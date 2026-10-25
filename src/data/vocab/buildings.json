@@ -1,0 +1,226 @@
+{
+  "id": "buildings",
+  "label_ja": "建物・建築",
+  "words": [
+    {
+      "es": "fachada",
+      "ja": "正面・外観",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "azotea",
+      "ja": "屋上",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "columna",
+      "ja": "柱",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "cimientos",
+      "ja": "基礎・土台",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "viga",
+      "ja": "梁",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "muro",
+      "ja": "塀・壁",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "torre",
+      "ja": "塔",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "cúpula",
+      "ja": "ドーム・丸屋根",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "arco",
+      "ja": "アーチ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "bóveda",
+      "ja": "丸天井",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "andamio",
+      "ja": "足場",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "grúa",
+      "ja": "クレーン",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "derribo",
+      "ja": "取り壊し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "fortaleza",
+      "ja": "要塞",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "planta baja",
+      "ja": "1階（地上階）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "entresuelo",
+      "ja": "中2階",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "buhardilla",
+      "ja": "屋根裏",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "pilar",
+      "ja": "支柱",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "tabique",
+      "ja": "間仕切り壁",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "alero",
+      "ja": "軒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "canalón",
+      "ja": "雨どい",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "vestíbulo",
+      "ja": "ロビー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "rampa",
+      "ja": "スロープ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "salida de emergencia",
+      "ja": "非常口",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "ruinas",
+      "ja": "遺跡・廃墟",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "almena",
+      "ja": "銃眼（城壁の凹凸）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "gótico",
+      "ja": "ゴシック様式の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "barroco",
+      "ja": "バロック様式の",
+      "pos": "adj",
+      "level": "B2"
+    },
+    {
+      "es": "románico",
+      "ja": "ロマネスク様式の",
+      "pos": "adj",
+      "level": "C1"
+    },
+    {
+      "es": "mudéjar",
+      "ja": "ムデハル様式の",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "licencia de obra",
+      "ja": "建築許可",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "derrumbe",
+      "ja": "倒壊",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    }
+  ]
+}

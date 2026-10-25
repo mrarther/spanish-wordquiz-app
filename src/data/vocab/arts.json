@@ -646,6 +646,34 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "museo de arte",
+      "ja": "美術館",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "caricatura",
+      "ja": "風刺画",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "bodegón",
+      "ja": "静物画",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "autorretrato",
+      "ja": "自画像",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
     }
   ]
 }
