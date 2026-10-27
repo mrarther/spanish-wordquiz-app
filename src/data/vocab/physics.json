@@ -1,0 +1,313 @@
+{
+  "id": "physics",
+  "label_ja": "化学・物理",
+  "words": [
+    {
+      "es": "electrón",
+      "ja": "電子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "protón",
+      "ja": "陽子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "neutrón",
+      "ja": "中性子",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "núcleo",
+      "ja": "核",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "elemento químico",
+      "ja": "化学元素",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "compuesto",
+      "ja": "化合物",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "reacción química",
+      "ja": "化学反応",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "nitrógeno",
+      "ja": "窒素",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "ácido",
+      "ja": "酸",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "masa",
+      "ja": "質量",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "fuerza",
+      "ja": "力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "aceleración",
+      "ja": "加速度",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "inercia",
+      "ja": "慣性",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "fricción",
+      "ja": "摩擦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "presión",
+      "ja": "圧力",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "electricidad",
+      "ja": "電気",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "magnetismo",
+      "ja": "磁気",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "onda",
+      "ja": "波（物理）",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "radiación",
+      "ja": "放射線",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "partícula",
+      "ja": "粒子",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "probeta",
+      "ja": "試験管",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "microscopio",
+      "ja": "顕微鏡",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "evaporación",
+      "ja": "蒸発",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "condensación",
+      "ja": "凝縮",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "punto de fusión",
+      "ja": "融点",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "tabla periódica",
+      "ja": "周期表",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "isótopo",
+      "ja": "同位体",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "catalizador",
+      "ja": "触媒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "cuántico",
+      "ja": "量子の",
+      "pos": "adj",
+      "level": "C2"
+    },
+    {
+      "es": "energía cinética",
+      "ja": "運動エネルギー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "punto de ebullición",
+      "ja": "沸点",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "voltaje",
+      "ja": "電圧",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "corriente eléctrica",
+      "ja": "電流",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "circuito",
+      "ja": "回路",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "conductor eléctrico",
+      "ja": "導体",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "aislante",
+      "ja": "絶縁体",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "lente",
+      "ja": "レンズ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "prisma",
+      "ja": "プリズム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "espectro",
+      "ja": "スペクトル",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "solución química",
+      "ja": "溶液",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "disolvente",
+      "ja": "溶媒",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "mezcla",
+      "ja": "混合物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "óxido",
+      "ja": "酸化物・さび",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "oxidación",
+      "ja": "酸化",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    }
+  ]
+}

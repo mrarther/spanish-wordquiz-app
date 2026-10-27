@@ -226,6 +226,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "profeta",
+      "ja": "預言者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "evangelio",
+      "ja": "福音書",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

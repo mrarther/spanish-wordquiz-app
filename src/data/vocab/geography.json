@@ -372,6 +372,20 @@
       "pos": "noun",
       "gender": "f",
       "level": "C1"
+    },
+    {
+      "es": "fiordo",
+      "ja": "フィヨルド",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "estuario",
+      "ja": "河口域",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

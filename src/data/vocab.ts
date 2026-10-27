@@ -5,7 +5,9 @@ import adjectives from './vocab/adjectives.json'
 import agriculture from './vocab/agriculture.json'
 import arts from './vocab/arts.json'
 import beauty from './vocab/beauty.json'
+import books from './vocab/books.json'
 import buildings from './vocab/buildings.json'
+import birdsInsects from './vocab/birds_insects.json'
 import body from './vocab/body.json'
 import city from './vocab/city.json'
 import clothes from './vocab/clothes.json'
@@ -23,6 +25,7 @@ import food from './vocab/food.json'
 import functionWords from './vocab/function.json'
 import geography from './vocab/geography.json'
 import greetings from './vocab/greetings.json'
+import history from './vocab/history.json'
 import hobbies from './vocab/hobbies.json'
 import jobs from './vocab/jobs.json'
 import law from './vocab/law.json'
@@ -36,6 +39,7 @@ import nationalities from './vocab/nationalities.json'
 import house from './vocab/house.json'
 import nature from './vocab/nature.json'
 import numbers from './vocab/numbers.json'
+import physics from './vocab/physics.json'
 import plants from './vocab/plants.json'
 import psychology from './vocab/psychology.json'
 import office from './vocab/office.json'
@@ -99,6 +103,7 @@ const FILES = [
   weather,
   nature,
   plants,
+  birdsInsects,
   geography,
   sea,
   space,
@@ -108,11 +113,14 @@ const FILES = [
   arts,
   music,
   film,
+  books,
+  history,
   society,
   law,
   military,
   religion,
   environment,
+  physics,
   technology,
   abstract,
   communication,

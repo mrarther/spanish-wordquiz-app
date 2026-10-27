@@ -1067,6 +1067,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "B1"
+    },
+    {
+      "es": "mapache",
+      "ja": "アライグマ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "hurón",
+      "ja": "フェレット",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "topo",
+      "ja": "モグラ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "erizo de mar",
+      "ja": "ウニ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
     }
   ]
 }

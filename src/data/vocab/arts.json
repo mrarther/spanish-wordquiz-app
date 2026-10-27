@@ -688,6 +688,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "C2"
+    },
+    {
+      "es": "romanticismo",
+      "ja": "ロマン主義",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "surrealismo",
+      "ja": "シュルレアリスム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "cubismo",
+      "ja": "キュビスム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "impresionismo",
+      "ja": "印象派",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

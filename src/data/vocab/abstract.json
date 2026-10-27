@@ -932,6 +932,34 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "menoscabo",
+      "ja": "損失・毀損",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "entelequia",
+      "ja": "空想の産物",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "desidia",
+      "ja": "怠慢",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "ímpetu",
+      "ja": "勢い",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

@@ -1,0 +1,299 @@
+{
+  "id": "history",
+  "label_ja": "歴史",
+  "words": [
+    {
+      "es": "edad media",
+      "ja": "中世",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "prehistoria",
+      "ja": "先史時代",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "antigüedad",
+      "ja": "古代",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "reino",
+      "ja": "王国",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "princesa",
+      "ja": "王女",
+      "pos": "noun",
+      "gender": "f",
+      "level": "A2"
+    },
+    {
+      "es": "emperador",
+      "ja": "皇帝",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "dinastía",
+      "ja": "王朝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "conquista",
+      "ja": "征服",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "conquistador",
+      "ja": "征服者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "colonización",
+      "ja": "植民地化",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "guerra civil",
+      "ja": "内戦",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "esclavo",
+      "ja": "奴隷",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "caballero",
+      "ja": "騎士・紳士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "feudalismo",
+      "ja": "封建制",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "vasallo",
+      "ja": "家臣",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "cruzada",
+      "ja": "十字軍",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "reconquista",
+      "ja": "レコンキスタ",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "renacimiento",
+      "ja": "ルネサンス",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "ilustración",
+      "ja": "啓蒙主義",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "arqueología",
+      "ja": "考古学",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "civilización",
+      "ja": "文明",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "tribu",
+      "ja": "部族",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cronista",
+      "ja": "年代記作者",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "crónica",
+      "ja": "年代記",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "hito histórico",
+      "ja": "歴史的な出来事",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "virrey",
+      "ja": "副王",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "virreinato",
+      "ja": "副王領",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "edad de piedra",
+      "ja": "石器時代",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "faraón",
+      "ja": "ファラオ",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "romano",
+      "ja": "ローマの・ローマ人",
+      "pos": "adj",
+      "level": "B1"
+    },
+    {
+      "es": "vikingo",
+      "ja": "バイキング",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "samurái",
+      "ja": "侍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "gladiador",
+      "ja": "剣闘士",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "legión",
+      "ja": "軍団",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "emperatriz",
+      "ja": "女帝・皇后",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "corona",
+      "ja": "王冠",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "trono",
+      "ja": "王座",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "cetro",
+      "ja": "王笏",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C2"
+    },
+    {
+      "es": "plebeyo",
+      "ja": "平民",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "campesinado",
+      "ja": "農民階級",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "abdicación",
+      "ja": "退位",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "transición",
+      "ja": "移行期",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    }
+  ]
+}

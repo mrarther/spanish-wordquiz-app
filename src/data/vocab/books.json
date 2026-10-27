@@ -1,0 +1,314 @@
+{
+  "id": "books",
+  "label_ja": "出版・読書",
+  "words": [
+    {
+      "es": "portada",
+      "ja": "表紙",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "contraportada",
+      "ja": "裏表紙",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "prólogo",
+      "ja": "序文",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "epílogo",
+      "ja": "あとがき",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "editorial",
+      "ja": "出版社",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "editor",
+      "ja": "編集者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "edición",
+      "ja": "版",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "reedición",
+      "ja": "再版",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "tirada",
+      "ja": "発行部数",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "imprenta",
+      "ja": "印刷所・印刷術",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ejemplar",
+      "ja": "（本の）一部・一冊",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lector",
+      "ja": "読者",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    },
+    {
+      "es": "best seller",
+      "ja": "ベストセラー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "libro de bolsillo",
+      "ja": "文庫本",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "tapa dura",
+      "ja": "ハードカバー",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "marcapáginas",
+      "ja": "しおり",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "préstamo de libros",
+      "ja": "本の貸し出し",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "manuscrito",
+      "ja": "原稿",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "borrador",
+      "ja": "下書き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "fe de erratas",
+      "ja": "正誤表",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "derechos de autor",
+      "ja": "著作権",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "seudónimo",
+      "ja": "ペンネーム",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "biografía",
+      "ja": "伝記",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "autobiografía",
+      "ja": "自伝",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "ensayista",
+      "ja": "随筆家",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "antología",
+      "ja": "選集",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "enciclopedia",
+      "ja": "百科事典",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "reseña literaria",
+      "ja": "書評",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "encuadernación",
+      "ja": "製本",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C1"
+    },
+    {
+      "es": "lomo",
+      "ja": "背表紙",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "solapa del libro",
+      "ja": "カバーの折り返し",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "nota al pie",
+      "ja": "脚注",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "bibliografía",
+      "ja": "参考文献",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "glosario",
+      "ja": "用語集",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "apéndice",
+      "ja": "付録",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "tomo",
+      "ja": "巻",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "saga",
+      "ja": "シリーズ作品・大河小説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "novela negra",
+      "ja": "推理小説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "novela gráfica",
+      "ja": "グラフィックノベル",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B2"
+    },
+    {
+      "es": "cuentacuentos",
+      "ja": "読み聞かせの語り手",
+      "pos": "noun",
+      "gender": "mf",
+      "level": "C1"
+    },
+    {
+      "es": "feria del libro",
+      "ja": "ブックフェア",
+      "pos": "noun",
+      "gender": "f",
+      "level": "B1"
+    },
+    {
+      "es": "librero",
+      "ja": "書店主",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B2"
+    },
+    {
+      "es": "lector electrónico",
+      "ja": "電子書籍リーダー",
+      "pos": "noun",
+      "gender": "m",
+      "level": "B1"
+    },
+    {
+      "es": "libro electrónico",
+      "ja": "電子書籍",
+      "pos": "noun",
+      "gender": "m",
+      "level": "A2"
+    }
+  ]
+}

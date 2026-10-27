@@ -589,6 +589,27 @@
       "pos": "noun",
       "gender": "f",
       "level": "C2"
+    },
+    {
+      "es": "apostilla",
+      "ja": "注釈",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "alocución",
+      "ja": "演説",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
+    },
+    {
+      "es": "coloquio",
+      "ja": "対談",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
     }
   ]
 }

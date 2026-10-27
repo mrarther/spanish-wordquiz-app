@@ -939,6 +939,20 @@
       "pos": "noun",
       "gender": "m",
       "level": "C1"
+    },
+    {
+      "es": "desahucio",
+      "ja": "立ち退き",
+      "pos": "noun",
+      "gender": "m",
+      "level": "C1"
+    },
+    {
+      "es": "lacra",
+      "ja": "悪弊",
+      "pos": "noun",
+      "gender": "f",
+      "level": "C2"
     }
   ]
 }

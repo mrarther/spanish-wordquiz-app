@@ -1153,6 +1153,18 @@
       "ja": "ついでに言えば",
       "pos": "expr",
       "level": "C1"
+    },
+    {
+      "es": "a la sazón",
+      "ja": "当時",
+      "pos": "adv",
+      "level": "C2"
+    },
+    {
+      "es": "amén de",
+      "ja": "〜に加えて",
+      "pos": "prep",
+      "level": "C2"
     }
   ]
 }
